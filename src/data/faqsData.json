@@ -1,0 +1,120 @@
+{
+  "hero": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Find answers to common questions about healthy eating, nutrition, and our website.",
+    "searchPlaceholder": "Search your question...",
+    "graphic": "https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=800&q=80"
+  },
+  "items": [
+    {
+      "id": "faq-1",
+      "topicId": "general",
+      "category": "General",
+      "question": "What is Healthy Awareness?",
+      "answer": "Healthy Awareness is a trusted platform that provides science-backed information about foods, nutrition, healthy living tips, recipes, and more. Our goal is to help you make informed food choices for a healthier life.",
+      "icon": "Sprout",
+      "badgeColor": "bg-emerald-100 text-emerald-700 border-emerald-200"
+    },
+    {
+      "id": "faq-2",
+      "topicId": "nutrition",
+      "category": "Food & Nutrition",
+      "question": "How do I find the nutritional information of a food?",
+      "answer": "You can use our search bar at the top or browse through the Healthy Foods section by category. Each food page displays detailed macro/micronutrient breakdown, health score, and intake guidelines.",
+      "icon": "Apple",
+      "badgeColor": "bg-green-100 text-green-700 border-green-200"
+    },
+    {
+      "id": "faq-3",
+      "topicId": "health",
+      "category": "Health Conditions",
+      "question": "Can your food recommendations help with health conditions?",
+      "answer": "Our content is research-backed and highlights foods that support immunity, heart health, digestion, and diabetes management. However, we advise consulting a medical professional for clinical treatment.",
+      "icon": "Heart",
+      "badgeColor": "bg-rose-100 text-rose-700 border-rose-200"
+    },
+    {
+      "id": "faq-4",
+      "topicId": "recipes",
+      "category": "Recipes",
+      "question": "Are the recipes on this site healthy and diet-friendly?",
+      "answer": "Yes! All recipes on Healthy Awareness are created with natural, nutrient-rich ingredients, minimal refined sugars, and clear calorie & nutrient counts.",
+      "icon": "Utensils",
+      "badgeColor": "bg-amber-100 text-amber-700 border-amber-200"
+    },
+    {
+      "id": "faq-5",
+      "topicId": "tips",
+      "category": "Healthy Tips",
+      "question": "How often are new tips and articles published?",
+      "answer": "We publish fresh health guides, seasonal dietary tips, and research summaries weekly. Subscribe to our newsletter to stay updated!",
+      "icon": "Leaf",
+      "badgeColor": "bg-emerald-100 text-emerald-700 border-emerald-200"
+    },
+    {
+      "id": "faq-6",
+      "topicId": "seasonal",
+      "category": "Seasonal Foods",
+      "question": "Why should I eat seasonal foods?",
+      "answer": "Eating fruits and vegetables in season ensures maximum nutrient density, better natural flavor, lower pesticide load, and environmentally sustainable eating.",
+      "icon": "Calendar",
+      "badgeColor": "bg-sky-100 text-sky-700 border-sky-200"
+    },
+    {
+      "id": "faq-7",
+      "topicId": "compare",
+      "category": "Compare",
+      "question": "How does the food comparison feature work?",
+      "answer": "Our comparison tool lets you select any two food items side-by-side to compare calories, protein, fiber, vitamins, glycaemic index, and health scores instantly.",
+      "icon": "ArrowLeftRight",
+      "badgeColor": "bg-purple-100 text-purple-700 border-purple-200"
+    },
+    {
+      "id": "faq-8",
+      "topicId": "account",
+      "category": "Account & Website",
+      "question": "Do I need to create an account to use the website?",
+      "answer": "No account is required! You can access all food guides, nutrition facts, comparisons, and recipes freely. Creating an account lets you save favorite foods.",
+      "icon": "User",
+      "badgeColor": "bg-teal-100 text-teal-700 border-teal-200"
+    },
+    {
+      "id": "faq-9",
+      "topicId": "privacy",
+      "category": "Privacy & Data",
+      "question": "Is my personal information safe with you?",
+      "answer": "Yes, we prioritize user privacy. We do not sell your personal data. Read our Privacy Policy for full details on encryption and security measures.",
+      "icon": "Lock",
+      "badgeColor": "bg-amber-100 text-amber-700 border-amber-200"
+    },
+    {
+      "id": "faq-10",
+      "topicId": "others",
+      "category": "Others",
+      "question": "How can I contact Healthy Awareness?",
+      "answer": "You can reach out to our team anytime through our Contact Us page or email us directly at hello@healthyawareness.com.",
+      "icon": "HelpCircle",
+      "badgeColor": "bg-slate-100 text-slate-700 border-slate-200"
+    }
+  ],
+  "popularQuestions": [
+    "Which foods are best for weight loss?",
+    "What are the best protein-rich foods?",
+    "How can I boost my immunity naturally?",
+    "Which oil is best for cooking?",
+    "Is fruit good for diabetes?"
+  ],
+  "topics": [
+    { "id": "all", "label": "All Topics", "icon": "Grid" },
+    { "id": "general", "label": "General", "icon": "Sprout" },
+    { "id": "nutrition", "label": "Food & Nutrition", "icon": "Apple" },
+    { "id": "health", "label": "Health Conditions", "icon": "Heart" },
+    { "id": "recipes", "label": "Recipes", "icon": "Utensils" },
+    { "id": "tips", "label": "Healthy Tips", "icon": "Leaf" },
+    { "id": "seasonal", "label": "Seasonal Foods", "icon": "Calendar" },
+    { "id": "compare", "label": "Compare", "icon": "ArrowLeftRight" },
+    { "id": "account", "label": "Account & Website", "icon": "User" },
+    { "id": "privacy", "label": "Privacy & Data", "icon": "Lock" },
+    { "id": "others", "label": "Others", "icon": "HelpCircle" }
+  ]
+}

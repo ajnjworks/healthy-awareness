@@ -1,0 +1,115 @@
+{
+  "hero": {
+    "tag": "ABOUT US",
+    "title": "Know Your Food.",
+    "titleHighlight": "Live a Long, Healthy Life.",
+    "subtitle": "We are here to create a healthier, aware and stronger tomorrow for you and the next generations.",
+    "badges": [
+      { "id": "trusted", "label": "Trusted Information", "icon": "Leaf" },
+      { "id": "science", "label": "Science Based", "icon": "ShieldCheck" },
+      { "id": "health", "label": "Better Health Everyday", "icon": "Heart" },
+      { "id": "future", "label": "For You & Future Generations", "icon": "Users" }
+    ],
+    "image": "https://images.unsplash.com/photo-1543362906-acfc16c67564?auto=format&fit=crop&w=1200&q=80"
+  },
+  "purpose": {
+    "tag": "OUR PURPOSE",
+    "title": "Better Awareness. Better Choices. Better Life.",
+    "description1": "Our purpose is simple yet powerful - to help everyone make informed food choices through clear, reliable and easy-to-understand information.",
+    "description2": "We believe that the right knowledge about food can prevent disease, improve well-being and add years to life. By knowing what we eat and how it affects our body, we can build a healthier today and a disease-free tomorrow.",
+    "highlight": "Everyone deserves to be healthy, live longer and enjoy life to the fullest. Be aware. Eat smart. Live long. Live healthy.",
+    "graphic": "https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=600&q=80",
+    "features": [
+      {
+        "id": "know",
+        "title": "Know Your Food",
+        "description": "Discover the benefits, nutrition, risks and best ways to eat every food.",
+        "icon": "Apple"
+      },
+      {
+        "id": "protect",
+        "title": "Protect Your Health",
+        "description": "Good food choices today can help prevent many health problems tomorrow.",
+        "icon": "Heart"
+      },
+      {
+        "id": "care",
+        "title": "Care for Future Generations",
+        "description": "We create awareness so that our children and their future can live healthier and happier.",
+        "icon": "Users"
+      }
+    ]
+  },
+  "pillars": {
+    "mission": {
+      "tag": "OUR MISSION",
+      "title": "To empower everyone with the right food knowledge for a healthier life.",
+      "description": "We provide accurate, research-based and easy-to-understand information on groceries, fruits, vegetables, nuts, seeds, non-vegetarian foods and more – to help you make better choices for you and your family."
+    },
+    "vision": {
+      "tag": "OUR VISION",
+      "title": "A world where every individual lives a long, healthy and disease-free life.",
+      "description": "We dream of a future where good health is everyone's right. Through awareness and education, we aim to build a community that chooses health, prevents illness and lives life to the fullest."
+    },
+    "values": {
+      "tag": "OUR VALUES",
+      "items": [
+        { "title": "Trust & Transparency", "description": "We share only reliable and verified information." },
+        { "title": "Health First", "description": "Your health and well-being are our top priority." },
+        { "title": "Simplicity", "description": "We make complex nutrition knowledge simple and practical." },
+        { "title": "Compassion", "description": "We care for you, your family and future generations." }
+      ]
+    }
+  },
+  "whatWeProvide": [
+    {
+      "id": "info",
+      "title": "Food Information",
+      "description": "Benefits, nutrition facts, pros & cons and daily intake guidance.",
+      "icon": "BookOpen"
+    },
+    {
+      "id": "awareness",
+      "title": "Health Awareness",
+      "description": "Tips, guides and articles to help you and your family stay healthy.",
+      "icon": "Lightbulb"
+    },
+    {
+      "id": "guidance",
+      "title": "Practical Guidance",
+      "description": "Easy ways to include healthy foods in your daily life.",
+      "icon": "ClipboardList"
+    },
+    {
+      "id": "compare",
+      "title": "Compare Foods",
+      "description": "Compare nutrition & benefits to choose what's best for you.",
+      "icon": "Scale"
+    },
+    {
+      "id": "recipes",
+      "title": "Healthy Recipes",
+      "description": "Tasty and healthy recipes made with natural and nutritious ingredients.",
+      "icon": "Utensils"
+    }
+  ],
+  "cta": {
+    "title": "Small Choices Today,",
+    "titleHighlight": "Healthy Life Forever.",
+    "subtitle": "Your health is your greatest wealth. Let's build a healthy lifestyle together and inspire the next generations to do the same.",
+    "buttonText": "Start Your Healthy Journey",
+    "graphic": "https://images.unsplash.com/photo-1619566636858-adf3ef46400b?auto=format&fit=crop&w=600&q=80",
+    "pills": [
+      { "label": "Eat Healthy", "icon": "Apple" },
+      { "label": "Stay Active", "icon": "Activity" },
+      { "label": "Think Positive", "icon": "Smile" },
+      { "label": "Live Longer", "icon": "Heart" }
+    ]
+  },
+  "stats": [
+    { "number": "10K+", "label": "Happy Visitors", "icon": "Users" },
+    { "number": "1,000+", "label": "Food Items Covered", "icon": "BookOpen" },
+    { "number": "500+", "label": "Articles & Guides", "icon": "FileText" },
+    { "number": "Our Goal", "label": "Healthier Generations", "icon": "Heart" }
+  ]
+}

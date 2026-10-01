@@ -1,0 +1,218 @@
+{
+  "articleCategories": [
+    { "id": "all", "name": "All Articles", "count": 120 },
+    { "id": "nutrition", "name": "Nutrition", "count": 28, "icon": "Shield" },
+    { "id": "lifestyle", "name": "Lifestyle", "count": 24, "icon": "Activity" },
+    { "id": "weight-management", "name": "Weight Management", "count": 18, "icon": "Scale" },
+    { "id": "heart-health", "name": "Heart Health", "count": 16, "icon": "Heart" },
+    { "id": "diabetes", "name": "Diabetes", "count": 14, "icon": "Droplet" },
+    { "id": "immunity", "name": "Immunity", "count": 12, "icon": "ShieldCheck" },
+    { "id": "superfoods", "name": "Superfoods", "count": 10, "icon": "Sparkles" },
+    { "id": "digestive-health", "name": "Digestive Health", "count": 8, "icon": "Leaf" }
+  ],
+  "articleList": [
+    {
+      "id": "10-superfoods",
+      "slug": "10-superfoods-immunity",
+      "featured": true,
+      "category": "Nutrition",
+      "categorySlug": "nutrition",
+      "categoryColor": "text-emerald-700 dark:text-emerald-400",
+      "title": "10 Superfoods to Boost Your Immunity Naturally",
+      "description": "Add these nutrient-rich superfoods to your diet and strengthen your immune system.",
+      "readTime": "6 min read",
+      "date": "May 16, 2024",
+      "image": "https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "clean-eating-schedule",
+      "slug": "how-to-eat-clean-busy-schedule",
+      "featured": false,
+      "category": "Lifestyle",
+      "categorySlug": "lifestyle",
+      "categoryColor": "text-sky-700 dark:text-sky-400",
+      "title": "How to Eat Clean in a Busy Schedule",
+      "description": "Practical tips to help you eat healthy even with a hectic lifestyle.",
+      "readTime": "5 min read",
+      "date": "May 14, 2024",
+      "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "healthy-heart-foods",
+      "slug": "foods-that-support-healthy-heart",
+      "featured": false,
+      "category": "Heart Health",
+      "categorySlug": "heart-health",
+      "categoryColor": "text-rose-700 dark:text-rose-400",
+      "title": "Foods That Support a Healthy Heart",
+      "description": "Discover heart-friendly foods that help lower cholesterol and improve heart health.",
+      "readTime": "7 min read",
+      "date": "May 12, 2024",
+      "image": "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "high-fiber-weight-loss",
+      "slug": "high-fiber-foods-weight-loss",
+      "featured": false,
+      "category": "Weight Management",
+      "categorySlug": "weight-management",
+      "categoryColor": "text-amber-700 dark:text-amber-400",
+      "title": "High Fiber Foods That Aid Weight Loss",
+      "description": "Fiber-rich foods keep you full longer and support healthy weight management.",
+      "readTime": "6 min read",
+      "date": "May 10, 2024",
+      "image": "https://images.unsplash.com/photo-1517673400267-0251440c45dc?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "herbal-teas-immunity",
+      "slug": "herbal-teas-improve-immunity-digestion",
+      "featured": false,
+      "category": "Immunity",
+      "categorySlug": "immunity",
+      "categoryColor": "text-teal-700 dark:text-teal-400",
+      "title": "Herbal Teas That Improve Immunity & Digestion",
+      "description": "Natural herbs that help strengthen immunity and improve gut health.",
+      "readTime": "4 min read",
+      "date": "May 8, 2024",
+      "image": "https://images.unsplash.com/photo-1576092768241-dec231879fc3?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "diabetes-management-foods",
+      "slug": "best-foods-diabetes-management",
+      "featured": false,
+      "category": "Diabetes",
+      "categorySlug": "diabetes",
+      "categoryColor": "text-purple-700 dark:text-purple-400",
+      "title": "Best Foods for Diabetes Management",
+      "description": "Foods that help regulate blood sugar levels and improve overall health.",
+      "readTime": "8 min read",
+      "date": "May 6, 2024",
+      "image": "https://images.unsplash.com/photo-1505576399279-565b52d4ac71?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "sleep-health-weight",
+      "slug": "how-sleep-affects-health-weight",
+      "featured": false,
+      "category": "Lifestyle",
+      "categorySlug": "lifestyle",
+      "categoryColor": "text-sky-700 dark:text-sky-400",
+      "title": "How Sleep Affects Your Health and Weight",
+      "description": "The connection between good sleep, metabolism and overall well-being.",
+      "readTime": "6 min read",
+      "date": "May 4, 2024",
+      "image": "https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "calcium-rich-foods",
+      "slug": "top-calcium-rich-foods-strong-bones",
+      "featured": false,
+      "category": "Nutrition",
+      "categorySlug": "nutrition",
+      "categoryColor": "text-emerald-700 dark:text-emerald-400",
+      "title": "Top Calcium Rich Foods for Strong Bones",
+      "description": "Essential calcium-rich foods to keep your bones and teeth strong.",
+      "readTime": "5 min read",
+      "date": "May 2, 2024",
+      "image": "https://images.unsplash.com/photo-1528750997573-59b89d66f4f7?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "antioxidant-foods-aging",
+      "slug": "antioxidant-rich-foods-fight-aging",
+      "featured": false,
+      "category": "Superfoods",
+      "categorySlug": "superfoods",
+      "categoryColor": "text-indigo-700 dark:text-indigo-400",
+      "title": "Antioxidant-Rich Foods That Fight Aging",
+      "description": "Powerful antioxidants that protect your cells and keep you youthful.",
+      "readTime": "7 min read",
+      "date": "Apr 30, 2024",
+      "image": "https://images.unsplash.com/photo-1619566636858-adf3ef46400b?auto=format&fit=crop&w=600&q=80"
+    }
+  ],
+  "popularSidebar": [
+    {
+      "number": 1,
+      "id": "10-superfoods",
+      "title": "10 Superfoods to Boost Immunity Naturally",
+      "readTime": "6 min read",
+      "image": "https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=200&q=80"
+    },
+    {
+      "number": 2,
+      "id": "clean-eating-schedule",
+      "title": "How to Eat Clean in a Busy Schedule",
+      "readTime": "5 min read",
+      "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=200&q=80"
+    },
+    {
+      "number": 3,
+      "id": "12-nuts-seeds",
+      "title": "12 Nuts and Seeds You Should Eat Every Day",
+      "readTime": "7 min read",
+      "image": "https://images.unsplash.com/photo-1543208541-0961a29a8c3d?auto=format&fit=crop&w=200&q=80"
+    },
+    {
+      "number": 4,
+      "id": "morning-drinks",
+      "title": "Best Morning Drinks for a Healthy You",
+      "readTime": "4 min read",
+      "image": "https://images.unsplash.com/photo-1613478223719-2ab802602423?auto=format&fit=crop&w=200&q=80"
+    },
+    {
+      "number": 5,
+      "id": "omega-3-benefits",
+      "title": "Omega-3 Rich Foods and Their Amazing Benefits",
+      "readTime": "6 min read",
+      "image": "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?auto=format&fit=crop&w=200&q=80"
+    }
+  ],
+  "articleDetail": {
+    "id": "10-superfoods",
+    "category": "Nutrition",
+    "title": "10 Superfoods to Boost Your Immunity Naturally",
+    "subtitle": "Add these nutrient-rich superfoods to your diet and strengthen your immune system to stay healthy all year round.",
+    "readTime": "6 min read",
+    "date": "May 16, 2024",
+    "views": "12.4K views",
+    "author": {
+      "name": "Priya Sharma",
+      "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=150&q=80"
+    },
+    "intro": "A strong immune system is your body's natural defense against illnesses and infections. The good news? Nature has provided us with powerful superfoods that can help strengthen immunity and keep us energized every day. Here are 10 superfoods you should include in your daily diet.",
+    "heroImage": "https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=800&q=80"
+  },
+  "superfoodsDetail": [
+    {
+      "number": 1,
+      "id": "amla",
+      "name": "Amla (Indian Gooseberry)",
+      "description": "Amla is packed with Vitamin C and powerful antioxidants that help boost immunity, improve digestion, and promote healthy skin.",
+      "howToEat": "Eat raw, drink amla juice, or add it to smoothies.",
+      "image": "https://images.unsplash.com/photo-1615485290382-441e4d049cb5?auto=format&fit=crop&w=500&q=80"
+    },
+    {
+      "number": 2,
+      "id": "turmeric",
+      "name": "Turmeric",
+      "description": "Turmeric contains curcumin, a potent compound with anti-inflammatory and antioxidant properties.",
+      "howToEat": "Add to curries, soups, or drink with warm milk.",
+      "image": "https://images.unsplash.com/photo-1615485290382-441e4d049cb5?auto=format&fit=crop&w=500&q=80"
+    },
+    {
+      "number": 3,
+      "id": "garlic",
+      "name": "Garlic",
+      "description": "Garlic has allicin, which helps the body fight infections and reduces the severity of colds and flu.",
+      "howToEat": "Add raw garlic to salads, soups, or cooked dishes.",
+      "image": "https://images.unsplash.com/photo-1540148426945-6cf22a6b2383?auto=format&fit=crop&w=500&q=80"
+    },
+    {
+      "number": 4,
+      "id": "ginger",
+      "name": "Ginger",
+      "description": "Ginger helps reduce inflammation, soothes sore throat, and improves overall immunity.",
+      "howToEat": "Add to tea, smoothies, or stir-fries.",
+      "image": "https://images.unsplash.com/photo-1615485290382-441e4d049cb5?auto=format&fit=crop&w=500&q=80"
+    }
+  ]
+}

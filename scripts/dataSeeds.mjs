@@ -1,0 +1,258 @@
+export const seedsDataset = {
+  "schemaVersion": "2.0.0",
+  "dataset": {
+    "name": "Healthy Awareness Seeds",
+    "description": "Seeds catalog for listing, search, comparison and detail pages.",
+    "dataStandard": "Conservative verified-data model",
+    "rule": "No value is invented. Unknown or not source-verified fields are null.",
+    "nutritionBasis": "per 100 g edible portion, raw",
+    "primaryNutritionSource": {
+      "organization": "USDA Agricultural Research Service",
+      "database": "FoodData Central",
+      "url": "https://fdc.nal.usda.gov/"
+    }
+  },
+  "records": [
+    {
+      "id": "seed-chia",
+      "name": "Chia Seeds",
+      "slug": "chia-seeds",
+      "category": "Seeds",
+      "botanicalName": "Salvia hispanica",
+      "commonNames": [
+        "Chia"
+      ],
+      "description": "Small seeds rich in fibre and plant omega-3 fats.",
+      "nutrition": {
+        "basis": "per 100 g edible portion; representative reference value unless stated otherwise",
+        "calories_kcal": 486,
+        "carbohydrates_g": 42.1,
+        "fiber_g": 34.4,
+        "protein_g": 16.5,
+        "fat_g": 30.7,
+        "sugars_g": 0,
+        "vitaminC_mg": 1.6,
+        "potassium_mg": 407
+      },
+      "healthBenefits": [
+        "High in dietary fibre.",
+        "Provides plant omega-3 ALA."
+      ],
+      "cautions": [
+        "Increase gradually and drink enough fluids.",
+        "Whole seeds should be consumed with adequate liquid."
+      ],
+      "servingSuggestions": "Add to curd, oats, smoothies or soaked puddings.",
+      "selectionTips": "Choose dry seeds without moisture or rancid smell.",
+      "storageTips": "Store airtight in a cool, dry place; refrigeration can extend freshness.",
+      "season": "Year-round",
+      "images": {
+        "thumbnail": null,
+        "hero": null
+      },
+      "seo": {
+        "title": "Chia Seeds nutrition, benefits and health information",
+        "description": "Nutrition, benefits, serving ideas, selection and storage information for Chia Seeds.",
+        "keywords": null
+      },
+      "sources": [
+        "USDA FoodData Central",
+        "Indian Food Composition Tables (ICMR-NIN), where applicable"
+      ],
+      "published": true
+    },
+    {
+      "id": "seed-flax",
+      "name": "Flax Seeds",
+      "slug": "flax-seeds",
+      "category": "Seeds",
+      "botanicalName": "Linum usitatissimum",
+      "commonNames": [
+        "Alsi",
+        "Linseed"
+      ],
+      "description": "Seeds rich in fibre and alpha-linolenic acid.",
+      "nutrition": {
+        "basis": "per 100 g edible portion; representative reference value unless stated otherwise",
+        "calories_kcal": 534,
+        "carbohydrates_g": 28.9,
+        "fiber_g": 27.3,
+        "protein_g": 18.3,
+        "fat_g": 42.2,
+        "sugars_g": 1.6,
+        "vitaminC_mg": 0.6,
+        "potassium_mg": 813
+      },
+      "healthBenefits": [
+        "Provides fibre and plant omega-3 ALA.",
+        "Ground flax can be incorporated into many foods."
+      ],
+      "cautions": [
+        "Large amounts may cause digestive discomfort.",
+        "Drink adequate fluids."
+      ],
+      "servingSuggestions": "Use ground in oats, curd, chutney or batter.",
+      "selectionTips": "Choose clean, dry seeds with fresh aroma.",
+      "storageTips": "Store airtight; ground flax is best refrigerated.",
+      "season": "Year-round",
+      "images": {
+        "thumbnail": null,
+        "hero": null
+      },
+      "seo": {
+        "title": "Flax Seeds nutrition, benefits and health information",
+        "description": "Nutrition, benefits, serving ideas, selection and storage information for Flax Seeds.",
+        "keywords": null
+      },
+      "sources": [
+        "USDA FoodData Central",
+        "Indian Food Composition Tables (ICMR-NIN), where applicable"
+      ],
+      "published": true
+    },
+    {
+      "id": "seed-sesame",
+      "name": "Sesame Seeds",
+      "slug": "sesame-seeds",
+      "category": "Seeds",
+      "botanicalName": "Sesamum indicum",
+      "commonNames": [
+        "Til",
+        "Ellu"
+      ],
+      "description": "Oil-rich seeds used in Indian cooking and sweets.",
+      "nutrition": {
+        "basis": "per 100 g edible portion; representative reference value unless stated otherwise",
+        "calories_kcal": 573,
+        "carbohydrates_g": 23.4,
+        "fiber_g": 11.8,
+        "protein_g": 17.7,
+        "fat_g": 49.7,
+        "sugars_g": 0.3,
+        "vitaminC_mg": 0,
+        "potassium_mg": 468
+      },
+      "healthBenefits": [
+        "Provides protein, fibre and minerals.",
+        "Contains unsaturated fats."
+      ],
+      "cautions": [
+        "Sesame is a major food allergen.",
+        "Portions matter because seeds are energy-dense."
+      ],
+      "servingSuggestions": "Use in chutney, podi, breads and vegetable dishes.",
+      "selectionTips": "Choose clean seeds without rancid odor.",
+      "storageTips": "Store airtight away from heat; refrigerate for longer storage.",
+      "season": "Year-round",
+      "images": {
+        "thumbnail": null,
+        "hero": null
+      },
+      "seo": {
+        "title": "Sesame Seeds nutrition, benefits and health information",
+        "description": "Nutrition, benefits, serving ideas, selection and storage information for Sesame Seeds.",
+        "keywords": null
+      },
+      "sources": [
+        "USDA FoodData Central",
+        "Indian Food Composition Tables (ICMR-NIN), where applicable"
+      ],
+      "published": true
+    },
+    {
+      "id": "seed-sunflower",
+      "name": "Sunflower Seeds",
+      "slug": "sunflower-seeds",
+      "category": "Seeds",
+      "botanicalName": "Helianthus annuus",
+      "commonNames": [
+        "Sunflower kernels"
+      ],
+      "description": "Edible sunflower kernels used as a snack and ingredient.",
+      "nutrition": {
+        "basis": "per 100 g edible portion; representative reference value unless stated otherwise",
+        "calories_kcal": 584,
+        "carbohydrates_g": 20.0,
+        "fiber_g": 8.6,
+        "protein_g": 20.8,
+        "fat_g": 51.5,
+        "sugars_g": 2.6,
+        "vitaminC_mg": 1.4,
+        "potassium_mg": 645
+      },
+      "healthBenefits": [
+        "Provides protein, fibre and vitamin E.",
+        "Contains mostly unsaturated fat."
+      ],
+      "cautions": [
+        "Salted versions can be high in sodium.",
+        "Energy-dense; use moderate portions."
+      ],
+      "servingSuggestions": "Add unsalted kernels to salads, oats or snacks.",
+      "selectionTips": "Choose fresh kernels without rancid smell.",
+      "storageTips": "Store airtight; refrigerate for longer storage.",
+      "season": "Year-round",
+      "images": {
+        "thumbnail": null,
+        "hero": null
+      },
+      "seo": {
+        "title": "Sunflower Seeds nutrition, benefits and health information",
+        "description": "Nutrition, benefits, serving ideas, selection and storage information for Sunflower Seeds.",
+        "keywords": null
+      },
+      "sources": [
+        "USDA FoodData Central",
+        "Indian Food Composition Tables (ICMR-NIN), where applicable"
+      ],
+      "published": true
+    },
+    {
+      "id": "seed-pumpkin",
+      "name": "Pumpkin Seeds",
+      "slug": "pumpkin-seeds",
+      "category": "Seeds",
+      "botanicalName": "Cucurbita spp.",
+      "commonNames": [
+        "Pepitas"
+      ],
+      "description": "Nutrient-dense seeds commonly eaten roasted or added to meals.",
+      "nutrition": {
+        "basis": "per 100 g edible portion; representative reference value unless stated otherwise",
+        "calories_kcal": 559,
+        "carbohydrates_g": 10.7,
+        "fiber_g": 6.0,
+        "protein_g": 30.2,
+        "fat_g": 49.1,
+        "sugars_g": 1.4,
+        "vitaminC_mg": 1.9,
+        "potassium_mg": 809
+      },
+      "healthBenefits": [
+        "Provides plant protein, fibre and minerals.",
+        "Contains unsaturated fats."
+      ],
+      "cautions": [
+        "Salted or roasted products may contain added sodium or oil."
+      ],
+      "servingSuggestions": "Use unsalted in salads, porridge or as a snack.",
+      "selectionTips": "Choose dry, fresh-smelling kernels.",
+      "storageTips": "Store airtight; refrigerate for longer storage.",
+      "season": "Year-round",
+      "images": {
+        "thumbnail": null,
+        "hero": null
+      },
+      "seo": {
+        "title": "Pumpkin Seeds nutrition, benefits and health information",
+        "description": "Nutrition, benefits, serving ideas, selection and storage information for Pumpkin Seeds.",
+        "keywords": null
+      },
+      "sources": [
+        "USDA FoodData Central",
+        "Indian Food Composition Tables (ICMR-NIN), where applicable"
+      ],
+      "published": true
+    }
+  ]
+};

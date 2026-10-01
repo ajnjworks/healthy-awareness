@@ -1,0 +1,237 @@
+{
+  "subCategories": [
+    {
+      "id": "all",
+      "name": "All Snacks & Packaged Foods",
+      "image": "https://images.unsplash.com/photo-1585994192701-f1a505c817ea?auto=format&fit=crop&w=500&q=80"
+    },
+    {
+      "id": "Roasted & Whole Snacks",
+      "name": "Roasted & Whole Snacks",
+      "image": "https://images.unsplash.com/photo-1585994192701-f1a505c817ea?auto=format&fit=crop&w=500&q=80"
+    },
+    {
+      "id": "Savouries & Crisps",
+      "name": "Savouries & Crisps",
+      "image": "https://images.unsplash.com/photo-1566478989037-eec170784d0b?auto=format&fit=crop&w=500&q=80"
+    }
+  ],
+  "snacksList": [
+    {
+      "id": "roasted-chana",
+      "name": "Roasted Bengal Gram",
+      "subtitle": "Dry-roasted chickpea product commonly eaten as a snack.",
+      "category": "Roasted & Whole Snacks",
+      "score": 9.6,
+      "image": "https://images.unsplash.com/photo-1585994192701-f1a505c817ea?auto=format&fit=crop&w=500&q=80",
+      "badge": "Light Crunch",
+      "badgeType": "popular",
+      "benefits": [
+        "digestion",
+        "immunity"
+      ],
+      "nutrients": [
+        {
+          "label": "Calories",
+          "value": "364 kcal"
+        },
+        {
+          "label": "Carbs",
+          "value": "58g"
+        },
+        {
+          "label": "Protein",
+          "value": "22g"
+        },
+        {
+          "label": "Fiber",
+          "value": "18g"
+        }
+      ],
+      "tags": [
+        "Snacks & Packaged Foods",
+        "Roasted & Whole Snacks"
+      ]
+    },
+    {
+      "id": "roasted-makhana",
+      "name": "Roasted Makhana",
+      "subtitle": "Popped seeds of Euryale ferox commonly roasted as a snack.",
+      "category": "Roasted & Whole Snacks",
+      "score": 9.4,
+      "image": "https://images.unsplash.com/photo-1599488615731-7e5c2823ff28?auto=format&fit=crop&w=500&q=80",
+      "badge": "Light Crunch",
+      "badgeType": "popular",
+      "benefits": [
+        "digestion",
+        "immunity"
+      ],
+      "nutrients": [
+        {
+          "label": "Calories",
+          "value": "347 kcal"
+        },
+        {
+          "label": "Carbs",
+          "value": "76.9g"
+        },
+        {
+          "label": "Protein",
+          "value": "9.7g"
+        },
+        {
+          "label": "Fiber",
+          "value": "14.5g"
+        }
+      ],
+      "tags": [
+        "Snacks & Packaged Foods",
+        "Roasted & Whole Snacks"
+      ]
+    },
+    {
+      "id": "air-popped-popcorn",
+      "name": "Air-Popped Popcorn",
+      "subtitle": "Whole-kernel corn popped with hot air and without added oil.",
+      "category": "Roasted & Whole Snacks",
+      "score": 9.3,
+      "image": "https://images.unsplash.com/photo-1578849278619-e73505e9610f?auto=format&fit=crop&w=500&q=80",
+      "badge": "Light Crunch",
+      "badgeType": "popular",
+      "benefits": [
+        "digestion",
+        "immunity"
+      ],
+      "nutrients": [
+        {
+          "label": "Calories",
+          "value": "387 kcal"
+        },
+        {
+          "label": "Carbs",
+          "value": "77.8g"
+        },
+        {
+          "label": "Protein",
+          "value": "12.9g"
+        },
+        {
+          "label": "Fiber",
+          "value": "14.5g"
+        }
+      ],
+      "tags": [
+        "Snacks & Packaged Foods",
+        "Roasted & Whole Snacks"
+      ]
+    },
+    {
+      "id": "potato-chips",
+      "name": "Potato Chips",
+      "subtitle": "Sliced potatoes fried or baked and commonly seasoned.",
+      "category": "Savouries & Crisps",
+      "score": 9.5,
+      "image": "https://images.unsplash.com/photo-1566478989037-eec170784d0b?auto=format&fit=crop&w=500&q=80",
+      "badge": "Light Crunch",
+      "badgeType": "popular",
+      "benefits": [
+        "digestion",
+        "immunity"
+      ],
+      "nutrients": [
+        {
+          "label": "Calories",
+          "value": "536 kcal"
+        },
+        {
+          "label": "Carbs",
+          "value": "53.8g"
+        },
+        {
+          "label": "Protein",
+          "value": "7g"
+        },
+        {
+          "label": "Fiber",
+          "value": "4.4g"
+        }
+      ],
+      "tags": [
+        "Snacks & Packaged Foods",
+        "Savouries & Crisps"
+      ]
+    },
+    {
+      "id": "plain-biscuits",
+      "name": "Plain Biscuits",
+      "subtitle": "Packaged baked snack made mainly from flour and fat, with composition varying by product.",
+      "category": "Savouries & Crisps",
+      "score": 9.1,
+      "image": "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?auto=format&fit=crop&w=500&q=80",
+      "badge": "Light Crunch",
+      "badgeType": "popular",
+      "benefits": [
+        "digestion",
+        "immunity"
+      ],
+      "nutrients": [
+        {
+          "label": "Calories",
+          "value": "450 kcal"
+        },
+        {
+          "label": "Carbs",
+          "value": "70g"
+        },
+        {
+          "label": "Protein",
+          "value": "7g"
+        },
+        {
+          "label": "Fiber",
+          "value": "2.5g"
+        }
+      ],
+      "tags": [
+        "Snacks & Packaged Foods",
+        "Savouries & Crisps"
+      ]
+    },
+    {
+      "id": "namkeen-mixture",
+      "name": "Namkeen / Mixture",
+      "subtitle": "Indian savoury snack mix that may contain fried legumes, flour, nuts and spices.",
+      "category": "Savouries & Crisps",
+      "score": 9,
+      "image": "https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=500&q=80",
+      "badge": "Light Crunch",
+      "badgeType": "popular",
+      "benefits": [
+        "digestion",
+        "immunity"
+      ],
+      "nutrients": [
+        {
+          "label": "Calories",
+          "value": "520 kcal"
+        },
+        {
+          "label": "Carbs",
+          "value": "50g"
+        },
+        {
+          "label": "Protein",
+          "value": "12g"
+        },
+        {
+          "label": "Fiber",
+          "value": "5g"
+        }
+      ],
+      "tags": [
+        "Snacks & Packaged Foods",
+        "Savouries & Crisps"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,349 @@
+export const spicesDataset = {
+  "schemaVersion": "2.0.0",
+  "dataset": {
+    "name": "Healthy Awareness Spices & Herbs",
+    "description": "Spices & Herbs catalog for listing, search, comparison and detail pages.",
+    "dataStandard": "Conservative verified-data model",
+    "rule": "No value is invented. Unknown or not source-verified fields are null.",
+    "nutritionBasis": "per 100 g edible portion, raw",
+    "primaryNutritionSource": {
+      "organization": "USDA Agricultural Research Service",
+      "database": "FoodData Central",
+      "url": "https://fdc.nal.usda.gov/"
+    }
+  },
+  "records": [
+    {
+      "id": "spice-turmeric",
+      "name": "Turmeric",
+      "slug": "turmeric",
+      "category": "Spices & Herbs",
+      "botanicalName": "Curcuma longa",
+      "commonNames": [
+        "Haldi",
+        "Manjal"
+      ],
+      "description": "A rhizome used fresh or dried as a spice.",
+      "nutrition": {
+        "basis": "per 100 g edible portion; representative reference value unless stated otherwise",
+        "calories_kcal": 312,
+        "carbohydrates_g": 67.1,
+        "fiber_g": 22.7,
+        "protein_g": 9.7,
+        "fat_g": 3.2,
+        "sugars_g": 3.2,
+        "vitaminC_mg": 25.9,
+        "potassium_mg": 2080
+      },
+      "healthBenefits": [
+        "Provides dietary fibre and plant compounds such as curcuminoids."
+      ],
+      "cautions": [
+        "Culinary amounts are different from concentrated supplements.",
+        "High-dose turmeric supplements can interact with medicines."
+      ],
+      "servingSuggestions": "Use in curries, dal, vegetables and warm beverages.",
+      "selectionTips": "Choose clean, aromatic powder or firm fresh rhizomes.",
+      "storageTips": "Keep powder dry and airtight; refrigerate fresh rhizome.",
+      "season": "Year-round",
+      "images": {
+        "thumbnail": null,
+        "hero": null
+      },
+      "seo": {
+        "title": "Turmeric nutrition, benefits and health information",
+        "description": "Nutrition, benefits, serving ideas, selection and storage information for Turmeric.",
+        "keywords": null
+      },
+      "sources": [
+        "USDA FoodData Central",
+        "Indian Food Composition Tables (ICMR-NIN), where applicable"
+      ],
+      "published": true
+    },
+    {
+      "id": "spice-cumin",
+      "name": "Cumin",
+      "slug": "cumin",
+      "category": "Spices & Herbs",
+      "botanicalName": "Cuminum cyminum",
+      "commonNames": [
+        "Jeera",
+        "Seeragam"
+      ],
+      "description": "Aromatic seed used whole or ground.",
+      "nutrition": {
+        "basis": "per 100 g edible portion; representative reference value unless stated otherwise",
+        "calories_kcal": 375,
+        "carbohydrates_g": 44.2,
+        "fiber_g": 10.5,
+        "protein_g": 17.8,
+        "fat_g": 17.8,
+        "sugars_g": 2.3,
+        "vitaminC_mg": 7.7,
+        "potassium_mg": 1788
+      },
+      "healthBenefits": [
+        "Provides fibre and minerals in small culinary amounts."
+      ],
+      "cautions": [
+        "Culinary amounts are small; nutrition contribution is limited per serving."
+      ],
+      "servingSuggestions": "Use for tempering, spice blends and curries.",
+      "selectionTips": "Choose aromatic seeds without moisture or infestation.",
+      "storageTips": "Store airtight away from heat and moisture.",
+      "season": "Year-round",
+      "images": {
+        "thumbnail": null,
+        "hero": null
+      },
+      "seo": {
+        "title": "Cumin nutrition, benefits and health information",
+        "description": "Nutrition, benefits, serving ideas, selection and storage information for Cumin.",
+        "keywords": null
+      },
+      "sources": [
+        "USDA FoodData Central",
+        "Indian Food Composition Tables (ICMR-NIN), where applicable"
+      ],
+      "published": true
+    },
+    {
+      "id": "spice-coriander",
+      "name": "Coriander Seeds",
+      "slug": "coriander-seeds",
+      "category": "Spices & Herbs",
+      "botanicalName": "Coriandrum sativum",
+      "commonNames": [
+        "Dhania",
+        "Malli"
+      ],
+      "description": "Dried seeds of the coriander plant.",
+      "nutrition": {
+        "basis": "per 100 g edible portion; representative reference value unless stated otherwise",
+        "calories_kcal": 298,
+        "carbohydrates_g": 54.99,
+        "fiber_g": 41.9,
+        "protein_g": 12.4,
+        "fat_g": 17.8,
+        "sugars_g": 0,
+        "vitaminC_mg": 21,
+        "potassium_mg": 1271
+      },
+      "healthBenefits": [
+        "Provides fibre and plant compounds."
+      ],
+      "cautions": [
+        "Used in small amounts; not a major nutrient source per typical serving."
+      ],
+      "servingSuggestions": "Use whole or ground in curries and spice mixes.",
+      "selectionTips": "Choose fragrant, dry seeds.",
+      "storageTips": "Store airtight and dry.",
+      "season": "Year-round",
+      "images": {
+        "thumbnail": null,
+        "hero": null
+      },
+      "seo": {
+        "title": "Coriander Seeds nutrition, benefits and health information",
+        "description": "Nutrition, benefits, serving ideas, selection and storage information for Coriander Seeds.",
+        "keywords": null
+      },
+      "sources": [
+        "USDA FoodData Central",
+        "Indian Food Composition Tables (ICMR-NIN), where applicable"
+      ],
+      "published": true
+    },
+    {
+      "id": "spice-black-pepper",
+      "name": "Black Pepper",
+      "slug": "black-pepper",
+      "category": "Spices & Herbs",
+      "botanicalName": "Piper nigrum",
+      "commonNames": [
+        "Pepper",
+        "Milagu"
+      ],
+      "description": "Dried peppercorn used whole or ground.",
+      "nutrition": {
+        "basis": "per 100 g edible portion; representative reference value unless stated otherwise",
+        "calories_kcal": 251,
+        "carbohydrates_g": 63.95,
+        "fiber_g": 25.3,
+        "protein_g": 10.4,
+        "fat_g": 3.3,
+        "sugars_g": 0.64,
+        "vitaminC_mg": 0,
+        "potassium_mg": 1329
+      },
+      "healthBenefits": [
+        "Provides plant compounds and flavour, allowing less reliance on heavy sauces."
+      ],
+      "cautions": [
+        "May irritate some people with reflux or gastrointestinal sensitivity."
+      ],
+      "servingSuggestions": "Use freshly ground in savoury dishes.",
+      "selectionTips": "Choose aromatic whole peppercorns.",
+      "storageTips": "Store airtight away from moisture.",
+      "season": "Year-round",
+      "images": {
+        "thumbnail": null,
+        "hero": null
+      },
+      "seo": {
+        "title": "Black Pepper nutrition, benefits and health information",
+        "description": "Nutrition, benefits, serving ideas, selection and storage information for Black Pepper.",
+        "keywords": null
+      },
+      "sources": [
+        "USDA FoodData Central",
+        "Indian Food Composition Tables (ICMR-NIN), where applicable"
+      ],
+      "published": true
+    },
+    {
+      "id": "spice-cinnamon",
+      "name": "Cinnamon",
+      "slug": "cinnamon",
+      "category": "Spices & Herbs",
+      "botanicalName": "Cinnamomum spp.",
+      "commonNames": [
+        "Dalchini",
+        "Pattai"
+      ],
+      "description": "Aromatic bark used in sweet and savoury dishes.",
+      "nutrition": {
+        "basis": "per 100 g edible portion; representative reference value unless stated otherwise",
+        "calories_kcal": 247,
+        "carbohydrates_g": 80.6,
+        "fiber_g": 53.1,
+        "protein_g": 3.99,
+        "fat_g": 1.24,
+        "sugars_g": 2.17,
+        "vitaminC_mg": 3.8,
+        "potassium_mg": 431
+      },
+      "healthBenefits": [
+        "Provides dietary fibre and aromatic plant compounds."
+      ],
+      "cautions": [
+        "Large supplemental doses are not the same as culinary use; cassia cinnamon can contain significant coumarin."
+      ],
+      "servingSuggestions": "Use small culinary amounts in curries, oats or beverages.",
+      "selectionTips": "Choose aromatic sticks or powder from a reputable source.",
+      "storageTips": "Store airtight and dry.",
+      "season": "Year-round",
+      "images": {
+        "thumbnail": null,
+        "hero": null
+      },
+      "seo": {
+        "title": "Cinnamon nutrition, benefits and health information",
+        "description": "Nutrition, benefits, serving ideas, selection and storage information for Cinnamon.",
+        "keywords": null
+      },
+      "sources": [
+        "USDA FoodData Central",
+        "Indian Food Composition Tables (ICMR-NIN), where applicable"
+      ],
+      "published": true
+    },
+    {
+      "id": "spice-ginger",
+      "name": "Ginger",
+      "slug": "ginger",
+      "category": "Spices & Herbs",
+      "botanicalName": "Zingiber officinale",
+      "commonNames": [
+        "Adrak",
+        "Inji"
+      ],
+      "description": "Fresh rhizome used for flavouring and cooking.",
+      "nutrition": {
+        "basis": "per 100 g edible portion; representative reference value unless stated otherwise",
+        "calories_kcal": 80,
+        "carbohydrates_g": 17.8,
+        "fiber_g": 2.0,
+        "protein_g": 1.8,
+        "fat_g": 0.75,
+        "sugars_g": 1.7,
+        "vitaminC_mg": 5,
+        "potassium_mg": 415
+      },
+      "healthBenefits": [
+        "Provides flavour and plant compounds.",
+        "Commonly used in cooking and beverages."
+      ],
+      "cautions": [
+        "Large supplemental amounts may cause gastrointestinal discomfort or interact with some medicines."
+      ],
+      "servingSuggestions": "Use fresh in curries, soups, tea and stir-fries.",
+      "selectionTips": "Choose firm, smooth rhizomes without mould.",
+      "storageTips": "Refrigerate fresh ginger; keep dry.",
+      "season": "Year-round",
+      "images": {
+        "thumbnail": null,
+        "hero": null
+      },
+      "seo": {
+        "title": "Ginger nutrition, benefits and health information",
+        "description": "Nutrition, benefits, serving ideas, selection and storage information for Ginger.",
+        "keywords": null
+      },
+      "sources": [
+        "USDA FoodData Central",
+        "Indian Food Composition Tables (ICMR-NIN), where applicable"
+      ],
+      "published": true
+    },
+    {
+      "id": "spice-garlic",
+      "name": "Garlic",
+      "slug": "garlic",
+      "category": "Spices & Herbs",
+      "botanicalName": "Allium sativum",
+      "commonNames": [
+        "Lahsun",
+        "Poondu"
+      ],
+      "description": "Bulb used as a seasoning and ingredient.",
+      "nutrition": {
+        "basis": "per 100 g edible portion; representative reference value unless stated otherwise",
+        "calories_kcal": 149,
+        "carbohydrates_g": 33.1,
+        "fiber_g": 2.1,
+        "protein_g": 6.36,
+        "fat_g": 0.5,
+        "sugars_g": 1,
+        "vitaminC_mg": 31.2,
+        "potassium_mg": 401
+      },
+      "healthBenefits": [
+        "Provides plant compounds and small amounts of vitamin C."
+      ],
+      "cautions": [
+        "Can cause digestive discomfort or heartburn in some people.",
+        "May interact with anticoagulant medicines in concentrated amounts."
+      ],
+      "servingSuggestions": "Use fresh in curries, chutneys and stir-fries.",
+      "selectionTips": "Choose firm bulbs without mould or sprouting damage.",
+      "storageTips": "Store in a cool, dry, ventilated place.",
+      "season": "Year-round",
+      "images": {
+        "thumbnail": null,
+        "hero": null
+      },
+      "seo": {
+        "title": "Garlic nutrition, benefits and health information",
+        "description": "Nutrition, benefits, serving ideas, selection and storage information for Garlic.",
+        "keywords": null
+      },
+      "sources": [
+        "USDA FoodData Central",
+        "Indian Food Composition Tables (ICMR-NIN), where applicable"
+      ],
+      "published": true
+    }
+  ]
+};

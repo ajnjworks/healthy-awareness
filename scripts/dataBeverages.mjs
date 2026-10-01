@@ -1,0 +1,213 @@
+export const beveragesDataset = {
+  "schemaVersion": "2.0.0",
+  "dataset": {
+    "name": "Healthy Awareness Beverages",
+    "description": "Beverages catalog for listing, search, comparison and detail pages.",
+    "dataStandard": "Conservative verified-data model",
+    "rule": "No value is invented. Unknown or not source-verified fields are null.",
+    "nutritionBasis": "per 100 g edible portion, raw",
+    "primaryNutritionSource": {
+      "organization": "USDA Agricultural Research Service",
+      "database": "FoodData Central",
+      "url": "https://fdc.nal.usda.gov/"
+    }
+  },
+  "records": [
+    {
+      "id": "bev-water",
+      "name": "Water",
+      "slug": "water",
+      "category": "Beverages",
+      "botanicalName": null,
+      "commonNames": ["Drinking water"],
+      "description": "Plain water with no meaningful calories.",
+      "nutrition": {
+        "basis": "per 100 g edible portion; representative reference value unless stated otherwise",
+        "calories_kcal": 0,
+        "carbohydrates_g": 0,
+        "fiber_g": 0,
+        "protein_g": 0,
+        "fat_g": 0,
+        "sugars_g": 0,
+        "vitaminC_mg": 0,
+        "potassium_mg": 0
+      },
+      "healthBenefits": ["Supports hydration."],
+      "cautions": ["Individual fluid needs vary; excessive water intake can also be harmful."],
+      "servingSuggestions": "Drink regularly according to thirst and activity.",
+      "selectionTips": "Use safe drinking water from a reliable source.",
+      "storageTips": "Store safely in clean covered containers.",
+      "season": "Year-round",
+      "images": { "thumbnail": null, "hero": null },
+      "seo": {
+        "title": "Water nutrition, benefits and health information",
+        "description": "Nutrition, benefits, serving ideas, selection and storage information for Water.",
+        "keywords": null
+      },
+      "sources": [
+        "USDA FoodData Central",
+        "Indian Food Composition Tables (ICMR-NIN), where applicable"
+      ],
+      "published": true
+    },
+    {
+      "id": "bev-tea",
+      "name": "Tea, Brewed",
+      "slug": "brewed-tea",
+      "category": "Beverages",
+      "botanicalName": "Camellia sinensis",
+      "commonNames": ["Black tea", "Tea"],
+      "description": "Brewed tea without added milk or sugar.",
+      "nutrition": {
+        "basis": "per 100 g edible portion; representative reference value unless stated otherwise",
+        "calories_kcal": 1,
+        "carbohydrates_g": 0.3,
+        "fiber_g": 0,
+        "protein_g": 0,
+        "fat_g": 0,
+        "sugars_g": 0,
+        "vitaminC_mg": 0,
+        "potassium_mg": 37
+      },
+      "healthBenefits": ["Provides hydration and tea polyphenols."],
+      "cautions": [
+        "Contains caffeine unless decaffeinated.",
+        "Added sugar changes the nutrition profile."
+      ],
+      "servingSuggestions": "Prefer unsweetened or lightly sweetened tea.",
+      "selectionTips": "Use fresh tea leaves or bags from a reputable source.",
+      "storageTips": "Store dry tea airtight away from moisture.",
+      "season": "Year-round",
+      "images": { "thumbnail": null, "hero": null },
+      "seo": {
+        "title": "Tea, Brewed nutrition, benefits and health information",
+        "description": "Nutrition, benefits, serving ideas, selection and storage information for Tea, Brewed.",
+        "keywords": null
+      },
+      "sources": [
+        "USDA FoodData Central",
+        "Indian Food Composition Tables (ICMR-NIN), where applicable"
+      ],
+      "published": true
+    },
+    {
+      "id": "bev-coffee",
+      "name": "Coffee, Brewed",
+      "slug": "brewed-coffee",
+      "category": "Beverages",
+      "botanicalName": "Coffea arabica",
+      "commonNames": ["Black coffee"],
+      "description": "Brewed coffee without milk or sugar.",
+      "nutrition": {
+        "basis": "per 100 g edible portion; representative reference value unless stated otherwise",
+        "calories_kcal": 1,
+        "carbohydrates_g": 0,
+        "fiber_g": 0,
+        "protein_g": 0.1,
+        "fat_g": 0,
+        "sugars_g": 0,
+        "vitaminC_mg": 0,
+        "potassium_mg": 49
+      },
+      "healthBenefits": ["Provides hydration and naturally occurring coffee compounds."],
+      "cautions": [
+        "Contains caffeine; sensitivity varies.",
+        "Added sugar/cream changes the nutrition profile."
+      ],
+      "servingSuggestions": "Choose unsweetened or lightly sweetened coffee if appropriate.",
+      "selectionTips": "Use fresh coffee stored away from moisture and air.",
+      "storageTips": "Keep coffee beans/grounds airtight and dry.",
+      "season": "Year-round",
+      "images": { "thumbnail": null, "hero": null },
+      "seo": {
+        "title": "Coffee, Brewed nutrition, benefits and health information",
+        "description": "Nutrition, benefits, serving ideas, selection and storage information for Coffee, Brewed.",
+        "keywords": null
+      },
+      "sources": [
+        "USDA FoodData Central",
+        "Indian Food Composition Tables (ICMR-NIN), where applicable"
+      ],
+      "published": true
+    },
+    {
+      "id": "bev-coconut-water",
+      "name": "Coconut Water",
+      "slug": "coconut-water",
+      "category": "Beverages",
+      "botanicalName": "Cocos nucifera",
+      "commonNames": ["Tender coconut water"],
+      "description": "Liquid from young green coconuts.",
+      "nutrition": {
+        "basis": "per 100 g edible portion; representative reference value unless stated otherwise",
+        "calories_kcal": 19,
+        "carbohydrates_g": 3.7,
+        "fiber_g": 1.1,
+        "protein_g": 0.7,
+        "fat_g": 0.2,
+        "sugars_g": 2.6,
+        "vitaminC_mg": 2.5,
+        "potassium_mg": 250
+      },
+      "healthBenefits": ["Provides fluid and potassium."],
+      "cautions": [
+        "Still contains natural sugars.",
+        "People with certain kidney conditions may need to limit potassium—follow medical advice."
+      ],
+      "servingSuggestions": "Drink plain; avoid adding sugar.",
+      "selectionTips": "Choose fresh hygienically handled coconut water.",
+      "storageTips": "Refrigerate packaged/fresh coconut water and use promptly.",
+      "season": "Year-round",
+      "images": { "thumbnail": null, "hero": null },
+      "seo": {
+        "title": "Coconut Water nutrition, benefits and health information",
+        "description": "Nutrition, benefits, serving ideas, selection and storage information for Coconut Water.",
+        "keywords": null
+      },
+      "sources": [
+        "USDA FoodData Central",
+        "Indian Food Composition Tables (ICMR-NIN), where applicable"
+      ],
+      "published": true
+    },
+    {
+      "id": "bev-orange-juice",
+      "name": "Orange Juice, Unsweetened",
+      "slug": "orange-juice",
+      "category": "Beverages",
+      "botanicalName": "Citrus sinensis",
+      "commonNames": ["Fresh orange juice"],
+      "description": "Juice from oranges without added sugar.",
+      "nutrition": {
+        "basis": "per 100 g edible portion; representative reference value unless stated otherwise",
+        "calories_kcal": 45,
+        "carbohydrates_g": 10.4,
+        "fiber_g": 0.2,
+        "protein_g": 0.7,
+        "fat_g": 0.2,
+        "sugars_g": 8.4,
+        "vitaminC_mg": 50,
+        "potassium_mg": 200
+      },
+      "healthBenefits": ["Provides vitamin C and fluid."],
+      "cautions": [
+        "Juice contains less fibre than whole fruit and can provide substantial sugar per serving."
+      ],
+      "servingSuggestions": "Prefer whole orange more often; keep juice portions moderate.",
+      "selectionTips": "Choose 100% juice without added sugar when buying packaged juice.",
+      "storageTips": "Refrigerate after opening.",
+      "season": "Seasonal / year-round in packaged form",
+      "images": { "thumbnail": null, "hero": null },
+      "seo": {
+        "title": "Orange Juice, Unsweetened nutrition, benefits and health information",
+        "description": "Nutrition, benefits, serving ideas, selection and storage information for Orange Juice, Unsweetened.",
+        "keywords": null
+      },
+      "sources": [
+        "USDA FoodData Central",
+        "Indian Food Composition Tables (ICMR-NIN), where applicable"
+      ],
+      "published": true
+    }
+  ]
+};

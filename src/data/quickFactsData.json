@@ -1,0 +1,33 @@
+{
+  "didYouKnow": {
+    "title": "Did You Know?",
+    "fact": "Almonds are one of the best sources of Vitamin E, an antioxidant that helps protect your cells from damage.",
+    "image": "https://images.unsplash.com/photo-1543208541-0961a29a8c3d?auto=format&fit=crop&w=300&q=80"
+  },
+  "trustFeatures": [
+    {
+      "id": "natural",
+      "title": "100% Natural",
+      "subtitle": "No added preservatives",
+      "iconName": "Leaf"
+    },
+    {
+      "id": "nutrients",
+      "title": "Rich in Nutrients",
+      "subtitle": "Packed with goodness",
+      "iconName": "Sprout"
+    },
+    {
+      "id": "all-ages",
+      "title": "Good for All Ages",
+      "subtitle": "Kids to adults",
+      "iconName": "Smile"
+    },
+    {
+      "id": "easy-add",
+      "title": "Easy to Add",
+      "subtitle": "Add to any meal",
+      "iconName": "Utensils"
+    }
+  ]
+}

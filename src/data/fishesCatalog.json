@@ -1,0 +1,2187 @@
+{
+  "schemaVersion": "2.0.0",
+  "dataset": {
+    "name": "Fishes and Seafood",
+    "description": "Comprehensive fish, shellfish, roe and seafood catalog for the Healthy Awareness food database.",
+    "dataStandard": "Conservative verified-data model",
+    "rule": "No value is invented. Unknown or not source-verified fields are null.",
+    "nutritionBasis": "per 100 g edible portion, raw",
+    "primaryNutritionSource": {
+      "organization": "USDA Agricultural Research Service",
+      "database": "FoodData Central",
+      "url": "https://fdc.nal.usda.gov/"
+    }
+  },
+  "records": [
+    {
+      "id": "salmon",
+      "name": "Salmon",
+      "slug": "salmon",
+      "category": "Fish & Seafood",
+      "botanicalName": null,
+      "commonNames": null,
+      "description": null,
+      "nutrition": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      },
+      "images": {
+        "thumbnail": "/images/salmon.webp",
+        "hero": "/images/salmon-hero.webp"
+      },
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      },
+      "sources": [],
+      "published": true
+    },
+    {
+      "id": "tuna",
+      "name": "Tuna",
+      "slug": "tuna",
+      "category": "Fish & Seafood",
+      "botanicalName": null,
+      "commonNames": null,
+      "description": null,
+      "nutrition": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      },
+      "images": {
+        "thumbnail": "/images/tuna.webp",
+        "hero": "/images/tuna-hero.webp"
+      },
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      },
+      "sources": [],
+      "published": true
+    },
+    {
+      "id": "sardine",
+      "name": "Sardine",
+      "slug": "sardine",
+      "category": "Fish & Seafood",
+      "botanicalName": null,
+      "commonNames": null,
+      "description": null,
+      "nutrition": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      },
+      "images": {
+        "thumbnail": "/images/sardine.webp",
+        "hero": "/images/sardine-hero.webp"
+      },
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      },
+      "sources": [],
+      "published": true
+    },
+    {
+      "id": "anchovy",
+      "name": "Anchovy",
+      "slug": "anchovy",
+      "category": "Fish & Seafood",
+      "botanicalName": null,
+      "commonNames": null,
+      "description": null,
+      "nutrition": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      },
+      "images": {
+        "thumbnail": "/images/anchovy.webp",
+        "hero": "/images/anchovy-hero.webp"
+      },
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      },
+      "sources": [],
+      "published": true
+    },
+    {
+      "id": "mackerel",
+      "name": "Mackerel",
+      "slug": "mackerel",
+      "category": "Fish & Seafood",
+      "botanicalName": null,
+      "commonNames": null,
+      "description": null,
+      "nutrition": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      },
+      "images": {
+        "thumbnail": "/images/mackerel.webp",
+        "hero": "/images/mackerel-hero.webp"
+      },
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      },
+      "sources": [],
+      "published": true
+    },
+    {
+      "id": "indian_mackerel",
+      "name": "Indian mackerel",
+      "slug": "indian-mackerel",
+      "category": "Fish & Seafood",
+      "botanicalName": null,
+      "commonNames": null,
+      "description": null,
+      "nutrition": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      },
+      "images": {
+        "thumbnail": "/images/indian-mackerel.webp",
+        "hero": "/images/indian-mackerel-hero.webp"
+      },
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      },
+      "sources": [],
+      "published": true
+    },
+    {
+      "id": "pomfret",
+      "name": "Pomfret",
+      "slug": "pomfret",
+      "category": "Fish & Seafood",
+      "botanicalName": null,
+      "commonNames": null,
+      "description": null,
+      "nutrition": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      },
+      "images": {
+        "thumbnail": "/images/pomfret.webp",
+        "hero": "/images/pomfret-hero.webp"
+      },
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      },
+      "sources": [],
+      "published": true
+    },
+    {
+      "id": "silver_pomfret",
+      "name": "Silver pomfret",
+      "slug": "silver-pomfret",
+      "category": "Fish & Seafood",
+      "botanicalName": null,
+      "commonNames": null,
+      "description": null,
+      "nutrition": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      },
+      "images": {
+        "thumbnail": "/images/silver-pomfret.webp",
+        "hero": "/images/silver-pomfret-hero.webp"
+      },
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      },
+      "sources": [],
+      "published": true
+    },
+    {
+      "id": "black_pomfret",
+      "name": "Black pomfret",
+      "slug": "black-pomfret",
+      "category": "Fish & Seafood",
+      "botanicalName": null,
+      "commonNames": null,
+      "description": null,
+      "nutrition": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      },
+      "images": {
+        "thumbnail": "/images/black-pomfret.webp",
+        "hero": "/images/black-pomfret-hero.webp"
+      },
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      },
+      "sources": [],
+      "published": true
+    },
+    {
+      "id": "rohu",
+      "name": "Rohu",
+      "slug": "rohu",
+      "category": "Fish & Seafood",
+      "botanicalName": null,
+      "commonNames": null,
+      "description": null,
+      "nutrition": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      },
+      "images": {
+        "thumbnail": "/images/rohu.webp",
+        "hero": "/images/rohu-hero.webp"
+      },
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      },
+      "sources": [],
+      "published": true
+    },
+    {
+      "id": "catla",
+      "name": "Catla",
+      "slug": "catla",
+      "category": "Fish & Seafood",
+      "botanicalName": null,
+      "commonNames": null,
+      "description": null,
+      "nutrition": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      },
+      "images": {
+        "thumbnail": "/images/catla.webp",
+        "hero": "/images/catla-hero.webp"
+      },
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      },
+      "sources": [],
+      "published": true
+    },
+    {
+      "id": "mrigal",
+      "name": "Mrigal",
+      "slug": "mrigal",
+      "category": "Fish & Seafood",
+      "botanicalName": null,
+      "commonNames": null,
+      "description": null,
+      "nutrition": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      },
+      "images": {
+        "thumbnail": "/images/mrigal.webp",
+        "hero": "/images/mrigal-hero.webp"
+      },
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      },
+      "sources": [],
+      "published": true
+    },
+    {
+      "id": "hilsa",
+      "name": "Hilsa",
+      "slug": "hilsa",
+      "category": "Fish & Seafood",
+      "botanicalName": null,
+      "commonNames": null,
+      "description": null,
+      "nutrition": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      },
+      "images": {
+        "thumbnail": "/images/hilsa.webp",
+        "hero": "/images/hilsa-hero.webp"
+      },
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      },
+      "sources": [],
+      "published": true
+    },
+    {
+      "id": "pearl_spot",
+      "name": "Pearl spot",
+      "slug": "pearl-spot",
+      "category": "Fish & Seafood",
+      "botanicalName": null,
+      "commonNames": null,
+      "description": null,
+      "nutrition": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      },
+      "images": {
+        "thumbnail": "/images/pearl-spot.webp",
+        "hero": "/images/pearl-spot-hero.webp"
+      },
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      },
+      "sources": [],
+      "published": true
+    },
+    {
+      "id": "tilapia",
+      "name": "Tilapia",
+      "slug": "tilapia",
+      "category": "Fish & Seafood",
+      "botanicalName": null,
+      "commonNames": null,
+      "description": null,
+      "nutrition": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      },
+      "images": {
+        "thumbnail": "/images/tilapia.webp",
+        "hero": "/images/tilapia-hero.webp"
+      },
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      },
+      "sources": [],
+      "published": true
+    },
+    {
+      "id": "asian_seabass",
+      "name": "Asian seabass",
+      "slug": "asian-seabass",
+      "category": "Fish & Seafood",
+      "botanicalName": null,
+      "commonNames": null,
+      "description": null,
+      "nutrition": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      },
+      "images": {
+        "thumbnail": "/images/asian-seabass.webp",
+        "hero": "/images/asian-seabass-hero.webp"
+      },
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      },
+      "sources": [],
+      "published": true
+    },
+    {
+      "id": "red_snapper",
+      "name": "Red snapper",
+      "slug": "red-snapper",
+      "category": "Fish & Seafood",
+      "botanicalName": null,
+      "commonNames": null,
+      "description": null,
+      "nutrition": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      },
+      "images": {
+        "thumbnail": "/images/red-snapper.webp",
+        "hero": "/images/red-snapper-hero.webp"
+      },
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      },
+      "sources": [],
+      "published": true
+    },
+    {
+      "id": "grouper",
+      "name": "Grouper",
+      "slug": "grouper",
+      "category": "Fish & Seafood",
+      "botanicalName": null,
+      "commonNames": null,
+      "description": null,
+      "nutrition": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      },
+      "images": {
+        "thumbnail": "/images/grouper.webp",
+        "hero": "/images/grouper-hero.webp"
+      },
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      },
+      "sources": [],
+      "published": true
+    },
+    {
+      "id": "barramundi",
+      "name": "Barramundi",
+      "slug": "barramundi",
+      "category": "Fish & Seafood",
+      "botanicalName": null,
+      "commonNames": null,
+      "description": null,
+      "nutrition": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      },
+      "images": {
+        "thumbnail": "/images/barramundi.webp",
+        "hero": "/images/barramundi-hero.webp"
+      },
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      },
+      "sources": [],
+      "published": true
+    },
+    {
+      "id": "cod",
+      "name": "Cod",
+      "slug": "cod",
+      "category": "Fish & Seafood",
+      "botanicalName": null,
+      "commonNames": null,
+      "description": null,
+      "nutrition": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      },
+      "images": {
+        "thumbnail": "/images/cod.webp",
+        "hero": "/images/cod-hero.webp"
+      },
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      },
+      "sources": [],
+      "published": true
+    },
+    {
+      "id": "haddock",
+      "name": "Haddock",
+      "slug": "haddock",
+      "category": "Fish & Seafood",
+      "botanicalName": null,
+      "commonNames": null,
+      "description": null,
+      "nutrition": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      },
+      "images": {
+        "thumbnail": "/images/haddock.webp",
+        "hero": "/images/haddock-hero.webp"
+      },
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      },
+      "sources": [],
+      "published": true
+    },
+    {
+      "id": "hake",
+      "name": "Hake",
+      "slug": "hake",
+      "category": "Fish & Seafood",
+      "botanicalName": null,
+      "commonNames": null,
+      "description": null,
+      "nutrition": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      },
+      "images": {
+        "thumbnail": "/images/hake.webp",
+        "hero": "/images/hake-hero.webp"
+      },
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      },
+      "sources": [],
+      "published": true
+    },
+    {
+      "id": "pollock",
+      "name": "Pollock",
+      "slug": "pollock",
+      "category": "Fish & Seafood",
+      "botanicalName": null,
+      "commonNames": null,
+      "description": null,
+      "nutrition": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      },
+      "images": {
+        "thumbnail": "/images/pollock.webp",
+        "hero": "/images/pollock-hero.webp"
+      },
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      },
+      "sources": [],
+      "published": true
+    },
+    {
+      "id": "trout",
+      "name": "Trout",
+      "slug": "trout",
+      "category": "Fish & Seafood",
+      "botanicalName": null,
+      "commonNames": null,
+      "description": null,
+      "nutrition": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      },
+      "images": {
+        "thumbnail": "/images/trout.webp",
+        "hero": "/images/trout-hero.webp"
+      },
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      },
+      "sources": [],
+      "published": true
+    },
+    {
+      "id": "rainbow_trout",
+      "name": "Rainbow trout",
+      "slug": "rainbow-trout",
+      "category": "Fish & Seafood",
+      "botanicalName": null,
+      "commonNames": null,
+      "description": null,
+      "nutrition": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      },
+      "images": {
+        "thumbnail": "/images/rainbow-trout.webp",
+        "hero": "/images/rainbow-trout-hero.webp"
+      },
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      },
+      "sources": [],
+      "published": true
+    },
+    {
+      "id": "carp",
+      "name": "Carp",
+      "slug": "carp",
+      "category": "Fish & Seafood",
+      "botanicalName": null,
+      "commonNames": null,
+      "description": null,
+      "nutrition": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      },
+      "images": {
+        "thumbnail": "/images/carp.webp",
+        "hero": "/images/carp-hero.webp"
+      },
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      },
+      "sources": [],
+      "published": true
+    },
+    {
+      "id": "common_carp",
+      "name": "Common carp",
+      "slug": "common-carp",
+      "category": "Fish & Seafood",
+      "botanicalName": null,
+      "commonNames": null,
+      "description": null,
+      "nutrition": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      },
+      "images": {
+        "thumbnail": "/images/common-carp.webp",
+        "hero": "/images/common-carp-hero.webp"
+      },
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      },
+      "sources": [],
+      "published": true
+    },
+    {
+      "id": "grass_carp",
+      "name": "Grass carp",
+      "slug": "grass-carp",
+      "category": "Fish & Seafood",
+      "botanicalName": null,
+      "commonNames": null,
+      "description": null,
+      "nutrition": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      },
+      "images": {
+        "thumbnail": "/images/grass-carp.webp",
+        "hero": "/images/grass-carp-hero.webp"
+      },
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      },
+      "sources": [],
+      "published": true
+    },
+    {
+      "id": "milkfish",
+      "name": "Milkfish",
+      "slug": "milkfish",
+      "category": "Fish & Seafood",
+      "botanicalName": null,
+      "commonNames": null,
+      "description": null,
+      "nutrition": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      },
+      "images": {
+        "thumbnail": "/images/milkfish.webp",
+        "hero": "/images/milkfish-hero.webp"
+      },
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      },
+      "sources": [],
+      "published": true
+    },
+    {
+      "id": "mahi_mahi",
+      "name": "Mahi-mahi",
+      "slug": "mahi-mahi",
+      "category": "Fish & Seafood",
+      "botanicalName": null,
+      "commonNames": null,
+      "description": null,
+      "nutrition": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      },
+      "images": {
+        "thumbnail": "/images/mahi-mahi.webp",
+        "hero": "/images/mahi-mahi-hero.webp"
+      },
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      },
+      "sources": [],
+      "published": true
+    },
+    {
+      "id": "swordfish",
+      "name": "Swordfish",
+      "slug": "swordfish",
+      "category": "Fish & Seafood",
+      "botanicalName": null,
+      "commonNames": null,
+      "description": null,
+      "nutrition": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      },
+      "images": {
+        "thumbnail": "/images/swordfish.webp",
+        "hero": "/images/swordfish-hero.webp"
+      },
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      },
+      "sources": [],
+      "published": true
+    },
+    {
+      "id": "marlin",
+      "name": "Marlin",
+      "slug": "marlin",
+      "category": "Fish & Seafood",
+      "botanicalName": null,
+      "commonNames": null,
+      "description": null,
+      "nutrition": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      },
+      "images": {
+        "thumbnail": "/images/marlin.webp",
+        "hero": "/images/marlin-hero.webp"
+      },
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      },
+      "sources": [],
+      "published": true
+    },
+    {
+      "id": "eel",
+      "name": "Eel",
+      "slug": "eel",
+      "category": "Fish & Seafood",
+      "botanicalName": null,
+      "commonNames": null,
+      "description": null,
+      "nutrition": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      },
+      "images": {
+        "thumbnail": "/images/eel.webp",
+        "hero": "/images/eel-hero.webp"
+      },
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      },
+      "sources": [],
+      "published": true
+    },
+    {
+      "id": "ribbonfish",
+      "name": "Ribbonfish",
+      "slug": "ribbonfish",
+      "category": "Fish & Seafood",
+      "botanicalName": null,
+      "commonNames": null,
+      "description": null,
+      "nutrition": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      },
+      "images": {
+        "thumbnail": "/images/ribbonfish.webp",
+        "hero": "/images/ribbonfish-hero.webp"
+      },
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      },
+      "sources": [],
+      "published": true
+    },
+    {
+      "id": "indian_ribbonfish",
+      "name": "Indian ribbonfish",
+      "slug": "indian-ribbonfish",
+      "category": "Fish & Seafood",
+      "botanicalName": null,
+      "commonNames": null,
+      "description": null,
+      "nutrition": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      },
+      "images": {
+        "thumbnail": "/images/indian-ribbonfish.webp",
+        "hero": "/images/indian-ribbonfish-hero.webp"
+      },
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      },
+      "sources": [],
+      "published": true
+    },
+    {
+      "id": "bombay_duck",
+      "name": "Bombay duck",
+      "slug": "bombay-duck",
+      "category": "Fish & Seafood",
+      "botanicalName": null,
+      "commonNames": null,
+      "description": null,
+      "nutrition": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      },
+      "images": {
+        "thumbnail": "/images/bombay-duck.webp",
+        "hero": "/images/bombay-duck-hero.webp"
+      },
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      },
+      "sources": [],
+      "published": true
+    },
+    {
+      "id": "rawas",
+      "name": "Rawas",
+      "slug": "rawas",
+      "category": "Fish & Seafood",
+      "botanicalName": null,
+      "commonNames": null,
+      "description": null,
+      "nutrition": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      },
+      "images": {
+        "thumbnail": "/images/rawas.webp",
+        "hero": "/images/rawas-hero.webp"
+      },
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      },
+      "sources": [],
+      "published": true
+    },
+    {
+      "id": "bangda",
+      "name": "Bangda",
+      "slug": "bangda",
+      "category": "Fish & Seafood",
+      "botanicalName": null,
+      "commonNames": null,
+      "description": null,
+      "nutrition": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      },
+      "images": {
+        "thumbnail": "/images/bangda.webp",
+        "hero": "/images/bangda-hero.webp"
+      },
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      },
+      "sources": [],
+      "published": true
+    },
+    {
+      "id": "vanjaram",
+      "name": "Vanjaram",
+      "slug": "vanjaram",
+      "category": "Fish & Seafood",
+      "botanicalName": null,
+      "commonNames": null,
+      "description": null,
+      "nutrition": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      },
+      "images": {
+        "thumbnail": "/images/vanjaram.webp",
+        "hero": "/images/vanjaram-hero.webp"
+      },
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      },
+      "sources": [],
+      "published": true
+    },
+    {
+      "id": "king_fish",
+      "name": "King fish",
+      "slug": "king-fish",
+      "category": "Fish & Seafood",
+      "botanicalName": null,
+      "commonNames": null,
+      "description": null,
+      "nutrition": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      },
+      "images": {
+        "thumbnail": "/images/king-fish.webp",
+        "hero": "/images/king-fish-hero.webp"
+      },
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      },
+      "sources": [],
+      "published": true
+    },
+    {
+      "id": "surmai",
+      "name": "Surmai",
+      "slug": "surmai",
+      "category": "Fish & Seafood",
+      "botanicalName": null,
+      "commonNames": null,
+      "description": null,
+      "nutrition": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      },
+      "images": {
+        "thumbnail": "/images/surmai.webp",
+        "hero": "/images/surmai-hero.webp"
+      },
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      },
+      "sources": [],
+      "published": true
+    },
+    {
+      "id": "kora_fish",
+      "name": "Kora fish",
+      "slug": "kora-fish",
+      "category": "Fish & Seafood",
+      "botanicalName": null,
+      "commonNames": null,
+      "description": null,
+      "nutrition": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      },
+      "images": {
+        "thumbnail": "/images/kora-fish.webp",
+        "hero": "/images/kora-fish-hero.webp"
+      },
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      },
+      "sources": [],
+      "published": true
+    },
+    {
+      "id": "nethili",
+      "name": "Nethili",
+      "slug": "nethili",
+      "category": "Fish & Seafood",
+      "botanicalName": null,
+      "commonNames": null,
+      "description": null,
+      "nutrition": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      },
+      "images": {
+        "thumbnail": "/images/nethili.webp",
+        "hero": "/images/nethili-hero.webp"
+      },
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      },
+      "sources": [],
+      "published": true
+    },
+    {
+      "id": "mathi",
+      "name": "Mathi",
+      "slug": "mathi",
+      "category": "Fish & Seafood",
+      "botanicalName": null,
+      "commonNames": null,
+      "description": null,
+      "nutrition": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      },
+      "images": {
+        "thumbnail": "/images/mathi.webp",
+        "hero": "/images/mathi-hero.webp"
+      },
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      },
+      "sources": [],
+      "published": true
+    },
+    {
+      "id": "parava_fish",
+      "name": "Parava fish",
+      "slug": "parava-fish",
+      "category": "Fish & Seafood",
+      "botanicalName": null,
+      "commonNames": null,
+      "description": null,
+      "nutrition": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      },
+      "images": {
+        "thumbnail": "/images/parava-fish.webp",
+        "hero": "/images/parava-fish-hero.webp"
+      },
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      },
+      "sources": [],
+      "published": true
+    },
+    {
+      "id": "crab",
+      "name": "Crab",
+      "slug": "crab",
+      "category": "Fish & Seafood",
+      "botanicalName": null,
+      "commonNames": null,
+      "description": null,
+      "nutrition": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      },
+      "images": {
+        "thumbnail": "/images/crab.webp",
+        "hero": "/images/crab-hero.webp"
+      },
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      },
+      "sources": [],
+      "published": true
+    },
+    {
+      "id": "blue_crab",
+      "name": "Blue crab",
+      "slug": "blue-crab",
+      "category": "Fish & Seafood",
+      "botanicalName": null,
+      "commonNames": null,
+      "description": null,
+      "nutrition": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      },
+      "images": {
+        "thumbnail": "/images/blue-crab.webp",
+        "hero": "/images/blue-crab-hero.webp"
+      },
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      },
+      "sources": [],
+      "published": true
+    },
+    {
+      "id": "mud_crab",
+      "name": "Mud crab",
+      "slug": "mud-crab",
+      "category": "Fish & Seafood",
+      "botanicalName": null,
+      "commonNames": null,
+      "description": null,
+      "nutrition": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      },
+      "images": {
+        "thumbnail": "/images/mud-crab.webp",
+        "hero": "/images/mud-crab-hero.webp"
+      },
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      },
+      "sources": [],
+      "published": true
+    },
+    {
+      "id": "king_crab",
+      "name": "King crab",
+      "slug": "king-crab",
+      "category": "Fish & Seafood",
+      "botanicalName": null,
+      "commonNames": null,
+      "description": null,
+      "nutrition": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      },
+      "images": {
+        "thumbnail": "/images/king-crab.webp",
+        "hero": "/images/king-crab-hero.webp"
+      },
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      },
+      "sources": [],
+      "published": true
+    },
+    {
+      "id": "lobster",
+      "name": "Lobster",
+      "slug": "lobster",
+      "category": "Fish & Seafood",
+      "botanicalName": null,
+      "commonNames": null,
+      "description": null,
+      "nutrition": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      },
+      "images": {
+        "thumbnail": "/images/lobster.webp",
+        "hero": "/images/lobster-hero.webp"
+      },
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      },
+      "sources": [],
+      "published": true
+    },
+    {
+      "id": "rock_lobster",
+      "name": "Rock lobster",
+      "slug": "rock-lobster",
+      "category": "Fish & Seafood",
+      "botanicalName": null,
+      "commonNames": null,
+      "description": null,
+      "nutrition": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      },
+      "images": {
+        "thumbnail": "/images/rock-lobster.webp",
+        "hero": "/images/rock-lobster-hero.webp"
+      },
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      },
+      "sources": [],
+      "published": true
+    },
+    {
+      "id": "prawn",
+      "name": "Prawn",
+      "slug": "prawn",
+      "category": "Fish & Seafood",
+      "botanicalName": null,
+      "commonNames": null,
+      "description": null,
+      "nutrition": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      },
+      "images": {
+        "thumbnail": "/images/prawn.webp",
+        "hero": "/images/prawn-hero.webp"
+      },
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      },
+      "sources": [],
+      "published": true
+    },
+    {
+      "id": "indian_white_shrimp",
+      "name": "Indian white shrimp",
+      "slug": "indian-white-shrimp",
+      "category": "Fish & Seafood",
+      "botanicalName": null,
+      "commonNames": null,
+      "description": null,
+      "nutrition": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      },
+      "images": {
+        "thumbnail": "/images/indian-white-shrimp.webp",
+        "hero": "/images/indian-white-shrimp-hero.webp"
+      },
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      },
+      "sources": [],
+      "published": true
+    },
+    {
+      "id": "tiger_shrimp",
+      "name": "Tiger shrimp",
+      "slug": "tiger-shrimp",
+      "category": "Fish & Seafood",
+      "botanicalName": null,
+      "commonNames": null,
+      "description": null,
+      "nutrition": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      },
+      "images": {
+        "thumbnail": "/images/tiger-shrimp.webp",
+        "hero": "/images/tiger-shrimp-hero.webp"
+      },
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      },
+      "sources": [],
+      "published": true
+    },
+    {
+      "id": "vannamei_shrimp",
+      "name": "Vannamei shrimp",
+      "slug": "vannamei-shrimp",
+      "category": "Fish & Seafood",
+      "botanicalName": null,
+      "commonNames": null,
+      "description": null,
+      "nutrition": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      },
+      "images": {
+        "thumbnail": "/images/vannamei-shrimp.webp",
+        "hero": "/images/vannamei-shrimp-hero.webp"
+      },
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      },
+      "sources": [],
+      "published": true
+    },
+    {
+      "id": "shrimp",
+      "name": "Shrimp",
+      "slug": "shrimp",
+      "category": "Fish & Seafood",
+      "botanicalName": null,
+      "commonNames": null,
+      "description": null,
+      "nutrition": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      },
+      "images": {
+        "thumbnail": "/images/shrimp.webp",
+        "hero": "/images/shrimp-hero.webp"
+      },
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      },
+      "sources": [],
+      "published": true
+    },
+    {
+      "id": "scallop",
+      "name": "Scallop",
+      "slug": "scallop",
+      "category": "Fish & Seafood",
+      "botanicalName": null,
+      "commonNames": null,
+      "description": null,
+      "nutrition": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      },
+      "images": {
+        "thumbnail": "/images/scallop.webp",
+        "hero": "/images/scallop-hero.webp"
+      },
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      },
+      "sources": [],
+      "published": true
+    },
+    {
+      "id": "oyster",
+      "name": "Oyster",
+      "slug": "oyster",
+      "category": "Fish & Seafood",
+      "botanicalName": null,
+      "commonNames": null,
+      "description": null,
+      "nutrition": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      },
+      "images": {
+        "thumbnail": "/images/oyster.webp",
+        "hero": "/images/oyster-hero.webp"
+      },
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      },
+      "sources": [],
+      "published": true
+    },
+    {
+      "id": "mussel",
+      "name": "Mussel",
+      "slug": "mussel",
+      "category": "Fish & Seafood",
+      "botanicalName": null,
+      "commonNames": null,
+      "description": null,
+      "nutrition": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      },
+      "images": {
+        "thumbnail": "/images/mussel.webp",
+        "hero": "/images/mussel-hero.webp"
+      },
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      },
+      "sources": [],
+      "published": true
+    },
+    {
+      "id": "clam",
+      "name": "Clam",
+      "slug": "clam",
+      "category": "Fish & Seafood",
+      "botanicalName": null,
+      "commonNames": null,
+      "description": null,
+      "nutrition": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      },
+      "images": {
+        "thumbnail": "/images/clam.webp",
+        "hero": "/images/clam-hero.webp"
+      },
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      },
+      "sources": [],
+      "published": true
+    },
+    {
+      "id": "squid",
+      "name": "Squid",
+      "slug": "squid",
+      "category": "Fish & Seafood",
+      "botanicalName": null,
+      "commonNames": null,
+      "description": null,
+      "nutrition": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      },
+      "images": {
+        "thumbnail": "/images/squid.webp",
+        "hero": "/images/squid-hero.webp"
+      },
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      },
+      "sources": [],
+      "published": true
+    },
+    {
+      "id": "cuttlefish",
+      "name": "Cuttlefish",
+      "slug": "cuttlefish",
+      "category": "Fish & Seafood",
+      "botanicalName": null,
+      "commonNames": null,
+      "description": null,
+      "nutrition": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      },
+      "images": {
+        "thumbnail": "/images/cuttlefish.webp",
+        "hero": "/images/cuttlefish-hero.webp"
+      },
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      },
+      "sources": [],
+      "published": true
+    },
+    {
+      "id": "octopus",
+      "name": "Octopus",
+      "slug": "octopus",
+      "category": "Fish & Seafood",
+      "botanicalName": null,
+      "commonNames": null,
+      "description": null,
+      "nutrition": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      },
+      "images": {
+        "thumbnail": "/images/octopus.webp",
+        "hero": "/images/octopus-hero.webp"
+      },
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      },
+      "sources": [],
+      "published": true
+    },
+    {
+      "id": "fish_roe",
+      "name": "Fish roe",
+      "slug": "fish-roe",
+      "category": "Fish & Seafood",
+      "botanicalName": null,
+      "commonNames": null,
+      "description": null,
+      "nutrition": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      },
+      "images": {
+        "thumbnail": "/images/fish-roe.webp",
+        "hero": "/images/fish-roe-hero.webp"
+      },
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      },
+      "sources": [],
+      "published": true
+    },
+    {
+      "id": "salmon_roe",
+      "name": "Salmon roe",
+      "slug": "salmon-roe",
+      "category": "Fish & Seafood",
+      "botanicalName": null,
+      "commonNames": null,
+      "description": null,
+      "nutrition": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      },
+      "images": {
+        "thumbnail": "/images/salmon-roe.webp",
+        "hero": "/images/salmon-roe-hero.webp"
+      },
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      },
+      "sources": [],
+      "published": true
+    },
+    {
+      "id": "tuna_roe",
+      "name": "Tuna roe",
+      "slug": "tuna-roe",
+      "category": "Fish & Seafood",
+      "botanicalName": null,
+      "commonNames": null,
+      "description": null,
+      "nutrition": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      },
+      "images": {
+        "thumbnail": "/images/tuna-roe.webp",
+        "hero": "/images/tuna-roe-hero.webp"
+      },
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      },
+      "sources": [],
+      "published": true
+    },
+    {
+      "id": "prawn_roe",
+      "name": "Prawn roe",
+      "slug": "prawn-roe",
+      "category": "Fish & Seafood",
+      "botanicalName": null,
+      "commonNames": null,
+      "description": null,
+      "nutrition": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      },
+      "images": {
+        "thumbnail": "/images/prawn-roe.webp",
+        "hero": "/images/prawn-roe-hero.webp"
+      },
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      },
+      "sources": [],
+      "published": true
+    },
+    {
+      "id": "crab_meat",
+      "name": "Crab meat",
+      "slug": "crab-meat",
+      "category": "Fish & Seafood",
+      "botanicalName": null,
+      "commonNames": null,
+      "description": null,
+      "nutrition": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      },
+      "images": {
+        "thumbnail": "/images/crab-meat.webp",
+        "hero": "/images/crab-meat-hero.webp"
+      },
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      },
+      "sources": [],
+      "published": true
+    },
+    {
+      "id": "crab_roe",
+      "name": "Crab roe",
+      "slug": "crab-roe",
+      "category": "Fish & Seafood",
+      "botanicalName": null,
+      "commonNames": null,
+      "description": null,
+      "nutrition": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      },
+      "images": {
+        "thumbnail": "/images/crab-roe.webp",
+        "hero": "/images/crab-roe-hero.webp"
+      },
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      },
+      "sources": [],
+      "published": true
+    },
+    {
+      "id": "snail",
+      "name": "Snail",
+      "slug": "snail",
+      "category": "Fish & Seafood",
+      "botanicalName": null,
+      "commonNames": null,
+      "description": null,
+      "nutrition": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      },
+      "images": {
+        "thumbnail": "/images/snail.webp",
+        "hero": "/images/snail-hero.webp"
+      },
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      },
+      "sources": [],
+      "published": true
+    }
+  ]
+}

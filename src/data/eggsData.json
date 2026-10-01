@@ -1,0 +1,336 @@
+{
+  "subCategories": [
+    {
+      "id": "all",
+      "name": "All Eggs",
+      "image": "https://images.unsplash.com/photo-1582722872445-44dc5f7e3c8f?auto=format&fit=crop&w=500&q=80"
+    },
+    {
+      "id": "Whole Poultry Eggs",
+      "name": "Whole Poultry Eggs",
+      "image": "https://images.unsplash.com/photo-1582722872445-44dc5f7e3c8f?auto=format&fit=crop&w=500&q=80"
+    },
+    {
+      "id": "Egg Whites & Yolks",
+      "name": "Egg Whites & Yolks",
+      "image": "https://images.unsplash.com/photo-1582722872445-44dc5f7e3c8f?auto=format&fit=crop&w=500&q=80"
+    },
+    {
+      "id": "Heritage & Free-Range",
+      "name": "Heritage & Free-Range",
+      "image": "https://images.unsplash.com/photo-1582722872445-44dc5f7e3c8f?auto=format&fit=crop&w=500&q=80"
+    }
+  ],
+  "eggsList": [
+    {
+      "id": "chicken-egg",
+      "name": "Chicken egg",
+      "score": 8.8,
+      "subtitle": "Complete amino acid score, choline, lutein & cellular building blocks.",
+      "category": "Whole Poultry Eggs",
+      "originClimate": "Pasture & Aviary",
+      "badge": "Gold Standard",
+      "badgeType": "organic",
+      "views": "16.4k views",
+      "image": "https://images.unsplash.com/photo-1582722872445-44dc5f7e3c8f?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        "brain",
+        "eye",
+        "muscle"
+      ],
+      "nutrients": [
+        {
+          "label": "Protein: 13g",
+          "icon": "Wheat"
+        },
+        {
+          "label": "Choline: Rich",
+          "icon": "Sparkles"
+        },
+        {
+          "label": "Lutein: Eye",
+          "icon": "Sun"
+        }
+      ]
+    },
+    {
+      "id": "chicken-egg-white",
+      "name": "Chicken egg white",
+      "score": 9.7,
+      "subtitle": "Complete amino acid score, choline, lutein & cellular building blocks.",
+      "category": "Egg Whites & Yolks",
+      "originClimate": "Pasture & Aviary",
+      "badge": "Gold Standard",
+      "badgeType": "organic",
+      "views": "11.6k views",
+      "image": "https://images.unsplash.com/photo-1582722872445-44dc5f7e3c8f?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        "brain",
+        "eye",
+        "muscle"
+      ],
+      "nutrients": [
+        {
+          "label": "Protein: 13g",
+          "icon": "Wheat"
+        },
+        {
+          "label": "Choline: Rich",
+          "icon": "Sparkles"
+        },
+        {
+          "label": "Lutein: Eye",
+          "icon": "Sun"
+        }
+      ]
+    },
+    {
+      "id": "chicken-egg-yolk",
+      "name": "Chicken egg yolk",
+      "score": 9,
+      "subtitle": "Complete amino acid score, choline, lutein & cellular building blocks.",
+      "category": "Egg Whites & Yolks",
+      "originClimate": "Pasture & Aviary",
+      "badge": "Gold Standard",
+      "badgeType": "organic",
+      "views": "17.6k views",
+      "image": "https://images.unsplash.com/photo-1582722872445-44dc5f7e3c8f?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        "brain",
+        "eye",
+        "muscle"
+      ],
+      "nutrients": [
+        {
+          "label": "Protein: 13g",
+          "icon": "Wheat"
+        },
+        {
+          "label": "Choline: Rich",
+          "icon": "Sparkles"
+        },
+        {
+          "label": "Lutein: Eye",
+          "icon": "Sun"
+        }
+      ]
+    },
+    {
+      "id": "duck-egg",
+      "name": "Duck egg",
+      "score": 8.9,
+      "subtitle": "Complete amino acid score, choline, lutein & cellular building blocks.",
+      "category": "Whole Poultry Eggs",
+      "originClimate": "Pasture & Aviary",
+      "badge": "Gold Standard",
+      "badgeType": "organic",
+      "views": "17.5k views",
+      "image": "https://images.unsplash.com/photo-1582722872445-44dc5f7e3c8f?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        "brain",
+        "eye",
+        "muscle"
+      ],
+      "nutrients": [
+        {
+          "label": "Protein: 13g",
+          "icon": "Wheat"
+        },
+        {
+          "label": "Choline: Rich",
+          "icon": "Sparkles"
+        },
+        {
+          "label": "Lutein: Eye",
+          "icon": "Sun"
+        }
+      ]
+    },
+    {
+      "id": "quail-egg",
+      "name": "Quail egg",
+      "score": 9.6,
+      "subtitle": "Complete amino acid score, choline, lutein & cellular building blocks.",
+      "category": "Whole Poultry Eggs",
+      "originClimate": "Pasture & Aviary",
+      "badge": "Gold Standard",
+      "badgeType": "organic",
+      "views": "12.1k views",
+      "image": "https://images.unsplash.com/photo-1516467508483-a7212febe31a?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        "brain",
+        "eye",
+        "muscle"
+      ],
+      "nutrients": [
+        {
+          "label": "Protein: 13g",
+          "icon": "Wheat"
+        },
+        {
+          "label": "Choline: Rich",
+          "icon": "Sparkles"
+        },
+        {
+          "label": "Lutein: Eye",
+          "icon": "Sun"
+        }
+      ]
+    },
+    {
+      "id": "goose-egg",
+      "name": "Goose egg",
+      "score": 9.6,
+      "subtitle": "Complete amino acid score, choline, lutein & cellular building blocks.",
+      "category": "Whole Poultry Eggs",
+      "originClimate": "Pasture & Aviary",
+      "badge": "Gold Standard",
+      "badgeType": "organic",
+      "views": "11.0k views",
+      "image": "https://images.unsplash.com/photo-1582722872445-44dc5f7e3c8f?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        "brain",
+        "eye",
+        "muscle"
+      ],
+      "nutrients": [
+        {
+          "label": "Protein: 13g",
+          "icon": "Wheat"
+        },
+        {
+          "label": "Choline: Rich",
+          "icon": "Sparkles"
+        },
+        {
+          "label": "Lutein: Eye",
+          "icon": "Sun"
+        }
+      ]
+    },
+    {
+      "id": "turkey-egg",
+      "name": "Turkey egg",
+      "score": 9.2,
+      "subtitle": "Complete amino acid score, choline, lutein & cellular building blocks.",
+      "category": "Whole Poultry Eggs",
+      "originClimate": "Pasture & Aviary",
+      "badge": "Gold Standard",
+      "badgeType": "organic",
+      "views": "11.7k views",
+      "image": "https://images.unsplash.com/photo-1582722872445-44dc5f7e3c8f?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        "brain",
+        "eye",
+        "muscle"
+      ],
+      "nutrients": [
+        {
+          "label": "Protein: 13g",
+          "icon": "Wheat"
+        },
+        {
+          "label": "Choline: Rich",
+          "icon": "Sparkles"
+        },
+        {
+          "label": "Lutein: Eye",
+          "icon": "Sun"
+        }
+      ]
+    },
+    {
+      "id": "pigeon-egg",
+      "name": "Pigeon egg",
+      "score": 9.2,
+      "subtitle": "Complete amino acid score, choline, lutein & cellular building blocks.",
+      "category": "Whole Poultry Eggs",
+      "originClimate": "Pasture & Aviary",
+      "badge": "Gold Standard",
+      "badgeType": "organic",
+      "views": "13.6k views",
+      "image": "https://images.unsplash.com/photo-1516467508483-a7212febe31a?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        "brain",
+        "eye",
+        "muscle"
+      ],
+      "nutrients": [
+        {
+          "label": "Protein: 13g",
+          "icon": "Wheat"
+        },
+        {
+          "label": "Choline: Rich",
+          "icon": "Sparkles"
+        },
+        {
+          "label": "Lutein: Eye",
+          "icon": "Sun"
+        }
+      ]
+    },
+    {
+      "id": "country-chicken-egg",
+      "name": "Country chicken egg",
+      "score": 8.9,
+      "subtitle": "Complete amino acid score, choline, lutein & cellular building blocks.",
+      "category": "Heritage & Free-Range",
+      "originClimate": "Pasture & Aviary",
+      "badge": "Gold Standard",
+      "badgeType": "organic",
+      "views": "16.8k views",
+      "image": "https://images.unsplash.com/photo-1582722872445-44dc5f7e3c8f?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        "brain",
+        "eye",
+        "muscle"
+      ],
+      "nutrients": [
+        {
+          "label": "Protein: 13g",
+          "icon": "Wheat"
+        },
+        {
+          "label": "Choline: Rich",
+          "icon": "Sparkles"
+        },
+        {
+          "label": "Lutein: Eye",
+          "icon": "Sun"
+        }
+      ]
+    },
+    {
+      "id": "desi-chicken-egg",
+      "name": "Desi chicken egg",
+      "score": 9,
+      "subtitle": "Complete amino acid score, choline, lutein & cellular building blocks.",
+      "category": "Heritage & Free-Range",
+      "originClimate": "Pasture & Aviary",
+      "badge": "Gold Standard",
+      "badgeType": "organic",
+      "views": "12.6k views",
+      "image": "https://images.unsplash.com/photo-1582722872445-44dc5f7e3c8f?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        "brain",
+        "eye",
+        "muscle"
+      ],
+      "nutrients": [
+        {
+          "label": "Protein: 13g",
+          "icon": "Wheat"
+        },
+        {
+          "label": "Choline: Rich",
+          "icon": "Sparkles"
+        },
+        {
+          "label": "Lutein: Eye",
+          "icon": "Sun"
+        }
+      ]
+    }
+  ]
+}

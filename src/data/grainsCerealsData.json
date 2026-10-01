@@ -1,0 +1,367 @@
+{
+  "subCategories": [
+    {
+      "id": "all",
+      "name": "All Grains & Cereals",
+      "image": "https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&w=500&q=80"
+    },
+    {
+      "id": "Rice & Flakes",
+      "name": "Rice & Flakes",
+      "image": "https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&w=500&q=80"
+    },
+    {
+      "id": "Wheat & Flours",
+      "name": "Wheat & Flours",
+      "image": "https://images.unsplash.com/photo-1574323347407-f5e1ad6d020b?auto=format&fit=crop&w=500&q=80"
+    },
+    {
+      "id": "Ancient Cereals",
+      "name": "Ancient Cereals",
+      "image": "https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&w=500&q=80"
+    }
+  ],
+  "grainsCerealsList": [
+    {
+      "id": "white-rice",
+      "name": "White Rice",
+      "score": 8.9,
+      "subtitle": "Milled rice is a widely consumed staple grain.",
+      "category": "Rice & Flakes",
+      "botanicalName": "Oryza sativa",
+      "originClimate": "Cultivated & Prepared Globally",
+      "badge": "Staple Grain",
+      "badgeType": "popular",
+      "views": "13.3k views",
+      "image": "https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        "energy",
+        "digestion"
+      ],
+      "nutrients": [
+        {
+          "label": "Cal: 356 kcal",
+          "icon": "Zap"
+        },
+        {
+          "label": "Fiber: 2.8g",
+          "icon": "Leaf"
+        },
+        {
+          "label": "Protein: 7.9g",
+          "icon": "Wheat"
+        }
+      ]
+    },
+    {
+      "id": "brown-rice",
+      "name": "Brown Rice",
+      "score": 8.9,
+      "subtitle": "Whole-grain rice retains more of the outer grain layers than milled white rice.",
+      "category": "Rice & Flakes",
+      "botanicalName": "Oryza sativa",
+      "originClimate": "Cultivated & Prepared Globally",
+      "badge": "Staple Grain",
+      "badgeType": "popular",
+      "views": "16.5k views",
+      "image": "https://images.unsplash.com/photo-1536304993881-ff6e9eefa2a6?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        "energy",
+        "digestion"
+      ],
+      "nutrients": [
+        {
+          "label": "Cal: 354 kcal",
+          "icon": "Zap"
+        },
+        {
+          "label": "Fiber: 3.6g",
+          "icon": "Leaf"
+        },
+        {
+          "label": "Protein: 9.2g",
+          "icon": "Wheat"
+        }
+      ]
+    },
+    {
+      "id": "parboiled-rice",
+      "name": "Parboiled Rice",
+      "score": 9.1,
+      "subtitle": "Rice partially processed in the husk before milling.",
+      "category": "Rice & Flakes",
+      "botanicalName": "Oryza sativa",
+      "originClimate": "Cultivated & Prepared Globally",
+      "badge": "Staple Grain",
+      "badgeType": "popular",
+      "views": "14.2k views",
+      "image": "https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        "energy",
+        "digestion"
+      ],
+      "nutrients": [
+        {
+          "label": "Cal: 352 kcal",
+          "icon": "Zap"
+        },
+        {
+          "label": "Fiber: 3.7g",
+          "icon": "Leaf"
+        },
+        {
+          "label": "Protein: 7.8g",
+          "icon": "Wheat"
+        }
+      ]
+    },
+    {
+      "id": "whole-wheat-flour",
+      "name": "Whole Wheat Flour",
+      "score": 9,
+      "subtitle": "Whole wheat flour used for chapati, roti and other foods.",
+      "category": "Wheat & Flours",
+      "botanicalName": "Triticum aestivum",
+      "originClimate": "Cultivated & Prepared Globally",
+      "badge": "Staple Grain",
+      "badgeType": "popular",
+      "views": "15.4k views",
+      "image": "https://images.unsplash.com/photo-1574323347407-f5e1ad6d020b?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        "energy",
+        "digestion"
+      ],
+      "nutrients": [
+        {
+          "label": "Cal: 340 kcal",
+          "icon": "Zap"
+        },
+        {
+          "label": "Fiber: 10.7g",
+          "icon": "Leaf"
+        },
+        {
+          "label": "Protein: 13.7g",
+          "icon": "Wheat"
+        }
+      ]
+    },
+    {
+      "id": "refined-wheat-flour",
+      "name": "Refined Wheat Flour",
+      "score": 9.6,
+      "subtitle": "Finely milled refined wheat flour.",
+      "category": "Wheat & Flours",
+      "botanicalName": "Triticum aestivum",
+      "originClimate": "Cultivated & Prepared Globally",
+      "badge": "Staple Grain",
+      "badgeType": "popular",
+      "views": "10.3k views",
+      "image": "https://images.unsplash.com/photo-1574323347407-f5e1ad6d020b?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        "energy",
+        "digestion"
+      ],
+      "nutrients": [
+        {
+          "label": "Cal: 364 kcal",
+          "icon": "Zap"
+        },
+        {
+          "label": "Fiber: 2.7g",
+          "icon": "Leaf"
+        },
+        {
+          "label": "Protein: 10.3g",
+          "icon": "Wheat"
+        }
+      ]
+    },
+    {
+      "id": "oats",
+      "name": "Oats",
+      "score": 9.1,
+      "subtitle": "A whole-grain cereal commonly used for porridge and breakfast foods.",
+      "category": "Ancient Cereals",
+      "botanicalName": "Avena sativa",
+      "originClimate": "Cultivated & Prepared Globally",
+      "badge": "Staple Grain",
+      "badgeType": "popular",
+      "views": "11.5k views",
+      "image": "https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        "energy",
+        "digestion"
+      ],
+      "nutrients": [
+        {
+          "label": "Cal: 389 kcal",
+          "icon": "Zap"
+        },
+        {
+          "label": "Fiber: 10.1g",
+          "icon": "Leaf"
+        },
+        {
+          "label": "Protein: 16.9g",
+          "icon": "Wheat"
+        }
+      ]
+    },
+    {
+      "id": "barley",
+      "name": "Barley",
+      "score": 9.7,
+      "subtitle": "A cereal grain used in soups, porridges and grain dishes.",
+      "category": "Ancient Cereals",
+      "botanicalName": "Hordeum vulgare",
+      "originClimate": "Cultivated & Prepared Globally",
+      "badge": "Staple Grain",
+      "badgeType": "popular",
+      "views": "11.2k views",
+      "image": "https://images.unsplash.com/photo-1574323347407-f5e1ad6d020b?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        "energy",
+        "digestion"
+      ],
+      "nutrients": [
+        {
+          "label": "Cal: 354 kcal",
+          "icon": "Zap"
+        },
+        {
+          "label": "Fiber: 17.3g",
+          "icon": "Leaf"
+        },
+        {
+          "label": "Protein: 12.5g",
+          "icon": "Wheat"
+        }
+      ]
+    },
+    {
+      "id": "maize",
+      "name": "Maize",
+      "score": 9.4,
+      "subtitle": "A cereal grain used as whole kernels, flour and other forms.",
+      "category": "Ancient Cereals",
+      "botanicalName": "Zea mays",
+      "originClimate": "Cultivated & Prepared Globally",
+      "badge": "Staple Grain",
+      "badgeType": "popular",
+      "views": "16.4k views",
+      "image": "https://images.unsplash.com/photo-1551754655-cd27e38d2076?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        "energy",
+        "digestion"
+      ],
+      "nutrients": [
+        {
+          "label": "Cal: 365 kcal",
+          "icon": "Zap"
+        },
+        {
+          "label": "Fiber: 7.3g",
+          "icon": "Leaf"
+        },
+        {
+          "label": "Protein: 9.4g",
+          "icon": "Wheat"
+        }
+      ]
+    },
+    {
+      "id": "semolina-rava",
+      "name": "Semolina",
+      "score": 9.3,
+      "subtitle": "Coarsely milled wheat semolina used in many Indian dishes.",
+      "category": "Wheat & Flours",
+      "botanicalName": "Triticum durum",
+      "originClimate": "Cultivated & Prepared Globally",
+      "badge": "Staple Grain",
+      "badgeType": "popular",
+      "views": "10.7k views",
+      "image": "https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        "energy",
+        "digestion"
+      ],
+      "nutrients": [
+        {
+          "label": "Cal: 360 kcal",
+          "icon": "Zap"
+        },
+        {
+          "label": "Fiber: 3.9g",
+          "icon": "Leaf"
+        },
+        {
+          "label": "Protein: 12.7g",
+          "icon": "Wheat"
+        }
+      ]
+    },
+    {
+      "id": "broken-wheat-dalia",
+      "name": "Broken Wheat",
+      "score": 9.5,
+      "subtitle": "Cracked wheat used in porridges and savoury meals.",
+      "category": "Ancient Cereals",
+      "botanicalName": "Triticum aestivum",
+      "originClimate": "Cultivated & Prepared Globally",
+      "badge": "Staple Grain",
+      "badgeType": "popular",
+      "views": "13.6k views",
+      "image": "https://images.unsplash.com/photo-1574323347407-f5e1ad6d020b?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        "energy",
+        "digestion"
+      ],
+      "nutrients": [
+        {
+          "label": "Cal: 342 kcal",
+          "icon": "Zap"
+        },
+        {
+          "label": "Fiber: 12.5g",
+          "icon": "Leaf"
+        },
+        {
+          "label": "Protein: 12.3g",
+          "icon": "Wheat"
+        }
+      ]
+    },
+    {
+      "id": "poha",
+      "name": "Flattened Rice",
+      "score": 9.1,
+      "subtitle": "Flattened rice that cooks quickly and is common in Indian breakfast dishes.",
+      "category": "Rice & Flakes",
+      "botanicalName": "Oryza sativa",
+      "originClimate": "Cultivated & Prepared Globally",
+      "badge": "Staple Grain",
+      "badgeType": "popular",
+      "views": "12.0k views",
+      "image": "https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        "energy",
+        "digestion"
+      ],
+      "nutrients": [
+        {
+          "label": "Cal: 346 kcal",
+          "icon": "Zap"
+        },
+        {
+          "label": "Fiber: 3.5g",
+          "icon": "Leaf"
+        },
+        {
+          "label": "Protein: 7.4g",
+          "icon": "Wheat"
+        }
+      ]
+    }
+  ]
+}

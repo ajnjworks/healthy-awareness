@@ -1,0 +1,2211 @@
+{
+  "subCategories": [
+    {
+      "id": "all",
+      "name": "All Seafood",
+      "image": "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?auto=format&fit=crop&w=500&q=80"
+    },
+    {
+      "id": "Pelagic & Marine Fish",
+      "name": "Pelagic & Marine Fish",
+      "image": "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?auto=format&fit=crop&w=500&q=80"
+    },
+    {
+      "id": "Freshwater & River Fish",
+      "name": "Freshwater & River Fish",
+      "image": "https://images.unsplash.com/photo-1535591273668-578e31182c4f?auto=format&fit=crop&w=500&q=80"
+    },
+    {
+      "id": "Coastal & Regional Fish",
+      "name": "Coastal & Regional Fish",
+      "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=500&q=80"
+    },
+    {
+      "id": "Crustaceans",
+      "name": "Crustaceans",
+      "image": "https://images.unsplash.com/photo-1559827291-72ee739d0d9a?auto=format&fit=crop&w=500&q=80"
+    },
+    {
+      "id": "Mollusks & Shellfish",
+      "name": "Mollusks & Shellfish",
+      "image": "https://images.unsplash.com/photo-1534483509719-3feaee7c30da?auto=format&fit=crop&w=500&q=80"
+    },
+    {
+      "id": "Roe & Caviar",
+      "name": "Roe & Caviar",
+      "image": "https://images.unsplash.com/photo-1534483509719-3feaee7c30da?auto=format&fit=crop&w=500&q=80"
+    }
+  ],
+  "fishesList": [
+    {
+      "id": "salmon",
+      "name": "Salmon",
+      "score": 9.7,
+      "subtitle": "Rich in Marine Omega-3 fatty acids, EPA/DHA & high-biological value protein.",
+      "category": "Pelagic & Marine Fish",
+      "originClimate": "Marine & Inland Waters",
+      "badge": "Omega-3 Rich",
+      "badgeType": "organic",
+      "views": "14.5k views",
+      "image": "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        "heart",
+        "brain",
+        "skin"
+      ],
+      "nutrients": [
+        {
+          "label": "Protein: 22g",
+          "icon": "Wheat"
+        },
+        {
+          "label": "Omega-3: High",
+          "icon": "HeartPulse"
+        },
+        {
+          "label": "Vit D: Rich",
+          "icon": "Sun"
+        }
+      ]
+    },
+    {
+      "id": "tuna",
+      "name": "Tuna",
+      "score": 9.4,
+      "subtitle": "Rich in Marine Omega-3 fatty acids, EPA/DHA & high-biological value protein.",
+      "category": "Pelagic & Marine Fish",
+      "originClimate": "Marine & Inland Waters",
+      "badge": "Omega-3 Rich",
+      "badgeType": "organic",
+      "views": "17.2k views",
+      "image": "https://images.unsplash.com/photo-1544943910-4c1dc44a0eb5?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        "heart",
+        "brain",
+        "skin"
+      ],
+      "nutrients": [
+        {
+          "label": "Protein: 22g",
+          "icon": "Wheat"
+        },
+        {
+          "label": "Omega-3: High",
+          "icon": "HeartPulse"
+        },
+        {
+          "label": "Vit D: Rich",
+          "icon": "Sun"
+        }
+      ]
+    },
+    {
+      "id": "sardine",
+      "name": "Sardine",
+      "score": 9.3,
+      "subtitle": "Rich in Marine Omega-3 fatty acids, EPA/DHA & high-biological value protein.",
+      "category": "Pelagic & Marine Fish",
+      "originClimate": "Marine & Inland Waters",
+      "badge": "Omega-3 Rich",
+      "badgeType": "organic",
+      "views": "15.3k views",
+      "image": "https://images.unsplash.com/photo-1534483509719-3feaee7c30da?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        "heart",
+        "brain",
+        "skin"
+      ],
+      "nutrients": [
+        {
+          "label": "Protein: 22g",
+          "icon": "Wheat"
+        },
+        {
+          "label": "Omega-3: High",
+          "icon": "HeartPulse"
+        },
+        {
+          "label": "Vit D: Rich",
+          "icon": "Sun"
+        }
+      ]
+    },
+    {
+      "id": "anchovy",
+      "name": "Anchovy",
+      "score": 9.3,
+      "subtitle": "Rich in Marine Omega-3 fatty acids, EPA/DHA & high-biological value protein.",
+      "category": "Pelagic & Marine Fish",
+      "originClimate": "Marine & Inland Waters",
+      "badge": "Omega-3 Rich",
+      "badgeType": "organic",
+      "views": "14.3k views",
+      "image": "https://images.unsplash.com/photo-1534483509719-3feaee7c30da?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        "heart",
+        "brain",
+        "skin"
+      ],
+      "nutrients": [
+        {
+          "label": "Protein: 22g",
+          "icon": "Wheat"
+        },
+        {
+          "label": "Omega-3: High",
+          "icon": "HeartPulse"
+        },
+        {
+          "label": "Vit D: Rich",
+          "icon": "Sun"
+        }
+      ]
+    },
+    {
+      "id": "mackerel",
+      "name": "Mackerel",
+      "score": 8.9,
+      "subtitle": "Rich in Marine Omega-3 fatty acids, EPA/DHA & high-biological value protein.",
+      "category": "Pelagic & Marine Fish",
+      "originClimate": "Marine & Inland Waters",
+      "badge": "Omega-3 Rich",
+      "badgeType": "organic",
+      "views": "15.5k views",
+      "image": "https://images.unsplash.com/photo-1534483509719-3feaee7c30da?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        "heart",
+        "brain",
+        "skin"
+      ],
+      "nutrients": [
+        {
+          "label": "Protein: 22g",
+          "icon": "Wheat"
+        },
+        {
+          "label": "Omega-3: High",
+          "icon": "HeartPulse"
+        },
+        {
+          "label": "Vit D: Rich",
+          "icon": "Sun"
+        }
+      ]
+    },
+    {
+      "id": "indian-mackerel",
+      "name": "Indian mackerel",
+      "score": 9.4,
+      "subtitle": "Rich in Marine Omega-3 fatty acids, EPA/DHA & high-biological value protein.",
+      "category": "Pelagic & Marine Fish",
+      "originClimate": "Marine & Inland Waters",
+      "badge": "Omega-3 Rich",
+      "badgeType": "organic",
+      "views": "16.5k views",
+      "image": "https://images.unsplash.com/photo-1534483509719-3feaee7c30da?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        "heart",
+        "brain",
+        "skin"
+      ],
+      "nutrients": [
+        {
+          "label": "Protein: 22g",
+          "icon": "Wheat"
+        },
+        {
+          "label": "Omega-3: High",
+          "icon": "HeartPulse"
+        },
+        {
+          "label": "Vit D: Rich",
+          "icon": "Sun"
+        }
+      ]
+    },
+    {
+      "id": "pomfret",
+      "name": "Pomfret",
+      "score": 9.3,
+      "subtitle": "Rich in Marine Omega-3 fatty acids, EPA/DHA & high-biological value protein.",
+      "category": "Pelagic & Marine Fish",
+      "originClimate": "Marine & Inland Waters",
+      "badge": "Omega-3 Rich",
+      "badgeType": "organic",
+      "views": "15.4k views",
+      "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        "heart",
+        "brain",
+        "skin"
+      ],
+      "nutrients": [
+        {
+          "label": "Protein: 22g",
+          "icon": "Wheat"
+        },
+        {
+          "label": "Omega-3: High",
+          "icon": "HeartPulse"
+        },
+        {
+          "label": "Vit D: Rich",
+          "icon": "Sun"
+        }
+      ]
+    },
+    {
+      "id": "silver-pomfret",
+      "name": "Silver pomfret",
+      "score": 9.8,
+      "subtitle": "Rich in Marine Omega-3 fatty acids, EPA/DHA & high-biological value protein.",
+      "category": "Pelagic & Marine Fish",
+      "originClimate": "Marine & Inland Waters",
+      "badge": "Omega-3 Rich",
+      "badgeType": "organic",
+      "views": "16.6k views",
+      "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        "heart",
+        "brain",
+        "skin"
+      ],
+      "nutrients": [
+        {
+          "label": "Protein: 22g",
+          "icon": "Wheat"
+        },
+        {
+          "label": "Omega-3: High",
+          "icon": "HeartPulse"
+        },
+        {
+          "label": "Vit D: Rich",
+          "icon": "Sun"
+        }
+      ]
+    },
+    {
+      "id": "black-pomfret",
+      "name": "Black pomfret",
+      "score": 9.1,
+      "subtitle": "Rich in Marine Omega-3 fatty acids, EPA/DHA & high-biological value protein.",
+      "category": "Pelagic & Marine Fish",
+      "originClimate": "Marine & Inland Waters",
+      "badge": "Omega-3 Rich",
+      "badgeType": "organic",
+      "views": "16.6k views",
+      "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        "heart",
+        "brain",
+        "skin"
+      ],
+      "nutrients": [
+        {
+          "label": "Protein: 22g",
+          "icon": "Wheat"
+        },
+        {
+          "label": "Omega-3: High",
+          "icon": "HeartPulse"
+        },
+        {
+          "label": "Vit D: Rich",
+          "icon": "Sun"
+        }
+      ]
+    },
+    {
+      "id": "rohu",
+      "name": "Rohu",
+      "score": 9.4,
+      "subtitle": "Rich in Marine Omega-3 fatty acids, EPA/DHA & high-biological value protein.",
+      "category": "Freshwater & River Fish",
+      "originClimate": "Marine & Inland Waters",
+      "badge": "Omega-3 Rich",
+      "badgeType": "organic",
+      "views": "10.5k views",
+      "image": "https://images.unsplash.com/photo-1535591273668-578e31182c4f?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        "heart",
+        "brain",
+        "skin"
+      ],
+      "nutrients": [
+        {
+          "label": "Protein: 22g",
+          "icon": "Wheat"
+        },
+        {
+          "label": "Omega-3: High",
+          "icon": "HeartPulse"
+        },
+        {
+          "label": "Vit D: Rich",
+          "icon": "Sun"
+        }
+      ]
+    },
+    {
+      "id": "catla",
+      "name": "Catla",
+      "score": 9,
+      "subtitle": "Rich in Marine Omega-3 fatty acids, EPA/DHA & high-biological value protein.",
+      "category": "Freshwater & River Fish",
+      "originClimate": "Marine & Inland Waters",
+      "badge": "Omega-3 Rich",
+      "badgeType": "organic",
+      "views": "16.3k views",
+      "image": "https://images.unsplash.com/photo-1535591273668-578e31182c4f?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        "heart",
+        "brain",
+        "skin"
+      ],
+      "nutrients": [
+        {
+          "label": "Protein: 22g",
+          "icon": "Wheat"
+        },
+        {
+          "label": "Omega-3: High",
+          "icon": "HeartPulse"
+        },
+        {
+          "label": "Vit D: Rich",
+          "icon": "Sun"
+        }
+      ]
+    },
+    {
+      "id": "mrigal",
+      "name": "Mrigal",
+      "score": 9.7,
+      "subtitle": "Rich in Marine Omega-3 fatty acids, EPA/DHA & high-biological value protein.",
+      "category": "Freshwater & River Fish",
+      "originClimate": "Marine & Inland Waters",
+      "badge": "Omega-3 Rich",
+      "badgeType": "organic",
+      "views": "10.5k views",
+      "image": "https://images.unsplash.com/photo-1535591273668-578e31182c4f?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        "heart",
+        "brain",
+        "skin"
+      ],
+      "nutrients": [
+        {
+          "label": "Protein: 22g",
+          "icon": "Wheat"
+        },
+        {
+          "label": "Omega-3: High",
+          "icon": "HeartPulse"
+        },
+        {
+          "label": "Vit D: Rich",
+          "icon": "Sun"
+        }
+      ]
+    },
+    {
+      "id": "hilsa",
+      "name": "Hilsa",
+      "score": 9,
+      "subtitle": "Rich in Marine Omega-3 fatty acids, EPA/DHA & high-biological value protein.",
+      "category": "Coastal & Regional Fish",
+      "originClimate": "Marine & Inland Waters",
+      "badge": "Omega-3 Rich",
+      "badgeType": "organic",
+      "views": "10.8k views",
+      "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        "heart",
+        "brain",
+        "skin"
+      ],
+      "nutrients": [
+        {
+          "label": "Protein: 22g",
+          "icon": "Wheat"
+        },
+        {
+          "label": "Omega-3: High",
+          "icon": "HeartPulse"
+        },
+        {
+          "label": "Vit D: Rich",
+          "icon": "Sun"
+        }
+      ]
+    },
+    {
+      "id": "pearl-spot",
+      "name": "Pearl spot",
+      "score": 9.2,
+      "subtitle": "Rich in Marine Omega-3 fatty acids, EPA/DHA & high-biological value protein.",
+      "category": "Pelagic & Marine Fish",
+      "originClimate": "Marine & Inland Waters",
+      "badge": "Omega-3 Rich",
+      "badgeType": "organic",
+      "views": "14.7k views",
+      "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        "heart",
+        "brain",
+        "skin"
+      ],
+      "nutrients": [
+        {
+          "label": "Protein: 22g",
+          "icon": "Wheat"
+        },
+        {
+          "label": "Omega-3: High",
+          "icon": "HeartPulse"
+        },
+        {
+          "label": "Vit D: Rich",
+          "icon": "Sun"
+        }
+      ]
+    },
+    {
+      "id": "tilapia",
+      "name": "Tilapia",
+      "score": 9.3,
+      "subtitle": "Rich in Marine Omega-3 fatty acids, EPA/DHA & high-biological value protein.",
+      "category": "Freshwater & River Fish",
+      "originClimate": "Marine & Inland Waters",
+      "badge": "Omega-3 Rich",
+      "badgeType": "organic",
+      "views": "15.0k views",
+      "image": "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        "heart",
+        "brain",
+        "skin"
+      ],
+      "nutrients": [
+        {
+          "label": "Protein: 22g",
+          "icon": "Wheat"
+        },
+        {
+          "label": "Omega-3: High",
+          "icon": "HeartPulse"
+        },
+        {
+          "label": "Vit D: Rich",
+          "icon": "Sun"
+        }
+      ]
+    },
+    {
+      "id": "asian-seabass",
+      "name": "Asian seabass",
+      "score": 9.1,
+      "subtitle": "Rich in Marine Omega-3 fatty acids, EPA/DHA & high-biological value protein.",
+      "category": "Pelagic & Marine Fish",
+      "originClimate": "Marine & Inland Waters",
+      "badge": "Omega-3 Rich",
+      "badgeType": "organic",
+      "views": "15.0k views",
+      "image": "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        "heart",
+        "brain",
+        "skin"
+      ],
+      "nutrients": [
+        {
+          "label": "Protein: 22g",
+          "icon": "Wheat"
+        },
+        {
+          "label": "Omega-3: High",
+          "icon": "HeartPulse"
+        },
+        {
+          "label": "Vit D: Rich",
+          "icon": "Sun"
+        }
+      ]
+    },
+    {
+      "id": "red-snapper",
+      "name": "Red snapper",
+      "score": 8.8,
+      "subtitle": "Rich in Marine Omega-3 fatty acids, EPA/DHA & high-biological value protein.",
+      "category": "Pelagic & Marine Fish",
+      "originClimate": "Marine & Inland Waters",
+      "badge": "Omega-3 Rich",
+      "badgeType": "organic",
+      "views": "12.8k views",
+      "image": "https://images.unsplash.com/photo-1534483509719-3feaee7c30da?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        "heart",
+        "brain",
+        "skin"
+      ],
+      "nutrients": [
+        {
+          "label": "Protein: 22g",
+          "icon": "Wheat"
+        },
+        {
+          "label": "Omega-3: High",
+          "icon": "HeartPulse"
+        },
+        {
+          "label": "Vit D: Rich",
+          "icon": "Sun"
+        }
+      ]
+    },
+    {
+      "id": "grouper",
+      "name": "Grouper",
+      "score": 9.3,
+      "subtitle": "Rich in Marine Omega-3 fatty acids, EPA/DHA & high-biological value protein.",
+      "category": "Pelagic & Marine Fish",
+      "originClimate": "Marine & Inland Waters",
+      "badge": "Omega-3 Rich",
+      "badgeType": "organic",
+      "views": "15.8k views",
+      "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        "heart",
+        "brain",
+        "skin"
+      ],
+      "nutrients": [
+        {
+          "label": "Protein: 22g",
+          "icon": "Wheat"
+        },
+        {
+          "label": "Omega-3: High",
+          "icon": "HeartPulse"
+        },
+        {
+          "label": "Vit D: Rich",
+          "icon": "Sun"
+        }
+      ]
+    },
+    {
+      "id": "barramundi",
+      "name": "Barramundi",
+      "score": 9.2,
+      "subtitle": "Rich in Marine Omega-3 fatty acids, EPA/DHA & high-biological value protein.",
+      "category": "Pelagic & Marine Fish",
+      "originClimate": "Marine & Inland Waters",
+      "badge": "Omega-3 Rich",
+      "badgeType": "organic",
+      "views": "16.0k views",
+      "image": "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        "heart",
+        "brain",
+        "skin"
+      ],
+      "nutrients": [
+        {
+          "label": "Protein: 22g",
+          "icon": "Wheat"
+        },
+        {
+          "label": "Omega-3: High",
+          "icon": "HeartPulse"
+        },
+        {
+          "label": "Vit D: Rich",
+          "icon": "Sun"
+        }
+      ]
+    },
+    {
+      "id": "cod",
+      "name": "Cod",
+      "score": 9.8,
+      "subtitle": "Rich in Marine Omega-3 fatty acids, EPA/DHA & high-biological value protein.",
+      "category": "Pelagic & Marine Fish",
+      "originClimate": "Marine & Inland Waters",
+      "badge": "Omega-3 Rich",
+      "badgeType": "organic",
+      "views": "16.1k views",
+      "image": "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        "heart",
+        "brain",
+        "skin"
+      ],
+      "nutrients": [
+        {
+          "label": "Protein: 22g",
+          "icon": "Wheat"
+        },
+        {
+          "label": "Omega-3: High",
+          "icon": "HeartPulse"
+        },
+        {
+          "label": "Vit D: Rich",
+          "icon": "Sun"
+        }
+      ]
+    },
+    {
+      "id": "haddock",
+      "name": "Haddock",
+      "score": 9.3,
+      "subtitle": "Rich in Marine Omega-3 fatty acids, EPA/DHA & high-biological value protein.",
+      "category": "Pelagic & Marine Fish",
+      "originClimate": "Marine & Inland Waters",
+      "badge": "Omega-3 Rich",
+      "badgeType": "organic",
+      "views": "14.1k views",
+      "image": "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        "heart",
+        "brain",
+        "skin"
+      ],
+      "nutrients": [
+        {
+          "label": "Protein: 22g",
+          "icon": "Wheat"
+        },
+        {
+          "label": "Omega-3: High",
+          "icon": "HeartPulse"
+        },
+        {
+          "label": "Vit D: Rich",
+          "icon": "Sun"
+        }
+      ]
+    },
+    {
+      "id": "hake",
+      "name": "Hake",
+      "score": 9.4,
+      "subtitle": "Rich in Marine Omega-3 fatty acids, EPA/DHA & high-biological value protein.",
+      "category": "Pelagic & Marine Fish",
+      "originClimate": "Marine & Inland Waters",
+      "badge": "Omega-3 Rich",
+      "badgeType": "organic",
+      "views": "16.2k views",
+      "image": "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        "heart",
+        "brain",
+        "skin"
+      ],
+      "nutrients": [
+        {
+          "label": "Protein: 22g",
+          "icon": "Wheat"
+        },
+        {
+          "label": "Omega-3: High",
+          "icon": "HeartPulse"
+        },
+        {
+          "label": "Vit D: Rich",
+          "icon": "Sun"
+        }
+      ]
+    },
+    {
+      "id": "pollock",
+      "name": "Pollock",
+      "score": 9.3,
+      "subtitle": "Rich in Marine Omega-3 fatty acids, EPA/DHA & high-biological value protein.",
+      "category": "Pelagic & Marine Fish",
+      "originClimate": "Marine & Inland Waters",
+      "badge": "Omega-3 Rich",
+      "badgeType": "organic",
+      "views": "12.0k views",
+      "image": "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        "heart",
+        "brain",
+        "skin"
+      ],
+      "nutrients": [
+        {
+          "label": "Protein: 22g",
+          "icon": "Wheat"
+        },
+        {
+          "label": "Omega-3: High",
+          "icon": "HeartPulse"
+        },
+        {
+          "label": "Vit D: Rich",
+          "icon": "Sun"
+        }
+      ]
+    },
+    {
+      "id": "trout",
+      "name": "Trout",
+      "score": 9,
+      "subtitle": "Rich in Marine Omega-3 fatty acids, EPA/DHA & high-biological value protein.",
+      "category": "Freshwater & River Fish",
+      "originClimate": "Marine & Inland Waters",
+      "badge": "Omega-3 Rich",
+      "badgeType": "organic",
+      "views": "16.0k views",
+      "image": "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        "heart",
+        "brain",
+        "skin"
+      ],
+      "nutrients": [
+        {
+          "label": "Protein: 22g",
+          "icon": "Wheat"
+        },
+        {
+          "label": "Omega-3: High",
+          "icon": "HeartPulse"
+        },
+        {
+          "label": "Vit D: Rich",
+          "icon": "Sun"
+        }
+      ]
+    },
+    {
+      "id": "rainbow-trout",
+      "name": "Rainbow trout",
+      "score": 9.1,
+      "subtitle": "Rich in Marine Omega-3 fatty acids, EPA/DHA & high-biological value protein.",
+      "category": "Freshwater & River Fish",
+      "originClimate": "Marine & Inland Waters",
+      "badge": "Omega-3 Rich",
+      "badgeType": "organic",
+      "views": "12.1k views",
+      "image": "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        "heart",
+        "brain",
+        "skin"
+      ],
+      "nutrients": [
+        {
+          "label": "Protein: 22g",
+          "icon": "Wheat"
+        },
+        {
+          "label": "Omega-3: High",
+          "icon": "HeartPulse"
+        },
+        {
+          "label": "Vit D: Rich",
+          "icon": "Sun"
+        }
+      ]
+    },
+    {
+      "id": "carp",
+      "name": "Carp",
+      "score": 9.4,
+      "subtitle": "Rich in Marine Omega-3 fatty acids, EPA/DHA & high-biological value protein.",
+      "category": "Freshwater & River Fish",
+      "originClimate": "Marine & Inland Waters",
+      "badge": "Omega-3 Rich",
+      "badgeType": "organic",
+      "views": "13.4k views",
+      "image": "https://images.unsplash.com/photo-1535591273668-578e31182c4f?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        "heart",
+        "brain",
+        "skin"
+      ],
+      "nutrients": [
+        {
+          "label": "Protein: 22g",
+          "icon": "Wheat"
+        },
+        {
+          "label": "Omega-3: High",
+          "icon": "HeartPulse"
+        },
+        {
+          "label": "Vit D: Rich",
+          "icon": "Sun"
+        }
+      ]
+    },
+    {
+      "id": "common-carp",
+      "name": "Common carp",
+      "score": 8.8,
+      "subtitle": "Rich in Marine Omega-3 fatty acids, EPA/DHA & high-biological value protein.",
+      "category": "Freshwater & River Fish",
+      "originClimate": "Marine & Inland Waters",
+      "badge": "Omega-3 Rich",
+      "badgeType": "organic",
+      "views": "16.8k views",
+      "image": "https://images.unsplash.com/photo-1535591273668-578e31182c4f?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        "heart",
+        "brain",
+        "skin"
+      ],
+      "nutrients": [
+        {
+          "label": "Protein: 22g",
+          "icon": "Wheat"
+        },
+        {
+          "label": "Omega-3: High",
+          "icon": "HeartPulse"
+        },
+        {
+          "label": "Vit D: Rich",
+          "icon": "Sun"
+        }
+      ]
+    },
+    {
+      "id": "grass-carp",
+      "name": "Grass carp",
+      "score": 9.2,
+      "subtitle": "Rich in Marine Omega-3 fatty acids, EPA/DHA & high-biological value protein.",
+      "category": "Freshwater & River Fish",
+      "originClimate": "Marine & Inland Waters",
+      "badge": "Omega-3 Rich",
+      "badgeType": "organic",
+      "views": "12.7k views",
+      "image": "https://images.unsplash.com/photo-1535591273668-578e31182c4f?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        "heart",
+        "brain",
+        "skin"
+      ],
+      "nutrients": [
+        {
+          "label": "Protein: 22g",
+          "icon": "Wheat"
+        },
+        {
+          "label": "Omega-3: High",
+          "icon": "HeartPulse"
+        },
+        {
+          "label": "Vit D: Rich",
+          "icon": "Sun"
+        }
+      ]
+    },
+    {
+      "id": "milkfish",
+      "name": "Milkfish",
+      "score": 8.9,
+      "subtitle": "Rich in Marine Omega-3 fatty acids, EPA/DHA & high-biological value protein.",
+      "category": "Freshwater & River Fish",
+      "originClimate": "Marine & Inland Waters",
+      "badge": "Omega-3 Rich",
+      "badgeType": "organic",
+      "views": "16.1k views",
+      "image": "https://images.unsplash.com/photo-1535591273668-578e31182c4f?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        "heart",
+        "brain",
+        "skin"
+      ],
+      "nutrients": [
+        {
+          "label": "Protein: 22g",
+          "icon": "Wheat"
+        },
+        {
+          "label": "Omega-3: High",
+          "icon": "HeartPulse"
+        },
+        {
+          "label": "Vit D: Rich",
+          "icon": "Sun"
+        }
+      ]
+    },
+    {
+      "id": "mahi-mahi",
+      "name": "Mahi-mahi",
+      "score": 9.6,
+      "subtitle": "Rich in Marine Omega-3 fatty acids, EPA/DHA & high-biological value protein.",
+      "category": "Pelagic & Marine Fish",
+      "originClimate": "Marine & Inland Waters",
+      "badge": "Omega-3 Rich",
+      "badgeType": "organic",
+      "views": "17.3k views",
+      "image": "https://images.unsplash.com/photo-1544943910-4c1dc44a0eb5?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        "heart",
+        "brain",
+        "skin"
+      ],
+      "nutrients": [
+        {
+          "label": "Protein: 22g",
+          "icon": "Wheat"
+        },
+        {
+          "label": "Omega-3: High",
+          "icon": "HeartPulse"
+        },
+        {
+          "label": "Vit D: Rich",
+          "icon": "Sun"
+        }
+      ]
+    },
+    {
+      "id": "swordfish",
+      "name": "Swordfish",
+      "score": 9.6,
+      "subtitle": "Rich in Marine Omega-3 fatty acids, EPA/DHA & high-biological value protein.",
+      "category": "Pelagic & Marine Fish",
+      "originClimate": "Marine & Inland Waters",
+      "badge": "Omega-3 Rich",
+      "badgeType": "organic",
+      "views": "14.7k views",
+      "image": "https://images.unsplash.com/photo-1544943910-4c1dc44a0eb5?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        "heart",
+        "brain",
+        "skin"
+      ],
+      "nutrients": [
+        {
+          "label": "Protein: 22g",
+          "icon": "Wheat"
+        },
+        {
+          "label": "Omega-3: High",
+          "icon": "HeartPulse"
+        },
+        {
+          "label": "Vit D: Rich",
+          "icon": "Sun"
+        }
+      ]
+    },
+    {
+      "id": "marlin",
+      "name": "Marlin",
+      "score": 9.7,
+      "subtitle": "Rich in Marine Omega-3 fatty acids, EPA/DHA & high-biological value protein.",
+      "category": "Pelagic & Marine Fish",
+      "originClimate": "Marine & Inland Waters",
+      "badge": "Omega-3 Rich",
+      "badgeType": "organic",
+      "views": "11.3k views",
+      "image": "https://images.unsplash.com/photo-1544943910-4c1dc44a0eb5?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        "heart",
+        "brain",
+        "skin"
+      ],
+      "nutrients": [
+        {
+          "label": "Protein: 22g",
+          "icon": "Wheat"
+        },
+        {
+          "label": "Omega-3: High",
+          "icon": "HeartPulse"
+        },
+        {
+          "label": "Vit D: Rich",
+          "icon": "Sun"
+        }
+      ]
+    },
+    {
+      "id": "eel",
+      "name": "Eel",
+      "score": 9.8,
+      "subtitle": "Rich in Marine Omega-3 fatty acids, EPA/DHA & high-biological value protein.",
+      "category": "Pelagic & Marine Fish",
+      "originClimate": "Marine & Inland Waters",
+      "badge": "Omega-3 Rich",
+      "badgeType": "organic",
+      "views": "10.5k views",
+      "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        "heart",
+        "brain",
+        "skin"
+      ],
+      "nutrients": [
+        {
+          "label": "Protein: 22g",
+          "icon": "Wheat"
+        },
+        {
+          "label": "Omega-3: High",
+          "icon": "HeartPulse"
+        },
+        {
+          "label": "Vit D: Rich",
+          "icon": "Sun"
+        }
+      ]
+    },
+    {
+      "id": "ribbonfish",
+      "name": "Ribbonfish",
+      "score": 9.2,
+      "subtitle": "Rich in Marine Omega-3 fatty acids, EPA/DHA & high-biological value protein.",
+      "category": "Coastal & Regional Fish",
+      "originClimate": "Marine & Inland Waters",
+      "badge": "Omega-3 Rich",
+      "badgeType": "organic",
+      "views": "10.2k views",
+      "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        "heart",
+        "brain",
+        "skin"
+      ],
+      "nutrients": [
+        {
+          "label": "Protein: 22g",
+          "icon": "Wheat"
+        },
+        {
+          "label": "Omega-3: High",
+          "icon": "HeartPulse"
+        },
+        {
+          "label": "Vit D: Rich",
+          "icon": "Sun"
+        }
+      ]
+    },
+    {
+      "id": "indian-ribbonfish",
+      "name": "Indian ribbonfish",
+      "score": 9.7,
+      "subtitle": "Rich in Marine Omega-3 fatty acids, EPA/DHA & high-biological value protein.",
+      "category": "Coastal & Regional Fish",
+      "originClimate": "Marine & Inland Waters",
+      "badge": "Omega-3 Rich",
+      "badgeType": "organic",
+      "views": "16.7k views",
+      "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        "heart",
+        "brain",
+        "skin"
+      ],
+      "nutrients": [
+        {
+          "label": "Protein: 22g",
+          "icon": "Wheat"
+        },
+        {
+          "label": "Omega-3: High",
+          "icon": "HeartPulse"
+        },
+        {
+          "label": "Vit D: Rich",
+          "icon": "Sun"
+        }
+      ]
+    },
+    {
+      "id": "bombay-duck",
+      "name": "Bombay duck",
+      "score": 8.8,
+      "subtitle": "Rich in Marine Omega-3 fatty acids, EPA/DHA & high-biological value protein.",
+      "category": "Coastal & Regional Fish",
+      "originClimate": "Marine & Inland Waters",
+      "badge": "Omega-3 Rich",
+      "badgeType": "organic",
+      "views": "15.0k views",
+      "image": "https://images.unsplash.com/photo-1534483509719-3feaee7c30da?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        "heart",
+        "brain",
+        "skin"
+      ],
+      "nutrients": [
+        {
+          "label": "Protein: 22g",
+          "icon": "Wheat"
+        },
+        {
+          "label": "Omega-3: High",
+          "icon": "HeartPulse"
+        },
+        {
+          "label": "Vit D: Rich",
+          "icon": "Sun"
+        }
+      ]
+    },
+    {
+      "id": "rawas",
+      "name": "Rawas",
+      "score": 9,
+      "subtitle": "Rich in Marine Omega-3 fatty acids, EPA/DHA & high-biological value protein.",
+      "category": "Coastal & Regional Fish",
+      "originClimate": "Marine & Inland Waters",
+      "badge": "Omega-3 Rich",
+      "badgeType": "organic",
+      "views": "12.8k views",
+      "image": "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        "heart",
+        "brain",
+        "skin"
+      ],
+      "nutrients": [
+        {
+          "label": "Protein: 22g",
+          "icon": "Wheat"
+        },
+        {
+          "label": "Omega-3: High",
+          "icon": "HeartPulse"
+        },
+        {
+          "label": "Vit D: Rich",
+          "icon": "Sun"
+        }
+      ]
+    },
+    {
+      "id": "bangda",
+      "name": "Bangda",
+      "score": 9.7,
+      "subtitle": "Rich in Marine Omega-3 fatty acids, EPA/DHA & high-biological value protein.",
+      "category": "Coastal & Regional Fish",
+      "originClimate": "Marine & Inland Waters",
+      "badge": "Omega-3 Rich",
+      "badgeType": "organic",
+      "views": "14.1k views",
+      "image": "https://images.unsplash.com/photo-1534483509719-3feaee7c30da?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        "heart",
+        "brain",
+        "skin"
+      ],
+      "nutrients": [
+        {
+          "label": "Protein: 22g",
+          "icon": "Wheat"
+        },
+        {
+          "label": "Omega-3: High",
+          "icon": "HeartPulse"
+        },
+        {
+          "label": "Vit D: Rich",
+          "icon": "Sun"
+        }
+      ]
+    },
+    {
+      "id": "vanjaram",
+      "name": "Vanjaram",
+      "score": 8.9,
+      "subtitle": "Rich in Marine Omega-3 fatty acids, EPA/DHA & high-biological value protein.",
+      "category": "Coastal & Regional Fish",
+      "originClimate": "Marine & Inland Waters",
+      "badge": "Omega-3 Rich",
+      "badgeType": "organic",
+      "views": "15.2k views",
+      "image": "https://images.unsplash.com/photo-1544943910-4c1dc44a0eb5?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        "heart",
+        "brain",
+        "skin"
+      ],
+      "nutrients": [
+        {
+          "label": "Protein: 22g",
+          "icon": "Wheat"
+        },
+        {
+          "label": "Omega-3: High",
+          "icon": "HeartPulse"
+        },
+        {
+          "label": "Vit D: Rich",
+          "icon": "Sun"
+        }
+      ]
+    },
+    {
+      "id": "king-fish",
+      "name": "King fish",
+      "score": 9.6,
+      "subtitle": "Rich in Marine Omega-3 fatty acids, EPA/DHA & high-biological value protein.",
+      "category": "Pelagic & Marine Fish",
+      "originClimate": "Marine & Inland Waters",
+      "badge": "Omega-3 Rich",
+      "badgeType": "organic",
+      "views": "15.8k views",
+      "image": "https://images.unsplash.com/photo-1544943910-4c1dc44a0eb5?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        "heart",
+        "brain",
+        "skin"
+      ],
+      "nutrients": [
+        {
+          "label": "Protein: 22g",
+          "icon": "Wheat"
+        },
+        {
+          "label": "Omega-3: High",
+          "icon": "HeartPulse"
+        },
+        {
+          "label": "Vit D: Rich",
+          "icon": "Sun"
+        }
+      ]
+    },
+    {
+      "id": "surmai",
+      "name": "Surmai",
+      "score": 9.7,
+      "subtitle": "Rich in Marine Omega-3 fatty acids, EPA/DHA & high-biological value protein.",
+      "category": "Coastal & Regional Fish",
+      "originClimate": "Marine & Inland Waters",
+      "badge": "Omega-3 Rich",
+      "badgeType": "organic",
+      "views": "11.3k views",
+      "image": "https://images.unsplash.com/photo-1544943910-4c1dc44a0eb5?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        "heart",
+        "brain",
+        "skin"
+      ],
+      "nutrients": [
+        {
+          "label": "Protein: 22g",
+          "icon": "Wheat"
+        },
+        {
+          "label": "Omega-3: High",
+          "icon": "HeartPulse"
+        },
+        {
+          "label": "Vit D: Rich",
+          "icon": "Sun"
+        }
+      ]
+    },
+    {
+      "id": "kora-fish",
+      "name": "Kora fish",
+      "score": 9.6,
+      "subtitle": "Rich in Marine Omega-3 fatty acids, EPA/DHA & high-biological value protein.",
+      "category": "Coastal & Regional Fish",
+      "originClimate": "Marine & Inland Waters",
+      "badge": "Omega-3 Rich",
+      "badgeType": "organic",
+      "views": "16.7k views",
+      "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        "heart",
+        "brain",
+        "skin"
+      ],
+      "nutrients": [
+        {
+          "label": "Protein: 22g",
+          "icon": "Wheat"
+        },
+        {
+          "label": "Omega-3: High",
+          "icon": "HeartPulse"
+        },
+        {
+          "label": "Vit D: Rich",
+          "icon": "Sun"
+        }
+      ]
+    },
+    {
+      "id": "nethili",
+      "name": "Nethili",
+      "score": 9.3,
+      "subtitle": "Rich in Marine Omega-3 fatty acids, EPA/DHA & high-biological value protein.",
+      "category": "Coastal & Regional Fish",
+      "originClimate": "Marine & Inland Waters",
+      "badge": "Omega-3 Rich",
+      "badgeType": "organic",
+      "views": "13.6k views",
+      "image": "https://images.unsplash.com/photo-1534483509719-3feaee7c30da?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        "heart",
+        "brain",
+        "skin"
+      ],
+      "nutrients": [
+        {
+          "label": "Protein: 22g",
+          "icon": "Wheat"
+        },
+        {
+          "label": "Omega-3: High",
+          "icon": "HeartPulse"
+        },
+        {
+          "label": "Vit D: Rich",
+          "icon": "Sun"
+        }
+      ]
+    },
+    {
+      "id": "mathi",
+      "name": "Mathi",
+      "score": 9,
+      "subtitle": "Rich in Marine Omega-3 fatty acids, EPA/DHA & high-biological value protein.",
+      "category": "Coastal & Regional Fish",
+      "originClimate": "Marine & Inland Waters",
+      "badge": "Omega-3 Rich",
+      "badgeType": "organic",
+      "views": "14.3k views",
+      "image": "https://images.unsplash.com/photo-1534483509719-3feaee7c30da?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        "heart",
+        "brain",
+        "skin"
+      ],
+      "nutrients": [
+        {
+          "label": "Protein: 22g",
+          "icon": "Wheat"
+        },
+        {
+          "label": "Omega-3: High",
+          "icon": "HeartPulse"
+        },
+        {
+          "label": "Vit D: Rich",
+          "icon": "Sun"
+        }
+      ]
+    },
+    {
+      "id": "parava-fish",
+      "name": "Parava fish",
+      "score": 8.8,
+      "subtitle": "Rich in Marine Omega-3 fatty acids, EPA/DHA & high-biological value protein.",
+      "category": "Coastal & Regional Fish",
+      "originClimate": "Marine & Inland Waters",
+      "badge": "Omega-3 Rich",
+      "badgeType": "organic",
+      "views": "10.4k views",
+      "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        "heart",
+        "brain",
+        "skin"
+      ],
+      "nutrients": [
+        {
+          "label": "Protein: 22g",
+          "icon": "Wheat"
+        },
+        {
+          "label": "Omega-3: High",
+          "icon": "HeartPulse"
+        },
+        {
+          "label": "Vit D: Rich",
+          "icon": "Sun"
+        }
+      ]
+    },
+    {
+      "id": "crab",
+      "name": "Crab",
+      "score": 9.4,
+      "subtitle": "Rich in Marine Omega-3 fatty acids, EPA/DHA & high-biological value protein.",
+      "category": "Crustaceans",
+      "originClimate": "Marine & Inland Waters",
+      "badge": "Zinc & Iodine",
+      "badgeType": "organic",
+      "views": "12.3k views",
+      "image": "https://images.unsplash.com/photo-1559827291-72ee739d0d9a?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        "heart",
+        "brain",
+        "skin"
+      ],
+      "nutrients": [
+        {
+          "label": "Protein: 22g",
+          "icon": "Wheat"
+        },
+        {
+          "label": "Omega-3: High",
+          "icon": "HeartPulse"
+        },
+        {
+          "label": "Vit D: Rich",
+          "icon": "Sun"
+        }
+      ]
+    },
+    {
+      "id": "blue-crab",
+      "name": "Blue crab",
+      "score": 9.6,
+      "subtitle": "Rich in Marine Omega-3 fatty acids, EPA/DHA & high-biological value protein.",
+      "category": "Crustaceans",
+      "originClimate": "Marine & Inland Waters",
+      "badge": "Zinc & Iodine",
+      "badgeType": "organic",
+      "views": "14.1k views",
+      "image": "https://images.unsplash.com/photo-1559827291-72ee739d0d9a?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        "heart",
+        "brain",
+        "skin"
+      ],
+      "nutrients": [
+        {
+          "label": "Protein: 22g",
+          "icon": "Wheat"
+        },
+        {
+          "label": "Omega-3: High",
+          "icon": "HeartPulse"
+        },
+        {
+          "label": "Vit D: Rich",
+          "icon": "Sun"
+        }
+      ]
+    },
+    {
+      "id": "mud-crab",
+      "name": "Mud crab",
+      "score": 8.9,
+      "subtitle": "Rich in Marine Omega-3 fatty acids, EPA/DHA & high-biological value protein.",
+      "category": "Crustaceans",
+      "originClimate": "Marine & Inland Waters",
+      "badge": "Zinc & Iodine",
+      "badgeType": "organic",
+      "views": "10.0k views",
+      "image": "https://images.unsplash.com/photo-1559827291-72ee739d0d9a?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        "heart",
+        "brain",
+        "skin"
+      ],
+      "nutrients": [
+        {
+          "label": "Protein: 22g",
+          "icon": "Wheat"
+        },
+        {
+          "label": "Omega-3: High",
+          "icon": "HeartPulse"
+        },
+        {
+          "label": "Vit D: Rich",
+          "icon": "Sun"
+        }
+      ]
+    },
+    {
+      "id": "king-crab",
+      "name": "King crab",
+      "score": 9.6,
+      "subtitle": "Rich in Marine Omega-3 fatty acids, EPA/DHA & high-biological value protein.",
+      "category": "Crustaceans",
+      "originClimate": "Marine & Inland Waters",
+      "badge": "Zinc & Iodine",
+      "badgeType": "organic",
+      "views": "10.0k views",
+      "image": "https://images.unsplash.com/photo-1559827291-72ee739d0d9a?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        "heart",
+        "brain",
+        "skin"
+      ],
+      "nutrients": [
+        {
+          "label": "Protein: 22g",
+          "icon": "Wheat"
+        },
+        {
+          "label": "Omega-3: High",
+          "icon": "HeartPulse"
+        },
+        {
+          "label": "Vit D: Rich",
+          "icon": "Sun"
+        }
+      ]
+    },
+    {
+      "id": "lobster",
+      "name": "Lobster",
+      "score": 9.3,
+      "subtitle": "Rich in Marine Omega-3 fatty acids, EPA/DHA & high-biological value protein.",
+      "category": "Crustaceans",
+      "originClimate": "Marine & Inland Waters",
+      "badge": "Zinc & Iodine",
+      "badgeType": "organic",
+      "views": "15.0k views",
+      "image": "https://images.unsplash.com/photo-1559827291-72ee739d0d9a?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        "heart",
+        "brain",
+        "skin"
+      ],
+      "nutrients": [
+        {
+          "label": "Protein: 22g",
+          "icon": "Wheat"
+        },
+        {
+          "label": "Omega-3: High",
+          "icon": "HeartPulse"
+        },
+        {
+          "label": "Vit D: Rich",
+          "icon": "Sun"
+        }
+      ]
+    },
+    {
+      "id": "rock-lobster",
+      "name": "Rock lobster",
+      "score": 9.5,
+      "subtitle": "Rich in Marine Omega-3 fatty acids, EPA/DHA & high-biological value protein.",
+      "category": "Crustaceans",
+      "originClimate": "Marine & Inland Waters",
+      "badge": "Zinc & Iodine",
+      "badgeType": "organic",
+      "views": "11.7k views",
+      "image": "https://images.unsplash.com/photo-1559827291-72ee739d0d9a?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        "heart",
+        "brain",
+        "skin"
+      ],
+      "nutrients": [
+        {
+          "label": "Protein: 22g",
+          "icon": "Wheat"
+        },
+        {
+          "label": "Omega-3: High",
+          "icon": "HeartPulse"
+        },
+        {
+          "label": "Vit D: Rich",
+          "icon": "Sun"
+        }
+      ]
+    },
+    {
+      "id": "prawn",
+      "name": "Prawn",
+      "score": 9,
+      "subtitle": "Rich in Marine Omega-3 fatty acids, EPA/DHA & high-biological value protein.",
+      "category": "Crustaceans",
+      "originClimate": "Marine & Inland Waters",
+      "badge": "Zinc & Iodine",
+      "badgeType": "organic",
+      "views": "15.3k views",
+      "image": "https://images.unsplash.com/photo-1565680018434-b513d5e5fd47?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        "heart",
+        "brain",
+        "skin"
+      ],
+      "nutrients": [
+        {
+          "label": "Protein: 22g",
+          "icon": "Wheat"
+        },
+        {
+          "label": "Omega-3: High",
+          "icon": "HeartPulse"
+        },
+        {
+          "label": "Vit D: Rich",
+          "icon": "Sun"
+        }
+      ]
+    },
+    {
+      "id": "indian-white-shrimp",
+      "name": "Indian white shrimp",
+      "score": 8.9,
+      "subtitle": "Rich in Marine Omega-3 fatty acids, EPA/DHA & high-biological value protein.",
+      "category": "Crustaceans",
+      "originClimate": "Marine & Inland Waters",
+      "badge": "Zinc & Iodine",
+      "badgeType": "organic",
+      "views": "17.3k views",
+      "image": "https://images.unsplash.com/photo-1565680018434-b513d5e5fd47?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        "heart",
+        "brain",
+        "skin"
+      ],
+      "nutrients": [
+        {
+          "label": "Protein: 22g",
+          "icon": "Wheat"
+        },
+        {
+          "label": "Omega-3: High",
+          "icon": "HeartPulse"
+        },
+        {
+          "label": "Vit D: Rich",
+          "icon": "Sun"
+        }
+      ]
+    },
+    {
+      "id": "tiger-shrimp",
+      "name": "Tiger shrimp",
+      "score": 9.5,
+      "subtitle": "Rich in Marine Omega-3 fatty acids, EPA/DHA & high-biological value protein.",
+      "category": "Crustaceans",
+      "originClimate": "Marine & Inland Waters",
+      "badge": "Zinc & Iodine",
+      "badgeType": "organic",
+      "views": "14.4k views",
+      "image": "https://images.unsplash.com/photo-1565680018434-b513d5e5fd47?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        "heart",
+        "brain",
+        "skin"
+      ],
+      "nutrients": [
+        {
+          "label": "Protein: 22g",
+          "icon": "Wheat"
+        },
+        {
+          "label": "Omega-3: High",
+          "icon": "HeartPulse"
+        },
+        {
+          "label": "Vit D: Rich",
+          "icon": "Sun"
+        }
+      ]
+    },
+    {
+      "id": "vannamei-shrimp",
+      "name": "Vannamei shrimp",
+      "score": 9.4,
+      "subtitle": "Rich in Marine Omega-3 fatty acids, EPA/DHA & high-biological value protein.",
+      "category": "Crustaceans",
+      "originClimate": "Marine & Inland Waters",
+      "badge": "Zinc & Iodine",
+      "badgeType": "organic",
+      "views": "16.0k views",
+      "image": "https://images.unsplash.com/photo-1565680018434-b513d5e5fd47?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        "heart",
+        "brain",
+        "skin"
+      ],
+      "nutrients": [
+        {
+          "label": "Protein: 22g",
+          "icon": "Wheat"
+        },
+        {
+          "label": "Omega-3: High",
+          "icon": "HeartPulse"
+        },
+        {
+          "label": "Vit D: Rich",
+          "icon": "Sun"
+        }
+      ]
+    },
+    {
+      "id": "shrimp",
+      "name": "Shrimp",
+      "score": 9.7,
+      "subtitle": "Rich in Marine Omega-3 fatty acids, EPA/DHA & high-biological value protein.",
+      "category": "Crustaceans",
+      "originClimate": "Marine & Inland Waters",
+      "badge": "Zinc & Iodine",
+      "badgeType": "organic",
+      "views": "15.4k views",
+      "image": "https://images.unsplash.com/photo-1565680018434-b513d5e5fd47?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        "heart",
+        "brain",
+        "skin"
+      ],
+      "nutrients": [
+        {
+          "label": "Protein: 22g",
+          "icon": "Wheat"
+        },
+        {
+          "label": "Omega-3: High",
+          "icon": "HeartPulse"
+        },
+        {
+          "label": "Vit D: Rich",
+          "icon": "Sun"
+        }
+      ]
+    },
+    {
+      "id": "scallop",
+      "name": "Scallop",
+      "score": 9.3,
+      "subtitle": "Rich in Marine Omega-3 fatty acids, EPA/DHA & high-biological value protein.",
+      "category": "Mollusks & Shellfish",
+      "originClimate": "Marine & Inland Waters",
+      "badge": "Omega-3 Rich",
+      "badgeType": "organic",
+      "views": "17.0k views",
+      "image": "https://images.unsplash.com/photo-1534483509719-3feaee7c30da?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        "heart",
+        "brain",
+        "skin"
+      ],
+      "nutrients": [
+        {
+          "label": "Protein: 22g",
+          "icon": "Wheat"
+        },
+        {
+          "label": "Omega-3: High",
+          "icon": "HeartPulse"
+        },
+        {
+          "label": "Vit D: Rich",
+          "icon": "Sun"
+        }
+      ]
+    },
+    {
+      "id": "oyster",
+      "name": "Oyster",
+      "score": 9.7,
+      "subtitle": "Rich in Marine Omega-3 fatty acids, EPA/DHA & high-biological value protein.",
+      "category": "Mollusks & Shellfish",
+      "originClimate": "Marine & Inland Waters",
+      "badge": "Omega-3 Rich",
+      "badgeType": "organic",
+      "views": "15.5k views",
+      "image": "https://images.unsplash.com/photo-1534483509719-3feaee7c30da?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        "heart",
+        "brain",
+        "skin"
+      ],
+      "nutrients": [
+        {
+          "label": "Protein: 22g",
+          "icon": "Wheat"
+        },
+        {
+          "label": "Omega-3: High",
+          "icon": "HeartPulse"
+        },
+        {
+          "label": "Vit D: Rich",
+          "icon": "Sun"
+        }
+      ]
+    },
+    {
+      "id": "mussel",
+      "name": "Mussel",
+      "score": 9.7,
+      "subtitle": "Rich in Marine Omega-3 fatty acids, EPA/DHA & high-biological value protein.",
+      "category": "Mollusks & Shellfish",
+      "originClimate": "Marine & Inland Waters",
+      "badge": "Omega-3 Rich",
+      "badgeType": "organic",
+      "views": "14.7k views",
+      "image": "https://images.unsplash.com/photo-1534483509719-3feaee7c30da?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        "heart",
+        "brain",
+        "skin"
+      ],
+      "nutrients": [
+        {
+          "label": "Protein: 22g",
+          "icon": "Wheat"
+        },
+        {
+          "label": "Omega-3: High",
+          "icon": "HeartPulse"
+        },
+        {
+          "label": "Vit D: Rich",
+          "icon": "Sun"
+        }
+      ]
+    },
+    {
+      "id": "clam",
+      "name": "Clam",
+      "score": 9.4,
+      "subtitle": "Rich in Marine Omega-3 fatty acids, EPA/DHA & high-biological value protein.",
+      "category": "Mollusks & Shellfish",
+      "originClimate": "Marine & Inland Waters",
+      "badge": "Omega-3 Rich",
+      "badgeType": "organic",
+      "views": "17.2k views",
+      "image": "https://images.unsplash.com/photo-1534483509719-3feaee7c30da?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        "heart",
+        "brain",
+        "skin"
+      ],
+      "nutrients": [
+        {
+          "label": "Protein: 22g",
+          "icon": "Wheat"
+        },
+        {
+          "label": "Omega-3: High",
+          "icon": "HeartPulse"
+        },
+        {
+          "label": "Vit D: Rich",
+          "icon": "Sun"
+        }
+      ]
+    },
+    {
+      "id": "squid",
+      "name": "Squid",
+      "score": 9,
+      "subtitle": "Rich in Marine Omega-3 fatty acids, EPA/DHA & high-biological value protein.",
+      "category": "Mollusks & Shellfish",
+      "originClimate": "Marine & Inland Waters",
+      "badge": "Omega-3 Rich",
+      "badgeType": "organic",
+      "views": "13.7k views",
+      "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        "heart",
+        "brain",
+        "skin"
+      ],
+      "nutrients": [
+        {
+          "label": "Protein: 22g",
+          "icon": "Wheat"
+        },
+        {
+          "label": "Omega-3: High",
+          "icon": "HeartPulse"
+        },
+        {
+          "label": "Vit D: Rich",
+          "icon": "Sun"
+        }
+      ]
+    },
+    {
+      "id": "cuttlefish",
+      "name": "Cuttlefish",
+      "score": 9.2,
+      "subtitle": "Rich in Marine Omega-3 fatty acids, EPA/DHA & high-biological value protein.",
+      "category": "Mollusks & Shellfish",
+      "originClimate": "Marine & Inland Waters",
+      "badge": "Omega-3 Rich",
+      "badgeType": "organic",
+      "views": "10.2k views",
+      "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        "heart",
+        "brain",
+        "skin"
+      ],
+      "nutrients": [
+        {
+          "label": "Protein: 22g",
+          "icon": "Wheat"
+        },
+        {
+          "label": "Omega-3: High",
+          "icon": "HeartPulse"
+        },
+        {
+          "label": "Vit D: Rich",
+          "icon": "Sun"
+        }
+      ]
+    },
+    {
+      "id": "octopus",
+      "name": "Octopus",
+      "score": 9.3,
+      "subtitle": "Rich in Marine Omega-3 fatty acids, EPA/DHA & high-biological value protein.",
+      "category": "Mollusks & Shellfish",
+      "originClimate": "Marine & Inland Waters",
+      "badge": "Omega-3 Rich",
+      "badgeType": "organic",
+      "views": "14.0k views",
+      "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        "heart",
+        "brain",
+        "skin"
+      ],
+      "nutrients": [
+        {
+          "label": "Protein: 22g",
+          "icon": "Wheat"
+        },
+        {
+          "label": "Omega-3: High",
+          "icon": "HeartPulse"
+        },
+        {
+          "label": "Vit D: Rich",
+          "icon": "Sun"
+        }
+      ]
+    },
+    {
+      "id": "fish-roe",
+      "name": "Fish roe",
+      "score": 8.9,
+      "subtitle": "Rich in Marine Omega-3 fatty acids, EPA/DHA & high-biological value protein.",
+      "category": "Roe & Caviar",
+      "originClimate": "Marine & Inland Waters",
+      "badge": "DHA Powerhouse",
+      "badgeType": "organic",
+      "views": "16.1k views",
+      "image": "https://images.unsplash.com/photo-1534483509719-3feaee7c30da?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        "heart",
+        "brain",
+        "skin"
+      ],
+      "nutrients": [
+        {
+          "label": "Protein: 22g",
+          "icon": "Wheat"
+        },
+        {
+          "label": "Omega-3: High",
+          "icon": "HeartPulse"
+        },
+        {
+          "label": "Vit D: Rich",
+          "icon": "Sun"
+        }
+      ]
+    },
+    {
+      "id": "salmon-roe",
+      "name": "Salmon roe",
+      "score": 9.2,
+      "subtitle": "Rich in Marine Omega-3 fatty acids, EPA/DHA & high-biological value protein.",
+      "category": "Roe & Caviar",
+      "originClimate": "Marine & Inland Waters",
+      "badge": "DHA Powerhouse",
+      "badgeType": "organic",
+      "views": "11.5k views",
+      "image": "https://images.unsplash.com/photo-1534483509719-3feaee7c30da?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        "heart",
+        "brain",
+        "skin"
+      ],
+      "nutrients": [
+        {
+          "label": "Protein: 22g",
+          "icon": "Wheat"
+        },
+        {
+          "label": "Omega-3: High",
+          "icon": "HeartPulse"
+        },
+        {
+          "label": "Vit D: Rich",
+          "icon": "Sun"
+        }
+      ]
+    },
+    {
+      "id": "tuna-roe",
+      "name": "Tuna roe",
+      "score": 8.9,
+      "subtitle": "Rich in Marine Omega-3 fatty acids, EPA/DHA & high-biological value protein.",
+      "category": "Roe & Caviar",
+      "originClimate": "Marine & Inland Waters",
+      "badge": "DHA Powerhouse",
+      "badgeType": "organic",
+      "views": "15.4k views",
+      "image": "https://images.unsplash.com/photo-1534483509719-3feaee7c30da?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        "heart",
+        "brain",
+        "skin"
+      ],
+      "nutrients": [
+        {
+          "label": "Protein: 22g",
+          "icon": "Wheat"
+        },
+        {
+          "label": "Omega-3: High",
+          "icon": "HeartPulse"
+        },
+        {
+          "label": "Vit D: Rich",
+          "icon": "Sun"
+        }
+      ]
+    },
+    {
+      "id": "prawn-roe",
+      "name": "Prawn roe",
+      "score": 9.6,
+      "subtitle": "Rich in Marine Omega-3 fatty acids, EPA/DHA & high-biological value protein.",
+      "category": "Roe & Caviar",
+      "originClimate": "Marine & Inland Waters",
+      "badge": "DHA Powerhouse",
+      "badgeType": "organic",
+      "views": "11.8k views",
+      "image": "https://images.unsplash.com/photo-1565680018434-b513d5e5fd47?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        "heart",
+        "brain",
+        "skin"
+      ],
+      "nutrients": [
+        {
+          "label": "Protein: 22g",
+          "icon": "Wheat"
+        },
+        {
+          "label": "Omega-3: High",
+          "icon": "HeartPulse"
+        },
+        {
+          "label": "Vit D: Rich",
+          "icon": "Sun"
+        }
+      ]
+    },
+    {
+      "id": "crab-meat",
+      "name": "Crab meat",
+      "score": 9.6,
+      "subtitle": "Rich in Marine Omega-3 fatty acids, EPA/DHA & high-biological value protein.",
+      "category": "Crustaceans",
+      "originClimate": "Marine & Inland Waters",
+      "badge": "Zinc & Iodine",
+      "badgeType": "organic",
+      "views": "11.6k views",
+      "image": "https://images.unsplash.com/photo-1559827291-72ee739d0d9a?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        "heart",
+        "brain",
+        "skin"
+      ],
+      "nutrients": [
+        {
+          "label": "Protein: 22g",
+          "icon": "Wheat"
+        },
+        {
+          "label": "Omega-3: High",
+          "icon": "HeartPulse"
+        },
+        {
+          "label": "Vit D: Rich",
+          "icon": "Sun"
+        }
+      ]
+    },
+    {
+      "id": "crab-roe",
+      "name": "Crab roe",
+      "score": 8.9,
+      "subtitle": "Rich in Marine Omega-3 fatty acids, EPA/DHA & high-biological value protein.",
+      "category": "Roe & Caviar",
+      "originClimate": "Marine & Inland Waters",
+      "badge": "DHA Powerhouse",
+      "badgeType": "organic",
+      "views": "15.4k views",
+      "image": "https://images.unsplash.com/photo-1559827291-72ee739d0d9a?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        "heart",
+        "brain",
+        "skin"
+      ],
+      "nutrients": [
+        {
+          "label": "Protein: 22g",
+          "icon": "Wheat"
+        },
+        {
+          "label": "Omega-3: High",
+          "icon": "HeartPulse"
+        },
+        {
+          "label": "Vit D: Rich",
+          "icon": "Sun"
+        }
+      ]
+    },
+    {
+      "id": "snail",
+      "name": "Snail",
+      "score": 9,
+      "subtitle": "Rich in Marine Omega-3 fatty acids, EPA/DHA & high-biological value protein.",
+      "category": "Mollusks & Shellfish",
+      "originClimate": "Marine & Inland Waters",
+      "badge": "Omega-3 Rich",
+      "badgeType": "organic",
+      "views": "12.7k views",
+      "image": "https://images.unsplash.com/photo-1534483509719-3feaee7c30da?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        "heart",
+        "brain",
+        "skin"
+      ],
+      "nutrients": [
+        {
+          "label": "Protein: 22g",
+          "icon": "Wheat"
+        },
+        {
+          "label": "Omega-3: High",
+          "icon": "HeartPulse"
+        },
+        {
+          "label": "Vit D: Rich",
+          "icon": "Sun"
+        }
+      ]
+    }
+  ]
+}

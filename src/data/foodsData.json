@@ -1,0 +1,258 @@
+{
+  "categories": [
+    {
+      "id": "fruits",
+      "name": "Fruits",
+      "iconName": "Apple",
+      "color": "text-amber-500",
+      "bgColor": "bg-amber-50 dark:bg-amber-950/40 border-amber-200 dark:border-amber-800",
+      "image": "https://images.unsplash.com/photo-1619566636858-adf3ef46400b?auto=format&fit=crop&w=300&q=80"
+    },
+    {
+      "id": "vegetables",
+      "name": "Vegetables",
+      "iconName": "Salad",
+      "color": "text-emerald-600",
+      "bgColor": "bg-emerald-50 dark:bg-emerald-950/40 border-emerald-200 dark:border-emerald-800",
+      "image": "https://images.unsplash.com/photo-1459411552884-841db9b3cc2a?auto=format&fit=crop&w=300&q=80"
+    },
+    {
+      "id": "groceries",
+      "name": "Groceries",
+      "iconName": "ShoppingBag",
+      "color": "text-orange-600",
+      "bgColor": "bg-orange-50 dark:bg-orange-950/40 border-orange-200 dark:border-orange-800",
+      "image": "https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&w=300&q=80"
+    },
+    {
+      "id": "nuts-seeds",
+      "name": "Nuts & Seeds",
+      "iconName": "Nut",
+      "color": "text-yellow-700",
+      "bgColor": "bg-yellow-50 dark:bg-yellow-950/40 border-yellow-200 dark:border-yellow-800",
+      "image": "https://images.unsplash.com/photo-1543208541-0961a29a8c3d?auto=format&fit=crop&w=300&q=80"
+    },
+    {
+      "id": "meat-seafood",
+      "name": "Meat & Seafood",
+      "iconName": "Fish",
+      "color": "text-rose-600",
+      "bgColor": "bg-rose-50 dark:bg-rose-950/40 border-rose-200 dark:border-rose-800",
+      "image": "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?auto=format&fit=crop&w=300&q=80"
+    },
+    {
+      "id": "dairy",
+      "name": "Dairy",
+      "iconName": "Milk",
+      "color": "text-sky-600",
+      "bgColor": "bg-sky-50 dark:bg-sky-950/40 border-sky-200 dark:border-sky-800",
+      "image": "https://images.unsplash.com/photo-1628088062854-d1870b4553da?auto=format&fit=crop&w=300&q=80"
+    },
+    {
+      "id": "drinks",
+      "name": "Drinks",
+      "iconName": "CupSoda",
+      "color": "text-teal-600",
+      "bgColor": "bg-teal-50 dark:bg-teal-950/40 border-teal-200 dark:border-teal-800",
+      "image": "https://images.unsplash.com/photo-1613478223719-2ab802602423?auto=format&fit=crop&w=300&q=80"
+    },
+    {
+      "id": "herbs-spices",
+      "name": "Herbs & Spices",
+      "iconName": "Flame",
+      "color": "text-red-600",
+      "bgColor": "bg-red-50 dark:bg-red-950/40 border-red-200 dark:border-red-800",
+      "image": "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?auto=format&fit=crop&w=300&q=80"
+    }
+  ],
+  "popularTags": ["Almonds", "Egg", "Banana", "Oats", "Chicken", "Spinach"],
+  "trendingFoods": [
+    {
+      "id": "almonds",
+      "name": "Almonds",
+      "badge": "Super Food",
+      "badgeType": "superfood",
+      "views": "1.2k views",
+      "image": "https://images.unsplash.com/photo-1543208541-0961a29a8c3d?auto=format&fit=crop&w=500&q=80"
+    },
+    {
+      "id": "eggs",
+      "name": "Eggs",
+      "badge": "High Protein",
+      "badgeType": "protein",
+      "views": "980 views",
+      "image": "https://images.unsplash.com/photo-1582722872445-44dc5f7e3c8f?auto=format&fit=crop&w=500&q=80"
+    },
+    {
+      "id": "banana",
+      "name": "Banana",
+      "badge": "Energy Booster",
+      "badgeType": "energy",
+      "views": "870 views",
+      "image": "https://images.unsplash.com/photo-1571771894821-ce9b6c11b08e?auto=format&fit=crop&w=500&q=80"
+    },
+    {
+      "id": "moringa",
+      "name": "Moringa",
+      "badge": "Immunity Booster",
+      "badgeType": "immunity",
+      "views": "760 views",
+      "image": "https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=500&q=80"
+    },
+    {
+      "id": "chicken",
+      "name": "Chicken",
+      "badge": "High Protein",
+      "badgeType": "protein",
+      "views": "690 views",
+      "image": "https://images.unsplash.com/photo-1587593810167-a84920ea0781?auto=format&fit=crop&w=500&q=80"
+    }
+  ],
+  "almondsData": {
+    "id": "almonds",
+    "name": "Almonds",
+    "category": "Nuts & Seeds",
+    "badge": "Super Food",
+    "badgeType": "superfood",
+    "views": "1.2k views",
+    "rating": 4.8,
+    "reviewCount": 128,
+    "image": "https://images.unsplash.com/photo-1543208541-0961a29a8c3d?auto=format&fit=crop&w=800&q=80",
+    "description": "Almonds are nutrient-rich nuts packed with healthy fats, vitamins, minerals and antioxidants.",
+    "type": "Nut",
+    "origin": "Middle East",
+    "calories": "164 kcal (28g)",
+    "bestFor": "Heart, Brain, Skin",
+    "benefits": [
+      {
+        "id": "heart",
+        "title": "Heart Health",
+        "description": "Supports healthy cholesterol & heart function.",
+        "icon": "Heart",
+        "badgeColor": "bg-rose-100 text-rose-600 dark:bg-rose-950/80 dark:text-rose-300",
+        "textColor": "text-rose-900 dark:text-rose-200",
+        "borderColor": "border-rose-200/60 dark:border-rose-900/40",
+        "bgColor": "bg-rose-50/50 dark:bg-rose-950/20"
+      },
+      {
+        "id": "brain",
+        "title": "Brain Health",
+        "description": "Rich in healthy fats & vitamin E that support brain function.",
+        "icon": "Brain",
+        "badgeColor": "bg-sky-100 text-sky-600 dark:bg-sky-950/80 dark:text-sky-300",
+        "textColor": "text-sky-900 dark:text-sky-200",
+        "borderColor": "border-sky-200/60 dark:border-sky-900/40",
+        "bgColor": "bg-sky-50/50 dark:bg-sky-950/20"
+      },
+      {
+        "id": "protein",
+        "title": "Protein Rich",
+        "description": "Good source of plant protein. 6g protein in one serving.",
+        "icon": "BicepsFlexed",
+        "badgeColor": "bg-emerald-100 text-emerald-600 dark:bg-emerald-950/80 dark:text-emerald-300",
+        "textColor": "text-emerald-900 dark:text-emerald-200",
+        "borderColor": "border-emerald-200/60 dark:border-emerald-900/40",
+        "bgColor": "bg-emerald-50/50 dark:bg-emerald-950/20"
+      },
+      {
+        "id": "bones",
+        "title": "Strong Bones",
+        "description": "High in magnesium which helps in bone health.",
+        "icon": "Bone",
+        "badgeColor": "bg-amber-100 text-amber-600 dark:bg-amber-950/80 dark:text-amber-300",
+        "textColor": "text-amber-900 dark:text-amber-200",
+        "borderColor": "border-amber-200/60 dark:border-amber-900/40",
+        "bgColor": "bg-amber-50/50 dark:bg-amber-950/20"
+      },
+      {
+        "id": "skin",
+        "title": "Glowing Skin",
+        "description": "Vitamin E helps in healthy skin & anti-aging.",
+        "icon": "Sparkles",
+        "badgeColor": "bg-purple-100 text-purple-600 dark:bg-purple-950/80 dark:text-purple-300",
+        "textColor": "text-purple-900 dark:text-purple-200",
+        "borderColor": "border-purple-200/60 dark:border-purple-900/40",
+        "bgColor": "bg-purple-50/50 dark:bg-purple-950/20"
+      }
+    ],
+    "nutritionRings": [
+      { "label": "Protein", "amount": "6g", "percentage": 21, "color": "#16a34a" },
+      { "label": "Fiber", "amount": "3.5g", "percentage": 13, "color": "#0284c7" },
+      { "label": "Vitamin E", "amount": "7.3mg", "percentage": 49, "color": "#059669" },
+      { "label": "Magnesium", "amount": "76mg", "percentage": 19, "color": "#15803d" }
+    ],
+    "quickNutrients": [
+      { "label": "Calories", "value": "164 kcal" },
+      { "label": "Carbs", "value": "6.1 g" },
+      { "label": "Fat", "value": "14.2 g" },
+      { "label": "Calcium", "value": "76 mg" },
+      { "label": "Iron", "value": "1 mg" },
+      { "label": "Potassium", "value": "208 mg" }
+    ],
+    "bestTime": {
+      "morning": "Soaked almonds boost energy.",
+      "evening": "Great as a healthy evening snack."
+    },
+    "healthScore": {
+      "overall": 9.2,
+      "ratingText": "Excellent",
+      "breakdown": {
+        "heart": 9.5,
+        "brain": 9.0,
+        "energy": 8.5,
+        "immunity": 9.0,
+        "skin": 8.5
+      }
+    },
+    "comparison": {
+      "target": {
+        "id": "almonds",
+        "name": "Almonds",
+        "serving": "Per 28g",
+        "image": "https://images.unsplash.com/photo-1543208541-0961a29a8c3d?auto=format&fit=crop&w=200&q=80",
+        "calories": 164,
+        "protein": "6 g",
+        "fiber": "3.5 g",
+        "omega3": "Low",
+        "bestFor": "Heart, Brain"
+      },
+      "competitor": {
+        "id": "walnuts",
+        "name": "Walnuts",
+        "serving": "Per 28g",
+        "image": "https://images.unsplash.com/photo-1563245372-f21724e3856d?auto=format&fit=crop&w=200&q=80",
+        "calories": 185,
+        "protein": "4.3 g",
+        "fiber": "1.9 g",
+        "omega3": "High",
+        "bestFor": "Brain, Heart"
+      }
+    },
+    "similarFoods": [
+      {
+        "id": "cashews",
+        "name": "Cashews",
+        "rating": 4.7,
+        "image": "https://images.unsplash.com/photo-1543208541-0961a29a8c3d?auto=format&fit=crop&w=300&q=80"
+      },
+      {
+        "id": "pistachios",
+        "name": "Pistachios",
+        "rating": 4.6,
+        "image": "https://images.unsplash.com/photo-1526462705574-8b65313364f9?auto=format&fit=crop&w=300&q=80"
+      },
+      {
+        "id": "peanuts",
+        "name": "Peanuts",
+        "rating": 4.5,
+        "image": "https://images.unsplash.com/photo-1567892320421-1c657571ea4a?auto=format&fit=crop&w=300&q=80"
+      },
+      {
+        "id": "walnuts",
+        "name": "Walnuts",
+        "rating": 4.8,
+        "image": "https://images.unsplash.com/photo-1563245372-f21724e3856d?auto=format&fit=crop&w=300&q=80"
+      }
+    ]
+  }
+}

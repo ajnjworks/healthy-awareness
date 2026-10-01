@@ -1,0 +1,73 @@
+{
+  "foodA": {
+    "id": "almonds",
+    "name": "Almonds",
+    "localName": "(Badam)",
+    "category": "Nuts",
+    "score": 9.2,
+    "servingSizes": ["30 g (About 23 almonds)", "50 g (About 38 almonds)", "100 g"],
+    "selectedServing": "30 g (About 23 almonds)",
+    "image": "/images/almonds-bowl.png"
+  },
+  "foodB": {
+    "id": "walnuts",
+    "name": "Walnuts",
+    "localName": "(Akhrot)",
+    "category": "Nuts",
+    "score": 8.9,
+    "servingSizes": ["30 g (About 14 halves)", "50 g (About 23 halves)", "100 g"],
+    "selectedServing": "30 g (About 14 halves)",
+    "image": "/images/walnuts-bowl.png"
+  },
+  "nutritionalComparison": [
+    { "name": "Calories", "valA": "174 kcal", "valB": "196 kcal", "percentA": 75, "percentB": 85 },
+    { "name": "Protein", "valA": "6.4 g", "valB": "4.6 g", "percentA": 85, "percentB": 60 },
+    { "name": "Total Fat", "valA": "15.0 g", "valB": "18.6 g", "percentA": 70, "percentB": 85 },
+    { "name": "Carbohydrates", "valA": "6.1 g", "valB": "4.1 g", "percentA": 65, "percentB": 45 },
+    { "name": "Fiber", "valA": "3.5 g", "valB": "2.0 g", "percentA": 70, "percentB": 40 },
+    { "name": "Omega-3", "valA": "0.0 g", "valB": "2.5 g", "percentA": 5, "percentB": 95 },
+    { "name": "Calcium", "valA": "76 mg", "valB": "28 mg", "percentA": 75, "percentB": 30 },
+    { "name": "Iron", "valA": "1.0 mg", "valB": "0.9 mg", "percentA": 60, "percentB": 55 },
+    { "name": "Magnesium", "valA": "80 mg", "valB": "44 mg", "percentA": 80, "percentB": 45 },
+    { "name": "Potassium", "valA": "208 mg", "valB": "125 mg", "percentA": 75, "percentB": 45 }
+  ],
+  "whichIsBetter": [
+    { "category": "Heart Health", "winner": "Almonds", "icon": "Heart" },
+    { "category": "Brain Health", "winner": "Walnuts", "icon": "Brain" },
+    { "category": "Weight Management", "winner": "Almonds", "icon": "Scale" },
+    { "category": "Energy", "winner": "Walnuts", "icon": "Sun" },
+    { "category": "Bone Health", "winner": "Almonds", "icon": "Bone" },
+    { "category": "Skin Health", "winner": "Almonds", "icon": "Sparkles" },
+    { "category": "Immunity", "winner": "Walnuts", "icon": "ShieldCheck" },
+    { "category": "Anti-inflammatory", "winner": "Walnuts", "icon": "Flame" }
+  ],
+  "benefitsA": [
+    { "title": "Good for Heart", "desc": "Rich in healthy fats that help lower bad cholesterol.", "icon": "Heart" },
+    { "title": "Supports Weight Management", "desc": "High in protein & fiber which keeps you full longer.", "icon": "Dumbbell" },
+    { "title": "Healthy Skin", "desc": "High in Vitamin E which promotes glowing skin.", "icon": "Sun" },
+    { "title": "Strong Bones", "desc": "Good source of calcium, magnesium & phosphorus.", "icon": "Bone" }
+  ],
+  "benefitsB": [
+    { "title": "Boosts Brain Function", "desc": "Rich in Omega-3 (ALA) which supports brain health.", "icon": "Brain" },
+    { "title": "Reduces Inflammation", "desc": "Omega-3 & antioxidants help reduce inflammation.", "icon": "Sun" },
+    { "title": "Improves Sleep", "desc": "Contains melatonin which helps regulate sleep.", "icon": "Moon" },
+    { "title": "Good for Heart", "desc": "Helps improve blood vessel function & heart health.", "icon": "Heart" }
+  ],
+  "didYouKnow": {
+    "text": "Walnuts are one of the few nuts that are naturally rich in Omega-3 fatty acids!",
+    "image": "/images/walnuts-bowl.png"
+  },
+  "recommendation": {
+    "text": "Both almonds and walnuts are super healthy! You can include a mix of both in your daily diet for maximum benefits.",
+    "intake": "30–40 g",
+    "note": "(A small handful)"
+  },
+  "similarFoods": [
+    { "name": "Cashews", "score": 8.7, "image": "https://images.unsplash.com/photo-1536591375315-1988d6960926?auto=format&fit=crop&w=300&q=80" },
+    { "name": "Pistachios", "score": 8.6, "image": "https://images.unsplash.com/photo-1528751014936-863e6e7a319c?auto=format&fit=crop&w=300&q=80" },
+    { "name": "Peanuts", "score": 8.2, "image": "https://images.unsplash.com/photo-1567899378494-47b22a2ae96a?auto=format&fit=crop&w=300&q=80" },
+    { "name": "Brazil Nuts", "score": 8.5, "image": "/images/almonds-bowl.png" },
+    { "name": "Pumpkin Seeds", "score": 8.4, "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=300&q=80" },
+    { "name": "Flax Seeds", "score": 8.3, "image": "/images/walnuts-bowl.png" }
+  ]
+}

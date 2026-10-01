@@ -1,0 +1,3138 @@
+{
+  "subCategories": [
+    {
+      "id": "all",
+      "name": "All Vegetables",
+      "image": "https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=200&q=80"
+    },
+    {
+      "id": "leafy-greens",
+      "name": "Leafy Greens",
+      "image": "https://images.unsplash.com/photo-1576045057995-568f588f82fb?auto=format&fit=crop&w=200&q=80"
+    },
+    {
+      "id": "cruciferous-vegetables",
+      "name": "Cruciferous",
+      "image": "https://images.unsplash.com/photo-1459411552884-841db9b3cc2a?auto=format&fit=crop&w=200&q=80"
+    },
+    {
+      "id": "root-vegetables",
+      "name": "Root Vegetables",
+      "image": "https://images.unsplash.com/photo-1598170845058-32b9d6a5da37?auto=format&fit=crop&w=200&q=80"
+    },
+    {
+      "id": "gourds",
+      "name": "Gourds & Squash",
+      "image": "https://images.unsplash.com/photo-1449300079323-02e209d9d3a6?auto=format&fit=crop&w=200&q=80"
+    },
+    {
+      "id": "peppers",
+      "name": "Peppers",
+      "image": "https://images.unsplash.com/photo-1563565375-f3fdfdbefa83?auto=format&fit=crop&w=200&q=80"
+    },
+    {
+      "id": "alliums",
+      "name": "Alliums",
+      "image": "https://images.unsplash.com/photo-1540148426945-6cf22a6b2383?auto=format&fit=crop&w=200&q=80"
+    },
+    {
+      "id": "tubers",
+      "name": "Tubers & Roots",
+      "image": "https://images.unsplash.com/photo-1518977676601-b53f82aba655?auto=format&fit=crop&w=200&q=80"
+    },
+    {
+      "id": "legumes",
+      "name": "Legumes & Pods",
+      "image": "https://images.unsplash.com/photo-1587735243615-c03f25aaff15?auto=format&fit=crop&w=200&q=80"
+    }
+  ],
+  "vegetablesList": [
+    {
+      "id": "asparagus",
+      "name": "Asparagus",
+      "score": 8.8,
+      "subtitle": "Nutritious stem vegetables supporting overall wellness & daily vitality",
+      "category": "stem-vegetables",
+      "botanicalName": "Asparagus officinalis",
+      "originClimate": "Temperate & Subtropical",
+      "nutrients": [
+        {
+          "label": "Rich in Micronutrients",
+          "icon": "Leaf"
+        },
+        {
+          "label": "Dietary Fiber",
+          "icon": "Droplets"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1515471209610-dae1c92d8777?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "immunity",
+          "name": "Immune Defense"
+        },
+        {
+          "id": "digestion",
+          "name": "Digestive Health"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "beetroot",
+      "name": "Beetroot",
+      "score": 9.5,
+      "subtitle": "Nutritious root vegetables supporting overall wellness & daily vitality",
+      "category": "root-vegetables",
+      "botanicalName": "Beta vulgaris",
+      "originClimate": "Temperate & Subtropical",
+      "nutrients": [
+        {
+          "label": "Rich in Micronutrients",
+          "icon": "Leaf"
+        },
+        {
+          "label": "Dietary Fiber",
+          "icon": "Droplets"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1528825871115-3581a5387919?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "immunity",
+          "name": "Immune Defense"
+        },
+        {
+          "id": "digestion",
+          "name": "Digestive Health"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "bell-pepper-green",
+      "name": "Green Bell Pepper",
+      "score": 9.1,
+      "subtitle": "Nutritious peppers supporting overall wellness & daily vitality",
+      "category": "peppers",
+      "botanicalName": "Capsicum annuum",
+      "originClimate": "Temperate & Subtropical",
+      "nutrients": [
+        {
+          "label": "Rich in Micronutrients",
+          "icon": "Leaf"
+        },
+        {
+          "label": "Dietary Fiber",
+          "icon": "Droplets"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1563565375-f3fdfdbefa83?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "immunity",
+          "name": "Immune Defense"
+        },
+        {
+          "id": "digestion",
+          "name": "Digestive Health"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "bell-pepper-red",
+      "name": "Red Bell Pepper",
+      "score": 9.8,
+      "subtitle": "Nutritious peppers supporting overall wellness & daily vitality",
+      "category": "peppers",
+      "botanicalName": "Capsicum annuum",
+      "originClimate": "Temperate & Subtropical",
+      "nutrients": [
+        {
+          "label": "Rich in Micronutrients",
+          "icon": "Leaf"
+        },
+        {
+          "label": "Dietary Fiber",
+          "icon": "Droplets"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1525607551316-4a8e16d1f9ba?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "immunity",
+          "name": "Immune Defense"
+        },
+        {
+          "id": "digestion",
+          "name": "Digestive Health"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "bell-pepper-yellow",
+      "name": "Yellow Bell Pepper",
+      "score": 9.4,
+      "subtitle": "Nutritious peppers supporting overall wellness & daily vitality",
+      "category": "peppers",
+      "botanicalName": "Capsicum annuum",
+      "originClimate": "Temperate & Subtropical",
+      "nutrients": [
+        {
+          "label": "Rich in Micronutrients",
+          "icon": "Leaf"
+        },
+        {
+          "label": "Dietary Fiber",
+          "icon": "Droplets"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1592394533824-9440e5d68530?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "immunity",
+          "name": "Immune Defense"
+        },
+        {
+          "id": "digestion",
+          "name": "Digestive Health"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "bitter-gourd",
+      "name": "Bitter Gourd",
+      "score": 9,
+      "subtitle": "Nutritious gourds supporting overall wellness & daily vitality",
+      "category": "gourds",
+      "botanicalName": "Momordica charantia",
+      "originClimate": "Temperate & Subtropical",
+      "nutrients": [
+        {
+          "label": "Rich in Micronutrients",
+          "icon": "Leaf"
+        },
+        {
+          "label": "Dietary Fiber",
+          "icon": "Droplets"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1628771065518-0d82f1938462?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "immunity",
+          "name": "Immune Defense"
+        },
+        {
+          "id": "digestion",
+          "name": "Digestive Health"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "bottle-gourd",
+      "name": "Bottle Gourd",
+      "score": 9.7,
+      "subtitle": "Nutritious gourds supporting overall wellness & daily vitality",
+      "category": "gourds",
+      "botanicalName": "Lagenaria siceraria",
+      "originClimate": "Temperate & Subtropical",
+      "nutrients": [
+        {
+          "label": "Rich in Micronutrients",
+          "icon": "Leaf"
+        },
+        {
+          "label": "Dietary Fiber",
+          "icon": "Droplets"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1598170845058-32b9d6a5da37?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "immunity",
+          "name": "Immune Defense"
+        },
+        {
+          "id": "digestion",
+          "name": "Digestive Health"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "broccoli",
+      "name": "Broccoli",
+      "score": 9.3,
+      "subtitle": "Nutritious cruciferous vegetables supporting overall wellness & daily vitality",
+      "category": "cruciferous-vegetables",
+      "botanicalName": "Brassica oleracea var. italica",
+      "originClimate": "Temperate & Subtropical",
+      "nutrients": [
+        {
+          "label": "Cal: 34 kcal",
+          "icon": "Droplets"
+        },
+        {
+          "label": "Vit C: 89.2mg",
+          "icon": "Sun"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1459411552884-841db9b3cc2a?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "immunity",
+          "name": "Immune Defense"
+        },
+        {
+          "id": "digestion",
+          "name": "Digestive Health"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": 34,
+        "carbohydrates_g": 6.64,
+        "fiber_g": 2.6,
+        "protein_g": 2.82,
+        "fat_g": 0.37,
+        "sugars_g": 1.7,
+        "vitaminC_mg": 89.2,
+        "potassium_mg": 316
+      }
+    },
+    {
+      "id": "brussels-sprouts",
+      "name": "Brussels Sprouts",
+      "score": 8.9,
+      "subtitle": "Nutritious cruciferous vegetables supporting overall wellness & daily vitality",
+      "category": "cruciferous-vegetables",
+      "botanicalName": "Brassica oleracea var. gemmifera",
+      "originClimate": "Temperate & Subtropical",
+      "nutrients": [
+        {
+          "label": "Rich in Micronutrients",
+          "icon": "Leaf"
+        },
+        {
+          "label": "Dietary Fiber",
+          "icon": "Droplets"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1438118907704-7718ee9a1917?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "immunity",
+          "name": "Immune Defense"
+        },
+        {
+          "id": "digestion",
+          "name": "Digestive Health"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "cabbage-green",
+      "name": "Green Cabbage",
+      "score": 9.6,
+      "subtitle": "Nutritious cruciferous vegetables supporting overall wellness & daily vitality",
+      "category": "cruciferous-vegetables",
+      "botanicalName": "Brassica oleracea var. capitata",
+      "originClimate": "Temperate & Subtropical",
+      "nutrients": [
+        {
+          "label": "Rich in Micronutrients",
+          "icon": "Leaf"
+        },
+        {
+          "label": "Dietary Fiber",
+          "icon": "Droplets"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1594282486552-05b4d80fbb9f?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "immunity",
+          "name": "Immune Defense"
+        },
+        {
+          "id": "digestion",
+          "name": "Digestive Health"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "cabbage-red",
+      "name": "Red Cabbage",
+      "score": 9.2,
+      "subtitle": "Nutritious cruciferous vegetables supporting overall wellness & daily vitality",
+      "category": "cruciferous-vegetables",
+      "botanicalName": "Brassica oleracea var. capitata",
+      "originClimate": "Temperate & Subtropical",
+      "nutrients": [
+        {
+          "label": "Rich in Micronutrients",
+          "icon": "Leaf"
+        },
+        {
+          "label": "Dietary Fiber",
+          "icon": "Droplets"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1594282486552-05b4d80fbb9f?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "immunity",
+          "name": "Immune Defense"
+        },
+        {
+          "id": "digestion",
+          "name": "Digestive Health"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "carrot",
+      "name": "Carrot",
+      "score": 8.8,
+      "subtitle": "Nutritious root vegetables supporting overall wellness & daily vitality",
+      "category": "root-vegetables",
+      "botanicalName": "Daucus carota",
+      "originClimate": "Temperate & Subtropical",
+      "nutrients": [
+        {
+          "label": "Cal: 41 kcal",
+          "icon": "Droplets"
+        },
+        {
+          "label": "Vit C: 5.9mg",
+          "icon": "Sun"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1598170845058-32b9d6a5da37?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "immunity",
+          "name": "Immune Defense"
+        },
+        {
+          "id": "digestion",
+          "name": "Digestive Health"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": 41,
+        "carbohydrates_g": 9.58,
+        "fiber_g": 2.8,
+        "protein_g": 0.93,
+        "fat_g": 0.24,
+        "sugars_g": 4.74,
+        "vitaminC_mg": 5.9,
+        "potassium_mg": 320
+      }
+    },
+    {
+      "id": "cauliflower",
+      "name": "Cauliflower",
+      "score": 9.5,
+      "subtitle": "Nutritious cruciferous vegetables supporting overall wellness & daily vitality",
+      "category": "cruciferous-vegetables",
+      "botanicalName": "Brassica oleracea var. botrytis",
+      "originClimate": "Temperate & Subtropical",
+      "nutrients": [
+        {
+          "label": "Cal: 25 kcal",
+          "icon": "Droplets"
+        },
+        {
+          "label": "Vit C: 48.2mg",
+          "icon": "Sun"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1568584711075-3d021a7c3ca3?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "immunity",
+          "name": "Immune Defense"
+        },
+        {
+          "id": "digestion",
+          "name": "Digestive Health"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": 25,
+        "carbohydrates_g": 4.97,
+        "fiber_g": 2,
+        "protein_g": 1.92,
+        "fat_g": 0.28,
+        "sugars_g": 1.91,
+        "vitaminC_mg": 48.2,
+        "potassium_mg": 299
+      }
+    },
+    {
+      "id": "celery",
+      "name": "Celery",
+      "score": 9.1,
+      "subtitle": "Nutritious stem vegetables supporting overall wellness & daily vitality",
+      "category": "stem-vegetables",
+      "botanicalName": "Apium graveolens",
+      "originClimate": "Temperate & Subtropical",
+      "nutrients": [
+        {
+          "label": "Rich in Micronutrients",
+          "icon": "Leaf"
+        },
+        {
+          "label": "Dietary Fiber",
+          "icon": "Droplets"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1610832958506-aa56368176cf?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "immunity",
+          "name": "Immune Defense"
+        },
+        {
+          "id": "digestion",
+          "name": "Digestive Health"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "chayote",
+      "name": "Chayote",
+      "score": 9.8,
+      "subtitle": "Nutritious gourds supporting overall wellness & daily vitality",
+      "category": "gourds",
+      "botanicalName": "Sechium edule",
+      "originClimate": "Temperate & Subtropical",
+      "nutrients": [
+        {
+          "label": "Rich in Micronutrients",
+          "icon": "Leaf"
+        },
+        {
+          "label": "Dietary Fiber",
+          "icon": "Droplets"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1589984662646-e7b2e4962f18?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "immunity",
+          "name": "Immune Defense"
+        },
+        {
+          "id": "digestion",
+          "name": "Digestive Health"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "cluster-beans",
+      "name": "Cluster Beans",
+      "score": 9.4,
+      "subtitle": "Nutritious legumes supporting overall wellness & daily vitality",
+      "category": "legumes",
+      "botanicalName": "Cyamopsis tetragonoloba",
+      "originClimate": "Temperate & Subtropical",
+      "nutrients": [
+        {
+          "label": "Rich in Micronutrients",
+          "icon": "Leaf"
+        },
+        {
+          "label": "Dietary Fiber",
+          "icon": "Droplets"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1551892374-ecf8754cf8b0?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "immunity",
+          "name": "Immune Defense"
+        },
+        {
+          "id": "digestion",
+          "name": "Digestive Health"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "corn-sweet",
+      "name": "Sweet Corn",
+      "score": 9,
+      "subtitle": "Nutritious starchy vegetables supporting overall wellness & daily vitality",
+      "category": "starchy-vegetables",
+      "botanicalName": "Zea mays",
+      "originClimate": "Temperate & Subtropical",
+      "nutrients": [
+        {
+          "label": "Rich in Micronutrients",
+          "icon": "Leaf"
+        },
+        {
+          "label": "Dietary Fiber",
+          "icon": "Droplets"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1551754655-cd27e38d2076?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "immunity",
+          "name": "Immune Defense"
+        },
+        {
+          "id": "digestion",
+          "name": "Digestive Health"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "cucumber",
+      "name": "Cucumber",
+      "score": 9.7,
+      "subtitle": "Nutritious gourds supporting overall wellness & daily vitality",
+      "category": "gourds",
+      "botanicalName": "Cucumis sativus",
+      "originClimate": "Temperate & Subtropical",
+      "nutrients": [
+        {
+          "label": "Cal: 15 kcal",
+          "icon": "Droplets"
+        },
+        {
+          "label": "Vit C: 2.8mg",
+          "icon": "Sun"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1449300079323-02e209d9d3a6?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "immunity",
+          "name": "Immune Defense"
+        },
+        {
+          "id": "digestion",
+          "name": "Digestive Health"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": 15,
+        "carbohydrates_g": 3.63,
+        "fiber_g": 0.5,
+        "protein_g": 0.65,
+        "fat_g": 0.11,
+        "sugars_g": 1.67,
+        "vitaminC_mg": 2.8,
+        "potassium_mg": 147
+      }
+    },
+    {
+      "id": "drumstick",
+      "name": "Drumstick / Moringa Pods",
+      "score": 9.3,
+      "subtitle": "Nutritious other vegetables supporting overall wellness & daily vitality",
+      "category": "other-vegetables",
+      "botanicalName": "Moringa oleifera",
+      "originClimate": "Temperate & Subtropical",
+      "nutrients": [
+        {
+          "label": "Rich in Micronutrients",
+          "icon": "Leaf"
+        },
+        {
+          "label": "Dietary Fiber",
+          "icon": "Droplets"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "immunity",
+          "name": "Immune Defense"
+        },
+        {
+          "id": "digestion",
+          "name": "Digestive Health"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "eggplant",
+      "name": "Eggplant / Brinjal",
+      "score": 8.9,
+      "subtitle": "Nutritious nightshades supporting overall wellness & daily vitality",
+      "category": "nightshades",
+      "botanicalName": "Solanum melongena",
+      "originClimate": "Temperate & Subtropical",
+      "nutrients": [
+        {
+          "label": "Rich in Micronutrients",
+          "icon": "Leaf"
+        },
+        {
+          "label": "Dietary Fiber",
+          "icon": "Droplets"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1615485290382-441e4d049cb5?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "immunity",
+          "name": "Immune Defense"
+        },
+        {
+          "id": "digestion",
+          "name": "Digestive Health"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "fennel-bulb",
+      "name": "Fennel Bulb",
+      "score": 9.6,
+      "subtitle": "Nutritious bulb vegetables supporting overall wellness & daily vitality",
+      "category": "bulb-vegetables",
+      "botanicalName": "Foeniculum vulgare",
+      "originClimate": "Temperate & Subtropical",
+      "nutrients": [
+        {
+          "label": "Rich in Micronutrients",
+          "icon": "Leaf"
+        },
+        {
+          "label": "Dietary Fiber",
+          "icon": "Droplets"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1592417817098-8f3d69104a47?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "immunity",
+          "name": "Immune Defense"
+        },
+        {
+          "id": "digestion",
+          "name": "Digestive Health"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "french-beans",
+      "name": "French Beans",
+      "score": 9.2,
+      "subtitle": "Nutritious legumes supporting overall wellness & daily vitality",
+      "category": "legumes",
+      "botanicalName": "Phaseolus vulgaris",
+      "originClimate": "Temperate & Subtropical",
+      "nutrients": [
+        {
+          "label": "Rich in Micronutrients",
+          "icon": "Leaf"
+        },
+        {
+          "label": "Dietary Fiber",
+          "icon": "Droplets"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1551892374-ecf8754cf8b0?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "immunity",
+          "name": "Immune Defense"
+        },
+        {
+          "id": "digestion",
+          "name": "Digestive Health"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "garlic",
+      "name": "Garlic",
+      "score": 8.8,
+      "subtitle": "Nutritious alliums supporting overall wellness & daily vitality",
+      "category": "alliums",
+      "botanicalName": "Allium sativum",
+      "originClimate": "Temperate & Subtropical",
+      "nutrients": [
+        {
+          "label": "Rich in Micronutrients",
+          "icon": "Leaf"
+        },
+        {
+          "label": "Dietary Fiber",
+          "icon": "Droplets"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1540148426945-6cf22a6b2383?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "immunity",
+          "name": "Immune Defense"
+        },
+        {
+          "id": "digestion",
+          "name": "Digestive Health"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "ginger",
+      "name": "Ginger",
+      "score": 9.5,
+      "subtitle": "Nutritious roots supporting overall wellness & daily vitality",
+      "category": "roots",
+      "botanicalName": "Zingiber officinale",
+      "originClimate": "Temperate & Subtropical",
+      "nutrients": [
+        {
+          "label": "Rich in Micronutrients",
+          "icon": "Leaf"
+        },
+        {
+          "label": "Dietary Fiber",
+          "icon": "Droplets"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1615485290176-ff63d39589d9?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "immunity",
+          "name": "Immune Defense"
+        },
+        {
+          "id": "digestion",
+          "name": "Digestive Health"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "green-peas",
+      "name": "Green Peas",
+      "score": 9.1,
+      "subtitle": "Nutritious legumes supporting overall wellness & daily vitality",
+      "category": "legumes",
+      "botanicalName": "Pisum sativum",
+      "originClimate": "Temperate & Subtropical",
+      "nutrients": [
+        {
+          "label": "Cal: 81 kcal",
+          "icon": "Droplets"
+        },
+        {
+          "label": "Vit C: 40mg",
+          "icon": "Sun"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1587735243615-c03f25aaff15?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "immunity",
+          "name": "Immune Defense"
+        },
+        {
+          "id": "digestion",
+          "name": "Digestive Health"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": 81,
+        "carbohydrates_g": 14.45,
+        "fiber_g": 5.1,
+        "protein_g": 5.42,
+        "fat_g": 0.4,
+        "sugars_g": 5.67,
+        "vitaminC_mg": 40,
+        "potassium_mg": 244
+      }
+    },
+    {
+      "id": "ivy-gourd",
+      "name": "Ivy Gourd",
+      "score": 9.8,
+      "subtitle": "Nutritious gourds supporting overall wellness & daily vitality",
+      "category": "gourds",
+      "botanicalName": "Coccinia grandis",
+      "originClimate": "Temperate & Subtropical",
+      "nutrients": [
+        {
+          "label": "Rich in Micronutrients",
+          "icon": "Leaf"
+        },
+        {
+          "label": "Dietary Fiber",
+          "icon": "Droplets"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1628771065518-0d82f1938462?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "immunity",
+          "name": "Immune Defense"
+        },
+        {
+          "id": "digestion",
+          "name": "Digestive Health"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "kale",
+      "name": "Kale",
+      "score": 9.4,
+      "subtitle": "Nutritious leafy greens supporting overall wellness & daily vitality",
+      "category": "leafy-greens",
+      "botanicalName": "Brassica oleracea var. sabellica",
+      "originClimate": "Temperate & Subtropical",
+      "nutrients": [
+        {
+          "label": "Rich in Micronutrients",
+          "icon": "Leaf"
+        },
+        {
+          "label": "Dietary Fiber",
+          "icon": "Droplets"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1524179091875-bf99a9a6fa57?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "immunity",
+          "name": "Immune Defense"
+        },
+        {
+          "id": "digestion",
+          "name": "Digestive Health"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "lady-finger",
+      "name": "Okra / Lady's Finger",
+      "score": 9,
+      "subtitle": "Nutritious other vegetables supporting overall wellness & daily vitality",
+      "category": "other-vegetables",
+      "botanicalName": "Abelmoschus esculentus",
+      "originClimate": "Temperate & Subtropical",
+      "nutrients": [
+        {
+          "label": "Rich in Micronutrients",
+          "icon": "Leaf"
+        },
+        {
+          "label": "Dietary Fiber",
+          "icon": "Droplets"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1425543103986-22abb7d7e8d2?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "immunity",
+          "name": "Immune Defense"
+        },
+        {
+          "id": "digestion",
+          "name": "Digestive Health"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "leek",
+      "name": "Leek",
+      "score": 9.7,
+      "subtitle": "Nutritious alliums supporting overall wellness & daily vitality",
+      "category": "alliums",
+      "botanicalName": "Allium ampeloprasum",
+      "originClimate": "Temperate & Subtropical",
+      "nutrients": [
+        {
+          "label": "Rich in Micronutrients",
+          "icon": "Leaf"
+        },
+        {
+          "label": "Dietary Fiber",
+          "icon": "Droplets"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1580201092675-a0a6a6cafbb1?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "immunity",
+          "name": "Immune Defense"
+        },
+        {
+          "id": "digestion",
+          "name": "Digestive Health"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "lettuce-iceberg",
+      "name": "Iceberg Lettuce",
+      "score": 9.3,
+      "subtitle": "Nutritious leafy greens supporting overall wellness & daily vitality",
+      "category": "leafy-greens",
+      "botanicalName": "Lactuca sativa",
+      "originClimate": "Temperate & Subtropical",
+      "nutrients": [
+        {
+          "label": "Rich in Micronutrients",
+          "icon": "Leaf"
+        },
+        {
+          "label": "Dietary Fiber",
+          "icon": "Droplets"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1556881286-fc6915169721?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "immunity",
+          "name": "Immune Defense"
+        },
+        {
+          "id": "digestion",
+          "name": "Digestive Health"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "lettuce-romaine",
+      "name": "Romaine Lettuce",
+      "score": 8.9,
+      "subtitle": "Nutritious leafy greens supporting overall wellness & daily vitality",
+      "category": "leafy-greens",
+      "botanicalName": "Lactuca sativa",
+      "originClimate": "Temperate & Subtropical",
+      "nutrients": [
+        {
+          "label": "Rich in Micronutrients",
+          "icon": "Leaf"
+        },
+        {
+          "label": "Dietary Fiber",
+          "icon": "Droplets"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1622206151226-18ca2c9ab4a1?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "immunity",
+          "name": "Immune Defense"
+        },
+        {
+          "id": "digestion",
+          "name": "Digestive Health"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "mushroom-button",
+      "name": "White Button Mushroom",
+      "score": 9.6,
+      "subtitle": "Nutritious fungi supporting overall wellness & daily vitality",
+      "category": "fungi",
+      "botanicalName": "Agaricus bisporus",
+      "originClimate": "Temperate & Subtropical",
+      "nutrients": [
+        {
+          "label": "Rich in Micronutrients",
+          "icon": "Leaf"
+        },
+        {
+          "label": "Dietary Fiber",
+          "icon": "Droplets"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1504544750208-dc0358e63f7f?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "immunity",
+          "name": "Immune Defense"
+        },
+        {
+          "id": "digestion",
+          "name": "Digestive Health"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "onion-red",
+      "name": "Red Onion",
+      "score": 9.2,
+      "subtitle": "Nutritious alliums supporting overall wellness & daily vitality",
+      "category": "alliums",
+      "botanicalName": "Allium cepa",
+      "originClimate": "Temperate & Subtropical",
+      "nutrients": [
+        {
+          "label": "Rich in Micronutrients",
+          "icon": "Leaf"
+        },
+        {
+          "label": "Dietary Fiber",
+          "icon": "Droplets"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1618512496248-a07fe83aa8cb?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "immunity",
+          "name": "Immune Defense"
+        },
+        {
+          "id": "digestion",
+          "name": "Digestive Health"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "onion-white",
+      "name": "White Onion",
+      "score": 8.8,
+      "subtitle": "Nutritious alliums supporting overall wellness & daily vitality",
+      "category": "alliums",
+      "botanicalName": "Allium cepa",
+      "originClimate": "Temperate & Subtropical",
+      "nutrients": [
+        {
+          "label": "Rich in Micronutrients",
+          "icon": "Leaf"
+        },
+        {
+          "label": "Dietary Fiber",
+          "icon": "Droplets"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1580201092675-a0a6a6cafbb1?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "immunity",
+          "name": "Immune Defense"
+        },
+        {
+          "id": "digestion",
+          "name": "Digestive Health"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "onion-yellow",
+      "name": "Yellow Onion",
+      "score": 9.5,
+      "subtitle": "Nutritious alliums supporting overall wellness & daily vitality",
+      "category": "alliums",
+      "botanicalName": "Allium cepa",
+      "originClimate": "Temperate & Subtropical",
+      "nutrients": [
+        {
+          "label": "Rich in Micronutrients",
+          "icon": "Leaf"
+        },
+        {
+          "label": "Dietary Fiber",
+          "icon": "Droplets"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1508747703725-719777637510?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "immunity",
+          "name": "Immune Defense"
+        },
+        {
+          "id": "digestion",
+          "name": "Digestive Health"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "parsnip",
+      "name": "Parsnip",
+      "score": 9.1,
+      "subtitle": "Nutritious root vegetables supporting overall wellness & daily vitality",
+      "category": "root-vegetables",
+      "botanicalName": "Pastinaca sativa",
+      "originClimate": "Temperate & Subtropical",
+      "nutrients": [
+        {
+          "label": "Rich in Micronutrients",
+          "icon": "Leaf"
+        },
+        {
+          "label": "Dietary Fiber",
+          "icon": "Droplets"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1598170845058-32b9d6a5da37?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "immunity",
+          "name": "Immune Defense"
+        },
+        {
+          "id": "digestion",
+          "name": "Digestive Health"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "potato",
+      "name": "Potato",
+      "score": 9.8,
+      "subtitle": "Nutritious tubers supporting overall wellness & daily vitality",
+      "category": "tubers",
+      "botanicalName": "Solanum tuberosum",
+      "originClimate": "Temperate & Subtropical",
+      "nutrients": [
+        {
+          "label": "Cal: 77 kcal",
+          "icon": "Droplets"
+        },
+        {
+          "label": "Vit C: 19.7mg",
+          "icon": "Sun"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1518977676601-b53f82aba655?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "immunity",
+          "name": "Immune Defense"
+        },
+        {
+          "id": "digestion",
+          "name": "Digestive Health"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": 77,
+        "carbohydrates_g": 17.49,
+        "fiber_g": 2.1,
+        "protein_g": 2.05,
+        "fat_g": 0.09,
+        "sugars_g": 0.82,
+        "vitaminC_mg": 19.7,
+        "potassium_mg": 425
+      }
+    },
+    {
+      "id": "pumpkin",
+      "name": "Pumpkin",
+      "score": 9.4,
+      "subtitle": "Nutritious squash supporting overall wellness & daily vitality",
+      "category": "squash",
+      "botanicalName": "Cucurbita spp.",
+      "originClimate": "Temperate & Subtropical",
+      "nutrients": [
+        {
+          "label": "Rich in Micronutrients",
+          "icon": "Leaf"
+        },
+        {
+          "label": "Dietary Fiber",
+          "icon": "Droplets"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1570586437263-ab629fccc818?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "immunity",
+          "name": "Immune Defense"
+        },
+        {
+          "id": "digestion",
+          "name": "Digestive Health"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "radish",
+      "name": "Radish",
+      "score": 9,
+      "subtitle": "Nutritious root vegetables supporting overall wellness & daily vitality",
+      "category": "root-vegetables",
+      "botanicalName": "Raphanus sativus",
+      "originClimate": "Temperate & Subtropical",
+      "nutrients": [
+        {
+          "label": "Rich in Micronutrients",
+          "icon": "Leaf"
+        },
+        {
+          "label": "Dietary Fiber",
+          "icon": "Droplets"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1592417817098-8f3d69104a47?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "immunity",
+          "name": "Immune Defense"
+        },
+        {
+          "id": "digestion",
+          "name": "Digestive Health"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "ridge-gourd",
+      "name": "Ridge Gourd",
+      "score": 9.7,
+      "subtitle": "Nutritious gourds supporting overall wellness & daily vitality",
+      "category": "gourds",
+      "botanicalName": "Luffa acutangula",
+      "originClimate": "Temperate & Subtropical",
+      "nutrients": [
+        {
+          "label": "Rich in Micronutrients",
+          "icon": "Leaf"
+        },
+        {
+          "label": "Dietary Fiber",
+          "icon": "Droplets"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1598170845058-32b9d6a5da37?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "immunity",
+          "name": "Immune Defense"
+        },
+        {
+          "id": "digestion",
+          "name": "Digestive Health"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "snake-gourd",
+      "name": "Snake Gourd",
+      "score": 9.3,
+      "subtitle": "Nutritious gourds supporting overall wellness & daily vitality",
+      "category": "gourds",
+      "botanicalName": "Trichosanthes cucumerina",
+      "originClimate": "Temperate & Subtropical",
+      "nutrients": [
+        {
+          "label": "Rich in Micronutrients",
+          "icon": "Leaf"
+        },
+        {
+          "label": "Dietary Fiber",
+          "icon": "Droplets"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1628771065518-0d82f1938462?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "immunity",
+          "name": "Immune Defense"
+        },
+        {
+          "id": "digestion",
+          "name": "Digestive Health"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "spinach",
+      "name": "Spinach",
+      "score": 9.8,
+      "subtitle": "Iron & Vitamin K superfood essential for vitality & bone density",
+      "category": "leafy-greens",
+      "botanicalName": "Spinacia oleracea",
+      "originClimate": "Temperate & Subtropical",
+      "nutrients": [
+        {
+          "label": "Cal: 23 kcal",
+          "icon": "Droplets"
+        },
+        {
+          "label": "Vit C: 28.1mg",
+          "icon": "Sun"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1576045057995-568f588f82fb?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "benefit-0",
+          "name": "Provides vitamin K"
+        },
+        {
+          "id": "benefit-1",
+          "name": "Provides folate"
+        },
+        {
+          "id": "benefit-2",
+          "name": "Provides vitamin A"
+        },
+        {
+          "id": "benefit-3",
+          "name": "Provides vitamin C"
+        },
+        {
+          "id": "benefit-4",
+          "name": "Provides dietary fiber"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": 23,
+        "carbohydrates_g": 3.63,
+        "fiber_g": 2.2,
+        "protein_g": 2.86,
+        "fat_g": 0.39,
+        "sugars_g": 0.42,
+        "vitaminC_mg": 28.1,
+        "potassium_mg": 558
+      }
+    },
+    {
+      "id": "sweet-potato",
+      "name": "Sweet Potato",
+      "score": 9.6,
+      "subtitle": "Nutritious tubers supporting overall wellness & daily vitality",
+      "category": "tubers",
+      "botanicalName": "Ipomoea batatas",
+      "originClimate": "Temperate & Subtropical",
+      "nutrients": [
+        {
+          "label": "Rich in Micronutrients",
+          "icon": "Leaf"
+        },
+        {
+          "label": "Dietary Fiber",
+          "icon": "Droplets"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1596097635121-14b63b7a0c19?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "immunity",
+          "name": "Immune Defense"
+        },
+        {
+          "id": "digestion",
+          "name": "Digestive Health"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "taro",
+      "name": "Taro / Colocasia",
+      "score": 9.2,
+      "subtitle": "Nutritious tubers supporting overall wellness & daily vitality",
+      "category": "tubers",
+      "botanicalName": "Colocasia esculenta",
+      "originClimate": "Temperate & Subtropical",
+      "nutrients": [
+        {
+          "label": "Rich in Micronutrients",
+          "icon": "Leaf"
+        },
+        {
+          "label": "Dietary Fiber",
+          "icon": "Droplets"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1596097635121-14b63b7a0c19?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "immunity",
+          "name": "Immune Defense"
+        },
+        {
+          "id": "digestion",
+          "name": "Digestive Health"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "tomato",
+      "name": "Tomato",
+      "score": 8.8,
+      "subtitle": "Nutritious nightshades supporting overall wellness & daily vitality",
+      "category": "nightshades",
+      "botanicalName": "Solanum lycopersicum",
+      "originClimate": "Temperate & Subtropical",
+      "nutrients": [
+        {
+          "label": "Cal: 18 kcal",
+          "icon": "Droplets"
+        },
+        {
+          "label": "Vit C: 13.7mg",
+          "icon": "Sun"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1592924357228-91a4daadcfea?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "immunity",
+          "name": "Immune Defense"
+        },
+        {
+          "id": "digestion",
+          "name": "Digestive Health"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": 18,
+        "carbohydrates_g": 3.89,
+        "fiber_g": 1.2,
+        "protein_g": 0.88,
+        "fat_g": 0.2,
+        "sugars_g": 2.63,
+        "vitaminC_mg": 13.7,
+        "potassium_mg": 237
+      }
+    },
+    {
+      "id": "turnip",
+      "name": "Turnip",
+      "score": 9.5,
+      "subtitle": "Nutritious root vegetables supporting overall wellness & daily vitality",
+      "category": "root-vegetables",
+      "botanicalName": "Brassica rapa",
+      "originClimate": "Temperate & Subtropical",
+      "nutrients": [
+        {
+          "label": "Rich in Micronutrients",
+          "icon": "Leaf"
+        },
+        {
+          "label": "Dietary Fiber",
+          "icon": "Droplets"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1592417817098-8f3d69104a47?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "immunity",
+          "name": "Immune Defense"
+        },
+        {
+          "id": "digestion",
+          "name": "Digestive Health"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "zucchini",
+      "name": "Zucchini",
+      "score": 9.1,
+      "subtitle": "Nutritious squash supporting overall wellness & daily vitality",
+      "category": "squash",
+      "botanicalName": "Cucurbita pepo",
+      "originClimate": "Temperate & Subtropical",
+      "nutrients": [
+        {
+          "label": "Rich in Micronutrients",
+          "icon": "Leaf"
+        },
+        {
+          "label": "Dietary Fiber",
+          "icon": "Droplets"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1590165482129-1b8b27698780?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "immunity",
+          "name": "Immune Defense"
+        },
+        {
+          "id": "digestion",
+          "name": "Digestive Health"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "amaranth-greens",
+      "name": "Amaranth Greens",
+      "score": 9.8,
+      "subtitle": "Nutritious leafy greens supporting overall wellness & daily vitality",
+      "category": "leafy-greens",
+      "botanicalName": "Amaranthus spp.",
+      "originClimate": "Temperate & Subtropical",
+      "nutrients": [
+        {
+          "label": "Rich in Micronutrients",
+          "icon": "Leaf"
+        },
+        {
+          "label": "Dietary Fiber",
+          "icon": "Droplets"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "immunity",
+          "name": "Immune Defense"
+        },
+        {
+          "id": "digestion",
+          "name": "Digestive Health"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "fenugreek-leaves",
+      "name": "Fenugreek Leaves",
+      "score": 9.4,
+      "subtitle": "Nutritious leafy greens supporting overall wellness & daily vitality",
+      "category": "leafy-greens",
+      "botanicalName": "Trigonella foenum-graecum",
+      "originClimate": "Temperate & Subtropical",
+      "nutrients": [
+        {
+          "label": "Rich in Micronutrients",
+          "icon": "Leaf"
+        },
+        {
+          "label": "Dietary Fiber",
+          "icon": "Droplets"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "immunity",
+          "name": "Immune Defense"
+        },
+        {
+          "id": "digestion",
+          "name": "Digestive Health"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "mustard-greens",
+      "name": "Mustard Greens",
+      "score": 9,
+      "subtitle": "Nutritious leafy greens supporting overall wellness & daily vitality",
+      "category": "leafy-greens",
+      "botanicalName": "Brassica juncea",
+      "originClimate": "Temperate & Subtropical",
+      "nutrients": [
+        {
+          "label": "Rich in Micronutrients",
+          "icon": "Leaf"
+        },
+        {
+          "label": "Dietary Fiber",
+          "icon": "Droplets"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1524179091875-bf99a9a6fa57?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "immunity",
+          "name": "Immune Defense"
+        },
+        {
+          "id": "digestion",
+          "name": "Digestive Health"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "curry-leaves",
+      "name": "Curry Leaves",
+      "score": 9.7,
+      "subtitle": "Nutritious leafy greens supporting overall wellness & daily vitality",
+      "category": "leafy-greens",
+      "botanicalName": "Murraya koenigii",
+      "originClimate": "Temperate & Subtropical",
+      "nutrients": [
+        {
+          "label": "Rich in Micronutrients",
+          "icon": "Leaf"
+        },
+        {
+          "label": "Dietary Fiber",
+          "icon": "Droplets"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "immunity",
+          "name": "Immune Defense"
+        },
+        {
+          "id": "digestion",
+          "name": "Digestive Health"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "moringa-leaves",
+      "name": "Moringa Leaves",
+      "score": 9.3,
+      "subtitle": "Nutritious leafy greens supporting overall wellness & daily vitality",
+      "category": "leafy-greens",
+      "botanicalName": "Moringa oleifera",
+      "originClimate": "Temperate & Subtropical",
+      "nutrients": [
+        {
+          "label": "Rich in Micronutrients",
+          "icon": "Leaf"
+        },
+        {
+          "label": "Dietary Fiber",
+          "icon": "Droplets"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "immunity",
+          "name": "Immune Defense"
+        },
+        {
+          "id": "digestion",
+          "name": "Digestive Health"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "beet-greens",
+      "name": "Beet Greens",
+      "score": 8.9,
+      "subtitle": "Nutritious leafy greens supporting overall wellness & daily vitality",
+      "category": "leafy-greens",
+      "botanicalName": "Beta vulgaris",
+      "originClimate": "Temperate & Subtropical",
+      "nutrients": [
+        {
+          "label": "Rich in Micronutrients",
+          "icon": "Leaf"
+        },
+        {
+          "label": "Dietary Fiber",
+          "icon": "Droplets"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1528825871115-3581a5387919?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "immunity",
+          "name": "Immune Defense"
+        },
+        {
+          "id": "digestion",
+          "name": "Digestive Health"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "bok-choy",
+      "name": "Bok Choy",
+      "score": 9.6,
+      "subtitle": "Nutritious cruciferous vegetables supporting overall wellness & daily vitality",
+      "category": "cruciferous-vegetables",
+      "botanicalName": "Brassica rapa",
+      "originClimate": "Temperate & Subtropical",
+      "nutrients": [
+        {
+          "label": "Rich in Micronutrients",
+          "icon": "Leaf"
+        },
+        {
+          "label": "Dietary Fiber",
+          "icon": "Droplets"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "immunity",
+          "name": "Immune Defense"
+        },
+        {
+          "id": "digestion",
+          "name": "Digestive Health"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "napa-cabbage",
+      "name": "Napa Cabbage",
+      "score": 9.2,
+      "subtitle": "Nutritious cruciferous vegetables supporting overall wellness & daily vitality",
+      "category": "cruciferous-vegetables",
+      "botanicalName": "Brassica rapa",
+      "originClimate": "Temperate & Subtropical",
+      "nutrients": [
+        {
+          "label": "Rich in Micronutrients",
+          "icon": "Leaf"
+        },
+        {
+          "label": "Dietary Fiber",
+          "icon": "Droplets"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1594282486552-05b4d80fbb9f?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "immunity",
+          "name": "Immune Defense"
+        },
+        {
+          "id": "digestion",
+          "name": "Digestive Health"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "artichoke",
+      "name": "Artichoke",
+      "score": 8.8,
+      "subtitle": "Nutritious flower vegetables supporting overall wellness & daily vitality",
+      "category": "flower-vegetables",
+      "botanicalName": "Cynara cardunculus",
+      "originClimate": "Temperate & Subtropical",
+      "nutrients": [
+        {
+          "label": "Rich in Micronutrients",
+          "icon": "Leaf"
+        },
+        {
+          "label": "Dietary Fiber",
+          "icon": "Droplets"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1518977676601-b53f82aba655?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "immunity",
+          "name": "Immune Defense"
+        },
+        {
+          "id": "digestion",
+          "name": "Digestive Health"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "arugula",
+      "name": "Arugula",
+      "score": 9.5,
+      "subtitle": "Nutritious leafy greens supporting overall wellness & daily vitality",
+      "category": "leafy-greens",
+      "botanicalName": "Eruca vesicaria",
+      "originClimate": "Temperate & Subtropical",
+      "nutrients": [
+        {
+          "label": "Rich in Micronutrients",
+          "icon": "Leaf"
+        },
+        {
+          "label": "Dietary Fiber",
+          "icon": "Droplets"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1622206151226-18ca2c9ab4a1?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "immunity",
+          "name": "Immune Defense"
+        },
+        {
+          "id": "digestion",
+          "name": "Digestive Health"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "swiss-chard",
+      "name": "Swiss Chard",
+      "score": 9.1,
+      "subtitle": "Nutritious leafy greens supporting overall wellness & daily vitality",
+      "category": "leafy-greens",
+      "botanicalName": "Beta vulgaris",
+      "originClimate": "Temperate & Subtropical",
+      "nutrients": [
+        {
+          "label": "Rich in Micronutrients",
+          "icon": "Leaf"
+        },
+        {
+          "label": "Dietary Fiber",
+          "icon": "Droplets"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1524179091875-bf99a9a6fa57?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "immunity",
+          "name": "Immune Defense"
+        },
+        {
+          "id": "digestion",
+          "name": "Digestive Health"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "watercress",
+      "name": "Watercress",
+      "score": 9.8,
+      "subtitle": "Nutritious leafy greens supporting overall wellness & daily vitality",
+      "category": "leafy-greens",
+      "botanicalName": "Nasturtium officinale",
+      "originClimate": "Temperate & Subtropical",
+      "nutrients": [
+        {
+          "label": "Rich in Micronutrients",
+          "icon": "Leaf"
+        },
+        {
+          "label": "Dietary Fiber",
+          "icon": "Droplets"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "immunity",
+          "name": "Immune Defense"
+        },
+        {
+          "id": "digestion",
+          "name": "Digestive Health"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "shallot",
+      "name": "Shallot",
+      "score": 9.4,
+      "subtitle": "Nutritious alliums supporting overall wellness & daily vitality",
+      "category": "alliums",
+      "botanicalName": "Allium cepa",
+      "originClimate": "Temperate & Subtropical",
+      "nutrients": [
+        {
+          "label": "Rich in Micronutrients",
+          "icon": "Leaf"
+        },
+        {
+          "label": "Dietary Fiber",
+          "icon": "Droplets"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1618512496248-a07fe83aa8cb?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "immunity",
+          "name": "Immune Defense"
+        },
+        {
+          "id": "digestion",
+          "name": "Digestive Health"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "spring-onion",
+      "name": "Spring Onion",
+      "score": 9,
+      "subtitle": "Nutritious alliums supporting overall wellness & daily vitality",
+      "category": "alliums",
+      "botanicalName": "Allium fistulosum",
+      "originClimate": "Temperate & Subtropical",
+      "nutrients": [
+        {
+          "label": "Rich in Micronutrients",
+          "icon": "Leaf"
+        },
+        {
+          "label": "Dietary Fiber",
+          "icon": "Droplets"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1580201092675-a0a6a6cafbb1?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "immunity",
+          "name": "Immune Defense"
+        },
+        {
+          "id": "digestion",
+          "name": "Digestive Health"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "turnip-greens",
+      "name": "Turnip Greens",
+      "score": 9.7,
+      "subtitle": "Nutritious leafy greens supporting overall wellness & daily vitality",
+      "category": "leafy-greens",
+      "botanicalName": "Brassica rapa",
+      "originClimate": "Temperate & Subtropical",
+      "nutrients": [
+        {
+          "label": "Rich in Micronutrients",
+          "icon": "Leaf"
+        },
+        {
+          "label": "Dietary Fiber",
+          "icon": "Droplets"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1524179091875-bf99a9a6fa57?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "immunity",
+          "name": "Immune Defense"
+        },
+        {
+          "id": "digestion",
+          "name": "Digestive Health"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "rutabaga",
+      "name": "Rutabaga",
+      "score": 9.3,
+      "subtitle": "Nutritious root vegetables supporting overall wellness & daily vitality",
+      "category": "root-vegetables",
+      "botanicalName": "Brassica napus",
+      "originClimate": "Temperate & Subtropical",
+      "nutrients": [
+        {
+          "label": "Rich in Micronutrients",
+          "icon": "Leaf"
+        },
+        {
+          "label": "Dietary Fiber",
+          "icon": "Droplets"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1598170845058-32b9d6a5da37?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "immunity",
+          "name": "Immune Defense"
+        },
+        {
+          "id": "digestion",
+          "name": "Digestive Health"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "cassava",
+      "name": "Cassava",
+      "score": 8.9,
+      "subtitle": "Nutritious tubers supporting overall wellness & daily vitality",
+      "category": "tubers",
+      "botanicalName": "Manihot esculenta",
+      "originClimate": "Temperate & Subtropical",
+      "nutrients": [
+        {
+          "label": "Rich in Micronutrients",
+          "icon": "Leaf"
+        },
+        {
+          "label": "Dietary Fiber",
+          "icon": "Droplets"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1596097635121-14b63b7a0c19?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "immunity",
+          "name": "Immune Defense"
+        },
+        {
+          "id": "digestion",
+          "name": "Digestive Health"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "yam",
+      "name": "Yam",
+      "score": 9.6,
+      "subtitle": "Nutritious tubers supporting overall wellness & daily vitality",
+      "category": "tubers",
+      "botanicalName": "Dioscorea spp.",
+      "originClimate": "Temperate & Subtropical",
+      "nutrients": [
+        {
+          "label": "Rich in Micronutrients",
+          "icon": "Leaf"
+        },
+        {
+          "label": "Dietary Fiber",
+          "icon": "Droplets"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1596097635121-14b63b7a0c19?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "immunity",
+          "name": "Immune Defense"
+        },
+        {
+          "id": "digestion",
+          "name": "Digestive Health"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "raw-banana",
+      "name": "Raw Banana / Green Banana",
+      "score": 9.2,
+      "subtitle": "Nutritious starchy vegetables supporting overall wellness & daily vitality",
+      "category": "starchy-vegetables",
+      "botanicalName": "Musa spp.",
+      "originClimate": "Temperate & Subtropical",
+      "nutrients": [
+        {
+          "label": "Rich in Micronutrients",
+          "icon": "Leaf"
+        },
+        {
+          "label": "Dietary Fiber",
+          "icon": "Droplets"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1571771894821-ce9b6c11b08e?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "immunity",
+          "name": "Immune Defense"
+        },
+        {
+          "id": "digestion",
+          "name": "Digestive Health"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "banana-flower",
+      "name": "Banana Flower",
+      "score": 8.8,
+      "subtitle": "Nutritious other vegetables supporting overall wellness & daily vitality",
+      "category": "other-vegetables",
+      "botanicalName": "Musa spp.",
+      "originClimate": "Temperate & Subtropical",
+      "nutrients": [
+        {
+          "label": "Rich in Micronutrients",
+          "icon": "Leaf"
+        },
+        {
+          "label": "Dietary Fiber",
+          "icon": "Droplets"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "immunity",
+          "name": "Immune Defense"
+        },
+        {
+          "id": "digestion",
+          "name": "Digestive Health"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "banana-stem",
+      "name": "Banana Stem",
+      "score": 9.5,
+      "subtitle": "Nutritious other vegetables supporting overall wellness & daily vitality",
+      "category": "other-vegetables",
+      "botanicalName": "Musa spp.",
+      "originClimate": "Temperate & Subtropical",
+      "nutrients": [
+        {
+          "label": "Rich in Micronutrients",
+          "icon": "Leaf"
+        },
+        {
+          "label": "Dietary Fiber",
+          "icon": "Droplets"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "immunity",
+          "name": "Immune Defense"
+        },
+        {
+          "id": "digestion",
+          "name": "Digestive Health"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "green-chilli",
+      "name": "Green Chilli",
+      "score": 9.1,
+      "subtitle": "Nutritious peppers supporting overall wellness & daily vitality",
+      "category": "peppers",
+      "botanicalName": "Capsicum annuum",
+      "originClimate": "Temperate & Subtropical",
+      "nutrients": [
+        {
+          "label": "Rich in Micronutrients",
+          "icon": "Leaf"
+        },
+        {
+          "label": "Dietary Fiber",
+          "icon": "Droplets"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1563565375-f3fdfdbefa83?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "immunity",
+          "name": "Immune Defense"
+        },
+        {
+          "id": "digestion",
+          "name": "Digestive Health"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "jalapeno",
+      "name": "Jalapeño",
+      "score": 9.8,
+      "subtitle": "Nutritious peppers supporting overall wellness & daily vitality",
+      "category": "peppers",
+      "botanicalName": "Capsicum annuum",
+      "originClimate": "Temperate & Subtropical",
+      "nutrients": [
+        {
+          "label": "Rich in Micronutrients",
+          "icon": "Leaf"
+        },
+        {
+          "label": "Dietary Fiber",
+          "icon": "Droplets"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1563565375-f3fdfdbefa83?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "immunity",
+          "name": "Immune Defense"
+        },
+        {
+          "id": "digestion",
+          "name": "Digestive Health"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "serrano-pepper",
+      "name": "Serrano Pepper",
+      "score": 9.4,
+      "subtitle": "Nutritious peppers supporting overall wellness & daily vitality",
+      "category": "peppers",
+      "botanicalName": "Capsicum annuum",
+      "originClimate": "Temperate & Subtropical",
+      "nutrients": [
+        {
+          "label": "Rich in Micronutrients",
+          "icon": "Leaf"
+        },
+        {
+          "label": "Dietary Fiber",
+          "icon": "Droplets"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1563565375-f3fdfdbefa83?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "immunity",
+          "name": "Immune Defense"
+        },
+        {
+          "id": "digestion",
+          "name": "Digestive Health"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "poblano-pepper",
+      "name": "Poblano Pepper",
+      "score": 9,
+      "subtitle": "Nutritious peppers supporting overall wellness & daily vitality",
+      "category": "peppers",
+      "botanicalName": "Capsicum annuum",
+      "originClimate": "Temperate & Subtropical",
+      "nutrients": [
+        {
+          "label": "Rich in Micronutrients",
+          "icon": "Leaf"
+        },
+        {
+          "label": "Dietary Fiber",
+          "icon": "Droplets"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1563565375-f3fdfdbefa83?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "immunity",
+          "name": "Immune Defense"
+        },
+        {
+          "id": "digestion",
+          "name": "Digestive Health"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "broad-beans",
+      "name": "Broad Beans",
+      "score": 9.7,
+      "subtitle": "Nutritious legumes supporting overall wellness & daily vitality",
+      "category": "legumes",
+      "botanicalName": "Vicia faba",
+      "originClimate": "Temperate & Subtropical",
+      "nutrients": [
+        {
+          "label": "Rich in Micronutrients",
+          "icon": "Leaf"
+        },
+        {
+          "label": "Dietary Fiber",
+          "icon": "Droplets"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1551892374-ecf8754cf8b0?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "immunity",
+          "name": "Immune Defense"
+        },
+        {
+          "id": "digestion",
+          "name": "Digestive Health"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "cowpea-green",
+      "name": "Green Cowpea",
+      "score": 9.3,
+      "subtitle": "Nutritious legumes supporting overall wellness & daily vitality",
+      "category": "legumes",
+      "botanicalName": "Vigna unguiculata",
+      "originClimate": "Temperate & Subtropical",
+      "nutrients": [
+        {
+          "label": "Rich in Micronutrients",
+          "icon": "Leaf"
+        },
+        {
+          "label": "Dietary Fiber",
+          "icon": "Droplets"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1551892374-ecf8754cf8b0?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "immunity",
+          "name": "Immune Defense"
+        },
+        {
+          "id": "digestion",
+          "name": "Digestive Health"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "edamame",
+      "name": "Edamame",
+      "score": 8.9,
+      "subtitle": "Nutritious legumes supporting overall wellness & daily vitality",
+      "category": "legumes",
+      "botanicalName": "Glycine max",
+      "originClimate": "Temperate & Subtropical",
+      "nutrients": [
+        {
+          "label": "Rich in Micronutrients",
+          "icon": "Leaf"
+        },
+        {
+          "label": "Dietary Fiber",
+          "icon": "Droplets"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1551892374-ecf8754cf8b0?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "immunity",
+          "name": "Immune Defense"
+        },
+        {
+          "id": "digestion",
+          "name": "Digestive Health"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    }
+  ]
+}

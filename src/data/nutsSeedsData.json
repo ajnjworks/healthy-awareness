@@ -1,0 +1,1630 @@
+{
+  "subCategories": [
+    {
+      "id": "all",
+      "name": "All Nuts & Seeds",
+      "image": "https://images.unsplash.com/photo-1543208541-0961a29a8c3d?auto=format&fit=crop&w=200&q=80"
+    },
+    {
+      "id": "tree-nuts",
+      "name": "Tree Nuts",
+      "image": "https://images.unsplash.com/photo-1508061253366-f7da158b6d46?auto=format&fit=crop&w=200&q=80"
+    },
+    {
+      "id": "dried-fruits",
+      "name": "Dried Fruits",
+      "image": "https://images.unsplash.com/photo-1601493700631-2b16ec4b4716?auto=format&fit=crop&w=200&q=80"
+    },
+    {
+      "id": "seeds",
+      "name": "Seeds",
+      "image": "https://images.unsplash.com/photo-1543208541-0961a29a8c3d?auto=format&fit=crop&w=200&q=80"
+    },
+    {
+      "id": "legumes-nuts",
+      "name": "Legume Nuts",
+      "image": "https://images.unsplash.com/photo-1567894340315-735d7c361db0?auto=format&fit=crop&w=200&q=80"
+    }
+  ],
+  "nutsSeedsList": [
+    {
+      "id": "almonds",
+      "name": "Almonds",
+      "score": 9,
+      "subtitle": "Nutrient-dense superfood packed with healthy fats, protein, and vitality",
+      "category": "tree-nuts",
+      "botanicalName": "Prunus dulcis",
+      "originClimate": "Subtropical and Mediterranean",
+      "nutrients": [
+        {
+          "label": "Cal: 579 kcal",
+          "icon": "Zap"
+        },
+        {
+          "label": "Protein: 21.15g",
+          "icon": "Milk"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1508061253366-f7da158b6d46?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "heart",
+          "name": "Heart Health"
+        },
+        {
+          "id": "brain",
+          "name": "Brain Booster"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": 579,
+        "carbohydrates_g": 21.55,
+        "fiber_g": 12.5,
+        "protein_g": 21.15,
+        "fat_g": 49.93,
+        "sugars_g": 4.35,
+        "vitaminC_mg": 0,
+        "potassium_mg": 733
+      }
+    },
+    {
+      "id": "walnuts",
+      "name": "Walnuts",
+      "score": 9.3,
+      "subtitle": "Nutrient-dense superfood packed with healthy fats, protein, and vitality",
+      "category": "tree-nuts",
+      "botanicalName": "Juglans regia",
+      "originClimate": "Subtropical and Mediterranean",
+      "nutrients": [
+        {
+          "label": "Cal: 654 kcal",
+          "icon": "Zap"
+        },
+        {
+          "label": "Protein: 15.23g",
+          "icon": "Milk"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1543208541-0961a29a8c3d?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "heart",
+          "name": "Heart Health"
+        },
+        {
+          "id": "brain",
+          "name": "Brain Booster"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": 654,
+        "carbohydrates_g": 13.71,
+        "fiber_g": 6.7,
+        "protein_g": 15.23,
+        "fat_g": 65.21,
+        "sugars_g": 2.61,
+        "vitaminC_mg": 1.3,
+        "potassium_mg": 441
+      }
+    },
+    {
+      "id": "cashews",
+      "name": "Cashews",
+      "score": 9.6,
+      "subtitle": "Nutrient-dense superfood packed with healthy fats, protein, and vitality",
+      "category": "tree-nuts",
+      "botanicalName": "Anacardium occidentale",
+      "originClimate": "Subtropical and Mediterranean",
+      "nutrients": [
+        {
+          "label": "Cal: 553 kcal",
+          "icon": "Zap"
+        },
+        {
+          "label": "Protein: 18.22g",
+          "icon": "Milk"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1536591375315-1b83886562ea?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "heart",
+          "name": "Heart Health"
+        },
+        {
+          "id": "brain",
+          "name": "Brain Booster"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": 553,
+        "carbohydrates_g": 30.19,
+        "fiber_g": 3.3,
+        "protein_g": 18.22,
+        "fat_g": 43.85,
+        "sugars_g": 5.91,
+        "vitaminC_mg": 0.5,
+        "potassium_mg": 660
+      }
+    },
+    {
+      "id": "pistachios",
+      "name": "Pistachios",
+      "score": 9,
+      "subtitle": "Nutrient-dense superfood packed with healthy fats, protein, and vitality",
+      "category": "tree-nuts",
+      "botanicalName": "Pistacia vera",
+      "originClimate": "Subtropical and Mediterranean",
+      "nutrients": [
+        {
+          "label": "Cal: 560 kcal",
+          "icon": "Zap"
+        },
+        {
+          "label": "Protein: 20.16g",
+          "icon": "Milk"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1528751014936-863e6e7a319c?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "heart",
+          "name": "Heart Health"
+        },
+        {
+          "id": "brain",
+          "name": "Brain Booster"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": 560,
+        "carbohydrates_g": 27.17,
+        "fiber_g": 10.6,
+        "protein_g": 20.16,
+        "fat_g": 45.32,
+        "sugars_g": 7.66,
+        "vitaminC_mg": 5.6,
+        "potassium_mg": 1025
+      }
+    },
+    {
+      "id": "pecans",
+      "name": "Pecans",
+      "score": 9.3,
+      "subtitle": "Nutrient-dense superfood packed with healthy fats, protein, and vitality",
+      "category": "tree-nuts",
+      "botanicalName": "Carya illinoinensis",
+      "originClimate": "Subtropical and Mediterranean",
+      "nutrients": [
+        {
+          "label": "Cal: 691 kcal",
+          "icon": "Zap"
+        },
+        {
+          "label": "Protein: 9.17g",
+          "icon": "Milk"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1543208541-0961a29a8c3d?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "heart",
+          "name": "Heart Health"
+        },
+        {
+          "id": "brain",
+          "name": "Brain Booster"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": 691,
+        "carbohydrates_g": 13.86,
+        "fiber_g": 9.6,
+        "protein_g": 9.17,
+        "fat_g": 72,
+        "sugars_g": 3.97,
+        "vitaminC_mg": 1.1,
+        "potassium_mg": 410
+      }
+    },
+    {
+      "id": "hazelnuts",
+      "name": "Hazelnuts",
+      "score": 9.6,
+      "subtitle": "Nutrient-dense superfood packed with healthy fats, protein, and vitality",
+      "category": "tree-nuts",
+      "botanicalName": "Corylus avellana",
+      "originClimate": "Subtropical and Mediterranean",
+      "nutrients": [
+        {
+          "label": "Cal: 628 kcal",
+          "icon": "Zap"
+        },
+        {
+          "label": "Protein: 14.95g",
+          "icon": "Milk"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1543208541-0961a29a8c3d?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "heart",
+          "name": "Heart Health"
+        },
+        {
+          "id": "brain",
+          "name": "Brain Booster"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": 628,
+        "carbohydrates_g": 16.7,
+        "fiber_g": 9.7,
+        "protein_g": 14.95,
+        "fat_g": 60.75,
+        "sugars_g": 4.34,
+        "vitaminC_mg": 6.3,
+        "potassium_mg": 680
+      }
+    },
+    {
+      "id": "macadamia",
+      "name": "Macadamia Nuts",
+      "score": 9,
+      "subtitle": "Nutrient-dense superfood packed with healthy fats, protein, and vitality",
+      "category": "tree-nuts",
+      "botanicalName": "Macadamia integrifolia",
+      "originClimate": "Subtropical and Mediterranean",
+      "nutrients": [
+        {
+          "label": "Healthy Fats",
+          "icon": "HeartPulse"
+        },
+        {
+          "label": "Plant Protein",
+          "icon": "Milk"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1543208541-0961a29a8c3d?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "heart",
+          "name": "Heart Health"
+        },
+        {
+          "id": "brain",
+          "name": "Brain Booster"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "brazil-nuts",
+      "name": "Brazil Nuts",
+      "score": 9.3,
+      "subtitle": "Nutrient-dense superfood packed with healthy fats, protein, and vitality",
+      "category": "tree-nuts",
+      "botanicalName": "Bertholletia excelsa",
+      "originClimate": "Subtropical and Mediterranean",
+      "nutrients": [
+        {
+          "label": "Healthy Fats",
+          "icon": "HeartPulse"
+        },
+        {
+          "label": "Plant Protein",
+          "icon": "Milk"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1543208541-0961a29a8c3d?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "heart",
+          "name": "Heart Health"
+        },
+        {
+          "id": "brain",
+          "name": "Brain Booster"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "pine-nuts",
+      "name": "Pine Nuts",
+      "score": 9.6,
+      "subtitle": "Nutrient-dense superfood packed with healthy fats, protein, and vitality",
+      "category": "seeds-nuts",
+      "botanicalName": "Pinus spp.",
+      "originClimate": "Subtropical and Mediterranean",
+      "nutrients": [
+        {
+          "label": "Healthy Fats",
+          "icon": "HeartPulse"
+        },
+        {
+          "label": "Plant Protein",
+          "icon": "Milk"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1543208541-0961a29a8c3d?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "heart",
+          "name": "Heart Health"
+        },
+        {
+          "id": "brain",
+          "name": "Brain Booster"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "chestnuts",
+      "name": "Chestnuts",
+      "score": 9,
+      "subtitle": "Nutrient-dense superfood packed with healthy fats, protein, and vitality",
+      "category": "tree-nuts",
+      "botanicalName": "Castanea spp.",
+      "originClimate": "Subtropical and Mediterranean",
+      "nutrients": [
+        {
+          "label": "Healthy Fats",
+          "icon": "HeartPulse"
+        },
+        {
+          "label": "Plant Protein",
+          "icon": "Milk"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1543208541-0961a29a8c3d?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "heart",
+          "name": "Heart Health"
+        },
+        {
+          "id": "brain",
+          "name": "Brain Booster"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "peanuts",
+      "name": "Peanuts",
+      "score": 9.3,
+      "subtitle": "Nutrient-dense superfood packed with healthy fats, protein, and vitality",
+      "category": "legumes-nuts",
+      "botanicalName": "Arachis hypogaea",
+      "originClimate": "Subtropical and Mediterranean",
+      "nutrients": [
+        {
+          "label": "Cal: 567 kcal",
+          "icon": "Zap"
+        },
+        {
+          "label": "Protein: 25.8g",
+          "icon": "Milk"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1567894340315-735d7c361db0?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "heart",
+          "name": "Heart Health"
+        },
+        {
+          "id": "brain",
+          "name": "Brain Booster"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": 567,
+        "carbohydrates_g": 16.13,
+        "fiber_g": 8.5,
+        "protein_g": 25.8,
+        "fat_g": 49.24,
+        "sugars_g": 3.97,
+        "vitaminC_mg": 0,
+        "potassium_mg": 332
+      }
+    },
+    {
+      "id": "raisins",
+      "name": "Raisins",
+      "score": 9.6,
+      "subtitle": "Nutrient-dense superfood packed with healthy fats, protein, and vitality",
+      "category": "dried-fruits",
+      "botanicalName": "Vitis vinifera",
+      "originClimate": "Subtropical and Mediterranean",
+      "nutrients": [
+        {
+          "label": "Cal: 299 kcal",
+          "icon": "Zap"
+        },
+        {
+          "label": "Protein: 3.07g",
+          "icon": "Milk"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1543208541-0961a29a8c3d?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "heart",
+          "name": "Heart Health"
+        },
+        {
+          "id": "brain",
+          "name": "Brain Booster"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": 299,
+        "carbohydrates_g": 79.32,
+        "fiber_g": 3.7,
+        "protein_g": 3.07,
+        "fat_g": 0.46,
+        "sugars_g": 59.19,
+        "vitaminC_mg": 2.3,
+        "potassium_mg": 744
+      }
+    },
+    {
+      "id": "golden-raisins",
+      "name": "Golden Raisins",
+      "score": 9,
+      "subtitle": "Nutrient-dense superfood packed with healthy fats, protein, and vitality",
+      "category": "dried-fruits",
+      "botanicalName": "Vitis vinifera",
+      "originClimate": "Subtropical and Mediterranean",
+      "nutrients": [
+        {
+          "label": "Healthy Fats",
+          "icon": "HeartPulse"
+        },
+        {
+          "label": "Plant Protein",
+          "icon": "Milk"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1543208541-0961a29a8c3d?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "heart",
+          "name": "Heart Health"
+        },
+        {
+          "id": "brain",
+          "name": "Brain Booster"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "black-raisins",
+      "name": "Black Raisins",
+      "score": 9.3,
+      "subtitle": "Nutrient-dense superfood packed with healthy fats, protein, and vitality",
+      "category": "dried-fruits",
+      "botanicalName": "Vitis vinifera",
+      "originClimate": "Subtropical and Mediterranean",
+      "nutrients": [
+        {
+          "label": "Healthy Fats",
+          "icon": "HeartPulse"
+        },
+        {
+          "label": "Plant Protein",
+          "icon": "Milk"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1543208541-0961a29a8c3d?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "heart",
+          "name": "Heart Health"
+        },
+        {
+          "id": "brain",
+          "name": "Brain Booster"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "dates-dried",
+      "name": "Dried Dates",
+      "score": 9.6,
+      "subtitle": "Nutrient-dense superfood packed with healthy fats, protein, and vitality",
+      "category": "dried-fruits",
+      "botanicalName": "Phoenix dactylifera",
+      "originClimate": "Subtropical and Mediterranean",
+      "nutrients": [
+        {
+          "label": "Healthy Fats",
+          "icon": "HeartPulse"
+        },
+        {
+          "label": "Plant Protein",
+          "icon": "Milk"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1543208541-0961a29a8c3d?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "heart",
+          "name": "Heart Health"
+        },
+        {
+          "id": "brain",
+          "name": "Brain Booster"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "figs-dried",
+      "name": "Dried Figs",
+      "score": 9,
+      "subtitle": "Nutrient-dense superfood packed with healthy fats, protein, and vitality",
+      "category": "dried-fruits",
+      "botanicalName": "Ficus carica",
+      "originClimate": "Subtropical and Mediterranean",
+      "nutrients": [
+        {
+          "label": "Healthy Fats",
+          "icon": "HeartPulse"
+        },
+        {
+          "label": "Plant Protein",
+          "icon": "Milk"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1601493700631-2b16ec4b4716?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "heart",
+          "name": "Heart Health"
+        },
+        {
+          "id": "brain",
+          "name": "Brain Booster"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "apricots-dried",
+      "name": "Dried Apricots",
+      "score": 9.3,
+      "subtitle": "Nutrient-dense superfood packed with healthy fats, protein, and vitality",
+      "category": "dried-fruits",
+      "botanicalName": "Prunus armeniaca",
+      "originClimate": "Subtropical and Mediterranean",
+      "nutrients": [
+        {
+          "label": "Healthy Fats",
+          "icon": "HeartPulse"
+        },
+        {
+          "label": "Plant Protein",
+          "icon": "Milk"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1502741224143-90386d7f8c82?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "heart",
+          "name": "Heart Health"
+        },
+        {
+          "id": "brain",
+          "name": "Brain Booster"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "prunes",
+      "name": "Prunes / Dried Plums",
+      "score": 9.6,
+      "subtitle": "Nutrient-dense superfood packed with healthy fats, protein, and vitality",
+      "category": "dried-fruits",
+      "botanicalName": "Prunus domestica",
+      "originClimate": "Subtropical and Mediterranean",
+      "nutrients": [
+        {
+          "label": "Healthy Fats",
+          "icon": "HeartPulse"
+        },
+        {
+          "label": "Plant Protein",
+          "icon": "Milk"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1568702846914-96b305d2aaeb?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "heart",
+          "name": "Heart Health"
+        },
+        {
+          "id": "brain",
+          "name": "Brain Booster"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "cranberries-dried",
+      "name": "Dried Cranberries",
+      "score": 9,
+      "subtitle": "Nutrient-dense superfood packed with healthy fats, protein, and vitality",
+      "category": "dried-fruits",
+      "botanicalName": "Vaccinium macrocarpon",
+      "originClimate": "Subtropical and Mediterranean",
+      "nutrients": [
+        {
+          "label": "Healthy Fats",
+          "icon": "HeartPulse"
+        },
+        {
+          "label": "Plant Protein",
+          "icon": "Milk"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1605697669460-2646b9487c6d?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "heart",
+          "name": "Heart Health"
+        },
+        {
+          "id": "brain",
+          "name": "Brain Booster"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "mango-dried",
+      "name": "Dried Mango",
+      "score": 9.3,
+      "subtitle": "Nutrient-dense superfood packed with healthy fats, protein, and vitality",
+      "category": "dried-fruits",
+      "botanicalName": "Mangifera indica",
+      "originClimate": "Subtropical and Mediterranean",
+      "nutrients": [
+        {
+          "label": "Healthy Fats",
+          "icon": "HeartPulse"
+        },
+        {
+          "label": "Plant Protein",
+          "icon": "Milk"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1553279768-865429fa0078?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "heart",
+          "name": "Heart Health"
+        },
+        {
+          "id": "brain",
+          "name": "Brain Booster"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "pineapple-dried",
+      "name": "Dried Pineapple",
+      "score": 9.6,
+      "subtitle": "Nutrient-dense superfood packed with healthy fats, protein, and vitality",
+      "category": "dried-fruits",
+      "botanicalName": "Ananas comosus",
+      "originClimate": "Subtropical and Mediterranean",
+      "nutrients": [
+        {
+          "label": "Healthy Fats",
+          "icon": "HeartPulse"
+        },
+        {
+          "label": "Plant Protein",
+          "icon": "Milk"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1550258987-190a2d41a8ba?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "heart",
+          "name": "Heart Health"
+        },
+        {
+          "id": "brain",
+          "name": "Brain Booster"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "banana-dried",
+      "name": "Dried Banana",
+      "score": 9,
+      "subtitle": "Nutrient-dense superfood packed with healthy fats, protein, and vitality",
+      "category": "dried-fruits",
+      "botanicalName": "Musa spp.",
+      "originClimate": "Subtropical and Mediterranean",
+      "nutrients": [
+        {
+          "label": "Healthy Fats",
+          "icon": "HeartPulse"
+        },
+        {
+          "label": "Plant Protein",
+          "icon": "Milk"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1571771894821-ce9b6c11b08e?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "heart",
+          "name": "Heart Health"
+        },
+        {
+          "id": "brain",
+          "name": "Brain Booster"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "coconut-dried",
+      "name": "Dried Coconut",
+      "score": 9.3,
+      "subtitle": "Nutrient-dense superfood packed with healthy fats, protein, and vitality",
+      "category": "dried-fruits",
+      "botanicalName": "Cocos nucifera",
+      "originClimate": "Subtropical and Mediterranean",
+      "nutrients": [
+        {
+          "label": "Healthy Fats",
+          "icon": "HeartPulse"
+        },
+        {
+          "label": "Plant Protein",
+          "icon": "Milk"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1544378730-8b5104b18790?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "heart",
+          "name": "Heart Health"
+        },
+        {
+          "id": "brain",
+          "name": "Brain Booster"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "goji-berries-dried",
+      "name": "Dried Goji Berries",
+      "score": 9.6,
+      "subtitle": "Nutrient-dense superfood packed with healthy fats, protein, and vitality",
+      "category": "dried-fruits",
+      "botanicalName": "Lycium barbarum",
+      "originClimate": "Subtropical and Mediterranean",
+      "nutrients": [
+        {
+          "label": "Healthy Fats",
+          "icon": "HeartPulse"
+        },
+        {
+          "label": "Plant Protein",
+          "icon": "Milk"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1543208541-0961a29a8c3d?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "heart",
+          "name": "Heart Health"
+        },
+        {
+          "id": "brain",
+          "name": "Brain Booster"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "mulberries-dried",
+      "name": "Dried Mulberries",
+      "score": 9,
+      "subtitle": "Nutrient-dense superfood packed with healthy fats, protein, and vitality",
+      "category": "dried-fruits",
+      "botanicalName": "Morus spp.",
+      "originClimate": "Subtropical and Mediterranean",
+      "nutrients": [
+        {
+          "label": "Healthy Fats",
+          "icon": "HeartPulse"
+        },
+        {
+          "label": "Plant Protein",
+          "icon": "Milk"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1596797038530-2c107229654b?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "heart",
+          "name": "Heart Health"
+        },
+        {
+          "id": "brain",
+          "name": "Brain Booster"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "amla-dried",
+      "name": "Dried Amla",
+      "score": 9.3,
+      "subtitle": "Nutrient-dense superfood packed with healthy fats, protein, and vitality",
+      "category": "dried-fruits",
+      "botanicalName": "Phyllanthus emblica",
+      "originClimate": "Subtropical and Mediterranean",
+      "nutrients": [
+        {
+          "label": "Healthy Fats",
+          "icon": "HeartPulse"
+        },
+        {
+          "label": "Plant Protein",
+          "icon": "Milk"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1563227812-0ea4c22e6cc8?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "heart",
+          "name": "Heart Health"
+        },
+        {
+          "id": "brain",
+          "name": "Brain Booster"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "dates-medjool",
+      "name": "Medjool Dates",
+      "score": 9.6,
+      "subtitle": "Nutrient-dense superfood packed with healthy fats, protein, and vitality",
+      "category": "dried-fruits",
+      "botanicalName": "Phoenix dactylifera",
+      "originClimate": "Subtropical and Mediterranean",
+      "nutrients": [
+        {
+          "label": "Healthy Fats",
+          "icon": "HeartPulse"
+        },
+        {
+          "label": "Plant Protein",
+          "icon": "Milk"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1543208541-0961a29a8c3d?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "heart",
+          "name": "Heart Health"
+        },
+        {
+          "id": "brain",
+          "name": "Brain Booster"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "sunflower-seeds",
+      "name": "Sunflower Seeds",
+      "score": 9,
+      "subtitle": "Nutrient-dense superfood packed with healthy fats, protein, and vitality",
+      "category": "seeds",
+      "botanicalName": "Helianthus annuus",
+      "originClimate": "Subtropical and Mediterranean",
+      "nutrients": [
+        {
+          "label": "Healthy Fats",
+          "icon": "HeartPulse"
+        },
+        {
+          "label": "Plant Protein",
+          "icon": "Milk"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1543208541-0961a29a8c3d?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "heart",
+          "name": "Heart Health"
+        },
+        {
+          "id": "brain",
+          "name": "Brain Booster"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "pumpkin-seeds",
+      "name": "Pumpkin Seeds",
+      "score": 9.3,
+      "subtitle": "Nutrient-dense superfood packed with healthy fats, protein, and vitality",
+      "category": "seeds",
+      "botanicalName": "Cucurbita spp.",
+      "originClimate": "Subtropical and Mediterranean",
+      "nutrients": [
+        {
+          "label": "Healthy Fats",
+          "icon": "HeartPulse"
+        },
+        {
+          "label": "Plant Protein",
+          "icon": "Milk"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1543208541-0961a29a8c3d?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "heart",
+          "name": "Heart Health"
+        },
+        {
+          "id": "brain",
+          "name": "Brain Booster"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "sesame-seeds",
+      "name": "Sesame Seeds",
+      "score": 9.6,
+      "subtitle": "Nutrient-dense superfood packed with healthy fats, protein, and vitality",
+      "category": "seeds",
+      "botanicalName": "Sesamum indicum",
+      "originClimate": "Subtropical and Mediterranean",
+      "nutrients": [
+        {
+          "label": "Healthy Fats",
+          "icon": "HeartPulse"
+        },
+        {
+          "label": "Plant Protein",
+          "icon": "Milk"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1543208541-0961a29a8c3d?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "heart",
+          "name": "Heart Health"
+        },
+        {
+          "id": "brain",
+          "name": "Brain Booster"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "chia-seeds",
+      "name": "Chia Seeds",
+      "score": 9,
+      "subtitle": "Nutrient-dense superfood packed with healthy fats, protein, and vitality",
+      "category": "seeds",
+      "botanicalName": "Salvia hispanica",
+      "originClimate": "Subtropical and Mediterranean",
+      "nutrients": [
+        {
+          "label": "Healthy Fats",
+          "icon": "HeartPulse"
+        },
+        {
+          "label": "Plant Protein",
+          "icon": "Milk"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1543208541-0961a29a8c3d?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "heart",
+          "name": "Heart Health"
+        },
+        {
+          "id": "brain",
+          "name": "Brain Booster"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "flax-seeds",
+      "name": "Flax Seeds",
+      "score": 9.3,
+      "subtitle": "Nutrient-dense superfood packed with healthy fats, protein, and vitality",
+      "category": "seeds",
+      "botanicalName": "Linum usitatissimum",
+      "originClimate": "Subtropical and Mediterranean",
+      "nutrients": [
+        {
+          "label": "Healthy Fats",
+          "icon": "HeartPulse"
+        },
+        {
+          "label": "Plant Protein",
+          "icon": "Milk"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1543208541-0961a29a8c3d?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "heart",
+          "name": "Heart Health"
+        },
+        {
+          "id": "brain",
+          "name": "Brain Booster"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "hemp-seeds",
+      "name": "Hemp Seeds",
+      "score": 9.6,
+      "subtitle": "Nutrient-dense superfood packed with healthy fats, protein, and vitality",
+      "category": "seeds",
+      "botanicalName": "Cannabis sativa",
+      "originClimate": "Subtropical and Mediterranean",
+      "nutrients": [
+        {
+          "label": "Healthy Fats",
+          "icon": "HeartPulse"
+        },
+        {
+          "label": "Plant Protein",
+          "icon": "Milk"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1543208541-0961a29a8c3d?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "heart",
+          "name": "Heart Health"
+        },
+        {
+          "id": "brain",
+          "name": "Brain Booster"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "watermelon-seeds",
+      "name": "Watermelon Seeds",
+      "score": 9,
+      "subtitle": "Nutrient-dense superfood packed with healthy fats, protein, and vitality",
+      "category": "seeds",
+      "botanicalName": "Citrullus lanatus",
+      "originClimate": "Subtropical and Mediterranean",
+      "nutrients": [
+        {
+          "label": "Healthy Fats",
+          "icon": "HeartPulse"
+        },
+        {
+          "label": "Plant Protein",
+          "icon": "Milk"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1543208541-0961a29a8c3d?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "heart",
+          "name": "Heart Health"
+        },
+        {
+          "id": "brain",
+          "name": "Brain Booster"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "melon-seeds",
+      "name": "Melon Seeds",
+      "score": 9.3,
+      "subtitle": "Nutrient-dense superfood packed with healthy fats, protein, and vitality",
+      "category": "seeds",
+      "botanicalName": "Cucumis melo",
+      "originClimate": "Subtropical and Mediterranean",
+      "nutrients": [
+        {
+          "label": "Healthy Fats",
+          "icon": "HeartPulse"
+        },
+        {
+          "label": "Plant Protein",
+          "icon": "Milk"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1543208541-0961a29a8c3d?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "heart",
+          "name": "Heart Health"
+        },
+        {
+          "id": "brain",
+          "name": "Brain Booster"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "basil-seeds",
+      "name": "Basil Seeds",
+      "score": 9.6,
+      "subtitle": "Nutrient-dense superfood packed with healthy fats, protein, and vitality",
+      "category": "seeds",
+      "botanicalName": "Ocimum basilicum",
+      "originClimate": "Subtropical and Mediterranean",
+      "nutrients": [
+        {
+          "label": "Healthy Fats",
+          "icon": "HeartPulse"
+        },
+        {
+          "label": "Plant Protein",
+          "icon": "Milk"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1543208541-0961a29a8c3d?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "heart",
+          "name": "Heart Health"
+        },
+        {
+          "id": "brain",
+          "name": "Brain Booster"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "poppy-seeds",
+      "name": "Poppy Seeds",
+      "score": 9,
+      "subtitle": "Nutrient-dense superfood packed with healthy fats, protein, and vitality",
+      "category": "seeds",
+      "botanicalName": "Papaver somniferum",
+      "originClimate": "Subtropical and Mediterranean",
+      "nutrients": [
+        {
+          "label": "Healthy Fats",
+          "icon": "HeartPulse"
+        },
+        {
+          "label": "Plant Protein",
+          "icon": "Milk"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1543208541-0961a29a8c3d?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "heart",
+          "name": "Heart Health"
+        },
+        {
+          "id": "brain",
+          "name": "Brain Booster"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "lotus-seeds",
+      "name": "Lotus Seeds",
+      "score": 9.3,
+      "subtitle": "Nutrient-dense superfood packed with healthy fats, protein, and vitality",
+      "category": "seeds",
+      "botanicalName": "Nelumbo nucifera",
+      "originClimate": "Subtropical and Mediterranean",
+      "nutrients": [
+        {
+          "label": "Healthy Fats",
+          "icon": "HeartPulse"
+        },
+        {
+          "label": "Plant Protein",
+          "icon": "Milk"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1543208541-0961a29a8c3d?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "heart",
+          "name": "Heart Health"
+        },
+        {
+          "id": "brain",
+          "name": "Brain Booster"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "fox-nuts",
+      "name": "Fox Nuts / Makhana",
+      "score": 9.6,
+      "subtitle": "Nutrient-dense superfood packed with healthy fats, protein, and vitality",
+      "category": "seeds",
+      "botanicalName": "Euryale ferox",
+      "originClimate": "Subtropical and Mediterranean",
+      "nutrients": [
+        {
+          "label": "Healthy Fats",
+          "icon": "HeartPulse"
+        },
+        {
+          "label": "Plant Protein",
+          "icon": "Milk"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1543208541-0961a29a8c3d?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "heart",
+          "name": "Heart Health"
+        },
+        {
+          "id": "brain",
+          "name": "Brain Booster"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    }
+  ]
+}

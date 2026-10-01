@@ -1,0 +1,298 @@
+export const snacksDataset = {
+  "schemaVersion": "2.0.0",
+  "dataset": {
+    "name": "Healthy Awareness Snacks & Packaged Foods",
+    "description": "Snacks & Packaged Foods catalog for listing, search, comparison and detail pages.",
+    "dataStandard": "Conservative verified-data model",
+    "rule": "No value is invented. Unknown or not source-verified fields are null.",
+    "nutritionBasis": "per 100 g edible portion, raw",
+    "primaryNutritionSource": {
+      "organization": "USDA Agricultural Research Service",
+      "database": "FoodData Central",
+      "url": "https://fdc.nal.usda.gov/"
+    }
+  },
+  "records": [
+    {
+      "id": "snack-roasted-chana",
+      "name": "Roasted Bengal Gram",
+      "slug": "roasted-chana",
+      "category": "Snacks & Packaged Foods",
+      "botanicalName": "Cicer arietinum",
+      "commonNames": [
+        "Roasted chana",
+        "Pottukadalai"
+      ],
+      "description": "Dry-roasted chickpea product commonly eaten as a snack.",
+      "nutrition": {
+        "basis": "per 100 g edible portion; representative reference value unless stated otherwise",
+        "calories_kcal": 364,
+        "carbohydrates_g": 58,
+        "fiber_g": 18,
+        "protein_g": 22,
+        "fat_g": 6,
+        "sugars_g": 2,
+        "vitaminC_mg": 0,
+        "potassium_mg": 0
+      },
+      "healthBenefits": [
+        "Provides plant protein and fibre."
+      ],
+      "cautions": [
+        "Flavoured/salted products can contain more sodium."
+      ],
+      "servingSuggestions": "Choose unsalted or lightly salted portions.",
+      "selectionTips": "Choose dry, crisp product without stale or rancid smell.",
+      "storageTips": "Store airtight and dry.",
+      "season": "Year-round",
+      "images": {
+        "thumbnail": null,
+        "hero": null
+      },
+      "seo": {
+        "title": "Roasted Bengal Gram nutrition, benefits and health information",
+        "description": "Nutrition, benefits, serving ideas, selection and storage information for Roasted Bengal Gram.",
+        "keywords": null
+      },
+      "sources": [
+        "USDA FoodData Central",
+        "Indian Food Composition Tables (ICMR-NIN), where applicable"
+      ],
+      "published": true
+    },
+    {
+      "id": "snack-makhana",
+      "name": "Roasted Makhana",
+      "slug": "roasted-makhana",
+      "category": "Snacks & Packaged Foods",
+      "botanicalName": "Euryale ferox",
+      "commonNames": [
+        "Fox nuts",
+        "Lotus seeds"
+      ],
+      "description": "Popped seeds of Euryale ferox commonly roasted as a snack.",
+      "nutrition": {
+        "basis": "per 100 g edible portion; representative reference value unless stated otherwise",
+        "calories_kcal": 347,
+        "carbohydrates_g": 76.9,
+        "fiber_g": 14.5,
+        "protein_g": 9.7,
+        "fat_g": 0.1,
+        "sugars_g": 0.6,
+        "vitaminC_mg": 0,
+        "potassium_mg": 0
+      },
+      "healthBenefits": [
+        "Provides carbohydrate and some fibre."
+      ],
+      "cautions": [
+        "Flavoured versions can contain added salt and fat."
+      ],
+      "servingSuggestions": "Dry roast with minimal added oil and moderate salt.",
+      "selectionTips": "Choose crisp, dry pieces without moisture or stale odor.",
+      "storageTips": "Store airtight and dry.",
+      "season": "Year-round",
+      "images": {
+        "thumbnail": null,
+        "hero": null
+      },
+      "seo": {
+        "title": "Roasted Makhana nutrition, benefits and health information",
+        "description": "Nutrition, benefits, serving ideas, selection and storage information for Roasted Makhana.",
+        "keywords": null
+      },
+      "sources": [
+        "USDA FoodData Central",
+        "Indian Food Composition Tables (ICMR-NIN), where applicable"
+      ],
+      "published": true
+    },
+    {
+      "id": "snack-popcorn",
+      "name": "Air-Popped Popcorn",
+      "slug": "air-popped-popcorn",
+      "category": "Snacks & Packaged Foods",
+      "botanicalName": "Zea mays",
+      "commonNames": [
+        "Popcorn"
+      ],
+      "description": "Whole-kernel corn popped with hot air and without added oil.",
+      "nutrition": {
+        "basis": "per 100 g edible portion; representative reference value unless stated otherwise",
+        "calories_kcal": 387,
+        "carbohydrates_g": 77.8,
+        "fiber_g": 14.5,
+        "protein_g": 12.9,
+        "fat_g": 4.5,
+        "sugars_g": 0.9,
+        "vitaminC_mg": 0,
+        "potassium_mg": 329
+      },
+      "healthBenefits": [
+        "Whole-grain snack providing fibre."
+      ],
+      "cautions": [
+        "Butter, oil and salt can substantially change the nutrition profile."
+      ],
+      "servingSuggestions": "Prefer air-popped with modest salt.",
+      "selectionTips": "Choose plain kernels without added flavour coatings.",
+      "storageTips": "Store kernels airtight and dry.",
+      "season": "Year-round",
+      "images": {
+        "thumbnail": null,
+        "hero": null
+      },
+      "seo": {
+        "title": "Air-Popped Popcorn nutrition, benefits and health information",
+        "description": "Nutrition, benefits, serving ideas, selection and storage information for Air-Popped Popcorn.",
+        "keywords": null
+      },
+      "sources": [
+        "USDA FoodData Central",
+        "Indian Food Composition Tables (ICMR-NIN), where applicable"
+      ],
+      "published": true
+    },
+    {
+      "id": "snack-potato-chips",
+      "name": "Potato Chips",
+      "slug": "potato-chips",
+      "category": "Snacks & Packaged Foods",
+      "botanicalName": "Solanum tuberosum",
+      "commonNames": [
+        "Potato crisps"
+      ],
+      "description": "Sliced potatoes fried or baked and commonly seasoned.",
+      "nutrition": {
+        "basis": "per 100 g edible portion; representative reference value unless stated otherwise",
+        "calories_kcal": 536,
+        "carbohydrates_g": 53.8,
+        "fiber_g": 4.4,
+        "protein_g": 7.0,
+        "fat_g": 34.6,
+        "sugars_g": 0.3,
+        "vitaminC_mg": 19.7,
+        "potassium_mg": 1190
+      },
+      "healthBenefits": [
+        "Provides energy and carbohydrate."
+      ],
+      "cautions": [
+        "Often high in sodium and fat; frequent large portions are not ideal."
+      ],
+      "servingSuggestions": "Keep portions small and choose less-salted versions when available.",
+      "selectionTips": "Check sodium, saturated fat and serving size on labels.",
+      "storageTips": "Follow package storage instructions and keep sealed.",
+      "season": "Year-round",
+      "images": {
+        "thumbnail": null,
+        "hero": null
+      },
+      "seo": {
+        "title": "Potato Chips nutrition, benefits and health information",
+        "description": "Nutrition, benefits, serving ideas, selection and storage information for Potato Chips.",
+        "keywords": null
+      },
+      "sources": [
+        "USDA FoodData Central",
+        "Indian Food Composition Tables (ICMR-NIN), where applicable"
+      ],
+      "published": true
+    },
+    {
+      "id": "snack-biscuits",
+      "name": "Plain Biscuits",
+      "slug": "plain-biscuits",
+      "category": "Snacks & Packaged Foods",
+      "botanicalName": null,
+      "commonNames": [
+        "Tea biscuits",
+        "Cookies"
+      ],
+      "description": "Packaged baked snack made mainly from flour and fat, with composition varying by product.",
+      "nutrition": {
+        "basis": "per 100 g edible portion; representative reference value unless stated otherwise",
+        "calories_kcal": 450,
+        "carbohydrates_g": 70,
+        "fiber_g": 2.5,
+        "protein_g": 7,
+        "fat_g": 17,
+        "sugars_g": 20,
+        "vitaminC_mg": 0,
+        "potassium_mg": 100
+      },
+      "healthBenefits": [
+        "Convenient source of energy."
+      ],
+      "cautions": [
+        "Many products contain added sugar, sodium and saturated fat.",
+        "Nutrition varies greatly by brand."
+      ],
+      "servingSuggestions": "Treat as an occasional snack and check serving size.",
+      "selectionTips": "Read the nutrition label and ingredient list.",
+      "storageTips": "Keep sealed in a dry place.",
+      "season": "Year-round",
+      "images": {
+        "thumbnail": null,
+        "hero": null
+      },
+      "seo": {
+        "title": "Plain Biscuits nutrition, benefits and health information",
+        "description": "Nutrition, benefits, serving ideas, selection and storage information for Plain Biscuits.",
+        "keywords": null
+      },
+      "sources": [
+        "USDA FoodData Central",
+        "Indian Food Composition Tables (ICMR-NIN), where applicable"
+      ],
+      "published": true
+    },
+    {
+      "id": "snack-namkeen",
+      "name": "Namkeen / Mixture",
+      "slug": "namkeen-mixture",
+      "category": "Snacks & Packaged Foods",
+      "botanicalName": null,
+      "commonNames": [
+        "Mixture",
+        "Sev mixture"
+      ],
+      "description": "Indian savoury snack mix that may contain fried legumes, flour, nuts and spices.",
+      "nutrition": {
+        "basis": "per 100 g edible portion; representative reference value unless stated otherwise",
+        "calories_kcal": 520,
+        "carbohydrates_g": 50,
+        "fiber_g": 5,
+        "protein_g": 12,
+        "fat_g": 30,
+        "sugars_g": 3,
+        "vitaminC_mg": 0,
+        "potassium_mg": 500
+      },
+      "healthBenefits": [
+        "May provide some protein depending on ingredients."
+      ],
+      "cautions": [
+        "Often high in sodium and fat; recipe and brand vary widely."
+      ],
+      "servingSuggestions": "Use small portions and pair with less-processed foods.",
+      "selectionTips": "Check sodium and ingredient list.",
+      "storageTips": "Keep sealed and dry; use before best-before date.",
+      "season": "Year-round",
+      "images": {
+        "thumbnail": null,
+        "hero": null
+      },
+      "seo": {
+        "title": "Namkeen / Mixture nutrition, benefits and health information",
+        "description": "Nutrition, benefits, serving ideas, selection and storage information for Namkeen / Mixture.",
+        "keywords": null
+      },
+      "sources": [
+        "USDA FoodData Central",
+        "Indian Food Composition Tables (ICMR-NIN), where applicable"
+      ],
+      "published": true
+    }
+  ]
+};

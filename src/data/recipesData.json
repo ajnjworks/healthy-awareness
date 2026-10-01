@@ -1,0 +1,110 @@
+[
+  {
+    "id": "green-detox-smoothie",
+    "title": "Green Detox Smoothie",
+    "category": "Breakfast",
+    "prepTime": "5 mins",
+    "calories": "110 kcal",
+    "difficulty": "Easy",
+    "tag": "Healthy",
+    "description": "A refreshing smoothie packed with greens, fiber and antioxidants.",
+    "image": "https://images.unsplash.com/photo-1610970881699-44a5587cabec?auto=format&fit=crop&w=600&q=80",
+    "badgeColor": "bg-emerald-50 text-emerald-700 border-emerald-200 dark:bg-emerald-950/80 dark:text-emerald-300 dark:border-emerald-800"
+  },
+  {
+    "id": "oats-berry-bowl",
+    "title": "Oats & Berry Bowl",
+    "category": "Breakfast",
+    "prepTime": "10 mins",
+    "calories": "210 kcal",
+    "difficulty": "Superfood",
+    "tag": "High Fiber",
+    "description": "High fiber oats with berries, nuts and seeds for a perfect start.",
+    "image": "https://images.unsplash.com/photo-1590301157890-4810ed352733?auto=format&fit=crop&w=600&q=80",
+    "badgeColor": "bg-emerald-50 text-emerald-700 border-emerald-200 dark:bg-emerald-950/80 dark:text-emerald-300 dark:border-emerald-800"
+  },
+  {
+    "id": "quinoa-veggie-bowl",
+    "title": "Quinoa Veggie Bowl",
+    "category": "Lunch",
+    "prepTime": "20 mins",
+    "calories": "290 kcal",
+    "difficulty": "Quick",
+    "tag": "High Protein",
+    "description": "Protein-rich quinoa with colorful veggies and light dressing.",
+    "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=600&q=80",
+    "badgeColor": "bg-amber-50 text-amber-700 border-amber-200 dark:bg-amber-950/80 dark:text-amber-300 dark:border-amber-800"
+  },
+  {
+    "id": "moong-dal-soup",
+    "title": "Moong Dal Soup",
+    "category": "Lunch",
+    "prepTime": "5 mins",
+    "calories": "140 kcal",
+    "difficulty": "Easy",
+    "tag": "Easy",
+    "description": "Comforting and light moong dal soup perfect for any meal.",
+    "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&w=600&q=80",
+    "badgeColor": "bg-amber-50 text-amber-700 border-amber-200 dark:bg-amber-950/80 dark:text-amber-300 dark:border-amber-800"
+  },
+  {
+    "id": "stuffed-bell-peppers",
+    "title": "Stuffed Bell Peppers",
+    "category": "Dinner",
+    "prepTime": "30 mins",
+    "calories": "240 kcal",
+    "difficulty": "Medium",
+    "tag": "High Fiber",
+    "description": "Bell peppers stuffed with veggies, quinoa and Indian spices.",
+    "image": "https://images.unsplash.com/photo-1606755962773-d324e0a13086?auto=format&fit=crop&w=600&q=80",
+    "badgeColor": "bg-rose-50 text-rose-700 border-rose-200 dark:bg-rose-950/80 dark:text-rose-300 dark:border-rose-800"
+  },
+  {
+    "id": "paneer-tikka",
+    "title": "Paneer Tikka",
+    "category": "Dinner",
+    "prepTime": "25 mins",
+    "calories": "260 kcal",
+    "difficulty": "Quick",
+    "tag": "High Protein",
+    "description": "High protein paneer tikka served with mint chutney.",
+    "image": "https://images.unsplash.com/photo-1567188040759-fb8a883dc6d8?auto=format&fit=crop&w=600&q=80",
+    "badgeColor": "bg-rose-50 text-rose-700 border-rose-200 dark:bg-rose-950/80 dark:text-rose-300 dark:border-rose-800"
+  },
+  {
+    "id": "roasted-chickpeas",
+    "title": "Roasted Chickpeas",
+    "category": "Snacks",
+    "prepTime": "25 mins",
+    "calories": "180 kcal",
+    "difficulty": "Easy",
+    "tag": "High Protein",
+    "description": "Crunchy, spicy and healthy evening snack rich in protein.",
+    "image": "https://images.unsplash.com/photo-1585937421612-70a008356fbe?auto=format&fit=crop&w=600&q=80",
+    "badgeColor": "bg-purple-50 text-purple-700 border-purple-200 dark:bg-purple-950/80 dark:text-purple-300 dark:border-purple-800"
+  },
+  {
+    "id": "fruit-chaat",
+    "title": "Fruit Chaat",
+    "category": "Snacks",
+    "prepTime": "10 mins",
+    "calories": "130 kcal",
+    "difficulty": "Superfood",
+    "tag": "Vitamin Rich",
+    "description": "A tangy and healthy mix of seasonal fruits and spices.",
+    "image": "https://images.unsplash.com/photo-1490474418585-ba9bad8fd0ea?auto=format&fit=crop&w=600&q=80",
+    "badgeColor": "bg-purple-50 text-purple-700 border-purple-200 dark:bg-purple-950/80 dark:text-purple-300 dark:border-purple-800"
+  },
+  {
+    "id": "chia-pudding",
+    "title": "Chia Pudding",
+    "category": "Desserts",
+    "prepTime": "15 mins",
+    "calories": "190 kcal",
+    "difficulty": "Easy",
+    "tag": "Omega-3 Rich",
+    "description": "Creamy chia pudding with berries and honey.",
+    "image": "https://images.unsplash.com/photo-1533089860892-a7c6f0a88666?auto=format&fit=crop&w=600&q=80",
+    "badgeColor": "bg-sky-50 text-sky-700 border-sky-200 dark:bg-sky-950/80 dark:text-sky-300 dark:border-sky-800"
+  }
+]

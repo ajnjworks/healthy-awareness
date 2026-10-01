@@ -1,0 +1,180 @@
+{
+  "hero": {
+    "title": "Seasonal Foods",
+    "subtitle": "Eat with the season, stay healthy all year round.",
+    "description": "Seasonal foods are fresher, more nutritious and support your body's natural rhythm. Discover what to eat this season and how they benefit your health.",
+    "badges": [
+      { "id": "nutrients", "label": "More Nutrients", "desc": "Higher in vitamins and minerals", "icon": "Sprout" },
+      { "id": "immunity", "label": "Better Immunity", "desc": "Boosts immunity naturally", "icon": "ShieldCheck" },
+      { "id": "budget", "label": "Budget Friendly", "desc": "Locally available and cost effective", "icon": "ShoppingBag" },
+      { "id": "planet", "label": "Good for Planet", "desc": "Reduces carbon footprint", "icon": "Globe" }
+    ]
+  },
+  "seasons": [
+    {
+      "id": "summer",
+      "name": "Summer",
+      "months": "Mar – Jun",
+      "icon": "Sun",
+      "title": "What to Eat in Summer",
+      "description": "Summer foods help keep your body cool, hydrated and energized.",
+      "tagline": "Cooling & hydrating foods",
+      "foods": [
+        {
+          "id": "watermelon",
+          "name": "Watermelon",
+          "subtitle": "Hydrating and rich in lycopene. Helps beat the heat.",
+          "tag": "Hydrating",
+          "image": "https://images.unsplash.com/photo-1587049352846-4a222e784d38?auto=format&fit=crop&w=500&q=80"
+        },
+        {
+          "id": "cucumber",
+          "name": "Cucumber",
+          "subtitle": "High water content, aids digestion and keeps your body cool.",
+          "tag": "Cooling",
+          "image": "https://images.unsplash.com/photo-1449300079323-02e209d9d3a6?auto=format&fit=crop&w=500&q=80"
+        },
+        {
+          "id": "mango",
+          "name": "Mango",
+          "subtitle": "Rich in vitamins A & C. Boosts immunity and improves skin health.",
+          "tag": "Immunity Booster",
+          "image": "https://images.unsplash.com/photo-1553279768-865429fa0078?auto=format&fit=crop&w=500&q=80"
+        },
+        {
+          "id": "buttermilk",
+          "name": "Buttermilk",
+          "subtitle": "Keeps you hydrated, improves digestion and prevents dehydration.",
+          "tag": "Gut Friendly",
+          "image": "https://images.unsplash.com/photo-1628088062854-d1870b4553da?auto=format&fit=crop&w=500&q=80"
+        },
+        {
+          "id": "coconut-water",
+          "name": "Coconut Water",
+          "subtitle": "Natural electrolyte rich drink. Rehydrates instantly.",
+          "tag": "Electrolyte Rich",
+          "image": "https://images.unsplash.com/photo-1525385133512-2f3bdd039054?auto=format&fit=crop&w=500&q=80"
+        },
+        {
+          "id": "mint-leaves",
+          "name": "Mint Leaves",
+          "subtitle": "Helps cool the body, aids digestion and refreshes.",
+          "tag": "Cooling",
+          "image": "https://images.unsplash.com/photo-1608571423902-eed4a5ad8108?auto=format&fit=crop&w=500&q=80"
+        },
+        {
+          "id": "muskmelon",
+          "name": "Muskmelon",
+          "subtitle": "Rich in water and fiber. Helps in hydration and weight management.",
+          "tag": "Hydrating",
+          "image": "https://images.unsplash.com/photo-1571771894821-ce9b6c11b08e?auto=format&fit=crop&w=500&q=80"
+        },
+        {
+          "id": "lemon",
+          "name": "Lemon",
+          "subtitle": "Rich in vitamin C, aids digestion and detoxifies the body.",
+          "tag": "Detoxifying",
+          "image": "https://images.unsplash.com/photo-1534531141161-e41d133a8b40?auto=format&fit=crop&w=500&q=80"
+        }
+      ]
+    },
+    {
+      "id": "monsoon",
+      "name": "Monsoon",
+      "months": "Jul – Oct",
+      "icon": "CloudRain",
+      "title": "What to Eat in Monsoon",
+      "description": "Monsoon superfoods boost immunity, protect against infections, and support digestion.",
+      "tagline": "Immunity boosting foods",
+      "foods": [
+        {
+          "id": "sweet-corn",
+          "name": "Sweet Corn",
+          "subtitle": "High in lutein and fiber. Great for digestion and energy.",
+          "tag": "Fiber Rich",
+          "image": "https://images.unsplash.com/photo-1551754655-cd27e38d2076?auto=format&fit=crop&w=500&q=80"
+        },
+        {
+          "id": "ginger",
+          "name": "Ginger",
+          "subtitle": "Natural anti-inflammatory spice. Helps fight seasonal colds.",
+          "tag": "Immunity Booster",
+          "image": "https://images.unsplash.com/photo-1615485290382-441e4d049cb5?auto=format&fit=crop&w=500&q=80"
+        },
+        {
+          "id": "garlic",
+          "name": "Garlic",
+          "subtitle": "Potent antimicrobial herb. Enhances gut health and infection immunity.",
+          "tag": "Antimicrobial",
+          "image": "https://images.unsplash.com/photo-1540148426945-6cf22a6b2383?auto=format&fit=crop&w=500&q=80"
+        },
+        {
+          "id": "turmeric",
+          "name": "Turmeric",
+          "subtitle": "Curcumin-rich golden spice that calms internal inflammation.",
+          "tag": "Anti-Inflammatory",
+          "image": "https://images.unsplash.com/photo-1615485290382-441e4d049cb5?auto=format&fit=crop&w=500&q=80"
+        }
+      ]
+    },
+    {
+      "id": "winter",
+      "name": "Winter",
+      "months": "Nov – Feb",
+      "icon": "Snowflake",
+      "title": "What to Eat in Winter",
+      "description": "Nourishing winter foods generate natural heat, strengthen immunity, and sustain stamina.",
+      "tagline": "Warm & nourishing foods",
+      "foods": [
+        {
+          "id": "amla",
+          "name": "Amla (Indian Gooseberry)",
+          "subtitle": "Concentrated vitamin C superberry for immune warmth and skin radiant glow.",
+          "tag": "Vitamin C Heavy",
+          "image": "https://images.unsplash.com/photo-1615485290382-441e4d049cb5?auto=format&fit=crop&w=500&q=80"
+        },
+        {
+          "id": "spinach",
+          "name": "Spinach",
+          "subtitle": "Iron and folate rich leafy green that builds hemoglobin and vitality.",
+          "tag": "Iron Rich",
+          "image": "https://images.unsplash.com/photo-1576045057995-568f588f82fb?auto=format&fit=crop&w=500&q=80"
+        },
+        {
+          "id": "pomegranate",
+          "name": "Pomegranate",
+          "subtitle": "Antioxidant ruby seeds supporting heart health and blood circulation.",
+          "tag": "Antioxidant Rich",
+          "image": "https://images.unsplash.com/photo-1615485290382-441e4d049cb5?auto=format&fit=crop&w=500&q=80"
+        },
+        {
+          "id": "sweet-potato",
+          "name": "Sweet Potato",
+          "subtitle": "Beta-carotene complex carb offering sustained thermal warmth.",
+          "tag": "Energy Sustained",
+          "image": "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?auto=format&fit=crop&w=500&q=80"
+        }
+      ]
+    }
+  ],
+  "whyEatSeasonal": [
+    { "id": "fresh", "title": "Fresh & Natural", "desc": "Picked in season at the right time of maturity.", "icon": "Leaf" },
+    { "id": "benefits", "title": "Maximum Benefits", "desc": "Higher nutrient value and better taste.", "icon": "BarChart3" },
+    { "id": "farmers", "title": "Supports Local Farmers", "desc": "Buying seasonal supports local agriculture.", "icon": "Store" },
+    { "id": "health", "title": "Better for Health", "desc": "Aligns with your body's natural needs.", "icon": "HeartPulse" }
+  ],
+  "topBenefits": [
+    "Improves digestion",
+    "Enhances immunity",
+    "Provides essential nutrients",
+    "Helps maintain healthy weight",
+    "Promotes overall well-being"
+  ],
+  "popularFoods": [
+    { "name": "Amla", "season": "Winter", "image": "https://images.unsplash.com/photo-1615485290382-441e4d049cb5?auto=format&fit=crop&w=150&q=80" },
+    { "name": "Sweet Corn", "season": "Monsoon", "image": "https://images.unsplash.com/photo-1551754655-cd27e38d2076?auto=format&fit=crop&w=150&q=80" },
+    { "name": "Pomegranate", "season": "Winter", "image": "https://images.unsplash.com/photo-1615485290382-441e4d049cb5?auto=format&fit=crop&w=150&q=80" },
+    { "name": "Spinach", "season": "Winter", "image": "https://images.unsplash.com/photo-1576045057995-568f588f82fb?auto=format&fit=crop&w=150&q=80" },
+    { "name": "Bottle Gourd", "season": "Summer", "image": "https://images.unsplash.com/photo-1449300079323-02e209d9d3a6?auto=format&fit=crop&w=150&q=80" }
+  ]
+}

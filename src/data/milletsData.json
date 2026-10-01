@@ -1,0 +1,317 @@
+{
+  "subCategories": [
+    {
+      "id": "all",
+      "name": "All Millets",
+      "image": "https://images.unsplash.com/photo-1574323347407-f5e1ad6d020b?auto=format&fit=crop&w=500&q=80"
+    },
+    {
+      "id": "Major Millets",
+      "name": "Major Millets",
+      "image": "https://images.unsplash.com/photo-1574323347407-f5e1ad6d020b?auto=format&fit=crop&w=500&q=80"
+    },
+    {
+      "id": "Minor & Ancient Millets",
+      "name": "Minor & Ancient Millets",
+      "image": "https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&w=500&q=80"
+    }
+  ],
+  "milletsList": [
+    {
+      "id": "pearl-millet",
+      "name": "Pearl Millet",
+      "subtitle": "A millet widely consumed in India.",
+      "category": "Major Millets",
+      "score": 9.5,
+      "image": "https://images.unsplash.com/photo-1574323347407-f5e1ad6d020b?auto=format&fit=crop&w=500&q=80",
+      "badge": "Ancient Grains",
+      "badgeType": "popular",
+      "benefits": [
+        "metabolism",
+        "heart",
+        "digestion"
+      ],
+      "nutrients": [
+        {
+          "label": "Calories",
+          "value": "347 kcal"
+        },
+        {
+          "label": "Fiber",
+          "value": "11.5g"
+        },
+        {
+          "label": "Protein",
+          "value": "11g"
+        },
+        {
+          "label": "Minerals",
+          "value": "Rich"
+        }
+      ],
+      "tags": [
+        "Millets",
+        "Major Millets"
+      ]
+    },
+    {
+      "id": "finger-millet",
+      "name": "Finger Millet",
+      "subtitle": "A millet commonly used as flour, porridge and fermented foods.",
+      "category": "Major Millets",
+      "score": 9.8,
+      "image": "https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&w=500&q=80",
+      "badge": "Ancient Grains",
+      "badgeType": "popular",
+      "benefits": [
+        "metabolism",
+        "heart",
+        "digestion"
+      ],
+      "nutrients": [
+        {
+          "label": "Calories",
+          "value": "328 kcal"
+        },
+        {
+          "label": "Fiber",
+          "value": "11.2g"
+        },
+        {
+          "label": "Protein",
+          "value": "7.3g"
+        },
+        {
+          "label": "Minerals",
+          "value": "Rich"
+        }
+      ],
+      "tags": [
+        "Millets",
+        "Major Millets"
+      ]
+    },
+    {
+      "id": "sorghum-jowar",
+      "name": "Sorghum",
+      "subtitle": "A gluten-free cereal grain commonly used as flour or cooked grain.",
+      "category": "Major Millets",
+      "score": 9,
+      "image": "https://images.unsplash.com/photo-1574323347407-f5e1ad6d020b?auto=format&fit=crop&w=500&q=80",
+      "badge": "Ancient Grains",
+      "badgeType": "popular",
+      "benefits": [
+        "metabolism",
+        "heart",
+        "digestion"
+      ],
+      "nutrients": [
+        {
+          "label": "Calories",
+          "value": "334 kcal"
+        },
+        {
+          "label": "Fiber",
+          "value": "10.2g"
+        },
+        {
+          "label": "Protein",
+          "value": "10g"
+        },
+        {
+          "label": "Minerals",
+          "value": "Rich"
+        }
+      ],
+      "tags": [
+        "Millets",
+        "Major Millets"
+      ]
+    },
+    {
+      "id": "foxtail-millet",
+      "name": "Foxtail Millet",
+      "subtitle": "Small millet used as a rice alternative and in traditional dishes.",
+      "category": "Minor & Ancient Millets",
+      "score": 9.1,
+      "image": "https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&w=500&q=80",
+      "badge": "Ancient Grains",
+      "badgeType": "popular",
+      "benefits": [
+        "metabolism",
+        "heart",
+        "digestion"
+      ],
+      "nutrients": [
+        {
+          "label": "Calories",
+          "value": "351 kcal"
+        },
+        {
+          "label": "Fiber",
+          "value": "6.7g"
+        },
+        {
+          "label": "Protein",
+          "value": "12.3g"
+        },
+        {
+          "label": "Minerals",
+          "value": "Rich"
+        }
+      ],
+      "tags": [
+        "Millets",
+        "Minor & Ancient Millets"
+      ]
+    },
+    {
+      "id": "little-millet",
+      "name": "Little Millet",
+      "subtitle": "Small millet commonly used as a rice alternative.",
+      "category": "Minor & Ancient Millets",
+      "score": 9.8,
+      "image": "https://images.unsplash.com/photo-1574323347407-f5e1ad6d020b?auto=format&fit=crop&w=500&q=80",
+      "badge": "Ancient Grains",
+      "badgeType": "popular",
+      "benefits": [
+        "metabolism",
+        "heart",
+        "digestion"
+      ],
+      "nutrients": [
+        {
+          "label": "Calories",
+          "value": "329 kcal"
+        },
+        {
+          "label": "Fiber",
+          "value": "7.7g"
+        },
+        {
+          "label": "Protein",
+          "value": "10.1g"
+        },
+        {
+          "label": "Minerals",
+          "value": "Rich"
+        }
+      ],
+      "tags": [
+        "Millets",
+        "Minor & Ancient Millets"
+      ]
+    },
+    {
+      "id": "kodo-millet",
+      "name": "Kodo Millet",
+      "subtitle": "Small millet used in traditional grain dishes.",
+      "category": "Minor & Ancient Millets",
+      "score": 9.2,
+      "image": "https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&w=500&q=80",
+      "badge": "Ancient Grains",
+      "badgeType": "popular",
+      "benefits": [
+        "metabolism",
+        "heart",
+        "digestion"
+      ],
+      "nutrients": [
+        {
+          "label": "Calories",
+          "value": "353 kcal"
+        },
+        {
+          "label": "Fiber",
+          "value": "9g"
+        },
+        {
+          "label": "Protein",
+          "value": "8.3g"
+        },
+        {
+          "label": "Minerals",
+          "value": "Rich"
+        }
+      ],
+      "tags": [
+        "Millets",
+        "Minor & Ancient Millets"
+      ]
+    },
+    {
+      "id": "barnyard-millet",
+      "name": "Barnyard Millet",
+      "subtitle": "Small millet commonly used in porridge and cooked grain dishes.",
+      "category": "Minor & Ancient Millets",
+      "score": 9.4,
+      "image": "https://images.unsplash.com/photo-1574323347407-f5e1ad6d020b?auto=format&fit=crop&w=500&q=80",
+      "badge": "Ancient Grains",
+      "badgeType": "popular",
+      "benefits": [
+        "metabolism",
+        "heart",
+        "digestion"
+      ],
+      "nutrients": [
+        {
+          "label": "Calories",
+          "value": "307 kcal"
+        },
+        {
+          "label": "Fiber",
+          "value": "13.6g"
+        },
+        {
+          "label": "Protein",
+          "value": "6.2g"
+        },
+        {
+          "label": "Minerals",
+          "value": "Rich"
+        }
+      ],
+      "tags": [
+        "Millets",
+        "Minor & Ancient Millets"
+      ]
+    },
+    {
+      "id": "proso-millet",
+      "name": "Proso Millet",
+      "subtitle": "A small millet used as cooked grain or flour.",
+      "category": "Minor & Ancient Millets",
+      "score": 9.5,
+      "image": "https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&w=500&q=80",
+      "badge": "Ancient Grains",
+      "badgeType": "popular",
+      "benefits": [
+        "metabolism",
+        "heart",
+        "digestion"
+      ],
+      "nutrients": [
+        {
+          "label": "Calories",
+          "value": "378 kcal"
+        },
+        {
+          "label": "Fiber",
+          "value": "8.5g"
+        },
+        {
+          "label": "Protein",
+          "value": "11g"
+        },
+        {
+          "label": "Minerals",
+          "value": "Rich"
+        }
+      ],
+      "tags": [
+        "Millets",
+        "Minor & Ancient Millets"
+      ]
+    }
+  ]
+}

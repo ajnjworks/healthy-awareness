@@ -1,0 +1,143 @@
+{
+  "subCategories": [
+    {
+      "id": "all",
+      "name": "All Sweeteners & Sugars",
+      "image": "https://images.unsplash.com/photo-1581441363689-1f3c3c414635?auto=format&fit=crop&w=500&q=80"
+    },
+    {
+      "id": "Refined Sugars",
+      "name": "Refined Sugars",
+      "image": "https://images.unsplash.com/photo-1581441363689-1f3c3c414635?auto=format&fit=crop&w=500&q=80"
+    },
+    {
+      "id": "Natural Sweeteners",
+      "name": "Natural Sweeteners",
+      "image": "https://images.unsplash.com/photo-1601493700631-2b16ec4b4716?auto=format&fit=crop&w=500&q=80"
+    }
+  ],
+  "sweetenersList": [
+    {
+      "id": "white-sugar",
+      "name": "White Sugar",
+      "score": 9.2,
+      "subtitle": "Refined sucrose used as a sweetener.",
+      "category": "Refined Sugars",
+      "botanicalName": "Saccharum officinarum",
+      "originClimate": "Cultivated & Prepared Globally",
+      "badge": "Natural Energy",
+      "badgeType": "popular",
+      "views": "17.8k views",
+      "image": "https://images.unsplash.com/photo-1581441363689-1f3c3c414635?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        "energy",
+        "digestion"
+      ],
+      "nutrients": [
+        {
+          "label": "Cal: 387 kcal",
+          "icon": "Zap"
+        },
+        {
+          "label": "Sugars: 100g",
+          "icon": "Wheat"
+        },
+        {
+          "label": "Sweetener",
+          "icon": "Sparkles"
+        }
+      ]
+    },
+    {
+      "id": "jaggery",
+      "name": "Jaggery",
+      "score": 9,
+      "subtitle": "Traditional concentrated cane or palm sweetener.",
+      "category": "Natural Sweeteners",
+      "originClimate": "Cultivated & Prepared Globally",
+      "badge": "Natural Energy",
+      "badgeType": "popular",
+      "views": "15.3k views",
+      "image": "https://images.unsplash.com/photo-1601493700631-2b16ec4b4716?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        "energy",
+        "digestion"
+      ],
+      "nutrients": [
+        {
+          "label": "Cal: 383 kcal",
+          "icon": "Zap"
+        },
+        {
+          "label": "Sugars: 98g",
+          "icon": "Wheat"
+        },
+        {
+          "label": "Sweetener",
+          "icon": "Sparkles"
+        }
+      ]
+    },
+    {
+      "id": "honey",
+      "name": "Honey",
+      "score": 9.4,
+      "subtitle": "Sweet substance produced by bees from floral nectar.",
+      "category": "Natural Sweeteners",
+      "originClimate": "Cultivated & Prepared Globally",
+      "badge": "Natural Energy",
+      "badgeType": "popular",
+      "views": "10.0k views",
+      "image": "https://images.unsplash.com/photo-1587049352846-4a222e784d38?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        "energy",
+        "digestion"
+      ],
+      "nutrients": [
+        {
+          "label": "Cal: 304 kcal",
+          "icon": "Zap"
+        },
+        {
+          "label": "Sugars: 82.1g",
+          "icon": "Wheat"
+        },
+        {
+          "label": "Enzymes: Rich",
+          "icon": "Sparkles"
+        }
+      ]
+    },
+    {
+      "id": "coconut-sugar",
+      "name": "Coconut Sugar",
+      "score": 9.8,
+      "subtitle": "Sugar made from coconut palm sap.",
+      "category": "Natural Sweeteners",
+      "botanicalName": "Cocos nucifera",
+      "originClimate": "Cultivated & Prepared Globally",
+      "badge": "Natural Energy",
+      "badgeType": "popular",
+      "views": "14.0k views",
+      "image": "https://images.unsplash.com/photo-1581441363689-1f3c3c414635?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        "energy",
+        "digestion"
+      ],
+      "nutrients": [
+        {
+          "label": "Cal: 375 kcal",
+          "icon": "Zap"
+        },
+        {
+          "label": "Sugars: 87g",
+          "icon": "Wheat"
+        },
+        {
+          "label": "Sweetener",
+          "icon": "Sparkles"
+        }
+      ]
+    }
+  ]
+}

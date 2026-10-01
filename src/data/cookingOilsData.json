@@ -1,0 +1,207 @@
+{
+  "subCategories": [
+    {
+      "id": "all",
+      "name": "All Cooking Oils & Fats",
+      "image": "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&w=500&q=80"
+    },
+    {
+      "id": "Cold-Pressed Seed Oils",
+      "name": "Cold-Pressed Seed Oils",
+      "image": "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&w=500&q=80"
+    },
+    {
+      "id": "Fruit & Plant Oils",
+      "name": "Fruit & Plant Oils",
+      "image": "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&w=500&q=80"
+    }
+  ],
+  "cookingOilsList": [
+    {
+      "id": "groundnut-oil",
+      "name": "Groundnut Oil",
+      "score": 9.8,
+      "subtitle": "Vegetable oil pressed from peanuts.",
+      "category": "Cold-Pressed Seed Oils",
+      "botanicalName": "Arachis hypogaea",
+      "originClimate": "Cultivated & Prepared Globally",
+      "badge": "Pure Fat",
+      "badgeType": "popular",
+      "views": "15.5k views",
+      "image": "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        "heart",
+        "energy"
+      ],
+      "nutrients": [
+        {
+          "label": "Cal: 884 kcal",
+          "icon": "Zap"
+        },
+        {
+          "label": "Fat: 100g",
+          "icon": "Droplets"
+        },
+        {
+          "label": "Unsaturated: High",
+          "icon": "Heart"
+        }
+      ]
+    },
+    {
+      "id": "mustard-oil",
+      "name": "Mustard Oil",
+      "score": 9.2,
+      "subtitle": "Pungent vegetable oil used in Indian cooking.",
+      "category": "Cold-Pressed Seed Oils",
+      "botanicalName": "Brassica juncea",
+      "originClimate": "Cultivated & Prepared Globally",
+      "badge": "Pure Fat",
+      "badgeType": "popular",
+      "views": "13.4k views",
+      "image": "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        "heart",
+        "energy"
+      ],
+      "nutrients": [
+        {
+          "label": "Cal: 884 kcal",
+          "icon": "Zap"
+        },
+        {
+          "label": "Fat: 100g",
+          "icon": "Droplets"
+        },
+        {
+          "label": "Unsaturated: High",
+          "icon": "Heart"
+        }
+      ]
+    },
+    {
+      "id": "sesame-oil",
+      "name": "Sesame Oil",
+      "score": 8.9,
+      "subtitle": "Oil made from sesame seeds; common in South Indian cooking.",
+      "category": "Cold-Pressed Seed Oils",
+      "botanicalName": "Sesamum indicum",
+      "originClimate": "Cultivated & Prepared Globally",
+      "badge": "Pure Fat",
+      "badgeType": "popular",
+      "views": "14.7k views",
+      "image": "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        "heart",
+        "energy"
+      ],
+      "nutrients": [
+        {
+          "label": "Cal: 884 kcal",
+          "icon": "Zap"
+        },
+        {
+          "label": "Fat: 100g",
+          "icon": "Droplets"
+        },
+        {
+          "label": "Unsaturated: High",
+          "icon": "Heart"
+        }
+      ]
+    },
+    {
+      "id": "coconut-oil",
+      "name": "Coconut Oil",
+      "score": 9.2,
+      "subtitle": "Oil extracted from coconut.",
+      "category": "Fruit & Plant Oils",
+      "botanicalName": "Cocos nucifera",
+      "originClimate": "Cultivated & Prepared Globally",
+      "badge": "Pure Fat",
+      "badgeType": "popular",
+      "views": "16.6k views",
+      "image": "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        "heart",
+        "energy"
+      ],
+      "nutrients": [
+        {
+          "label": "Cal: 892 kcal",
+          "icon": "Zap"
+        },
+        {
+          "label": "Fat: 99.1g",
+          "icon": "Droplets"
+        },
+        {
+          "label": "Unsaturated: High",
+          "icon": "Heart"
+        }
+      ]
+    },
+    {
+      "id": "sunflower-oil",
+      "name": "Sunflower Oil",
+      "score": 9.8,
+      "subtitle": "Vegetable oil commonly used for cooking.",
+      "category": "Cold-Pressed Seed Oils",
+      "botanicalName": "Helianthus annuus",
+      "originClimate": "Cultivated & Prepared Globally",
+      "badge": "Pure Fat",
+      "badgeType": "popular",
+      "views": "10.7k views",
+      "image": "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        "heart",
+        "energy"
+      ],
+      "nutrients": [
+        {
+          "label": "Cal: 884 kcal",
+          "icon": "Zap"
+        },
+        {
+          "label": "Fat: 100g",
+          "icon": "Droplets"
+        },
+        {
+          "label": "Unsaturated: High",
+          "icon": "Heart"
+        }
+      ]
+    },
+    {
+      "id": "olive-oil",
+      "name": "Olive Oil",
+      "score": 9.6,
+      "subtitle": "Oil obtained from olives; extra virgin oil is minimally refined.",
+      "category": "Fruit & Plant Oils",
+      "botanicalName": "Olea europaea",
+      "originClimate": "Cultivated & Prepared Globally",
+      "badge": "Pure Fat",
+      "badgeType": "popular",
+      "views": "12.7k views",
+      "image": "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        "heart",
+        "energy"
+      ],
+      "nutrients": [
+        {
+          "label": "Cal: 884 kcal",
+          "icon": "Zap"
+        },
+        {
+          "label": "Fat: 100g",
+          "icon": "Droplets"
+        },
+        {
+          "label": "Unsaturated: High",
+          "icon": "Heart"
+        }
+      ]
+    }
+  ]
+}

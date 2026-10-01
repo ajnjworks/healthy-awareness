@@ -1,0 +1,327 @@
+{
+  "schemaVersion": "2.0.0",
+  "dataset": {
+    "name": "Eggs",
+    "description": "Whole eggs, egg components and specialty poultry eggs catalog for the Healthy Awareness food database.",
+    "dataStandard": "Conservative verified-data model",
+    "rule": "No value is invented. Unknown or not source-verified fields are null.",
+    "nutritionBasis": "per 100 g edible portion, raw",
+    "primaryNutritionSource": {
+      "organization": "USDA Agricultural Research Service",
+      "database": "FoodData Central",
+      "url": "https://fdc.nal.usda.gov/"
+    }
+  },
+  "records": [
+    {
+      "id": "chicken_egg",
+      "name": "Chicken egg",
+      "slug": "chicken-egg",
+      "category": "Eggs",
+      "botanicalName": null,
+      "commonNames": null,
+      "description": null,
+      "nutrition": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      },
+      "images": {
+        "thumbnail": "/images/chicken-egg.webp",
+        "hero": "/images/chicken-egg-hero.webp"
+      },
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      },
+      "sources": [],
+      "published": true
+    },
+    {
+      "id": "chicken_egg_white",
+      "name": "Chicken egg white",
+      "slug": "chicken-egg-white",
+      "category": "Eggs",
+      "botanicalName": null,
+      "commonNames": null,
+      "description": null,
+      "nutrition": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      },
+      "images": {
+        "thumbnail": "/images/chicken-egg-white.webp",
+        "hero": "/images/chicken-egg-white-hero.webp"
+      },
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      },
+      "sources": [],
+      "published": true
+    },
+    {
+      "id": "chicken_egg_yolk",
+      "name": "Chicken egg yolk",
+      "slug": "chicken-egg-yolk",
+      "category": "Eggs",
+      "botanicalName": null,
+      "commonNames": null,
+      "description": null,
+      "nutrition": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      },
+      "images": {
+        "thumbnail": "/images/chicken-egg-yolk.webp",
+        "hero": "/images/chicken-egg-yolk-hero.webp"
+      },
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      },
+      "sources": [],
+      "published": true
+    },
+    {
+      "id": "duck_egg",
+      "name": "Duck egg",
+      "slug": "duck-egg",
+      "category": "Eggs",
+      "botanicalName": null,
+      "commonNames": null,
+      "description": null,
+      "nutrition": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      },
+      "images": {
+        "thumbnail": "/images/duck-egg.webp",
+        "hero": "/images/duck-egg-hero.webp"
+      },
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      },
+      "sources": [],
+      "published": true
+    },
+    {
+      "id": "quail_egg",
+      "name": "Quail egg",
+      "slug": "quail-egg",
+      "category": "Eggs",
+      "botanicalName": null,
+      "commonNames": null,
+      "description": null,
+      "nutrition": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      },
+      "images": {
+        "thumbnail": "/images/quail-egg.webp",
+        "hero": "/images/quail-egg-hero.webp"
+      },
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      },
+      "sources": [],
+      "published": true
+    },
+    {
+      "id": "goose_egg",
+      "name": "Goose egg",
+      "slug": "goose-egg",
+      "category": "Eggs",
+      "botanicalName": null,
+      "commonNames": null,
+      "description": null,
+      "nutrition": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      },
+      "images": {
+        "thumbnail": "/images/goose-egg.webp",
+        "hero": "/images/goose-egg-hero.webp"
+      },
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      },
+      "sources": [],
+      "published": true
+    },
+    {
+      "id": "turkey_egg",
+      "name": "Turkey egg",
+      "slug": "turkey-egg",
+      "category": "Eggs",
+      "botanicalName": null,
+      "commonNames": null,
+      "description": null,
+      "nutrition": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      },
+      "images": {
+        "thumbnail": "/images/turkey-egg.webp",
+        "hero": "/images/turkey-egg-hero.webp"
+      },
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      },
+      "sources": [],
+      "published": true
+    },
+    {
+      "id": "pigeon_egg",
+      "name": "Pigeon egg",
+      "slug": "pigeon-egg",
+      "category": "Eggs",
+      "botanicalName": null,
+      "commonNames": null,
+      "description": null,
+      "nutrition": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      },
+      "images": {
+        "thumbnail": "/images/pigeon-egg.webp",
+        "hero": "/images/pigeon-egg-hero.webp"
+      },
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      },
+      "sources": [],
+      "published": true
+    },
+    {
+      "id": "country_chicken_egg",
+      "name": "Country chicken egg",
+      "slug": "country-chicken-egg",
+      "category": "Eggs",
+      "botanicalName": null,
+      "commonNames": null,
+      "description": null,
+      "nutrition": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      },
+      "images": {
+        "thumbnail": "/images/country-chicken-egg.webp",
+        "hero": "/images/country-chicken-egg-hero.webp"
+      },
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      },
+      "sources": [],
+      "published": true
+    },
+    {
+      "id": "desi_chicken_egg",
+      "name": "Desi chicken egg",
+      "slug": "desi-chicken-egg",
+      "category": "Eggs",
+      "botanicalName": null,
+      "commonNames": null,
+      "description": null,
+      "nutrition": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      },
+      "images": {
+        "thumbnail": "/images/desi-chicken-egg.webp",
+        "hero": "/images/desi-chicken-egg-hero.webp"
+      },
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      },
+      "sources": [],
+      "published": true
+    }
+  ]
+}

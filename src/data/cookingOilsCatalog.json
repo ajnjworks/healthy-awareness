@@ -1,0 +1,301 @@
+{
+  "schemaVersion": "2.0.0",
+  "dataset": {
+    "name": "Healthy Awareness Cooking Oils & Fats",
+    "description": "Cooking Oils & Fats catalog for listing, search, comparison and detail pages.",
+    "dataStandard": "Conservative verified-data model",
+    "rule": "No value is invented. Unknown or not source-verified fields are null.",
+    "nutritionBasis": "per 100 g edible portion, raw",
+    "primaryNutritionSource": {
+      "organization": "USDA Agricultural Research Service",
+      "database": "FoodData Central",
+      "url": "https://fdc.nal.usda.gov/"
+    }
+  },
+  "records": [
+    {
+      "id": "oil-groundnut",
+      "name": "Groundnut Oil",
+      "slug": "groundnut-oil",
+      "category": "Cooking Oils & Fats",
+      "botanicalName": "Arachis hypogaea",
+      "commonNames": [
+        "Peanut oil"
+      ],
+      "description": "Vegetable oil pressed from peanuts.",
+      "nutrition": {
+        "basis": "per 100 g edible portion; representative reference value unless stated otherwise",
+        "calories_kcal": 884,
+        "carbohydrates_g": 0,
+        "fiber_g": 0,
+        "protein_g": 0,
+        "fat_g": 100,
+        "sugars_g": 0,
+        "vitaminC_mg": 0,
+        "potassium_mg": 0
+      },
+      "healthBenefits": [
+        "Provides dietary fat and predominantly unsaturated fatty acids."
+      ],
+      "cautions": [
+        "Allergy risk for people with peanut allergy depending on processing.",
+        "All oils are calorie-dense."
+      ],
+      "servingSuggestions": "Use measured amounts for cooking rather than free-pouring.",
+      "selectionTips": "Choose sealed food-grade oil with clear label and valid date.",
+      "storageTips": "Keep tightly closed away from heat and light.",
+      "season": "Year-round",
+      "images": {
+        "thumbnail": "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&w=500&q=80",
+        "hero": "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&w=500&q=80"
+      },
+      "seo": {
+        "title": "Groundnut Oil nutrition, benefits and health information",
+        "description": "Nutrition, benefits, serving ideas, selection and storage information for Groundnut Oil.",
+        "keywords": null
+      },
+      "sources": [
+        "USDA FoodData Central",
+        "Indian Food Composition Tables (ICMR-NIN), where applicable"
+      ],
+      "published": true
+    },
+    {
+      "id": "oil-mustard",
+      "name": "Mustard Oil",
+      "slug": "mustard-oil",
+      "category": "Cooking Oils & Fats",
+      "botanicalName": "Brassica juncea",
+      "commonNames": [
+        "Sarson oil"
+      ],
+      "description": "Pungent vegetable oil used in Indian cooking.",
+      "nutrition": {
+        "basis": "per 100 g edible portion; representative reference value unless stated otherwise",
+        "calories_kcal": 884,
+        "carbohydrates_g": 0,
+        "fiber_g": 0,
+        "protein_g": 0,
+        "fat_g": 100,
+        "sugars_g": 0,
+        "vitaminC_mg": 0,
+        "potassium_mg": 0
+      },
+      "healthBenefits": [
+        "Provides unsaturated fats.",
+        "Common traditional cooking oil in several Indian regions."
+      ],
+      "cautions": [
+        "Use food-grade edible mustard oil intended for cooking.",
+        "All oils are calorie-dense."
+      ],
+      "servingSuggestions": "Use measured amounts for sautéing, cooking and dressings.",
+      "selectionTips": "Choose sealed edible oil from a reputable source.",
+      "storageTips": "Store tightly closed away from heat and sunlight.",
+      "season": "Year-round",
+      "images": {
+        "thumbnail": "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&w=500&q=80",
+        "hero": "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&w=500&q=80"
+      },
+      "seo": {
+        "title": "Mustard Oil nutrition, benefits and health information",
+        "description": "Nutrition, benefits, serving ideas, selection and storage information for Mustard Oil.",
+        "keywords": null
+      },
+      "sources": [
+        "USDA FoodData Central",
+        "Indian Food Composition Tables (ICMR-NIN), where applicable"
+      ],
+      "published": true
+    },
+    {
+      "id": "oil-sesame",
+      "name": "Sesame Oil",
+      "slug": "sesame-oil",
+      "category": "Cooking Oils & Fats",
+      "botanicalName": "Sesamum indicum",
+      "commonNames": [
+        "Til oil",
+        "Gingelly oil"
+      ],
+      "description": "Oil made from sesame seeds; common in South Indian cooking.",
+      "nutrition": {
+        "basis": "per 100 g edible portion; representative reference value unless stated otherwise",
+        "calories_kcal": 884,
+        "carbohydrates_g": 0,
+        "fiber_g": 0,
+        "protein_g": 0,
+        "fat_g": 100,
+        "sugars_g": 0,
+        "vitaminC_mg": 0,
+        "potassium_mg": 0
+      },
+      "healthBenefits": [
+        "Provides unsaturated fats.",
+        "Contains sesame-derived bioactive compounds."
+      ],
+      "cautions": [
+        "Sesame is an allergen.",
+        "Use moderate portions because oil is energy-dense."
+      ],
+      "servingSuggestions": "Use for cooking, tempering or dressings.",
+      "selectionTips": "Choose food-grade oil with fresh aroma.",
+      "storageTips": "Store sealed away from heat and light.",
+      "season": "Year-round",
+      "images": {
+        "thumbnail": "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&w=500&q=80",
+        "hero": "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&w=500&q=80"
+      },
+      "seo": {
+        "title": "Sesame Oil nutrition, benefits and health information",
+        "description": "Nutrition, benefits, serving ideas, selection and storage information for Sesame Oil.",
+        "keywords": null
+      },
+      "sources": [
+        "USDA FoodData Central",
+        "Indian Food Composition Tables (ICMR-NIN), where applicable"
+      ],
+      "published": true
+    },
+    {
+      "id": "oil-coconut",
+      "name": "Coconut Oil",
+      "slug": "coconut-oil",
+      "category": "Cooking Oils & Fats",
+      "botanicalName": "Cocos nucifera",
+      "commonNames": [
+        "Thengai ennai"
+      ],
+      "description": "Oil extracted from coconut.",
+      "nutrition": {
+        "basis": "per 100 g edible portion; representative reference value unless stated otherwise",
+        "calories_kcal": 892,
+        "carbohydrates_g": 0,
+        "fiber_g": 0,
+        "protein_g": 0,
+        "fat_g": 99.1,
+        "sugars_g": 0,
+        "vitaminC_mg": 0,
+        "potassium_mg": 0
+      },
+      "healthBenefits": [
+        "Provides concentrated dietary fat."
+      ],
+      "cautions": [
+        "High in saturated fat; use in moderation.",
+        "All oils are calorie-dense."
+      ],
+      "servingSuggestions": "Use measured quantities in cooking.",
+      "selectionTips": "Choose food-grade oil with clean aroma and intact packaging.",
+      "storageTips": "Keep tightly closed and away from excessive heat.",
+      "season": "Year-round",
+      "images": {
+        "thumbnail": "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&w=500&q=80",
+        "hero": "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&w=500&q=80"
+      },
+      "seo": {
+        "title": "Coconut Oil nutrition, benefits and health information",
+        "description": "Nutrition, benefits, serving ideas, selection and storage information for Coconut Oil.",
+        "keywords": null
+      },
+      "sources": [
+        "USDA FoodData Central",
+        "Indian Food Composition Tables (ICMR-NIN), where applicable"
+      ],
+      "published": true
+    },
+    {
+      "id": "oil-sunflower",
+      "name": "Sunflower Oil",
+      "slug": "sunflower-oil",
+      "category": "Cooking Oils & Fats",
+      "botanicalName": "Helianthus annuus",
+      "commonNames": [
+        "Sunflower oil"
+      ],
+      "description": "Vegetable oil commonly used for cooking.",
+      "nutrition": {
+        "basis": "per 100 g edible portion; representative reference value unless stated otherwise",
+        "calories_kcal": 884,
+        "carbohydrates_g": 0,
+        "fiber_g": 0,
+        "protein_g": 0,
+        "fat_g": 100,
+        "sugars_g": 0,
+        "vitaminC_mg": 0,
+        "potassium_mg": 0
+      },
+      "healthBenefits": [
+        "Provides unsaturated fat and vitamin E."
+      ],
+      "cautions": [
+        "All oils are calorie-dense; avoid repeatedly overheating oil."
+      ],
+      "servingSuggestions": "Use measured amounts for cooking.",
+      "selectionTips": "Choose fresh, sealed food-grade oil.",
+      "storageTips": "Store away from heat and light.",
+      "season": "Year-round",
+      "images": {
+        "thumbnail": "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&w=500&q=80",
+        "hero": "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&w=500&q=80"
+      },
+      "seo": {
+        "title": "Sunflower Oil nutrition, benefits and health information",
+        "description": "Nutrition, benefits, serving ideas, selection and storage information for Sunflower Oil.",
+        "keywords": null
+      },
+      "sources": [
+        "USDA FoodData Central",
+        "Indian Food Composition Tables (ICMR-NIN), where applicable"
+      ],
+      "published": true
+    },
+    {
+      "id": "oil-olive",
+      "name": "Olive Oil",
+      "slug": "olive-oil",
+      "category": "Cooking Oils & Fats",
+      "botanicalName": "Olea europaea",
+      "commonNames": [
+        "Extra virgin olive oil"
+      ],
+      "description": "Oil obtained from olives; extra virgin oil is minimally refined.",
+      "nutrition": {
+        "basis": "per 100 g edible portion; representative reference value unless stated otherwise",
+        "calories_kcal": 884,
+        "carbohydrates_g": 0,
+        "fiber_g": 0,
+        "protein_g": 0,
+        "fat_g": 100,
+        "sugars_g": 0,
+        "vitaminC_mg": 0,
+        "potassium_mg": 0
+      },
+      "healthBenefits": [
+        "Rich in monounsaturated fat.",
+        "Extra virgin olive oil contains naturally occurring plant compounds."
+      ],
+      "cautions": [
+        "Still calorie-dense; use moderate amounts."
+      ],
+      "servingSuggestions": "Use in dressings or cooking according to the oil grade.",
+      "selectionTips": "Choose sealed oil with harvest/best-before information when available.",
+      "storageTips": "Keep tightly closed away from heat and light.",
+      "season": "Year-round",
+      "images": {
+        "thumbnail": "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&w=500&q=80",
+        "hero": "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&w=500&q=80"
+      },
+      "seo": {
+        "title": "Olive Oil nutrition, benefits and health information",
+        "description": "Nutrition, benefits, serving ideas, selection and storage information for Olive Oil.",
+        "keywords": null
+      },
+      "sources": [
+        "USDA FoodData Central",
+        "Indian Food Composition Tables (ICMR-NIN), where applicable"
+      ],
+      "published": true
+    }
+  ]
+}

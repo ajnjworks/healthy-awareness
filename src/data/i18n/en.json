@@ -1,0 +1,100 @@
+{
+  "nav": {
+    "home": "Home",
+    "foods": "Healthy Foods",
+    "articles": "Articles",
+    "healthyTips": "Healthy Tips",
+    "recipes": "Healthy Recipes",
+    "compare": "Compare",
+    "seasonalFoods": "Seasonal Foods",
+    "compareFoods": "Compare Foods",
+    "privacyPolicy": "Privacy Policy",
+    "termsAndConditions": "Terms & Conditions",
+    "faqs": "FAQs",
+    "aboutUs": "About Us",
+    "contactUs": "Contact Us",
+    "loginSignUp": "Login / Sign Up",
+    "language": "Language"
+  },
+  "categoriesList": {
+    "fruits": "Fruits Collection",
+    "vegetables": "Vegetables & Greens",
+    "nutsSeeds": "Nuts & Seeds",
+    "dairy": "Dairy Products",
+    "spices": "Herbs & Spices"
+  },
+  "breadcrumb": {
+    "home": "Home",
+    "healthyFoods": "Healthy Foods"
+  },
+  "bestTime": {
+    "title": "Best Time to Eat",
+    "morning": "Morning",
+    "evening": "Evening"
+  },
+  "healthScore": {
+    "title": "Health Score",
+    "overall": "Overall Score",
+    "excellent": "Excellent",
+    "breakdown": {
+      "heart": "Heart",
+      "brain": "Brain",
+      "energy": "Energy",
+      "immunity": "Immunity",
+      "skin": "Skin"
+    }
+  },
+  "nutrition": {
+    "title": "Nutrition Dashboard",
+    "perServing": "Per 28g Serving",
+    "quickFacts": "Quick Nutrient Facts"
+  },
+  "comparison": {
+    "title": "Compare Foods",
+    "vs": "VS",
+    "serving": "Serving Size",
+    "calories": "Calories",
+    "protein": "Protein",
+    "fiber": "Fiber",
+    "omega3": "Omega-3",
+    "bestFor": "Best For"
+  },
+  "recipes": {
+    "title": "Delicious Ways to Enjoy",
+    "subtitle": "Quick, nutritious, and easy recipes for your daily diet",
+    "exploreAll": "Explore All Recipes"
+  },
+  "quickFacts": {
+    "title": "Did You Know?"
+  },
+  "listing": {
+    "filterTitle": "Filter Foods",
+    "showingPrefix": "Showing",
+    "of": "of",
+    "items": "items",
+    "sortBy": "Sort by:",
+    "loadMore": "Load More Items",
+    "tip": "Tip: Eat a variety of healthy foods daily for maximum nutrition and long-term wellness."
+  },
+  "footer": {
+    "brandDescription": "Empowering your wellness journey with science-backed nutrition insights, food comparisons, and dietary guidance for a healthier life.",
+    "explore": "Explore",
+    "categories": "Categories",
+    "stayUpdated": "Stay Updated",
+    "newsletterSubtitle": "Subscribe to get weekly nutrition tips and trending healthy food insights.",
+    "emailPlaceholder": "Enter your email...",
+    "subscribe": "Subscribe",
+    "copyright": "Healthy Awareness. All rights reserved."
+  },
+  "search": {
+    "placeholder": "Search any food...",
+    "popularPrefix": "Popular:",
+    "search": "Search"
+  },
+  "trending": {
+    "title": "Trending Today",
+    "viewAll": "View all",
+    "dailyPick": "Daily Healthy Pick",
+    "learnMore": "Learn More"
+  }
+}

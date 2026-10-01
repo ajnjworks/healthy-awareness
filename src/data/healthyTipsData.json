@@ -1,0 +1,162 @@
+{
+  "hero": {
+    "title": "Healthy Tips",
+    "subtitle": "Simple tips for a healthier and happier you every day.",
+    "badges": [
+      {
+        "id": "eat-smart",
+        "title": "Eat Smart",
+        "desc": "Choose whole, natural foods.",
+        "icon": "Leaf"
+      },
+      {
+        "id": "stay-active",
+        "title": "Stay Active",
+        "desc": "Move your body, boost your energy.",
+        "icon": "Activity"
+      },
+      {
+        "id": "stay-hydrated",
+        "title": "Stay Hydrated",
+        "desc": "Drink enough water, stay refreshed.",
+        "icon": "Droplets"
+      },
+      {
+        "id": "sleep-well",
+        "title": "Sleep Well",
+        "desc": "Good sleep brings a better you.",
+        "icon": "Moon"
+      }
+    ],
+    "image": "https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=800&q=80"
+  },
+  "categories": [
+    { "id": "All Tips", "label": "All Tips", "icon": "Utensils" },
+    { "id": "Nutrition", "label": "Nutrition", "icon": "Apple" },
+    { "id": "Fitness", "label": "Fitness", "icon": "Dumbbell" },
+    { "id": "Mind & Body", "label": "Mind & Body", "icon": "Brain" },
+    { "id": "Lifestyle", "label": "Lifestyle", "icon": "Leaf" },
+    { "id": "Weight Management", "label": "Weight Management", "icon": "Scale" },
+    { "id": "Immunity", "label": "Immunity", "icon": "Shield" }
+  ],
+  "dailyTips": [
+    {
+      "id": "1",
+      "title": "Start Your Day with Warm Water & Lemon",
+      "description": "Drinking warm water with lemon on an empty stomach helps flush out toxins, improves digestion, and boosts metabolism.",
+      "category": "Nutrition",
+      "image": "https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?auto=format&fit=crop&w=600&q=80",
+      "readTime": "3 min read"
+    },
+    {
+      "id": "2",
+      "title": "Eat a Rainbow of Foods",
+      "description": "Different colored foods provide different essential nutrients. Try to include a variety of fruits and vegetables every day.",
+      "category": "Nutrition",
+      "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=600&q=80",
+      "readTime": "4 min read"
+    },
+    {
+      "id": "3",
+      "title": "Stay Hydrated",
+      "description": "Drink at least 8–10 glasses of water throughout the day to keep your body hydrated and functioning well.",
+      "category": "Lifestyle",
+      "image": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?auto=format&fit=crop&w=600&q=80",
+      "readTime": "3 min read"
+    },
+    {
+      "id": "4",
+      "title": "Practice Mindful Breathing",
+      "description": "Spend a few minutes in deep breathing or meditation daily to reduce stress and improve mental clarity.",
+      "category": "Mind & Body",
+      "image": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?auto=format&fit=crop&w=600&q=80",
+      "readTime": "4 min read"
+    },
+    {
+      "id": "5",
+      "title": "Move More, Sit Less",
+      "description": "Try to be active for at least 30 minutes every day. Small steps every day lead to big changes.",
+      "category": "Fitness",
+      "image": "https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?auto=format&fit=crop&w=600&q=80",
+      "readTime": "5 min read"
+    }
+  ],
+  "popularTips": [
+    {
+      "id": "pop-1",
+      "title": "10 Morning Habits for a Healthy Day",
+      "readTime": "6 min read",
+      "image": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?auto=format&fit=crop&w=300&q=80"
+    },
+    {
+      "id": "pop-2",
+      "title": "Foods That Boost Your Immunity",
+      "readTime": "5 min read",
+      "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=300&q=80"
+    },
+    {
+      "id": "pop-3",
+      "title": "How to Improve Your Sleep Naturally",
+      "readTime": "4 min read",
+      "image": "https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?auto=format&fit=crop&w=300&q=80"
+    },
+    {
+      "id": "pop-4",
+      "title": "Simple Ways to Drink More Water",
+      "readTime": "4 min read",
+      "image": "https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?auto=format&fit=crop&w=300&q=80"
+    },
+    {
+      "id": "pop-5",
+      "title": "Healthy Snacks for Weight Loss",
+      "readTime": "5 min read",
+      "image": "https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=300&q=80"
+    }
+  ],
+  "tipsOfDay": [
+    {
+      "id": "totd-1",
+      "quote": "Take a 10-minute walk after meals. It helps in better digestion and blood sugar control."
+    },
+    {
+      "id": "totd-2",
+      "quote": "Keep a water bottle at your desk to remind yourself to stay hydrated throughout the day."
+    },
+    {
+      "id": "totd-3",
+      "quote": "Aim to turn off digital screens 30 minutes before bedtime to improve deep sleep quality."
+    }
+  ],
+  "moreWays": [
+    {
+      "id": "sleep",
+      "title": "Get Enough Sleep",
+      "desc": "7–8 hours of quality sleep is essential for your body and mind.",
+      "icon": "Moon"
+    },
+    {
+      "id": "meals",
+      "title": "Plan Your Meals",
+      "desc": "Plan ahead, eat balanced meals, and avoid unhealthy choices.",
+      "icon": "ClipboardList"
+    },
+    {
+      "id": "whole-foods",
+      "title": "Eat Whole Foods",
+      "desc": "Choose whole, natural foods over processed and packaged foods.",
+      "icon": "Leaf"
+    },
+    {
+      "id": "stress",
+      "title": "Manage Stress",
+      "desc": "Take breaks, relax, and do things that make you happy.",
+      "icon": "Heart"
+    },
+    {
+      "id": "consistency",
+      "title": "Stay Consistent",
+      "desc": "Consistency is the key to building long-term healthy habits.",
+      "icon": "Users"
+    }
+  ]
+}

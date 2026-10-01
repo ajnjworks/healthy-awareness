@@ -1,0 +1,171 @@
+export const sweetenersDataset = {
+  "schemaVersion": "2.0.0",
+  "dataset": {
+    "name": "Healthy Awareness Sweeteners & Sugars",
+    "description": "Sweeteners & Sugars catalog for listing, search, comparison and detail pages.",
+    "dataStandard": "Conservative verified-data model",
+    "rule": "No value is invented. Unknown or not source-verified fields are null.",
+    "nutritionBasis": "per 100 g edible portion, raw",
+    "primaryNutritionSource": {
+      "organization": "USDA Agricultural Research Service",
+      "database": "FoodData Central",
+      "url": "https://fdc.nal.usda.gov/"
+    }
+  },
+  "records": [
+    {
+      "id": "sweetener-white-sugar",
+      "name": "White Sugar",
+      "slug": "white-sugar",
+      "category": "Sweeteners & Sugars",
+      "botanicalName": "Saccharum officinarum",
+      "commonNames": ["Table sugar", "Sucrose"],
+      "description": "Refined sucrose used as a sweetener.",
+      "nutrition": {
+        "basis": "per 100 g edible portion; representative reference value unless stated otherwise",
+        "calories_kcal": 387,
+        "carbohydrates_g": 100,
+        "fiber_g": 0,
+        "protein_g": 0,
+        "fat_g": 0,
+        "sugars_g": 100,
+        "vitaminC_mg": 0,
+        "potassium_mg": 2
+      },
+      "healthBenefits": ["Provides sweetness and energy."],
+      "cautions": ["Added sugars provide calories with little micronutrient value; limit intake."],
+      "servingSuggestions": "Use small amounts and compare labels on packaged foods.",
+      "selectionTips": "Choose clean, dry food-grade sugar.",
+      "storageTips": "Keep dry and airtight.",
+      "season": "Year-round",
+      "images": { "thumbnail": null, "hero": null },
+      "seo": {
+        "title": "White Sugar nutrition, benefits and health information",
+        "description": "Nutrition, benefits, serving ideas, selection and storage information for White Sugar.",
+        "keywords": null
+      },
+      "sources": [
+        "USDA FoodData Central",
+        "Indian Food Composition Tables (ICMR-NIN), where applicable"
+      ],
+      "published": true
+    },
+    {
+      "id": "sweetener-jaggery",
+      "name": "Jaggery",
+      "slug": "jaggery",
+      "category": "Sweeteners & Sugars",
+      "botanicalName": null,
+      "commonNames": ["Gur", "Vellam"],
+      "description": "Traditional concentrated cane or palm sweetener.",
+      "nutrition": {
+        "basis": "per 100 g edible portion; representative reference value unless stated otherwise",
+        "calories_kcal": 383,
+        "carbohydrates_g": 98,
+        "fiber_g": 0,
+        "protein_g": 0,
+        "fat_g": 0,
+        "sugars_g": 98,
+        "vitaminC_mg": 0,
+        "potassium_mg": 105
+      },
+      "healthBenefits": ["Contains small amounts of minerals depending on processing."],
+      "cautions": [
+        "Still a concentrated sugar source and should be used sparingly.",
+        "Nutrient composition varies by source and processing."
+      ],
+      "servingSuggestions": "Use small amounts in traditional foods.",
+      "selectionTips": "Choose clean, food-grade jaggery without visible contaminants.",
+      "storageTips": "Store dry and sealed.",
+      "season": "Year-round",
+      "images": { "thumbnail": null, "hero": null },
+      "seo": {
+        "title": "Jaggery nutrition, benefits and health information",
+        "description": "Nutrition, benefits, serving ideas, selection and storage information for Jaggery.",
+        "keywords": null
+      },
+      "sources": [
+        "USDA FoodData Central",
+        "Indian Food Composition Tables (ICMR-NIN), where applicable"
+      ],
+      "published": true
+    },
+    {
+      "id": "sweetener-honey",
+      "name": "Honey",
+      "slug": "honey",
+      "category": "Sweeteners & Sugars",
+      "botanicalName": null,
+      "commonNames": ["Natural honey"],
+      "description": "Sweet substance produced by bees from floral nectar.",
+      "nutrition": {
+        "basis": "per 100 g edible portion; representative reference value unless stated otherwise",
+        "calories_kcal": 304,
+        "carbohydrates_g": 82.4,
+        "fiber_g": 0.2,
+        "protein_g": 0.3,
+        "fat_g": 0,
+        "sugars_g": 82.1,
+        "vitaminC_mg": 0.5,
+        "potassium_mg": 52
+      },
+      "healthBenefits": ["Provides sweetness and small amounts of naturally occurring compounds."],
+      "cautions": [
+        "Still a sugar-rich food; use sparingly.",
+        "Do not give honey to infants under 12 months."
+      ],
+      "servingSuggestions": "Use small quantities in foods or drinks.",
+      "selectionTips": "Choose food-grade honey from a reputable source.",
+      "storageTips": "Keep tightly closed at room temperature.",
+      "season": "Year-round",
+      "images": { "thumbnail": null, "hero": null },
+      "seo": {
+        "title": "Honey nutrition, benefits and health information",
+        "description": "Nutrition, benefits, serving ideas, selection and storage information for Honey.",
+        "keywords": null
+      },
+      "sources": [
+        "USDA FoodData Central",
+        "Indian Food Composition Tables (ICMR-NIN), where applicable"
+      ],
+      "published": true
+    },
+    {
+      "id": "sweetener-coconut-sugar",
+      "name": "Coconut Sugar",
+      "slug": "coconut-sugar",
+      "category": "Sweeteners & Sugars",
+      "botanicalName": "Cocos nucifera",
+      "commonNames": ["Coconut palm sugar"],
+      "description": "Sugar made from coconut palm sap.",
+      "nutrition": {
+        "basis": "per 100 g edible portion; representative reference value unless stated otherwise",
+        "calories_kcal": 375,
+        "carbohydrates_g": 92,
+        "fiber_g": 0,
+        "protein_g": 0,
+        "fat_g": 0,
+        "sugars_g": 87,
+        "vitaminC_mg": 0,
+        "potassium_mg": 100
+      },
+      "healthBenefits": ["Provides sweetness and energy."],
+      "cautions": ["Nutritionally it remains a concentrated added-sugar source."],
+      "servingSuggestions": "Use small quantities.",
+      "selectionTips": "Choose food-grade product with clear labeling.",
+      "storageTips": "Keep dry and airtight.",
+      "season": "Year-round",
+      "images": { "thumbnail": null, "hero": null },
+      "seo": {
+        "title": "Coconut Sugar nutrition, benefits and health information",
+        "description": "Nutrition, benefits, serving ideas, selection and storage information for Coconut Sugar.",
+        "keywords": null
+      },
+      "sources": [
+        "USDA FoodData Central",
+        "Indian Food Composition Tables (ICMR-NIN), where applicable"
+      ],
+      "published": true
+    }
+  ]
+};

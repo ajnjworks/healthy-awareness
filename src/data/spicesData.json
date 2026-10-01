@@ -1,0 +1,280 @@
+{
+  "subCategories": [
+    {
+      "id": "all",
+      "name": "All Spices & Herbs",
+      "image": "https://images.unsplash.com/photo-1615485290382-441e4d049cb5?auto=format&fit=crop&w=500&q=80"
+    },
+    {
+      "id": "Roots & Fresh Aromatics",
+      "name": "Roots & Fresh Aromatics",
+      "image": "https://images.unsplash.com/photo-1615485290382-441e4d049cb5?auto=format&fit=crop&w=500&q=80"
+    },
+    {
+      "id": "Aromatic Seeds & Barks",
+      "name": "Aromatic Seeds & Barks",
+      "image": "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?auto=format&fit=crop&w=500&q=80"
+    }
+  ],
+  "spicesList": [
+    {
+      "id": "turmeric",
+      "name": "Turmeric",
+      "subtitle": "A rhizome used fresh or dried as a spice.",
+      "category": "Roots & Fresh Aromatics",
+      "score": 9.3,
+      "image": "https://images.unsplash.com/photo-1615485290382-441e4d049cb5?auto=format&fit=crop&w=500&q=80",
+      "badge": "Bioactive Potency",
+      "badgeType": "popular",
+      "benefits": [
+        "immunity",
+        "inflammation",
+        "heart"
+      ],
+      "nutrients": [
+        {
+          "label": "Calories",
+          "value": "312 kcal"
+        },
+        {
+          "label": "Fiber",
+          "value": "22.7g"
+        },
+        {
+          "label": "Antioxidants",
+          "value": "High"
+        },
+        {
+          "label": "Bioactive",
+          "value": "Curcumin/Piperine"
+        }
+      ],
+      "tags": [
+        "Spices & Herbs",
+        "Roots & Fresh Aromatics"
+      ]
+    },
+    {
+      "id": "cumin",
+      "name": "Cumin",
+      "subtitle": "Aromatic seed used whole or ground.",
+      "category": "Aromatic Seeds & Barks",
+      "score": 9.4,
+      "image": "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?auto=format&fit=crop&w=500&q=80",
+      "badge": "Bioactive Potency",
+      "badgeType": "popular",
+      "benefits": [
+        "immunity",
+        "inflammation",
+        "heart"
+      ],
+      "nutrients": [
+        {
+          "label": "Calories",
+          "value": "375 kcal"
+        },
+        {
+          "label": "Fiber",
+          "value": "10.5g"
+        },
+        {
+          "label": "Antioxidants",
+          "value": "High"
+        },
+        {
+          "label": "Bioactive",
+          "value": "Curcumin/Piperine"
+        }
+      ],
+      "tags": [
+        "Spices & Herbs",
+        "Aromatic Seeds & Barks"
+      ]
+    },
+    {
+      "id": "coriander-seeds",
+      "name": "Coriander Seeds",
+      "subtitle": "Dried seeds of the coriander plant.",
+      "category": "Aromatic Seeds & Barks",
+      "score": 9.4,
+      "image": "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?auto=format&fit=crop&w=500&q=80",
+      "badge": "Bioactive Potency",
+      "badgeType": "popular",
+      "benefits": [
+        "immunity",
+        "inflammation",
+        "heart"
+      ],
+      "nutrients": [
+        {
+          "label": "Calories",
+          "value": "298 kcal"
+        },
+        {
+          "label": "Fiber",
+          "value": "41.9g"
+        },
+        {
+          "label": "Antioxidants",
+          "value": "High"
+        },
+        {
+          "label": "Bioactive",
+          "value": "Curcumin/Piperine"
+        }
+      ],
+      "tags": [
+        "Spices & Herbs",
+        "Aromatic Seeds & Barks"
+      ]
+    },
+    {
+      "id": "black-pepper",
+      "name": "Black Pepper",
+      "subtitle": "Dried peppercorn used whole or ground.",
+      "category": "Aromatic Seeds & Barks",
+      "score": 9.5,
+      "image": "https://images.unsplash.com/photo-1509358271058-acd22cc93898?auto=format&fit=crop&w=500&q=80",
+      "badge": "Bioactive Potency",
+      "badgeType": "popular",
+      "benefits": [
+        "immunity",
+        "inflammation",
+        "heart"
+      ],
+      "nutrients": [
+        {
+          "label": "Calories",
+          "value": "251 kcal"
+        },
+        {
+          "label": "Fiber",
+          "value": "25.3g"
+        },
+        {
+          "label": "Antioxidants",
+          "value": "High"
+        },
+        {
+          "label": "Bioactive",
+          "value": "Curcumin/Piperine"
+        }
+      ],
+      "tags": [
+        "Spices & Herbs",
+        "Aromatic Seeds & Barks"
+      ]
+    },
+    {
+      "id": "cinnamon",
+      "name": "Cinnamon",
+      "subtitle": "Aromatic bark used in sweet and savoury dishes.",
+      "category": "Aromatic Seeds & Barks",
+      "score": 9.3,
+      "image": "https://images.unsplash.com/photo-1509358271058-acd22cc93898?auto=format&fit=crop&w=500&q=80",
+      "badge": "Bioactive Potency",
+      "badgeType": "popular",
+      "benefits": [
+        "immunity",
+        "inflammation",
+        "heart"
+      ],
+      "nutrients": [
+        {
+          "label": "Calories",
+          "value": "247 kcal"
+        },
+        {
+          "label": "Fiber",
+          "value": "53.1g"
+        },
+        {
+          "label": "Antioxidants",
+          "value": "High"
+        },
+        {
+          "label": "Bioactive",
+          "value": "Curcumin/Piperine"
+        }
+      ],
+      "tags": [
+        "Spices & Herbs",
+        "Aromatic Seeds & Barks"
+      ]
+    },
+    {
+      "id": "ginger",
+      "name": "Ginger",
+      "subtitle": "Fresh rhizome used for flavouring and cooking.",
+      "category": "Roots & Fresh Aromatics",
+      "score": 9.7,
+      "image": "https://images.unsplash.com/photo-1615485290382-441e4d049cb5?auto=format&fit=crop&w=500&q=80",
+      "badge": "Bioactive Potency",
+      "badgeType": "popular",
+      "benefits": [
+        "immunity",
+        "inflammation",
+        "heart"
+      ],
+      "nutrients": [
+        {
+          "label": "Calories",
+          "value": "80 kcal"
+        },
+        {
+          "label": "Fiber",
+          "value": "2g"
+        },
+        {
+          "label": "Antioxidants",
+          "value": "High"
+        },
+        {
+          "label": "Bioactive",
+          "value": "Curcumin/Piperine"
+        }
+      ],
+      "tags": [
+        "Spices & Herbs",
+        "Roots & Fresh Aromatics"
+      ]
+    },
+    {
+      "id": "garlic",
+      "name": "Garlic",
+      "subtitle": "Bulb used as a seasoning and ingredient.",
+      "category": "Roots & Fresh Aromatics",
+      "score": 9.7,
+      "image": "https://images.unsplash.com/photo-1540148426945-6cf22a6b2383?auto=format&fit=crop&w=500&q=80",
+      "badge": "Bioactive Potency",
+      "badgeType": "popular",
+      "benefits": [
+        "immunity",
+        "inflammation",
+        "heart"
+      ],
+      "nutrients": [
+        {
+          "label": "Calories",
+          "value": "149 kcal"
+        },
+        {
+          "label": "Fiber",
+          "value": "2.1g"
+        },
+        {
+          "label": "Antioxidants",
+          "value": "High"
+        },
+        {
+          "label": "Bioactive",
+          "value": "Curcumin/Piperine"
+        }
+      ],
+      "tags": [
+        "Spices & Herbs",
+        "Roots & Fresh Aromatics"
+      ]
+    }
+  ]
+}

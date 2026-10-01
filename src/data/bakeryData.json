@@ -1,0 +1,176 @@
+{
+  "subCategories": [
+    {
+      "id": "all",
+      "name": "All Bakery & Breads",
+      "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=500&q=80"
+    },
+    {
+      "id": "Whole Grain & Artisan",
+      "name": "Whole Grain & Artisan",
+      "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=500&q=80"
+    },
+    {
+      "id": "Buns & Rolls",
+      "name": "Buns & Rolls",
+      "image": "https://images.unsplash.com/photo-1586444248902-2f64eddc13df?auto=format&fit=crop&w=500&q=80"
+    },
+    {
+      "id": "Traditional Flatbreads",
+      "name": "Traditional Flatbreads",
+      "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=500&q=80"
+    }
+  ],
+  "bakeryList": [
+    {
+      "id": "whole-wheat-bread",
+      "name": "Whole Wheat Bread",
+      "score": 9,
+      "subtitle": "Bread made primarily with whole-wheat flour.",
+      "category": "Whole Grain & Artisan",
+      "originClimate": "Cultivated & Prepared Globally",
+      "badge": "High Fiber",
+      "badgeType": "popular",
+      "views": "13.5k views",
+      "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        "energy",
+        "digestion"
+      ],
+      "nutrients": [
+        {
+          "label": "Cal: 247 kcal",
+          "icon": "Zap"
+        },
+        {
+          "label": "Fiber: 6g",
+          "icon": "Leaf"
+        },
+        {
+          "label": "Protein: 13g",
+          "icon": "Wheat"
+        }
+      ]
+    },
+    {
+      "id": "white-bread",
+      "name": "White Bread",
+      "score": 9.2,
+      "subtitle": "Bread made primarily from refined wheat flour.",
+      "category": "Buns & Rolls",
+      "originClimate": "Cultivated & Prepared Globally",
+      "badge": "Grain Energy",
+      "badgeType": "popular",
+      "views": "15.8k views",
+      "image": "https://images.unsplash.com/photo-1586444248902-2f64eddc13df?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        "energy",
+        "digestion"
+      ],
+      "nutrients": [
+        {
+          "label": "Cal: 266 kcal",
+          "icon": "Zap"
+        },
+        {
+          "label": "Fiber: 2.7g",
+          "icon": "Leaf"
+        },
+        {
+          "label": "Protein: 7.6g",
+          "icon": "Wheat"
+        }
+      ]
+    },
+    {
+      "id": "multigrain-bread",
+      "name": "Multigrain Bread",
+      "score": 9.7,
+      "subtitle": "Bread made with two or more grain ingredients; composition varies by product.",
+      "category": "Whole Grain & Artisan",
+      "originClimate": "Cultivated & Prepared Globally",
+      "badge": "High Fiber",
+      "badgeType": "popular",
+      "views": "13.6k views",
+      "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        "energy",
+        "digestion"
+      ],
+      "nutrients": [
+        {
+          "label": "Cal: 250 kcal",
+          "icon": "Zap"
+        },
+        {
+          "label": "Fiber: 6g",
+          "icon": "Leaf"
+        },
+        {
+          "label": "Protein: 11g",
+          "icon": "Wheat"
+        }
+      ]
+    },
+    {
+      "id": "chapati",
+      "name": "Chapati",
+      "score": 9,
+      "subtitle": "Flatbread commonly made from whole-wheat atta.",
+      "category": "Traditional Flatbreads",
+      "originClimate": "Cultivated & Prepared Globally",
+      "badge": "High Fiber",
+      "badgeType": "popular",
+      "views": "17.1k views",
+      "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        "energy",
+        "digestion"
+      ],
+      "nutrients": [
+        {
+          "label": "Cal: 297 kcal",
+          "icon": "Zap"
+        },
+        {
+          "label": "Fiber: 9g",
+          "icon": "Leaf"
+        },
+        {
+          "label": "Protein: 11g",
+          "icon": "Wheat"
+        }
+      ]
+    },
+    {
+      "id": "pav-bread",
+      "name": "Pav Bread",
+      "score": 9.6,
+      "subtitle": "Soft wheat bread roll commonly used in Indian meals.",
+      "category": "Buns & Rolls",
+      "originClimate": "Cultivated & Prepared Globally",
+      "badge": "Grain Energy",
+      "badgeType": "popular",
+      "views": "13.3k views",
+      "image": "https://images.unsplash.com/photo-1586444248902-2f64eddc13df?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        "energy",
+        "digestion"
+      ],
+      "nutrients": [
+        {
+          "label": "Cal: 270 kcal",
+          "icon": "Zap"
+        },
+        {
+          "label": "Fiber: 2.5g",
+          "icon": "Leaf"
+        },
+        {
+          "label": "Protein: 8.5g",
+          "icon": "Wheat"
+        }
+      ]
+    }
+  ]
+}

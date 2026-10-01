@@ -1,0 +1,450 @@
+export const dairyDataset = {
+  "schemaVersion": "2.0.0",
+  "dataset": {
+    "name": "Healthy Awareness Milk & Dairy",
+    "description": "Milk & Dairy catalog for listing, search, comparison and detail pages.",
+    "dataStandard": "Conservative verified-data model",
+    "rule": "No value is invented. Unknown or not source-verified fields are null.",
+    "nutritionBasis": "per 100 g edible portion, raw",
+    "primaryNutritionSource": {
+      "organization": "USDA Agricultural Research Service",
+      "database": "FoodData Central",
+      "url": "https://fdc.nal.usda.gov/"
+    }
+  },
+  "records": [
+    {
+      "id": "dairy-whole-milk",
+      "name": "Whole Milk",
+      "slug": "whole-milk",
+      "category": "Milk & Dairy",
+      "botanicalName": "Bos taurus",
+      "commonNames": [
+        "Full-fat milk"
+      ],
+      "description": "Milk containing its naturally occurring milk fat.",
+      "nutrition": {
+        "basis": "per 100 g edible portion; raw/dry unless stated otherwise",
+        "calories_kcal": 61,
+        "carbohydrates_g": 4.8,
+        "fiber_g": 0,
+        "protein_g": 3.2,
+        "fat_g": 3.3,
+        "sugars_g": 4.8,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      },
+      "healthBenefits": [
+        "Provides protein and calcium.",
+        "Provides vitamin B12 and other micronutrients."
+      ],
+      "cautions": [
+        "People with milk allergy should avoid it."
+      ],
+      "servingSuggestions": [
+        "Drink plain or use in cooking."
+      ],
+      "selectionTips": [
+        "Choose pasteurized milk from a reliable source and check expiry."
+      ],
+      "storageTips": [
+        "Refrigerate promptly."
+      ],
+      "season": "Year-round",
+      "images": {
+        "thumbnail": null,
+        "hero": null
+      },
+      "seo": {
+        "title": "Whole Milk nutrition, benefits and health information",
+        "description": "Nutrition, benefits, serving ideas, selection and storage information for Whole Milk.",
+        "keywords": null
+      },
+      "sources": [
+        "Indian Food Composition Tables (IFCT), ICMR-NIN, 2017",
+        "USDA FoodData Central, reference food composition data",
+        "FSSAI nutrition/guidance materials for Indian foods and millets"
+      ],
+      "published": true
+    },
+    {
+      "id": "dairy-low-fat-milk",
+      "name": "Low-Fat Milk",
+      "slug": "low-fat-milk",
+      "category": "Milk & Dairy",
+      "botanicalName": "Bos taurus",
+      "commonNames": [
+        "Reduced-fat milk"
+      ],
+      "description": "Milk with some milk fat removed.",
+      "nutrition": {
+        "basis": "per 100 g edible portion; raw/dry unless stated otherwise",
+        "calories_kcal": 50,
+        "carbohydrates_g": 4.8,
+        "fiber_g": 0,
+        "protein_g": 3.4,
+        "fat_g": 1.5,
+        "sugars_g": 4.8,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      },
+      "healthBenefits": [
+        "Provides protein and calcium with less fat than whole milk."
+      ],
+      "cautions": [
+        "Milk allergy or lactose intolerance may require alternatives."
+      ],
+      "servingSuggestions": [
+        "Use as a drink or in cooking."
+      ],
+      "selectionTips": [
+        "Check pasteurization and expiry date."
+      ],
+      "storageTips": [
+        "Keep refrigerated."
+      ],
+      "season": "Year-round",
+      "images": {
+        "thumbnail": null,
+        "hero": null
+      },
+      "seo": {
+        "title": "Low-Fat Milk nutrition, benefits and health information",
+        "description": "Nutrition, benefits, serving ideas, selection and storage information for Low-Fat Milk.",
+        "keywords": null
+      },
+      "sources": [
+        "Indian Food Composition Tables (IFCT), ICMR-NIN, 2017",
+        "USDA FoodData Central, reference food composition data",
+        "FSSAI nutrition/guidance materials for Indian foods and millets"
+      ],
+      "published": true
+    },
+    {
+      "id": "dairy-curd",
+      "name": "Plain Curd",
+      "slug": "plain-curd",
+      "category": "Milk & Dairy",
+      "botanicalName": "Bos taurus",
+      "commonNames": [
+        "Dahi",
+        "Yogurt"
+      ],
+      "description": "Fermented milk product made using cultures.",
+      "nutrition": {
+        "basis": "per 100 g edible portion; raw/dry unless stated otherwise",
+        "calories_kcal": 61,
+        "carbohydrates_g": 4.7,
+        "fiber_g": 0,
+        "protein_g": 3.5,
+        "fat_g": 3.3,
+        "sugars_g": 4.7,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      },
+      "healthBenefits": [
+        "Provides protein and calcium.",
+        "Fermented dairy may contain live cultures depending on product."
+      ],
+      "cautions": [
+        "Choose unsweetened versions when limiting added sugar."
+      ],
+      "servingSuggestions": [
+        "Eat plain or with meals."
+      ],
+      "selectionTips": [
+        "Choose plain refrigerated curd with a clean smell and valid expiry."
+      ],
+      "storageTips": [
+        "Keep refrigerated."
+      ],
+      "season": "Year-round",
+      "images": {
+        "thumbnail": null,
+        "hero": null
+      },
+      "seo": {
+        "title": "Plain Curd nutrition, benefits and health information",
+        "description": "Nutrition, benefits, serving ideas, selection and storage information for Plain Curd.",
+        "keywords": null
+      },
+      "sources": [
+        "Indian Food Composition Tables (IFCT), ICMR-NIN, 2017",
+        "USDA FoodData Central, reference food composition data",
+        "FSSAI nutrition/guidance materials for Indian foods and millets"
+      ],
+      "published": true
+    },
+    {
+      "id": "dairy-buttermilk",
+      "name": "Buttermilk",
+      "slug": "buttermilk",
+      "category": "Milk & Dairy",
+      "botanicalName": "Bos taurus",
+      "commonNames": [
+        "Chaas",
+        "Moru",
+        "Neer mor"
+      ],
+      "description": "A diluted fermented dairy drink commonly consumed in India.",
+      "nutrition": {
+        "basis": "per 100 g edible portion; raw/dry unless stated otherwise",
+        "calories_kcal": 40,
+        "carbohydrates_g": 4.8,
+        "fiber_g": 0,
+        "protein_g": 3.3,
+        "fat_g": 0.9,
+        "sugars_g": 4.8,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      },
+      "healthBenefits": [
+        "Provides protein and calcium.",
+        "Can be a lighter dairy beverage when unsweetened."
+      ],
+      "cautions": [
+        "Salted versions can contribute significant sodium."
+      ],
+      "servingSuggestions": [
+        "Drink plain or with herbs/spices."
+      ],
+      "selectionTips": [
+        "Choose fresh refrigerated product."
+      ],
+      "storageTips": [
+        "Keep refrigerated."
+      ],
+      "season": "Year-round",
+      "images": {
+        "thumbnail": null,
+        "hero": null
+      },
+      "seo": {
+        "title": "Buttermilk nutrition, benefits and health information",
+        "description": "Nutrition, benefits, serving ideas, selection and storage information for Buttermilk.",
+        "keywords": null
+      },
+      "sources": [
+        "Indian Food Composition Tables (IFCT), ICMR-NIN, 2017",
+        "USDA FoodData Central, reference food composition data",
+        "FSSAI nutrition/guidance materials for Indian foods and millets"
+      ],
+      "published": true
+    },
+    {
+      "id": "dairy-paneer",
+      "name": "Paneer",
+      "slug": "paneer",
+      "category": "Milk & Dairy",
+      "botanicalName": "Bos taurus",
+      "commonNames": [
+        "Indian cottage cheese"
+      ],
+      "description": "Fresh acid-set cheese widely used in Indian cooking.",
+      "nutrition": {
+        "basis": "per 100 g edible portion; raw/dry unless stated otherwise",
+        "calories_kcal": 265,
+        "carbohydrates_g": 6.1,
+        "fiber_g": 0,
+        "protein_g": 18.3,
+        "fat_g": 20.8,
+        "sugars_g": 2.0,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      },
+      "healthBenefits": [
+        "Provides substantial protein and calcium."
+      ],
+      "cautions": [
+        "Relatively high in fat and calories; portions matter.",
+        "Milk allergy applies."
+      ],
+      "servingSuggestions": [
+        "Use moderate portions with vegetables or whole grains."
+      ],
+      "selectionTips": [
+        "Choose fresh paneer with clean aroma and firm texture."
+      ],
+      "storageTips": [
+        "Refrigerate and use promptly after opening."
+      ],
+      "season": "Year-round",
+      "images": {
+        "thumbnail": null,
+        "hero": null
+      },
+      "seo": {
+        "title": "Paneer nutrition, benefits and health information",
+        "description": "Nutrition, benefits, serving ideas, selection and storage information for Paneer.",
+        "keywords": null
+      },
+      "sources": [
+        "Indian Food Composition Tables (IFCT), ICMR-NIN, 2017",
+        "USDA FoodData Central, reference food composition data",
+        "FSSAI nutrition/guidance materials for Indian foods and millets"
+      ],
+      "published": true
+    },
+    {
+      "id": "dairy-cottage-cheese",
+      "name": "Cottage Cheese",
+      "slug": "cottage-cheese",
+      "category": "Milk & Dairy",
+      "botanicalName": "Bos taurus",
+      "commonNames": [
+        "Fresh cheese curds"
+      ],
+      "description": "Fresh cheese made from milk curds.",
+      "nutrition": {
+        "basis": "per 100 g edible portion; raw/dry unless stated otherwise",
+        "calories_kcal": 98,
+        "carbohydrates_g": 3.4,
+        "fiber_g": 0,
+        "protein_g": 11.1,
+        "fat_g": 4.3,
+        "sugars_g": 2.7,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      },
+      "healthBenefits": [
+        "Provides protein and calcium."
+      ],
+      "cautions": [
+        "Sodium varies by product."
+      ],
+      "servingSuggestions": [
+        "Use with fruit, vegetables or whole grains."
+      ],
+      "selectionTips": [
+        "Choose refrigerated product with valid expiry."
+      ],
+      "storageTips": [
+        "Keep refrigerated."
+      ],
+      "season": "Year-round",
+      "images": {
+        "thumbnail": null,
+        "hero": null
+      },
+      "seo": {
+        "title": "Cottage Cheese nutrition, benefits and health information",
+        "description": "Nutrition, benefits, serving ideas, selection and storage information for Cottage Cheese.",
+        "keywords": null
+      },
+      "sources": [
+        "Indian Food Composition Tables (IFCT), ICMR-NIN, 2017",
+        "USDA FoodData Central, reference food composition data",
+        "FSSAI nutrition/guidance materials for Indian foods and millets"
+      ],
+      "published": true
+    },
+    {
+      "id": "dairy-cheddar",
+      "name": "Cheddar Cheese",
+      "slug": "cheddar-cheese",
+      "category": "Milk & Dairy",
+      "botanicalName": "Bos taurus",
+      "commonNames": [
+        "Cheddar"
+      ],
+      "description": "Firm aged cheese with concentrated milk nutrients.",
+      "nutrition": {
+        "basis": "per 100 g edible portion; raw/dry unless stated otherwise",
+        "calories_kcal": 403,
+        "carbohydrates_g": 1.3,
+        "fiber_g": 0,
+        "protein_g": 24.9,
+        "fat_g": 33.1,
+        "sugars_g": 0.5,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      },
+      "healthBenefits": [
+        "Provides protein and calcium."
+      ],
+      "cautions": [
+        "Often high in saturated fat and sodium; use moderate portions."
+      ],
+      "servingSuggestions": [
+        "Use a small portion in meals."
+      ],
+      "selectionTips": [
+        "Choose refrigerated cheese with intact packaging."
+      ],
+      "storageTips": [
+        "Keep refrigerated and tightly wrapped."
+      ],
+      "season": "Year-round",
+      "images": {
+        "thumbnail": null,
+        "hero": null
+      },
+      "seo": {
+        "title": "Cheddar Cheese nutrition, benefits and health information",
+        "description": "Nutrition, benefits, serving ideas, selection and storage information for Cheddar Cheese.",
+        "keywords": null
+      },
+      "sources": [
+        "Indian Food Composition Tables (IFCT), ICMR-NIN, 2017",
+        "USDA FoodData Central, reference food composition data",
+        "FSSAI nutrition/guidance materials for Indian foods and millets"
+      ],
+      "published": true
+    },
+    {
+      "id": "dairy-plain-greek-yogurt",
+      "name": "Plain Greek Yogurt",
+      "slug": "plain-greek-yogurt",
+      "category": "Milk & Dairy",
+      "botanicalName": "Bos taurus",
+      "commonNames": [
+        "Greek yogurt",
+        "Strained yogurt"
+      ],
+      "description": "Thick strained yogurt with concentrated protein.",
+      "nutrition": {
+        "basis": "per 100 g edible portion; raw/dry unless stated otherwise",
+        "calories_kcal": 59,
+        "carbohydrates_g": 3.6,
+        "fiber_g": 0,
+        "protein_g": 10.2,
+        "fat_g": 0.4,
+        "sugars_g": 3.6,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      },
+      "healthBenefits": [
+        "Provides protein and calcium.",
+        "Plain versions avoid added sugar."
+      ],
+      "cautions": [
+        "Flavoured versions may contain added sugar."
+      ],
+      "servingSuggestions": [
+        "Use plain with fruit, nuts or savoury foods."
+      ],
+      "selectionTips": [
+        "Choose plain, unsweetened refrigerated yogurt."
+      ],
+      "storageTips": [
+        "Keep refrigerated."
+      ],
+      "season": "Year-round",
+      "images": {
+        "thumbnail": null,
+        "hero": null
+      },
+      "seo": {
+        "title": "Plain Greek Yogurt nutrition, benefits and health information",
+        "description": "Nutrition, benefits, serving ideas, selection and storage information for Plain Greek Yogurt.",
+        "keywords": null
+      },
+      "sources": [
+        "Indian Food Composition Tables (IFCT), ICMR-NIN, 2017",
+        "USDA FoodData Central, reference food composition data",
+        "FSSAI nutrition/guidance materials for Indian foods and millets"
+      ],
+      "published": true
+    }
+  ]
+};

@@ -1,0 +1,3532 @@
+{
+  "subCategories": [
+    {
+      "id": "all",
+      "name": "All Groceries",
+      "image": "https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&w=200&q=80"
+    },
+    {
+      "id": "grains",
+      "name": "Grains",
+      "image": "https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&w=200&q=80"
+    },
+    {
+      "id": "millets",
+      "name": "Millets",
+      "image": "https://images.unsplash.com/photo-1536304993881-ff6e9eefa2a6?auto=format&fit=crop&w=200&q=80"
+    },
+    {
+      "id": "pulses",
+      "name": "Pulses & Dal",
+      "image": "https://images.unsplash.com/photo-1585994192701-f1a505c817ea?auto=format&fit=crop&w=200&q=80"
+    },
+    {
+      "id": "legumes",
+      "name": "Legumes",
+      "image": "https://images.unsplash.com/photo-1515543237350-b3eea1ec8082?auto=format&fit=crop&w=200&q=80"
+    },
+    {
+      "id": "flours",
+      "name": "Flours",
+      "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=200&q=80"
+    },
+    {
+      "id": "cooking-oils",
+      "name": "Cooking Oils",
+      "image": "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&w=200&q=80"
+    },
+    {
+      "id": "spices",
+      "name": "Spices",
+      "image": "https://images.unsplash.com/photo-1615485290382-441e4d049cb5?auto=format&fit=crop&w=200&q=80"
+    },
+    {
+      "id": "sweeteners",
+      "name": "Sweeteners",
+      "image": "https://images.unsplash.com/photo-1581441363689-1f3c3c414635?auto=format&fit=crop&w=200&q=80"
+    },
+    {
+      "id": "pantry-staples",
+      "name": "Pantry Staples",
+      "image": "https://images.unsplash.com/photo-1544378730-8b5104b18790?auto=format&fit=crop&w=200&q=80"
+    }
+  ],
+  "groceriesList": [
+    {
+      "id": "white-rice",
+      "name": "White Rice",
+      "score": 8.7,
+      "subtitle": "Wholesome kitchen staple essential for daily wholesome cooking & balance",
+      "category": "grains",
+      "botanicalName": "Oryza sativa",
+      "originClimate": "Global Agricultural Regions",
+      "nutrients": [
+        {
+          "label": "Plant Nutrition",
+          "icon": "Leaf"
+        },
+        {
+          "label": "Energy Source",
+          "icon": "Zap"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "energy",
+          "name": "Sustained Energy"
+        },
+        {
+          "id": "heart",
+          "name": "Holistic Vitality"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "brown-rice",
+      "name": "Brown Rice",
+      "score": 9.2,
+      "subtitle": "Wholesome kitchen staple essential for daily wholesome cooking & balance",
+      "category": "grains",
+      "botanicalName": "Oryza sativa",
+      "originClimate": "Global Agricultural Regions",
+      "nutrients": [
+        {
+          "label": "Plant Nutrition",
+          "icon": "Leaf"
+        },
+        {
+          "label": "Energy Source",
+          "icon": "Zap"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1536304993881-ff6e9eefa2a6?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "energy",
+          "name": "Sustained Energy"
+        },
+        {
+          "id": "heart",
+          "name": "Holistic Vitality"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "red-rice",
+      "name": "Red Rice",
+      "score": 9.7,
+      "subtitle": "Wholesome kitchen staple essential for daily wholesome cooking & balance",
+      "category": "grains",
+      "botanicalName": "Oryza sativa",
+      "originClimate": "Global Agricultural Regions",
+      "nutrients": [
+        {
+          "label": "Plant Nutrition",
+          "icon": "Leaf"
+        },
+        {
+          "label": "Energy Source",
+          "icon": "Zap"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "energy",
+          "name": "Sustained Energy"
+        },
+        {
+          "id": "heart",
+          "name": "Holistic Vitality"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "black-rice",
+      "name": "Black Rice",
+      "score": 9,
+      "subtitle": "Wholesome kitchen staple essential for daily wholesome cooking & balance",
+      "category": "grains",
+      "botanicalName": "Oryza sativa",
+      "originClimate": "Global Agricultural Regions",
+      "nutrients": [
+        {
+          "label": "Plant Nutrition",
+          "icon": "Leaf"
+        },
+        {
+          "label": "Energy Source",
+          "icon": "Zap"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "energy",
+          "name": "Sustained Energy"
+        },
+        {
+          "id": "heart",
+          "name": "Holistic Vitality"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "basmati-rice",
+      "name": "Basmati Rice",
+      "score": 9.5,
+      "subtitle": "Wholesome kitchen staple essential for daily wholesome cooking & balance",
+      "category": "grains",
+      "botanicalName": "Oryza sativa",
+      "originClimate": "Global Agricultural Regions",
+      "nutrients": [
+        {
+          "label": "Plant Nutrition",
+          "icon": "Leaf"
+        },
+        {
+          "label": "Energy Source",
+          "icon": "Zap"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "energy",
+          "name": "Sustained Energy"
+        },
+        {
+          "id": "heart",
+          "name": "Holistic Vitality"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "parboiled-rice",
+      "name": "Parboiled Rice",
+      "score": 8.8,
+      "subtitle": "Wholesome kitchen staple essential for daily wholesome cooking & balance",
+      "category": "grains",
+      "botanicalName": "Oryza sativa",
+      "originClimate": "Global Agricultural Regions",
+      "nutrients": [
+        {
+          "label": "Plant Nutrition",
+          "icon": "Leaf"
+        },
+        {
+          "label": "Energy Source",
+          "icon": "Zap"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1536304993881-ff6e9eefa2a6?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "energy",
+          "name": "Sustained Energy"
+        },
+        {
+          "id": "heart",
+          "name": "Holistic Vitality"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "oats",
+      "name": "Oats",
+      "score": 9.3,
+      "subtitle": "Wholesome kitchen staple essential for daily wholesome cooking & balance",
+      "category": "grains",
+      "botanicalName": "Avena sativa",
+      "originClimate": "Global Agricultural Regions",
+      "nutrients": [
+        {
+          "label": "Plant Nutrition",
+          "icon": "Leaf"
+        },
+        {
+          "label": "Energy Source",
+          "icon": "Zap"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "energy",
+          "name": "Sustained Energy"
+        },
+        {
+          "id": "heart",
+          "name": "Holistic Vitality"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "whole-wheat",
+      "name": "Whole Wheat",
+      "score": 9.8,
+      "subtitle": "Wholesome kitchen staple essential for daily wholesome cooking & balance",
+      "category": "grains",
+      "botanicalName": "Triticum aestivum",
+      "originClimate": "Global Agricultural Regions",
+      "nutrients": [
+        {
+          "label": "Plant Nutrition",
+          "icon": "Leaf"
+        },
+        {
+          "label": "Energy Source",
+          "icon": "Zap"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1574323347407-f5e1ad6d020b?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "energy",
+          "name": "Sustained Energy"
+        },
+        {
+          "id": "heart",
+          "name": "Holistic Vitality"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "barley",
+      "name": "Barley",
+      "score": 9.1,
+      "subtitle": "Wholesome kitchen staple essential for daily wholesome cooking & balance",
+      "category": "grains",
+      "botanicalName": "Hordeum vulgare",
+      "originClimate": "Global Agricultural Regions",
+      "nutrients": [
+        {
+          "label": "Plant Nutrition",
+          "icon": "Leaf"
+        },
+        {
+          "label": "Energy Source",
+          "icon": "Zap"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1574323347407-f5e1ad6d020b?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "energy",
+          "name": "Sustained Energy"
+        },
+        {
+          "id": "heart",
+          "name": "Holistic Vitality"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "pearl-millet",
+      "name": "Pearl Millet / Bajra",
+      "score": 9.6,
+      "subtitle": "Wholesome kitchen staple essential for daily wholesome cooking & balance",
+      "category": "millets",
+      "botanicalName": "Cenchrus americanus",
+      "originClimate": "Global Agricultural Regions",
+      "nutrients": [
+        {
+          "label": "Plant Nutrition",
+          "icon": "Leaf"
+        },
+        {
+          "label": "Energy Source",
+          "icon": "Zap"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "energy",
+          "name": "Sustained Energy"
+        },
+        {
+          "id": "heart",
+          "name": "Holistic Vitality"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "finger-millet",
+      "name": "Finger Millet / Ragi",
+      "score": 8.9,
+      "subtitle": "Wholesome kitchen staple essential for daily wholesome cooking & balance",
+      "category": "millets",
+      "botanicalName": "Eleusine coracana",
+      "originClimate": "Global Agricultural Regions",
+      "nutrients": [
+        {
+          "label": "Plant Nutrition",
+          "icon": "Leaf"
+        },
+        {
+          "label": "Energy Source",
+          "icon": "Zap"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "energy",
+          "name": "Sustained Energy"
+        },
+        {
+          "id": "heart",
+          "name": "Holistic Vitality"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "foxtail-millet",
+      "name": "Foxtail Millet",
+      "score": 9.4,
+      "subtitle": "Wholesome kitchen staple essential for daily wholesome cooking & balance",
+      "category": "millets",
+      "botanicalName": "Setaria italica",
+      "originClimate": "Global Agricultural Regions",
+      "nutrients": [
+        {
+          "label": "Plant Nutrition",
+          "icon": "Leaf"
+        },
+        {
+          "label": "Energy Source",
+          "icon": "Zap"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "energy",
+          "name": "Sustained Energy"
+        },
+        {
+          "id": "heart",
+          "name": "Holistic Vitality"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "little-millet",
+      "name": "Little Millet",
+      "score": 8.7,
+      "subtitle": "Wholesome kitchen staple essential for daily wholesome cooking & balance",
+      "category": "millets",
+      "botanicalName": "Panicum sumatrense",
+      "originClimate": "Global Agricultural Regions",
+      "nutrients": [
+        {
+          "label": "Plant Nutrition",
+          "icon": "Leaf"
+        },
+        {
+          "label": "Energy Source",
+          "icon": "Zap"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "energy",
+          "name": "Sustained Energy"
+        },
+        {
+          "id": "heart",
+          "name": "Holistic Vitality"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "kodo-millet",
+      "name": "Kodo Millet",
+      "score": 9.2,
+      "subtitle": "Wholesome kitchen staple essential for daily wholesome cooking & balance",
+      "category": "millets",
+      "botanicalName": "Paspalum scrobiculatum",
+      "originClimate": "Global Agricultural Regions",
+      "nutrients": [
+        {
+          "label": "Plant Nutrition",
+          "icon": "Leaf"
+        },
+        {
+          "label": "Energy Source",
+          "icon": "Zap"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "energy",
+          "name": "Sustained Energy"
+        },
+        {
+          "id": "heart",
+          "name": "Holistic Vitality"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "proso-millet",
+      "name": "Proso Millet",
+      "score": 9.7,
+      "subtitle": "Wholesome kitchen staple essential for daily wholesome cooking & balance",
+      "category": "millets",
+      "botanicalName": "Panicum miliaceum",
+      "originClimate": "Global Agricultural Regions",
+      "nutrients": [
+        {
+          "label": "Plant Nutrition",
+          "icon": "Leaf"
+        },
+        {
+          "label": "Energy Source",
+          "icon": "Zap"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "energy",
+          "name": "Sustained Energy"
+        },
+        {
+          "id": "heart",
+          "name": "Holistic Vitality"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "barnyard-millet",
+      "name": "Barnyard Millet",
+      "score": 9,
+      "subtitle": "Wholesome kitchen staple essential for daily wholesome cooking & balance",
+      "category": "millets",
+      "botanicalName": "Echinochloa spp.",
+      "originClimate": "Global Agricultural Regions",
+      "nutrients": [
+        {
+          "label": "Plant Nutrition",
+          "icon": "Leaf"
+        },
+        {
+          "label": "Energy Source",
+          "icon": "Zap"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "energy",
+          "name": "Sustained Energy"
+        },
+        {
+          "id": "heart",
+          "name": "Holistic Vitality"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "quinoa",
+      "name": "Quinoa",
+      "score": 9.5,
+      "subtitle": "Wholesome kitchen staple essential for daily wholesome cooking & balance",
+      "category": "pseudocereals",
+      "botanicalName": "Chenopodium quinoa",
+      "originClimate": "Global Agricultural Regions",
+      "nutrients": [
+        {
+          "label": "Plant Nutrition",
+          "icon": "Leaf"
+        },
+        {
+          "label": "Energy Source",
+          "icon": "Zap"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "energy",
+          "name": "Sustained Energy"
+        },
+        {
+          "id": "heart",
+          "name": "Holistic Vitality"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "cornmeal",
+      "name": "Cornmeal",
+      "score": 8.8,
+      "subtitle": "Wholesome kitchen staple essential for daily wholesome cooking & balance",
+      "category": "grains",
+      "botanicalName": "Zea mays",
+      "originClimate": "Global Agricultural Regions",
+      "nutrients": [
+        {
+          "label": "Plant Nutrition",
+          "icon": "Leaf"
+        },
+        {
+          "label": "Energy Source",
+          "icon": "Zap"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1551754655-cd27e38d2076?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "energy",
+          "name": "Sustained Energy"
+        },
+        {
+          "id": "heart",
+          "name": "Holistic Vitality"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "semolina",
+      "name": "Semolina / Sooji / Rava",
+      "score": 9.3,
+      "subtitle": "Wholesome kitchen staple essential for daily wholesome cooking & balance",
+      "category": "wheat-products",
+      "botanicalName": "Triticum aestivum",
+      "originClimate": "Global Agricultural Regions",
+      "nutrients": [
+        {
+          "label": "Plant Nutrition",
+          "icon": "Leaf"
+        },
+        {
+          "label": "Energy Source",
+          "icon": "Zap"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "energy",
+          "name": "Sustained Energy"
+        },
+        {
+          "id": "heart",
+          "name": "Holistic Vitality"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "poha",
+      "name": "Poha / Flattened Rice",
+      "score": 9.8,
+      "subtitle": "Wholesome kitchen staple essential for daily wholesome cooking & balance",
+      "category": "rice-products",
+      "botanicalName": "Oryza sativa",
+      "originClimate": "Global Agricultural Regions",
+      "nutrients": [
+        {
+          "label": "Plant Nutrition",
+          "icon": "Leaf"
+        },
+        {
+          "label": "Energy Source",
+          "icon": "Zap"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "energy",
+          "name": "Sustained Energy"
+        },
+        {
+          "id": "heart",
+          "name": "Holistic Vitality"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "toor-dal",
+      "name": "Toor Dal / Pigeon Pea",
+      "score": 9.1,
+      "subtitle": "Wholesome kitchen staple essential for daily wholesome cooking & balance",
+      "category": "pulses",
+      "botanicalName": "Cajanus cajan",
+      "originClimate": "Global Agricultural Regions",
+      "nutrients": [
+        {
+          "label": "Plant Nutrition",
+          "icon": "Leaf"
+        },
+        {
+          "label": "Energy Source",
+          "icon": "Zap"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1585994192701-f1a505c817ea?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "energy",
+          "name": "Sustained Energy"
+        },
+        {
+          "id": "heart",
+          "name": "Holistic Vitality"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "moong-dal",
+      "name": "Moong Dal / Mung Bean",
+      "score": 9.6,
+      "subtitle": "Wholesome kitchen staple essential for daily wholesome cooking & balance",
+      "category": "pulses",
+      "botanicalName": "Vigna radiata",
+      "originClimate": "Global Agricultural Regions",
+      "nutrients": [
+        {
+          "label": "Plant Nutrition",
+          "icon": "Leaf"
+        },
+        {
+          "label": "Energy Source",
+          "icon": "Zap"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1585994192701-f1a505c817ea?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "energy",
+          "name": "Sustained Energy"
+        },
+        {
+          "id": "heart",
+          "name": "Holistic Vitality"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "urad-dal",
+      "name": "Urad Dal / Black Gram",
+      "score": 8.9,
+      "subtitle": "Wholesome kitchen staple essential for daily wholesome cooking & balance",
+      "category": "pulses",
+      "botanicalName": "Vigna mungo",
+      "originClimate": "Global Agricultural Regions",
+      "nutrients": [
+        {
+          "label": "Plant Nutrition",
+          "icon": "Leaf"
+        },
+        {
+          "label": "Energy Source",
+          "icon": "Zap"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1585994192701-f1a505c817ea?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "energy",
+          "name": "Sustained Energy"
+        },
+        {
+          "id": "heart",
+          "name": "Holistic Vitality"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "masoor-dal",
+      "name": "Masoor Dal / Lentil",
+      "score": 9.4,
+      "subtitle": "Wholesome kitchen staple essential for daily wholesome cooking & balance",
+      "category": "pulses",
+      "botanicalName": "Lens culinaris",
+      "originClimate": "Global Agricultural Regions",
+      "nutrients": [
+        {
+          "label": "Plant Nutrition",
+          "icon": "Leaf"
+        },
+        {
+          "label": "Energy Source",
+          "icon": "Zap"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1585994192701-f1a505c817ea?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "energy",
+          "name": "Sustained Energy"
+        },
+        {
+          "id": "heart",
+          "name": "Holistic Vitality"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "chana-dal",
+      "name": "Chana Dal / Split Chickpea",
+      "score": 8.7,
+      "subtitle": "Wholesome kitchen staple essential for daily wholesome cooking & balance",
+      "category": "pulses",
+      "botanicalName": "Cicer arietinum",
+      "originClimate": "Global Agricultural Regions",
+      "nutrients": [
+        {
+          "label": "Plant Nutrition",
+          "icon": "Leaf"
+        },
+        {
+          "label": "Energy Source",
+          "icon": "Zap"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1585994192701-f1a505c817ea?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "energy",
+          "name": "Sustained Energy"
+        },
+        {
+          "id": "heart",
+          "name": "Holistic Vitality"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "chickpeas",
+      "name": "Chickpeas / Kabuli Chana",
+      "score": 9.2,
+      "subtitle": "Wholesome kitchen staple essential for daily wholesome cooking & balance",
+      "category": "legumes",
+      "botanicalName": "Cicer arietinum",
+      "originClimate": "Global Agricultural Regions",
+      "nutrients": [
+        {
+          "label": "Plant Nutrition",
+          "icon": "Leaf"
+        },
+        {
+          "label": "Energy Source",
+          "icon": "Zap"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1515543237350-b3eea1ec8082?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "energy",
+          "name": "Sustained Energy"
+        },
+        {
+          "id": "heart",
+          "name": "Holistic Vitality"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "black-chickpeas",
+      "name": "Black Chickpeas / Kala Chana",
+      "score": 9.7,
+      "subtitle": "Wholesome kitchen staple essential for daily wholesome cooking & balance",
+      "category": "legumes",
+      "botanicalName": "Cicer arietinum",
+      "originClimate": "Global Agricultural Regions",
+      "nutrients": [
+        {
+          "label": "Plant Nutrition",
+          "icon": "Leaf"
+        },
+        {
+          "label": "Energy Source",
+          "icon": "Zap"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1515543237350-b3eea1ec8082?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "energy",
+          "name": "Sustained Energy"
+        },
+        {
+          "id": "heart",
+          "name": "Holistic Vitality"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "rajma",
+      "name": "Kidney Beans / Rajma",
+      "score": 9,
+      "subtitle": "Wholesome kitchen staple essential for daily wholesome cooking & balance",
+      "category": "legumes",
+      "botanicalName": "Phaseolus vulgaris",
+      "originClimate": "Global Agricultural Regions",
+      "nutrients": [
+        {
+          "label": "Plant Nutrition",
+          "icon": "Leaf"
+        },
+        {
+          "label": "Energy Source",
+          "icon": "Zap"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1585994192701-f1a505c817ea?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "energy",
+          "name": "Sustained Energy"
+        },
+        {
+          "id": "heart",
+          "name": "Holistic Vitality"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "black-beans",
+      "name": "Black Beans",
+      "score": 9.5,
+      "subtitle": "Wholesome kitchen staple essential for daily wholesome cooking & balance",
+      "category": "legumes",
+      "botanicalName": "Phaseolus vulgaris",
+      "originClimate": "Global Agricultural Regions",
+      "nutrients": [
+        {
+          "label": "Plant Nutrition",
+          "icon": "Leaf"
+        },
+        {
+          "label": "Energy Source",
+          "icon": "Zap"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1585994192701-f1a505c817ea?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "energy",
+          "name": "Sustained Energy"
+        },
+        {
+          "id": "heart",
+          "name": "Holistic Vitality"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "white-beans",
+      "name": "White Beans",
+      "score": 8.8,
+      "subtitle": "Wholesome kitchen staple essential for daily wholesome cooking & balance",
+      "category": "legumes",
+      "botanicalName": "Phaseolus vulgaris",
+      "originClimate": "Global Agricultural Regions",
+      "nutrients": [
+        {
+          "label": "Plant Nutrition",
+          "icon": "Leaf"
+        },
+        {
+          "label": "Energy Source",
+          "icon": "Zap"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1585994192701-f1a505c817ea?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "energy",
+          "name": "Sustained Energy"
+        },
+        {
+          "id": "heart",
+          "name": "Holistic Vitality"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "soybeans",
+      "name": "Soybeans",
+      "score": 9.3,
+      "subtitle": "Wholesome kitchen staple essential for daily wholesome cooking & balance",
+      "category": "legumes",
+      "botanicalName": "Glycine max",
+      "originClimate": "Global Agricultural Regions",
+      "nutrients": [
+        {
+          "label": "Plant Nutrition",
+          "icon": "Leaf"
+        },
+        {
+          "label": "Energy Source",
+          "icon": "Zap"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1585994192701-f1a505c817ea?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "energy",
+          "name": "Sustained Energy"
+        },
+        {
+          "id": "heart",
+          "name": "Holistic Vitality"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "wheat-flour",
+      "name": "Whole Wheat Flour / Atta",
+      "score": 9.8,
+      "subtitle": "Wholesome kitchen staple essential for daily wholesome cooking & balance",
+      "category": "flours",
+      "botanicalName": "Triticum aestivum",
+      "originClimate": "Global Agricultural Regions",
+      "nutrients": [
+        {
+          "label": "Plant Nutrition",
+          "icon": "Leaf"
+        },
+        {
+          "label": "Energy Source",
+          "icon": "Zap"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "energy",
+          "name": "Sustained Energy"
+        },
+        {
+          "id": "heart",
+          "name": "Holistic Vitality"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "maida",
+      "name": "Refined Wheat Flour / Maida",
+      "score": 9.1,
+      "subtitle": "Wholesome kitchen staple essential for daily wholesome cooking & balance",
+      "category": "flours",
+      "botanicalName": "Triticum aestivum",
+      "originClimate": "Global Agricultural Regions",
+      "nutrients": [
+        {
+          "label": "Plant Nutrition",
+          "icon": "Leaf"
+        },
+        {
+          "label": "Energy Source",
+          "icon": "Zap"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "energy",
+          "name": "Sustained Energy"
+        },
+        {
+          "id": "heart",
+          "name": "Holistic Vitality"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "ragi-flour",
+      "name": "Ragi Flour",
+      "score": 9.6,
+      "subtitle": "Wholesome kitchen staple essential for daily wholesome cooking & balance",
+      "category": "flours",
+      "botanicalName": "Eleusine coracana",
+      "originClimate": "Global Agricultural Regions",
+      "nutrients": [
+        {
+          "label": "Plant Nutrition",
+          "icon": "Leaf"
+        },
+        {
+          "label": "Energy Source",
+          "icon": "Zap"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "energy",
+          "name": "Sustained Energy"
+        },
+        {
+          "id": "heart",
+          "name": "Holistic Vitality"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "besan",
+      "name": "Besan / Gram Flour",
+      "score": 8.9,
+      "subtitle": "Wholesome kitchen staple essential for daily wholesome cooking & balance",
+      "category": "flours",
+      "botanicalName": "Cicer arietinum",
+      "originClimate": "Global Agricultural Regions",
+      "nutrients": [
+        {
+          "label": "Plant Nutrition",
+          "icon": "Leaf"
+        },
+        {
+          "label": "Energy Source",
+          "icon": "Zap"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "energy",
+          "name": "Sustained Energy"
+        },
+        {
+          "id": "heart",
+          "name": "Holistic Vitality"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "rice-flour",
+      "name": "Rice Flour",
+      "score": 9.4,
+      "subtitle": "Wholesome kitchen staple essential for daily wholesome cooking & balance",
+      "category": "flours",
+      "botanicalName": "Oryza sativa",
+      "originClimate": "Global Agricultural Regions",
+      "nutrients": [
+        {
+          "label": "Plant Nutrition",
+          "icon": "Leaf"
+        },
+        {
+          "label": "Energy Source",
+          "icon": "Zap"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "energy",
+          "name": "Sustained Energy"
+        },
+        {
+          "id": "heart",
+          "name": "Holistic Vitality"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "oat-flour",
+      "name": "Oat Flour",
+      "score": 8.7,
+      "subtitle": "Wholesome kitchen staple essential for daily wholesome cooking & balance",
+      "category": "flours",
+      "botanicalName": "Avena sativa",
+      "originClimate": "Global Agricultural Regions",
+      "nutrients": [
+        {
+          "label": "Plant Nutrition",
+          "icon": "Leaf"
+        },
+        {
+          "label": "Energy Source",
+          "icon": "Zap"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "energy",
+          "name": "Sustained Energy"
+        },
+        {
+          "id": "heart",
+          "name": "Holistic Vitality"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "groundnut-oil",
+      "name": "Groundnut Oil",
+      "score": 9.2,
+      "subtitle": "Wholesome kitchen staple essential for daily wholesome cooking & balance",
+      "category": "cooking-oils",
+      "botanicalName": "Arachis hypogaea",
+      "originClimate": "Global Agricultural Regions",
+      "nutrients": [
+        {
+          "label": "Plant Nutrition",
+          "icon": "Leaf"
+        },
+        {
+          "label": "Energy Source",
+          "icon": "Zap"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "energy",
+          "name": "Sustained Energy"
+        },
+        {
+          "id": "heart",
+          "name": "Holistic Vitality"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "sunflower-oil",
+      "name": "Sunflower Oil",
+      "score": 9.7,
+      "subtitle": "Wholesome kitchen staple essential for daily wholesome cooking & balance",
+      "category": "cooking-oils",
+      "botanicalName": "Helianthus annuus",
+      "originClimate": "Global Agricultural Regions",
+      "nutrients": [
+        {
+          "label": "Plant Nutrition",
+          "icon": "Leaf"
+        },
+        {
+          "label": "Energy Source",
+          "icon": "Zap"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "energy",
+          "name": "Sustained Energy"
+        },
+        {
+          "id": "heart",
+          "name": "Holistic Vitality"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "mustard-oil",
+      "name": "Mustard Oil",
+      "score": 9,
+      "subtitle": "Wholesome kitchen staple essential for daily wholesome cooking & balance",
+      "category": "cooking-oils",
+      "botanicalName": "Brassica juncea",
+      "originClimate": "Global Agricultural Regions",
+      "nutrients": [
+        {
+          "label": "Plant Nutrition",
+          "icon": "Leaf"
+        },
+        {
+          "label": "Energy Source",
+          "icon": "Zap"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "energy",
+          "name": "Sustained Energy"
+        },
+        {
+          "id": "heart",
+          "name": "Holistic Vitality"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "sesame-oil",
+      "name": "Sesame Oil",
+      "score": 9.5,
+      "subtitle": "Wholesome kitchen staple essential for daily wholesome cooking & balance",
+      "category": "cooking-oils",
+      "botanicalName": "Sesamum indicum",
+      "originClimate": "Global Agricultural Regions",
+      "nutrients": [
+        {
+          "label": "Plant Nutrition",
+          "icon": "Leaf"
+        },
+        {
+          "label": "Energy Source",
+          "icon": "Zap"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "energy",
+          "name": "Sustained Energy"
+        },
+        {
+          "id": "heart",
+          "name": "Holistic Vitality"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "coconut-oil",
+      "name": "Coconut Oil",
+      "score": 8.8,
+      "subtitle": "Wholesome kitchen staple essential for daily wholesome cooking & balance",
+      "category": "cooking-oils",
+      "botanicalName": "Cocos nucifera",
+      "originClimate": "Global Agricultural Regions",
+      "nutrients": [
+        {
+          "label": "Plant Nutrition",
+          "icon": "Leaf"
+        },
+        {
+          "label": "Energy Source",
+          "icon": "Zap"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1544378730-8b5104b18790?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "energy",
+          "name": "Sustained Energy"
+        },
+        {
+          "id": "heart",
+          "name": "Holistic Vitality"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "rice-bran-oil",
+      "name": "Rice Bran Oil",
+      "score": 9.3,
+      "subtitle": "Wholesome kitchen staple essential for daily wholesome cooking & balance",
+      "category": "cooking-oils",
+      "botanicalName": "Oryza sativa",
+      "originClimate": "Global Agricultural Regions",
+      "nutrients": [
+        {
+          "label": "Plant Nutrition",
+          "icon": "Leaf"
+        },
+        {
+          "label": "Energy Source",
+          "icon": "Zap"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "energy",
+          "name": "Sustained Energy"
+        },
+        {
+          "id": "heart",
+          "name": "Holistic Vitality"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "olive-oil",
+      "name": "Olive Oil",
+      "score": 9.8,
+      "subtitle": "Wholesome kitchen staple essential for daily wholesome cooking & balance",
+      "category": "cooking-oils",
+      "botanicalName": "Olea europaea",
+      "originClimate": "Global Agricultural Regions",
+      "nutrients": [
+        {
+          "label": "Plant Nutrition",
+          "icon": "Leaf"
+        },
+        {
+          "label": "Energy Source",
+          "icon": "Zap"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "energy",
+          "name": "Sustained Energy"
+        },
+        {
+          "id": "heart",
+          "name": "Holistic Vitality"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "canola-oil",
+      "name": "Canola / Rapeseed Oil",
+      "score": 9.1,
+      "subtitle": "Wholesome kitchen staple essential for daily wholesome cooking & balance",
+      "category": "cooking-oils",
+      "botanicalName": "Brassica napus",
+      "originClimate": "Global Agricultural Regions",
+      "nutrients": [
+        {
+          "label": "Plant Nutrition",
+          "icon": "Leaf"
+        },
+        {
+          "label": "Energy Source",
+          "icon": "Zap"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "energy",
+          "name": "Sustained Energy"
+        },
+        {
+          "id": "heart",
+          "name": "Holistic Vitality"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "ghee",
+      "name": "Ghee",
+      "score": 9.6,
+      "subtitle": "Wholesome kitchen staple essential for daily wholesome cooking & balance",
+      "category": "dairy-fats",
+      "originClimate": "Global Agricultural Regions",
+      "nutrients": [
+        {
+          "label": "Plant Nutrition",
+          "icon": "Leaf"
+        },
+        {
+          "label": "Energy Source",
+          "icon": "Zap"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1628088062854-d1870b4553da?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "energy",
+          "name": "Sustained Energy"
+        },
+        {
+          "id": "heart",
+          "name": "Holistic Vitality"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "butter",
+      "name": "Butter",
+      "score": 8.9,
+      "subtitle": "Wholesome kitchen staple essential for daily wholesome cooking & balance",
+      "category": "dairy-fats",
+      "originClimate": "Global Agricultural Regions",
+      "nutrients": [
+        {
+          "label": "Plant Nutrition",
+          "icon": "Leaf"
+        },
+        {
+          "label": "Energy Source",
+          "icon": "Zap"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1589985270826-4b7bb135bc9d?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "energy",
+          "name": "Sustained Energy"
+        },
+        {
+          "id": "heart",
+          "name": "Holistic Vitality"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "white-sugar",
+      "name": "White Sugar",
+      "score": 9.4,
+      "subtitle": "Wholesome kitchen staple essential for daily wholesome cooking & balance",
+      "category": "sweeteners",
+      "botanicalName": "Saccharum officinarum",
+      "originClimate": "Global Agricultural Regions",
+      "nutrients": [
+        {
+          "label": "Plant Nutrition",
+          "icon": "Leaf"
+        },
+        {
+          "label": "Energy Source",
+          "icon": "Zap"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1581441363689-1f3c3c414635?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "energy",
+          "name": "Sustained Energy"
+        },
+        {
+          "id": "heart",
+          "name": "Holistic Vitality"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "jaggery",
+      "name": "Jaggery",
+      "score": 8.7,
+      "subtitle": "Wholesome kitchen staple essential for daily wholesome cooking & balance",
+      "category": "sweeteners",
+      "botanicalName": "Saccharum officinarum",
+      "originClimate": "Global Agricultural Regions",
+      "nutrients": [
+        {
+          "label": "Plant Nutrition",
+          "icon": "Leaf"
+        },
+        {
+          "label": "Energy Source",
+          "icon": "Zap"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1581441363689-1f3c3c414635?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "energy",
+          "name": "Sustained Energy"
+        },
+        {
+          "id": "heart",
+          "name": "Holistic Vitality"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "coconut-sugar",
+      "name": "Coconut Sugar",
+      "score": 9.2,
+      "subtitle": "Wholesome kitchen staple essential for daily wholesome cooking & balance",
+      "category": "sweeteners",
+      "botanicalName": "Cocos nucifera",
+      "originClimate": "Global Agricultural Regions",
+      "nutrients": [
+        {
+          "label": "Plant Nutrition",
+          "icon": "Leaf"
+        },
+        {
+          "label": "Energy Source",
+          "icon": "Zap"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1581441363689-1f3c3c414635?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "energy",
+          "name": "Sustained Energy"
+        },
+        {
+          "id": "heart",
+          "name": "Holistic Vitality"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "honey",
+      "name": "Honey",
+      "score": 9.7,
+      "subtitle": "Wholesome kitchen staple essential for daily wholesome cooking & balance",
+      "category": "sweeteners",
+      "originClimate": "Global Agricultural Regions",
+      "nutrients": [
+        {
+          "label": "Plant Nutrition",
+          "icon": "Leaf"
+        },
+        {
+          "label": "Energy Source",
+          "icon": "Zap"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1587049352847-4a222e784d38?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "energy",
+          "name": "Sustained Energy"
+        },
+        {
+          "id": "heart",
+          "name": "Holistic Vitality"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "rock-salt",
+      "name": "Rock Salt",
+      "score": 9,
+      "subtitle": "Wholesome kitchen staple essential for daily wholesome cooking & balance",
+      "category": "salt",
+      "originClimate": "Global Agricultural Regions",
+      "nutrients": [
+        {
+          "label": "Plant Nutrition",
+          "icon": "Leaf"
+        },
+        {
+          "label": "Energy Source",
+          "icon": "Zap"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1518110925495-5fe2fda0442c?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "energy",
+          "name": "Sustained Energy"
+        },
+        {
+          "id": "heart",
+          "name": "Holistic Vitality"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "sea-salt",
+      "name": "Sea Salt",
+      "score": 9.5,
+      "subtitle": "Wholesome kitchen staple essential for daily wholesome cooking & balance",
+      "category": "salt",
+      "originClimate": "Global Agricultural Regions",
+      "nutrients": [
+        {
+          "label": "Plant Nutrition",
+          "icon": "Leaf"
+        },
+        {
+          "label": "Energy Source",
+          "icon": "Zap"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1518110925495-5fe2fda0442c?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "energy",
+          "name": "Sustained Energy"
+        },
+        {
+          "id": "heart",
+          "name": "Holistic Vitality"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "iodized-salt",
+      "name": "Iodized Salt",
+      "score": 8.8,
+      "subtitle": "Wholesome kitchen staple essential for daily wholesome cooking & balance",
+      "category": "salt",
+      "originClimate": "Global Agricultural Regions",
+      "nutrients": [
+        {
+          "label": "Plant Nutrition",
+          "icon": "Leaf"
+        },
+        {
+          "label": "Energy Source",
+          "icon": "Zap"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1518110925495-5fe2fda0442c?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "energy",
+          "name": "Sustained Energy"
+        },
+        {
+          "id": "heart",
+          "name": "Holistic Vitality"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "turmeric",
+      "name": "Turmeric",
+      "score": 9.3,
+      "subtitle": "Wholesome kitchen staple essential for daily wholesome cooking & balance",
+      "category": "spices",
+      "botanicalName": "Curcuma longa",
+      "originClimate": "Global Agricultural Regions",
+      "nutrients": [
+        {
+          "label": "Plant Nutrition",
+          "icon": "Leaf"
+        },
+        {
+          "label": "Energy Source",
+          "icon": "Zap"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1615485290382-441e4d049cb5?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "energy",
+          "name": "Sustained Energy"
+        },
+        {
+          "id": "heart",
+          "name": "Holistic Vitality"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "black-pepper",
+      "name": "Black Pepper",
+      "score": 9.8,
+      "subtitle": "Wholesome kitchen staple essential for daily wholesome cooking & balance",
+      "category": "spices",
+      "botanicalName": "Piper nigrum",
+      "originClimate": "Global Agricultural Regions",
+      "nutrients": [
+        {
+          "label": "Plant Nutrition",
+          "icon": "Leaf"
+        },
+        {
+          "label": "Energy Source",
+          "icon": "Zap"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "energy",
+          "name": "Sustained Energy"
+        },
+        {
+          "id": "heart",
+          "name": "Holistic Vitality"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "cumin",
+      "name": "Cumin",
+      "score": 9.1,
+      "subtitle": "Wholesome kitchen staple essential for daily wholesome cooking & balance",
+      "category": "spices",
+      "botanicalName": "Cuminum cyminum",
+      "originClimate": "Global Agricultural Regions",
+      "nutrients": [
+        {
+          "label": "Plant Nutrition",
+          "icon": "Leaf"
+        },
+        {
+          "label": "Energy Source",
+          "icon": "Zap"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "energy",
+          "name": "Sustained Energy"
+        },
+        {
+          "id": "heart",
+          "name": "Holistic Vitality"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "coriander-seeds",
+      "name": "Coriander Seeds",
+      "score": 9.6,
+      "subtitle": "Wholesome kitchen staple essential for daily wholesome cooking & balance",
+      "category": "spices",
+      "botanicalName": "Coriandrum sativum",
+      "originClimate": "Global Agricultural Regions",
+      "nutrients": [
+        {
+          "label": "Plant Nutrition",
+          "icon": "Leaf"
+        },
+        {
+          "label": "Energy Source",
+          "icon": "Zap"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "energy",
+          "name": "Sustained Energy"
+        },
+        {
+          "id": "heart",
+          "name": "Holistic Vitality"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "cinnamon",
+      "name": "Cinnamon",
+      "score": 8.9,
+      "subtitle": "Wholesome kitchen staple essential for daily wholesome cooking & balance",
+      "category": "spices",
+      "botanicalName": "Cinnamomum spp.",
+      "originClimate": "Global Agricultural Regions",
+      "nutrients": [
+        {
+          "label": "Plant Nutrition",
+          "icon": "Leaf"
+        },
+        {
+          "label": "Energy Source",
+          "icon": "Zap"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1509358271058-acd22cc93898?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "energy",
+          "name": "Sustained Energy"
+        },
+        {
+          "id": "heart",
+          "name": "Holistic Vitality"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "cardamom",
+      "name": "Cardamom",
+      "score": 9.4,
+      "subtitle": "Wholesome kitchen staple essential for daily wholesome cooking & balance",
+      "category": "spices",
+      "botanicalName": "Elettaria cardamomum",
+      "originClimate": "Global Agricultural Regions",
+      "nutrients": [
+        {
+          "label": "Plant Nutrition",
+          "icon": "Leaf"
+        },
+        {
+          "label": "Energy Source",
+          "icon": "Zap"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "energy",
+          "name": "Sustained Energy"
+        },
+        {
+          "id": "heart",
+          "name": "Holistic Vitality"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "cloves",
+      "name": "Cloves",
+      "score": 8.7,
+      "subtitle": "Wholesome kitchen staple essential for daily wholesome cooking & balance",
+      "category": "spices",
+      "botanicalName": "Syzygium aromaticum",
+      "originClimate": "Global Agricultural Regions",
+      "nutrients": [
+        {
+          "label": "Plant Nutrition",
+          "icon": "Leaf"
+        },
+        {
+          "label": "Energy Source",
+          "icon": "Zap"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "energy",
+          "name": "Sustained Energy"
+        },
+        {
+          "id": "heart",
+          "name": "Holistic Vitality"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "fenugreek-seeds",
+      "name": "Fenugreek Seeds",
+      "score": 9.2,
+      "subtitle": "Wholesome kitchen staple essential for daily wholesome cooking & balance",
+      "category": "spices",
+      "botanicalName": "Trigonella foenum-graecum",
+      "originClimate": "Global Agricultural Regions",
+      "nutrients": [
+        {
+          "label": "Plant Nutrition",
+          "icon": "Leaf"
+        },
+        {
+          "label": "Energy Source",
+          "icon": "Zap"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "energy",
+          "name": "Sustained Energy"
+        },
+        {
+          "id": "heart",
+          "name": "Holistic Vitality"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "mustard-seeds",
+      "name": "Mustard Seeds",
+      "score": 9.7,
+      "subtitle": "Wholesome kitchen staple essential for daily wholesome cooking & balance",
+      "category": "spices",
+      "botanicalName": "Brassica spp.",
+      "originClimate": "Global Agricultural Regions",
+      "nutrients": [
+        {
+          "label": "Plant Nutrition",
+          "icon": "Leaf"
+        },
+        {
+          "label": "Energy Source",
+          "icon": "Zap"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "energy",
+          "name": "Sustained Energy"
+        },
+        {
+          "id": "heart",
+          "name": "Holistic Vitality"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "fennel-seeds",
+      "name": "Fennel Seeds",
+      "score": 9,
+      "subtitle": "Wholesome kitchen staple essential for daily wholesome cooking & balance",
+      "category": "spices",
+      "botanicalName": "Foeniculum vulgare",
+      "originClimate": "Global Agricultural Regions",
+      "nutrients": [
+        {
+          "label": "Plant Nutrition",
+          "icon": "Leaf"
+        },
+        {
+          "label": "Energy Source",
+          "icon": "Zap"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "energy",
+          "name": "Sustained Energy"
+        },
+        {
+          "id": "heart",
+          "name": "Holistic Vitality"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "ajwain",
+      "name": "Ajwain / Carom Seeds",
+      "score": 9.5,
+      "subtitle": "Wholesome kitchen staple essential for daily wholesome cooking & balance",
+      "category": "spices",
+      "botanicalName": "Trachyspermum ammi",
+      "originClimate": "Global Agricultural Regions",
+      "nutrients": [
+        {
+          "label": "Plant Nutrition",
+          "icon": "Leaf"
+        },
+        {
+          "label": "Energy Source",
+          "icon": "Zap"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "energy",
+          "name": "Sustained Energy"
+        },
+        {
+          "id": "heart",
+          "name": "Holistic Vitality"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "asafoetida",
+      "name": "Asafoetida / Hing",
+      "score": 8.8,
+      "subtitle": "Wholesome kitchen staple essential for daily wholesome cooking & balance",
+      "category": "spices",
+      "botanicalName": "Ferula spp.",
+      "originClimate": "Global Agricultural Regions",
+      "nutrients": [
+        {
+          "label": "Plant Nutrition",
+          "icon": "Leaf"
+        },
+        {
+          "label": "Energy Source",
+          "icon": "Zap"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "energy",
+          "name": "Sustained Energy"
+        },
+        {
+          "id": "heart",
+          "name": "Holistic Vitality"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "dry-red-chilli",
+      "name": "Dried Red Chilli",
+      "score": 9.3,
+      "subtitle": "Wholesome kitchen staple essential for daily wholesome cooking & balance",
+      "category": "spices",
+      "botanicalName": "Capsicum annuum",
+      "originClimate": "Global Agricultural Regions",
+      "nutrients": [
+        {
+          "label": "Plant Nutrition",
+          "icon": "Leaf"
+        },
+        {
+          "label": "Energy Source",
+          "icon": "Zap"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1563565375-f3fdfdbefa83?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "energy",
+          "name": "Sustained Energy"
+        },
+        {
+          "id": "heart",
+          "name": "Holistic Vitality"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "bay-leaf",
+      "name": "Bay Leaf",
+      "score": 9.8,
+      "subtitle": "Wholesome kitchen staple essential for daily wholesome cooking & balance",
+      "category": "spices",
+      "botanicalName": "Cinnamomum tamala",
+      "originClimate": "Global Agricultural Regions",
+      "nutrients": [
+        {
+          "label": "Plant Nutrition",
+          "icon": "Leaf"
+        },
+        {
+          "label": "Energy Source",
+          "icon": "Zap"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "energy",
+          "name": "Sustained Energy"
+        },
+        {
+          "id": "heart",
+          "name": "Holistic Vitality"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "star-anise",
+      "name": "Star Anise",
+      "score": 9.1,
+      "subtitle": "Wholesome kitchen staple essential for daily wholesome cooking & balance",
+      "category": "spices",
+      "botanicalName": "Illicium verum",
+      "originClimate": "Global Agricultural Regions",
+      "nutrients": [
+        {
+          "label": "Plant Nutrition",
+          "icon": "Leaf"
+        },
+        {
+          "label": "Energy Source",
+          "icon": "Zap"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1509358271058-acd22cc93898?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "energy",
+          "name": "Sustained Energy"
+        },
+        {
+          "id": "heart",
+          "name": "Holistic Vitality"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "nutmeg",
+      "name": "Nutmeg",
+      "score": 9.6,
+      "subtitle": "Wholesome kitchen staple essential for daily wholesome cooking & balance",
+      "category": "spices",
+      "botanicalName": "Myristica fragrans",
+      "originClimate": "Global Agricultural Regions",
+      "nutrients": [
+        {
+          "label": "Plant Nutrition",
+          "icon": "Leaf"
+        },
+        {
+          "label": "Energy Source",
+          "icon": "Zap"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1509358271058-acd22cc93898?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "energy",
+          "name": "Sustained Energy"
+        },
+        {
+          "id": "heart",
+          "name": "Holistic Vitality"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "saffron",
+      "name": "Saffron",
+      "score": 8.9,
+      "subtitle": "Wholesome kitchen staple essential for daily wholesome cooking & balance",
+      "category": "spices",
+      "botanicalName": "Crocus sativus",
+      "originClimate": "Global Agricultural Regions",
+      "nutrients": [
+        {
+          "label": "Plant Nutrition",
+          "icon": "Leaf"
+        },
+        {
+          "label": "Energy Source",
+          "icon": "Zap"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1615485290382-441e4d049cb5?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "energy",
+          "name": "Sustained Energy"
+        },
+        {
+          "id": "heart",
+          "name": "Holistic Vitality"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "tea",
+      "name": "Tea",
+      "score": 9.4,
+      "subtitle": "Wholesome kitchen staple essential for daily wholesome cooking & balance",
+      "category": "beverages",
+      "botanicalName": "Camellia sinensis",
+      "originClimate": "Global Agricultural Regions",
+      "nutrients": [
+        {
+          "label": "Plant Nutrition",
+          "icon": "Leaf"
+        },
+        {
+          "label": "Energy Source",
+          "icon": "Zap"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1576092768241-dec231879fc3?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "energy",
+          "name": "Sustained Energy"
+        },
+        {
+          "id": "heart",
+          "name": "Holistic Vitality"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "coffee",
+      "name": "Coffee",
+      "score": 8.7,
+      "subtitle": "Wholesome kitchen staple essential for daily wholesome cooking & balance",
+      "category": "beverages",
+      "botanicalName": "Coffea spp.",
+      "originClimate": "Global Agricultural Regions",
+      "nutrients": [
+        {
+          "label": "Plant Nutrition",
+          "icon": "Leaf"
+        },
+        {
+          "label": "Energy Source",
+          "icon": "Zap"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "energy",
+          "name": "Sustained Energy"
+        },
+        {
+          "id": "heart",
+          "name": "Holistic Vitality"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "cocoa-powder",
+      "name": "Cocoa Powder",
+      "score": 9.2,
+      "subtitle": "Wholesome kitchen staple essential for daily wholesome cooking & balance",
+      "category": "baking",
+      "botanicalName": "Theobroma cacao",
+      "originClimate": "Global Agricultural Regions",
+      "nutrients": [
+        {
+          "label": "Plant Nutrition",
+          "icon": "Leaf"
+        },
+        {
+          "label": "Energy Source",
+          "icon": "Zap"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1542990253-0d0f5be5f0ed?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "energy",
+          "name": "Sustained Energy"
+        },
+        {
+          "id": "heart",
+          "name": "Holistic Vitality"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "corn-starch",
+      "name": "Corn Starch",
+      "score": 9.7,
+      "subtitle": "Wholesome kitchen staple essential for daily wholesome cooking & balance",
+      "category": "pantry-staples",
+      "botanicalName": "Zea mays",
+      "originClimate": "Global Agricultural Regions",
+      "nutrients": [
+        {
+          "label": "Plant Nutrition",
+          "icon": "Leaf"
+        },
+        {
+          "label": "Energy Source",
+          "icon": "Zap"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "energy",
+          "name": "Sustained Energy"
+        },
+        {
+          "id": "heart",
+          "name": "Holistic Vitality"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "baking-soda",
+      "name": "Baking Soda",
+      "score": 9,
+      "subtitle": "Wholesome kitchen staple essential for daily wholesome cooking & balance",
+      "category": "baking",
+      "originClimate": "Global Agricultural Regions",
+      "nutrients": [
+        {
+          "label": "Plant Nutrition",
+          "icon": "Leaf"
+        },
+        {
+          "label": "Energy Source",
+          "icon": "Zap"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1518110925495-5fe2fda0442c?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "energy",
+          "name": "Sustained Energy"
+        },
+        {
+          "id": "heart",
+          "name": "Holistic Vitality"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "baking-powder",
+      "name": "Baking Powder",
+      "score": 9.5,
+      "subtitle": "Wholesome kitchen staple essential for daily wholesome cooking & balance",
+      "category": "baking",
+      "originClimate": "Global Agricultural Regions",
+      "nutrients": [
+        {
+          "label": "Plant Nutrition",
+          "icon": "Leaf"
+        },
+        {
+          "label": "Energy Source",
+          "icon": "Zap"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1518110925495-5fe2fda0442c?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "energy",
+          "name": "Sustained Energy"
+        },
+        {
+          "id": "heart",
+          "name": "Holistic Vitality"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "vinegar",
+      "name": "Vinegar",
+      "score": 8.8,
+      "subtitle": "Wholesome kitchen staple essential for daily wholesome cooking & balance",
+      "category": "condiments",
+      "originClimate": "Global Agricultural Regions",
+      "nutrients": [
+        {
+          "label": "Plant Nutrition",
+          "icon": "Leaf"
+        },
+        {
+          "label": "Energy Source",
+          "icon": "Zap"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1589985270826-4b7bb135bc9d?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "energy",
+          "name": "Sustained Energy"
+        },
+        {
+          "id": "heart",
+          "name": "Holistic Vitality"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "apple-cider-vinegar",
+      "name": "Apple Cider Vinegar",
+      "score": 9.3,
+      "subtitle": "Wholesome kitchen staple essential for daily wholesome cooking & balance",
+      "category": "condiments",
+      "botanicalName": "Malus domestica",
+      "originClimate": "Global Agricultural Regions",
+      "nutrients": [
+        {
+          "label": "Plant Nutrition",
+          "icon": "Leaf"
+        },
+        {
+          "label": "Energy Source",
+          "icon": "Zap"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1589985270826-4b7bb135bc9d?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "energy",
+          "name": "Sustained Energy"
+        },
+        {
+          "id": "heart",
+          "name": "Holistic Vitality"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "soy-sauce",
+      "name": "Soy Sauce",
+      "score": 9.8,
+      "subtitle": "Wholesome kitchen staple essential for daily wholesome cooking & balance",
+      "category": "condiments",
+      "botanicalName": "Glycine max",
+      "originClimate": "Global Agricultural Regions",
+      "nutrients": [
+        {
+          "label": "Plant Nutrition",
+          "icon": "Leaf"
+        },
+        {
+          "label": "Energy Source",
+          "icon": "Zap"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1589985270826-4b7bb135bc9d?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "energy",
+          "name": "Sustained Energy"
+        },
+        {
+          "id": "heart",
+          "name": "Holistic Vitality"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "tomato-paste",
+      "name": "Tomato Paste",
+      "score": 9.1,
+      "subtitle": "Wholesome kitchen staple essential for daily wholesome cooking & balance",
+      "category": "pantry-staples",
+      "botanicalName": "Solanum lycopersicum",
+      "originClimate": "Global Agricultural Regions",
+      "nutrients": [
+        {
+          "label": "Plant Nutrition",
+          "icon": "Leaf"
+        },
+        {
+          "label": "Energy Source",
+          "icon": "Zap"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1592924357228-91a4daadcfea?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "energy",
+          "name": "Sustained Energy"
+        },
+        {
+          "id": "heart",
+          "name": "Holistic Vitality"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "coconut-milk",
+      "name": "Coconut Milk",
+      "score": 9.6,
+      "subtitle": "Wholesome kitchen staple essential for daily wholesome cooking & balance",
+      "category": "pantry-staples",
+      "botanicalName": "Cocos nucifera",
+      "originClimate": "Global Agricultural Regions",
+      "nutrients": [
+        {
+          "label": "Plant Nutrition",
+          "icon": "Leaf"
+        },
+        {
+          "label": "Energy Source",
+          "icon": "Zap"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1544378730-8b5104b18790?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "energy",
+          "name": "Sustained Energy"
+        },
+        {
+          "id": "heart",
+          "name": "Holistic Vitality"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "tamarind-paste",
+      "name": "Tamarind Paste",
+      "score": 8.9,
+      "subtitle": "Wholesome kitchen staple essential for daily wholesome cooking & balance",
+      "category": "pantry-staples",
+      "botanicalName": "Tamarindus indica",
+      "originClimate": "Global Agricultural Regions",
+      "nutrients": [
+        {
+          "label": "Plant Nutrition",
+          "icon": "Leaf"
+        },
+        {
+          "label": "Energy Source",
+          "icon": "Zap"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1616781296062-8418ec25fbb3?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "energy",
+          "name": "Sustained Energy"
+        },
+        {
+          "id": "heart",
+          "name": "Holistic Vitality"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "desiccated-coconut",
+      "name": "Desiccated Coconut",
+      "score": 9.4,
+      "subtitle": "Wholesome kitchen staple essential for daily wholesome cooking & balance",
+      "category": "pantry-staples",
+      "botanicalName": "Cocos nucifera",
+      "originClimate": "Global Agricultural Regions",
+      "nutrients": [
+        {
+          "label": "Plant Nutrition",
+          "icon": "Leaf"
+        },
+        {
+          "label": "Energy Source",
+          "icon": "Zap"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1544378730-8b5104b18790?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "energy",
+          "name": "Sustained Energy"
+        },
+        {
+          "id": "heart",
+          "name": "Holistic Vitality"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    },
+    {
+      "id": "dry-coconut",
+      "name": "Dry Coconut / Copra",
+      "score": 8.7,
+      "subtitle": "Wholesome kitchen staple essential for daily wholesome cooking & balance",
+      "category": "pantry-staples",
+      "botanicalName": "Cocos nucifera",
+      "originClimate": "Global Agricultural Regions",
+      "nutrients": [
+        {
+          "label": "Plant Nutrition",
+          "icon": "Leaf"
+        },
+        {
+          "label": "Energy Source",
+          "icon": "Zap"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1544378730-8b5104b18790?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        {
+          "id": "energy",
+          "name": "Sustained Energy"
+        },
+        {
+          "id": "heart",
+          "name": "Holistic Vitality"
+        }
+      ],
+      "nutritionDetails": {
+        "basis": "per 100 g edible portion, raw",
+        "calories_kcal": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sugars_g": null,
+        "vitaminC_mg": null,
+        "potassium_mg": null
+      }
+    }
+  ]
+}

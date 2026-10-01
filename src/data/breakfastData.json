@@ -1,0 +1,206 @@
+{
+  "subCategories": [
+    {
+      "id": "all",
+      "name": "All Breakfast Foods",
+      "image": "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?auto=format&fit=crop&w=500&q=80"
+    },
+    {
+      "id": "Fermented Steamed & Crepes",
+      "name": "Fermented Steamed & Crepes",
+      "image": "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?auto=format&fit=crop&w=500&q=80"
+    },
+    {
+      "id": "Savoury Flakes & Semolina",
+      "name": "Savoury Flakes & Semolina",
+      "image": "https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=500&q=80"
+    },
+    {
+      "id": "Traditional Porridges",
+      "name": "Traditional Porridges",
+      "image": "https://images.unsplash.com/photo-1626777552726-4a6b54c97e46?auto=format&fit=crop&w=500&q=80"
+    }
+  ],
+  "breakfastList": [
+    {
+      "id": "idli",
+      "name": "Idli",
+      "subtitle": "Steamed fermented rice-and-urad batter cakes.",
+      "category": "Fermented Steamed & Crepes",
+      "score": 9.1,
+      "image": "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?auto=format&fit=crop&w=500&q=80",
+      "badge": "Morning Fuel",
+      "badgeType": "popular",
+      "benefits": [
+        "energy",
+        "digestion"
+      ],
+      "nutrients": [
+        {
+          "label": "Calories",
+          "value": "146 kcal"
+        },
+        {
+          "label": "Protein",
+          "value": "4.5g"
+        },
+        {
+          "label": "Carbs",
+          "value": "28g"
+        },
+        {
+          "label": "Fiber",
+          "value": "2g"
+        }
+      ],
+      "tags": [
+        "Breakfast Foods",
+        "Fermented Steamed & Crepes"
+      ]
+    },
+    {
+      "id": "plain-dosa",
+      "name": "Plain Dosa",
+      "subtitle": "Thin fermented crepe made mainly from rice and urad dal.",
+      "category": "Fermented Steamed & Crepes",
+      "score": 8.9,
+      "image": "https://images.unsplash.com/photo-1668236543090-82eba5ee5976?auto=format&fit=crop&w=500&q=80",
+      "badge": "Morning Fuel",
+      "badgeType": "popular",
+      "benefits": [
+        "energy",
+        "digestion"
+      ],
+      "nutrients": [
+        {
+          "label": "Calories",
+          "value": "168 kcal"
+        },
+        {
+          "label": "Protein",
+          "value": "4.5g"
+        },
+        {
+          "label": "Carbs",
+          "value": "30g"
+        },
+        {
+          "label": "Fiber",
+          "value": "1.5g"
+        }
+      ],
+      "tags": [
+        "Breakfast Foods",
+        "Fermented Steamed & Crepes"
+      ]
+    },
+    {
+      "id": "vegetable-upma",
+      "name": "Vegetable Upma",
+      "subtitle": "Savoury semolina-based breakfast dish, often prepared with vegetables.",
+      "category": "Savoury Flakes & Semolina",
+      "score": 9.1,
+      "image": "https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=500&q=80",
+      "badge": "Morning Fuel",
+      "badgeType": "popular",
+      "benefits": [
+        "energy",
+        "digestion"
+      ],
+      "nutrients": [
+        {
+          "label": "Calories",
+          "value": "150 kcal"
+        },
+        {
+          "label": "Protein",
+          "value": "4g"
+        },
+        {
+          "label": "Carbs",
+          "value": "23g"
+        },
+        {
+          "label": "Fiber",
+          "value": "2.5g"
+        }
+      ],
+      "tags": [
+        "Breakfast Foods",
+        "Savoury Flakes & Semolina"
+      ]
+    },
+    {
+      "id": "vegetable-poha",
+      "name": "Vegetable Poha",
+      "subtitle": "Flattened rice cooked with vegetables and seasonings.",
+      "category": "Savoury Flakes & Semolina",
+      "score": 9.1,
+      "image": "https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=500&q=80",
+      "badge": "Morning Fuel",
+      "badgeType": "popular",
+      "benefits": [
+        "energy",
+        "digestion"
+      ],
+      "nutrients": [
+        {
+          "label": "Calories",
+          "value": "160 kcal"
+        },
+        {
+          "label": "Protein",
+          "value": "4g"
+        },
+        {
+          "label": "Carbs",
+          "value": "28g"
+        },
+        {
+          "label": "Fiber",
+          "value": "2.5g"
+        }
+      ],
+      "tags": [
+        "Breakfast Foods",
+        "Savoury Flakes & Semolina"
+      ]
+    },
+    {
+      "id": "ven-pongal",
+      "name": "Ven Pongal",
+      "subtitle": "Rice-and-moong-dal dish seasoned with spices and usually ghee.",
+      "category": "Traditional Porridges",
+      "score": 8.9,
+      "image": "https://images.unsplash.com/photo-1626777552726-4a6b54c97e46?auto=format&fit=crop&w=500&q=80",
+      "badge": "Morning Fuel",
+      "badgeType": "popular",
+      "benefits": [
+        "energy",
+        "digestion"
+      ],
+      "nutrients": [
+        {
+          "label": "Calories",
+          "value": "180 kcal"
+        },
+        {
+          "label": "Protein",
+          "value": "5g"
+        },
+        {
+          "label": "Carbs",
+          "value": "28g"
+        },
+        {
+          "label": "Fiber",
+          "value": "2g"
+        }
+      ],
+      "tags": [
+        "Breakfast Foods",
+        "Traditional Porridges"
+      ]
+    }
+  ]
+}

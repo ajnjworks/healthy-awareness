@@ -1,0 +1,396 @@
+{
+  "subCategories": [
+    {
+      "id": "all",
+      "name": "All Pulses, Dals & Legumes",
+      "image": "https://images.unsplash.com/photo-1585994192701-f1a505c817ea?auto=format&fit=crop&w=500&q=80"
+    },
+    {
+      "id": "Split Dals & Lentils",
+      "name": "Split Dals & Lentils",
+      "image": "https://images.unsplash.com/photo-1585994192701-f1a505c817ea?auto=format&fit=crop&w=500&q=80"
+    },
+    {
+      "id": "Whole Beans & Peas",
+      "name": "Whole Beans & Peas",
+      "image": "https://images.unsplash.com/photo-1515543237350-b3eea1ec8082?auto=format&fit=crop&w=500&q=80"
+    },
+    {
+      "id": "Legumes & Pulses",
+      "name": "Legumes & Pulses",
+      "image": "https://images.unsplash.com/photo-1585994192701-f1a505c817ea?auto=format&fit=crop&w=500&q=80"
+    }
+  ],
+  "pulsesList": [
+    {
+      "id": "toor-dal",
+      "name": "Toor Dal",
+      "subtitle": "Split pigeon peas commonly used to make dal.",
+      "category": "Split Dals & Lentils",
+      "score": 9.3,
+      "image": "https://images.unsplash.com/photo-1585994192701-f1a505c817ea?auto=format&fit=crop&w=500&q=80",
+      "badge": "Plant Protein",
+      "badgeType": "popular",
+      "benefits": [
+        "muscle",
+        "digestion",
+        "satiety"
+      ],
+      "nutrients": [
+        {
+          "label": "Calories",
+          "value": "335 kcal"
+        },
+        {
+          "label": "Protein",
+          "value": "22.3g"
+        },
+        {
+          "label": "Fiber",
+          "value": "15g"
+        },
+        {
+          "label": "Complex Carbs",
+          "value": "62.8g"
+        }
+      ],
+      "tags": [
+        "Pulses, Dals & Legumes",
+        "Split Dals & Lentils"
+      ]
+    },
+    {
+      "id": "moong-dal",
+      "name": "Moong Dal",
+      "subtitle": "Split mung beans used in dals, soups and khichdi.",
+      "category": "Split Dals & Lentils",
+      "score": 9.6,
+      "image": "https://images.unsplash.com/photo-1585994192701-f1a505c817ea?auto=format&fit=crop&w=500&q=80",
+      "badge": "Plant Protein",
+      "badgeType": "popular",
+      "benefits": [
+        "muscle",
+        "digestion",
+        "satiety"
+      ],
+      "nutrients": [
+        {
+          "label": "Calories",
+          "value": "347 kcal"
+        },
+        {
+          "label": "Protein",
+          "value": "23.9g"
+        },
+        {
+          "label": "Fiber",
+          "value": "16.3g"
+        },
+        {
+          "label": "Complex Carbs",
+          "value": "62.6g"
+        }
+      ],
+      "tags": [
+        "Pulses, Dals & Legumes",
+        "Split Dals & Lentils"
+      ]
+    },
+    {
+      "id": "masoor-dal",
+      "name": "Masoor Dal",
+      "subtitle": "Lentils commonly used in soups and Indian dals.",
+      "category": "Split Dals & Lentils",
+      "score": 8.9,
+      "image": "https://images.unsplash.com/photo-1515543237350-b3eea1ec8082?auto=format&fit=crop&w=500&q=80",
+      "badge": "Plant Protein",
+      "badgeType": "popular",
+      "benefits": [
+        "muscle",
+        "digestion",
+        "satiety"
+      ],
+      "nutrients": [
+        {
+          "label": "Calories",
+          "value": "352 kcal"
+        },
+        {
+          "label": "Protein",
+          "value": "24.6g"
+        },
+        {
+          "label": "Fiber",
+          "value": "10.7g"
+        },
+        {
+          "label": "Complex Carbs",
+          "value": "63.4g"
+        }
+      ],
+      "tags": [
+        "Pulses, Dals & Legumes",
+        "Split Dals & Lentils"
+      ]
+    },
+    {
+      "id": "chana-dal",
+      "name": "Chana Dal",
+      "subtitle": "Split Bengal gram commonly used in dal and savoury dishes.",
+      "category": "Split Dals & Lentils",
+      "score": 9.6,
+      "image": "https://images.unsplash.com/photo-1585994192701-f1a505c817ea?auto=format&fit=crop&w=500&q=80",
+      "badge": "Plant Protein",
+      "badgeType": "popular",
+      "benefits": [
+        "muscle",
+        "digestion",
+        "satiety"
+      ],
+      "nutrients": [
+        {
+          "label": "Calories",
+          "value": "364 kcal"
+        },
+        {
+          "label": "Protein",
+          "value": "21.5g"
+        },
+        {
+          "label": "Fiber",
+          "value": "15g"
+        },
+        {
+          "label": "Complex Carbs",
+          "value": "60g"
+        }
+      ],
+      "tags": [
+        "Pulses, Dals & Legumes",
+        "Split Dals & Lentils"
+      ]
+    },
+    {
+      "id": "chickpeas",
+      "name": "Chickpeas",
+      "subtitle": "Whole chickpeas used in curries, salads and hummus.",
+      "category": "Whole Beans & Peas",
+      "score": 9.6,
+      "image": "https://images.unsplash.com/photo-1515543237350-b3eea1ec8082?auto=format&fit=crop&w=500&q=80",
+      "badge": "Plant Protein",
+      "badgeType": "popular",
+      "benefits": [
+        "muscle",
+        "digestion",
+        "satiety"
+      ],
+      "nutrients": [
+        {
+          "label": "Calories",
+          "value": "378 kcal"
+        },
+        {
+          "label": "Protein",
+          "value": "20.5g"
+        },
+        {
+          "label": "Fiber",
+          "value": "12.2g"
+        },
+        {
+          "label": "Complex Carbs",
+          "value": "63g"
+        }
+      ],
+      "tags": [
+        "Pulses, Dals & Legumes",
+        "Whole Beans & Peas"
+      ]
+    },
+    {
+      "id": "black-chana",
+      "name": "Black Chickpeas",
+      "subtitle": "Small dark-skinned chickpeas commonly eaten boiled or in curries.",
+      "category": "Whole Beans & Peas",
+      "score": 9.4,
+      "image": "https://images.unsplash.com/photo-1585994192701-f1a505c817ea?auto=format&fit=crop&w=500&q=80",
+      "badge": "Plant Protein",
+      "badgeType": "popular",
+      "benefits": [
+        "muscle",
+        "digestion",
+        "satiety"
+      ],
+      "nutrients": [
+        {
+          "label": "Calories",
+          "value": "364 kcal"
+        },
+        {
+          "label": "Protein",
+          "value": "20g"
+        },
+        {
+          "label": "Fiber",
+          "value": "17g"
+        },
+        {
+          "label": "Complex Carbs",
+          "value": "60g"
+        }
+      ],
+      "tags": [
+        "Pulses, Dals & Legumes",
+        "Whole Beans & Peas"
+      ]
+    },
+    {
+      "id": "rajma",
+      "name": "Kidney Beans",
+      "subtitle": "Kidney beans commonly used in curries.",
+      "category": "Whole Beans & Peas",
+      "score": 9.5,
+      "image": "https://images.unsplash.com/photo-1551462147-37885acc36f1?auto=format&fit=crop&w=500&q=80",
+      "badge": "Plant Protein",
+      "badgeType": "popular",
+      "benefits": [
+        "muscle",
+        "digestion",
+        "satiety"
+      ],
+      "nutrients": [
+        {
+          "label": "Calories",
+          "value": "333 kcal"
+        },
+        {
+          "label": "Protein",
+          "value": "23.6g"
+        },
+        {
+          "label": "Fiber",
+          "value": "24.9g"
+        },
+        {
+          "label": "Complex Carbs",
+          "value": "60g"
+        }
+      ],
+      "tags": [
+        "Pulses, Dals & Legumes",
+        "Whole Beans & Peas"
+      ]
+    },
+    {
+      "id": "urad-dal",
+      "name": "Urad Dal",
+      "subtitle": "Black gram used in dals and fermented foods.",
+      "category": "Split Dals & Lentils",
+      "score": 9.3,
+      "image": "https://images.unsplash.com/photo-1585994192701-f1a505c817ea?auto=format&fit=crop&w=500&q=80",
+      "badge": "Plant Protein",
+      "badgeType": "popular",
+      "benefits": [
+        "muscle",
+        "digestion",
+        "satiety"
+      ],
+      "nutrients": [
+        {
+          "label": "Calories",
+          "value": "341 kcal"
+        },
+        {
+          "label": "Protein",
+          "value": "24g"
+        },
+        {
+          "label": "Fiber",
+          "value": "18.3g"
+        },
+        {
+          "label": "Complex Carbs",
+          "value": "58.9g"
+        }
+      ],
+      "tags": [
+        "Pulses, Dals & Legumes",
+        "Split Dals & Lentils"
+      ]
+    },
+    {
+      "id": "dried-peas",
+      "name": "Dried Peas",
+      "subtitle": "Dried peas used in soups, curries and stews.",
+      "category": "Legumes & Pulses",
+      "score": 8.9,
+      "image": "https://images.unsplash.com/photo-1585994192701-f1a505c817ea?auto=format&fit=crop&w=500&q=80",
+      "badge": "Plant Protein",
+      "badgeType": "popular",
+      "benefits": [
+        "muscle",
+        "digestion",
+        "satiety"
+      ],
+      "nutrients": [
+        {
+          "label": "Calories",
+          "value": "341 kcal"
+        },
+        {
+          "label": "Protein",
+          "value": "24.5g"
+        },
+        {
+          "label": "Fiber",
+          "value": "25g"
+        },
+        {
+          "label": "Complex Carbs",
+          "value": "60g"
+        }
+      ],
+      "tags": [
+        "Pulses, Dals & Legumes",
+        "Legumes & Pulses"
+      ]
+    },
+    {
+      "id": "soybeans",
+      "name": "Soybeans",
+      "subtitle": "Protein-rich legume used whole or in soy foods.",
+      "category": "Whole Beans & Peas",
+      "score": 9.3,
+      "image": "https://images.unsplash.com/photo-1585994192701-f1a505c817ea?auto=format&fit=crop&w=500&q=80",
+      "badge": "Plant Protein",
+      "badgeType": "popular",
+      "benefits": [
+        "muscle",
+        "digestion",
+        "satiety"
+      ],
+      "nutrients": [
+        {
+          "label": "Calories",
+          "value": "446 kcal"
+        },
+        {
+          "label": "Protein",
+          "value": "36.5g"
+        },
+        {
+          "label": "Fiber",
+          "value": "9.3g"
+        },
+        {
+          "label": "Complex Carbs",
+          "value": "30.2g"
+        }
+      ],
+      "tags": [
+        "Pulses, Dals & Legumes",
+        "Whole Beans & Peas"
+      ]
+    }
+  ]
+}

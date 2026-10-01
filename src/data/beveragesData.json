@@ -1,0 +1,180 @@
+{
+  "subCategories": [
+    {
+      "id": "all",
+      "name": "All Beverages",
+      "image": "https://images.unsplash.com/photo-1548839140-29a749e1bc4e?auto=format&fit=crop&w=500&q=80"
+    },
+    {
+      "id": "Pure Hydration",
+      "name": "Pure Hydration",
+      "image": "https://images.unsplash.com/photo-1548839140-29a749e1bc4e?auto=format&fit=crop&w=500&q=80"
+    },
+    {
+      "id": "Brewed Infusions",
+      "name": "Brewed Infusions",
+      "image": "https://images.unsplash.com/photo-1576092768241-dec231879fc3?auto=format&fit=crop&w=500&q=80"
+    },
+    {
+      "id": "Fruit Beverages",
+      "name": "Fruit Beverages",
+      "image": "https://images.unsplash.com/photo-1613478223719-2ab802602423?auto=format&fit=crop&w=500&q=80"
+    }
+  ],
+  "beveragesList": [
+    {
+      "id": "water",
+      "name": "Water",
+      "score": 9.4,
+      "subtitle": "Plain water with no meaningful calories.",
+      "category": "Pure Hydration",
+      "originClimate": "Cultivated & Prepared Globally",
+      "badge": "Hydration",
+      "badgeType": "popular",
+      "views": "16.6k views",
+      "image": "https://images.unsplash.com/photo-1548839140-29a749e1bc4e?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        "skin",
+        "digestion"
+      ],
+      "nutrients": [
+        {
+          "label": "Cal: 0 kcal",
+          "icon": "Zap"
+        },
+        {
+          "label": "Hydrating",
+          "icon": "Droplets"
+        },
+        {
+          "label": "Pure",
+          "icon": "Sparkles"
+        }
+      ]
+    },
+    {
+      "id": "brewed-tea",
+      "name": "Tea, Brewed",
+      "score": 9.2,
+      "subtitle": "Brewed tea without added milk or sugar.",
+      "category": "Brewed Infusions",
+      "botanicalName": "Camellia sinensis",
+      "originClimate": "Cultivated & Prepared Globally",
+      "badge": "Hydration",
+      "badgeType": "popular",
+      "views": "17.7k views",
+      "image": "https://images.unsplash.com/photo-1576092768241-dec231879fc3?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        "skin",
+        "digestion"
+      ],
+      "nutrients": [
+        {
+          "label": "Cal: 1 kcal",
+          "icon": "Zap"
+        },
+        {
+          "label": "Potassium: 37mg",
+          "icon": "Droplets"
+        },
+        {
+          "label": "Pure",
+          "icon": "Sparkles"
+        }
+      ]
+    },
+    {
+      "id": "brewed-coffee",
+      "name": "Coffee, Brewed",
+      "score": 9.1,
+      "subtitle": "Brewed coffee without milk or sugar.",
+      "category": "Brewed Infusions",
+      "botanicalName": "Coffea arabica",
+      "originClimate": "Cultivated & Prepared Globally",
+      "badge": "Hydration",
+      "badgeType": "popular",
+      "views": "12.7k views",
+      "image": "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        "skin",
+        "digestion"
+      ],
+      "nutrients": [
+        {
+          "label": "Cal: 1 kcal",
+          "icon": "Zap"
+        },
+        {
+          "label": "Potassium: 49mg",
+          "icon": "Droplets"
+        },
+        {
+          "label": "Pure",
+          "icon": "Sparkles"
+        }
+      ]
+    },
+    {
+      "id": "coconut-water",
+      "name": "Coconut Water",
+      "score": 9.8,
+      "subtitle": "Liquid from young green coconuts.",
+      "category": "Pure Hydration",
+      "botanicalName": "Cocos nucifera",
+      "originClimate": "Cultivated & Prepared Globally",
+      "badge": "Hydration",
+      "badgeType": "popular",
+      "views": "12.6k views",
+      "image": "https://images.unsplash.com/photo-1544378730-8b5104b18790?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        "skin",
+        "digestion"
+      ],
+      "nutrients": [
+        {
+          "label": "Cal: 19 kcal",
+          "icon": "Zap"
+        },
+        {
+          "label": "Potassium: 250mg",
+          "icon": "Droplets"
+        },
+        {
+          "label": "Vit C: 2.5mg",
+          "icon": "Sparkles"
+        }
+      ]
+    },
+    {
+      "id": "orange-juice",
+      "name": "Orange Juice, Unsweetened",
+      "score": 9.4,
+      "subtitle": "Juice from oranges without added sugar.",
+      "category": "Fruit Beverages",
+      "botanicalName": "Citrus sinensis",
+      "originClimate": "Cultivated & Prepared Globally",
+      "badge": "Hydration",
+      "badgeType": "popular",
+      "views": "14.5k views",
+      "image": "https://images.unsplash.com/photo-1613478223719-2ab802602423?auto=format&fit=crop&w=500&q=80",
+      "benefits": [
+        "skin",
+        "digestion"
+      ],
+      "nutrients": [
+        {
+          "label": "Cal: 45 kcal",
+          "icon": "Zap"
+        },
+        {
+          "label": "Potassium: 200mg",
+          "icon": "Droplets"
+        },
+        {
+          "label": "Vit C: 50mg",
+          "icon": "Sparkles"
+        }
+      ]
+    }
+  ]
+}

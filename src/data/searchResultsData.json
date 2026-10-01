@@ -1,0 +1,2153 @@
+{
+  "searchQuery": "almond",
+  "totalResults": 94,
+  "hero": {
+    "graphic": "https://images.unsplash.com/photo-1508061253366-f7da158b6d46?auto=format&fit=crop&w=800&q=80"
+  },
+  "categories": [
+    {
+      "id": "all",
+      "label": "All Categories",
+      "count": 49
+    },
+    {
+      "id": "fruits",
+      "label": "Fruits",
+      "count": 77
+    },
+    {
+      "id": "vegetables",
+      "label": "Vegetables",
+      "count": 67
+    },
+    {
+      "id": "groceries",
+      "label": "Groceries",
+      "count": 85
+    },
+    {
+      "id": "nuts-seeds",
+      "label": "Nuts & Seeds",
+      "count": 38
+    },
+    {
+      "id": "fishes",
+      "label": "Fishes & Seafood",
+      "count": 70
+    },
+    {
+      "id": "meats",
+      "label": "Meats & Poultry",
+      "count": 59
+    },
+    {
+      "id": "eggs",
+      "label": "Eggs",
+      "count": 10
+    },
+    {
+      "id": "sweeteners",
+      "label": "Sweeteners & Sugars",
+      "count": 4
+    },
+    {
+      "id": "bakery",
+      "label": "Bakery & Breads",
+      "count": 5
+    },
+    {
+      "id": "beverages",
+      "label": "Beverages",
+      "count": 5
+    },
+    {
+      "id": "cooking-oils",
+      "label": "Cooking Oils & Fats",
+      "count": 6
+    },
+    {
+      "id": "grains-cereals",
+      "label": "Grains & Cereals",
+      "count": 11
+    }
+  ],
+  "benefits": [
+    {
+      "id": "heart",
+      "label": "Heart Health",
+      "count": 12
+    },
+    {
+      "id": "brain",
+      "label": "Brain Health",
+      "count": 10
+    },
+    {
+      "id": "weight",
+      "label": "Weight Management",
+      "count": 7
+    },
+    {
+      "id": "immunity",
+      "label": "Immunity Booster",
+      "count": 6
+    },
+    {
+      "id": "skin",
+      "label": "Skin Health",
+      "count": 5
+    }
+  ],
+  "foodTypes": [
+    {
+      "id": "raw",
+      "label": "Raw",
+      "count": 9
+    },
+    {
+      "id": "roasted",
+      "label": "Roasted",
+      "count": 5
+    },
+    {
+      "id": "sprouted",
+      "label": "Sprouted",
+      "count": 2
+    },
+    {
+      "id": "processed",
+      "label": "Processed",
+      "count": 1
+    }
+  ],
+  "dietTypes": [
+    {
+      "id": "veg",
+      "label": "Vegetarian",
+      "count": 26
+    },
+    {
+      "id": "vegan",
+      "label": "Vegan",
+      "count": 18
+    },
+    {
+      "id": "gf",
+      "label": "Gluten Free",
+      "count": 24
+    },
+    {
+      "id": "keto",
+      "label": "Keto Friendly",
+      "count": 8
+    }
+  ],
+  "results": [
+    {
+      "id": "almond-1",
+      "name": "Almond",
+      "subtitle": "Rich in Vitamin E & healthy fats",
+      "category": "NUTS & SEEDS",
+      "categoryId": "nuts-seeds",
+      "type": "food",
+      "score": 9.2,
+      "benefits": [
+        "heart",
+        "brain",
+        "skin"
+      ],
+      "foodType": "raw",
+      "dietTypes": [
+        "veg",
+        "vegan",
+        "gf",
+        "keto"
+      ],
+      "image": "https://images.unsplash.com/photo-1508061253366-f7da158b6d46?auto=format&fit=crop&w=600&q=80",
+      "actionText": "View Details"
+    },
+    {
+      "id": "almond-2",
+      "name": "Raw Almonds",
+      "subtitle": "Nutrient-dense superfood",
+      "category": "NUTS & SEEDS",
+      "categoryId": "nuts-seeds",
+      "type": "food",
+      "score": 8.8,
+      "benefits": [
+        "heart",
+        "brain"
+      ],
+      "foodType": "raw",
+      "dietTypes": [
+        "veg",
+        "vegan",
+        "gf",
+        "keto"
+      ],
+      "image": "https://images.unsplash.com/photo-1508061253366-f7da158b6d46?auto=format&fit=crop&w=600&q=80",
+      "actionText": "View Details"
+    },
+    {
+      "id": "almond-3",
+      "name": "Roasted Almonds",
+      "subtitle": "Crunchy & delicious",
+      "category": "NUTS & SEEDS",
+      "categoryId": "nuts-seeds",
+      "type": "food",
+      "score": 8.6,
+      "benefits": [
+        "heart",
+        "weight"
+      ],
+      "foodType": "roasted",
+      "dietTypes": [
+        "veg",
+        "vegan",
+        "gf"
+      ],
+      "image": "https://images.unsplash.com/photo-1508061253366-f7da158b6d46?auto=format&fit=crop&w=600&q=80",
+      "actionText": "View Details"
+    },
+    {
+      "id": "almond-4",
+      "name": "Almond Milk",
+      "subtitle": "Dairy-free & lactose-free",
+      "category": "DRINKS",
+      "categoryId": "drinks",
+      "type": "drink",
+      "score": 8.9,
+      "benefits": [
+        "heart",
+        "skin"
+      ],
+      "foodType": "processed",
+      "dietTypes": [
+        "veg",
+        "vegan",
+        "gf"
+      ],
+      "image": "https://images.unsplash.com/photo-1556881286-fc6915169721?auto=format&fit=crop&w=600&q=80",
+      "actionText": "View Details"
+    },
+    {
+      "id": "almond-5",
+      "name": "Almond Flour",
+      "subtitle": "Gluten-free & low carb",
+      "category": "OTHERS",
+      "categoryId": "others",
+      "type": "ingredient",
+      "score": 8.7,
+      "benefits": [
+        "weight",
+        "heart"
+      ],
+      "foodType": "processed",
+      "dietTypes": [
+        "veg",
+        "vegan",
+        "gf",
+        "keto"
+      ],
+      "image": "https://images.unsplash.com/photo-1608571423902-eed4a5ad8108?auto=format&fit=crop&w=600&q=80",
+      "actionText": "View Details"
+    },
+    {
+      "id": "almond-6",
+      "name": "Almond Butter",
+      "subtitle": "Good source of protein & fats",
+      "category": "OTHERS",
+      "categoryId": "others",
+      "type": "spread",
+      "score": 8.5,
+      "benefits": [
+        "heart",
+        "brain"
+      ],
+      "foodType": "processed",
+      "dietTypes": [
+        "veg",
+        "vegan",
+        "gf",
+        "keto"
+      ],
+      "image": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?auto=format&fit=crop&w=600&q=80",
+      "actionText": "View Details"
+    },
+    {
+      "id": "almond-7",
+      "name": "Almond Smoothie",
+      "subtitle": "Healthy & energy boosting",
+      "category": "RECIPE",
+      "categoryId": "recipes",
+      "type": "recipe",
+      "score": 9,
+      "benefits": [
+        "immunity",
+        "skin"
+      ],
+      "foodType": "raw",
+      "dietTypes": [
+        "veg",
+        "vegan",
+        "gf"
+      ],
+      "image": "https://images.unsplash.com/photo-1553530666-ba11a7da3888?auto=format&fit=crop&w=600&q=80",
+      "actionText": "View Recipe"
+    },
+    {
+      "id": "almond-8",
+      "name": "Almond Cookies",
+      "subtitle": "Tasty & wholesome treat",
+      "category": "RECIPE",
+      "categoryId": "recipes",
+      "type": "recipe",
+      "score": 8.8,
+      "benefits": [
+        "brain"
+      ],
+      "foodType": "roasted",
+      "dietTypes": [
+        "veg",
+        "gf"
+      ],
+      "image": "https://images.unsplash.com/photo-1499636136210-6f4ee915583e?auto=format&fit=crop&w=600&q=80",
+      "actionText": "View Recipe"
+    },
+    {
+      "id": "almond-9",
+      "name": "Benefits of Almonds",
+      "subtitle": "Complete health benefits guide",
+      "category": "ARTICLE",
+      "categoryId": "articles",
+      "type": "article",
+      "score": 9.5,
+      "benefits": [
+        "heart",
+        "brain",
+        "immunity"
+      ],
+      "foodType": "raw",
+      "dietTypes": [
+        "veg",
+        "vegan"
+      ],
+      "image": "https://images.unsplash.com/photo-1508061253366-f7da158b6d46?auto=format&fit=crop&w=600&q=80",
+      "actionText": "Read Article"
+    },
+    {
+      "id": "almond-10",
+      "name": "Almonds for Weight Loss",
+      "subtitle": "How it helps in weight management",
+      "category": "ARTICLE",
+      "categoryId": "articles",
+      "type": "article",
+      "score": 9.3,
+      "benefits": [
+        "weight"
+      ],
+      "foodType": "raw",
+      "dietTypes": [
+        "veg",
+        "vegan"
+      ],
+      "image": "https://images.unsplash.com/photo-1508061253366-f7da158b6d46?auto=format&fit=crop&w=600&q=80",
+      "actionText": "Read Article"
+    },
+    {
+      "id": "almond-11",
+      "name": "Almonds & Brain Health",
+      "subtitle": "Boost memory & brain function",
+      "category": "ARTICLE",
+      "categoryId": "articles",
+      "type": "article",
+      "score": 9.4,
+      "benefits": [
+        "brain"
+      ],
+      "foodType": "raw",
+      "dietTypes": [
+        "veg",
+        "vegan"
+      ],
+      "image": "https://images.unsplash.com/photo-1559757175-5700dde675bc?auto=format&fit=crop&w=600&q=80",
+      "actionText": "Read Article"
+    },
+    {
+      "id": "almond-12",
+      "name": "Almond Energy Balls",
+      "subtitle": "No-bake healthy snack",
+      "category": "RECIPE",
+      "categoryId": "recipes",
+      "type": "recipe",
+      "score": 8.7,
+      "benefits": [
+        "immunity",
+        "weight"
+      ],
+      "foodType": "raw",
+      "dietTypes": [
+        "veg",
+        "vegan",
+        "gf"
+      ],
+      "image": "https://images.unsplash.com/photo-1604382355076-af4b0eb60143?auto=format&fit=crop&w=600&q=80",
+      "actionText": "View Recipe"
+    },
+    {
+      "id": "spinach",
+      "name": "Spinach (Palak)",
+      "subtitle": "Rich in Vitamin K, Iron, Folate & Antioxidants",
+      "category": "VEGETABLES",
+      "categoryId": "vegetables",
+      "type": "food",
+      "score": 9.8,
+      "benefits": [
+        "immunity",
+        "heart",
+        "bone"
+      ],
+      "foodType": "raw",
+      "dietTypes": [
+        "veg",
+        "vegan",
+        "gf",
+        "keto"
+      ],
+      "image": "https://images.unsplash.com/photo-1576045057995-568f588f82fb?auto=format&fit=crop&w=500&q=80",
+      "actionText": "View Details"
+    },
+    {
+      "id": "broccoli",
+      "name": "Broccoli",
+      "subtitle": "Potent sulforaphane, Vitamin C & fiber superfood",
+      "category": "VEGETABLES",
+      "categoryId": "vegetables",
+      "type": "food",
+      "score": 9.5,
+      "benefits": [
+        "immunity",
+        "weight",
+        "heart"
+      ],
+      "foodType": "raw",
+      "dietTypes": [
+        "veg",
+        "vegan",
+        "gf",
+        "keto"
+      ],
+      "image": "https://images.unsplash.com/photo-1459411552884-841db9b3cc2a?auto=format&fit=crop&w=500&q=80",
+      "actionText": "View Details"
+    },
+    {
+      "id": "carrot",
+      "name": "Carrot",
+      "subtitle": "Rich in beta-carotene for vision and glowing skin",
+      "category": "VEGETABLES",
+      "categoryId": "vegetables",
+      "type": "food",
+      "score": 9.3,
+      "benefits": [
+        "skin",
+        "immunity"
+      ],
+      "foodType": "raw",
+      "dietTypes": [
+        "veg",
+        "vegan",
+        "gf"
+      ],
+      "image": "https://images.unsplash.com/photo-1598170845058-32b9d6a5da37?auto=format&fit=crop&w=500&q=80",
+      "actionText": "View Details"
+    },
+    {
+      "id": "tomato",
+      "name": "Tomato",
+      "subtitle": "Abundant lycopene antioxidant supporting heart health",
+      "category": "VEGETABLES",
+      "categoryId": "vegetables",
+      "type": "food",
+      "score": 9.1,
+      "benefits": [
+        "heart",
+        "skin"
+      ],
+      "foodType": "raw",
+      "dietTypes": [
+        "veg",
+        "vegan",
+        "gf"
+      ],
+      "image": "https://images.unsplash.com/photo-1592924357228-91a4daadcfea?auto=format&fit=crop&w=500&q=80",
+      "actionText": "View Details"
+    },
+    {
+      "id": "beetroot",
+      "name": "Beetroot",
+      "subtitle": "Natural nitrates supporting blood flow and athletic stamina",
+      "category": "VEGETABLES",
+      "categoryId": "vegetables",
+      "type": "food",
+      "score": 9.2,
+      "benefits": [
+        "heart",
+        "weight"
+      ],
+      "foodType": "raw",
+      "dietTypes": [
+        "veg",
+        "vegan",
+        "gf"
+      ],
+      "image": "https://images.unsplash.com/photo-1528825871115-3581a5387919?auto=format&fit=crop&w=500&q=80",
+      "actionText": "View Details"
+    },
+    {
+      "id": "white-rice",
+      "name": "White Rice",
+      "subtitle": "Classic easily digestible daily energy staple",
+      "category": "GROCERIES",
+      "categoryId": "groceries",
+      "type": "food",
+      "score": 8.5,
+      "benefits": [
+        "energy"
+      ],
+      "foodType": "cooked",
+      "dietTypes": [
+        "veg",
+        "vegan",
+        "gf"
+      ],
+      "image": "https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&w=500&q=80",
+      "actionText": "View Details"
+    },
+    {
+      "id": "basmati-rice",
+      "name": "Basmati Rice",
+      "subtitle": "Aromatic long-grain rice with delicate texture",
+      "category": "GROCERIES",
+      "categoryId": "groceries",
+      "type": "food",
+      "score": 8.8,
+      "benefits": [
+        "energy"
+      ],
+      "foodType": "cooked",
+      "dietTypes": [
+        "veg",
+        "vegan",
+        "gf"
+      ],
+      "image": "https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&w=500&q=80",
+      "actionText": "View Details"
+    },
+    {
+      "id": "oats",
+      "name": "Whole Grain Oats",
+      "subtitle": "Heart-healthy cereal packed with soluble beta-glucan and plant protein",
+      "category": "GRAINS & CEREALS",
+      "categoryId": "grains-cereals",
+      "type": "food",
+      "score": 9.7,
+      "benefits": [
+        "heart",
+        "digestion",
+        "weight"
+      ],
+      "foodType": "raw",
+      "dietTypes": [
+        "gf",
+        "vegan",
+        "vegetarian"
+      ],
+      "image": "https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&w=500&q=80",
+      "actionText": "View Details"
+    },
+    {
+      "id": "toor-dal",
+      "name": "Toor Dal",
+      "subtitle": "Split pigeon peas commonly used to make dal.",
+      "category": "PULSES, DALS & LEGUMES",
+      "categoryId": "pulses",
+      "type": "food",
+      "score": 9.3,
+      "benefits": [
+        "muscle",
+        "digestion",
+        "satiety"
+      ],
+      "foodType": "raw",
+      "dietTypes": [
+        "gf",
+        "vegetarian"
+      ],
+      "image": "https://images.unsplash.com/photo-1585994192701-f1a505c817ea?auto=format&fit=crop&w=500&q=80",
+      "actionText": "View Details"
+    },
+    {
+      "id": "turmeric",
+      "name": "Turmeric",
+      "subtitle": "A rhizome used fresh or dried as a spice.",
+      "category": "SPICES & HERBS",
+      "categoryId": "spices",
+      "type": "food",
+      "score": 9.3,
+      "benefits": [
+        "immunity",
+        "inflammation",
+        "heart"
+      ],
+      "foodType": "raw",
+      "dietTypes": [
+        "gf",
+        "vegetarian"
+      ],
+      "image": "https://images.unsplash.com/photo-1615485290382-441e4d049cb5?auto=format&fit=crop&w=500&q=80",
+      "actionText": "View Details"
+    },
+    {
+      "id": "olive-oil",
+      "name": "Extra Virgin Olive Oil",
+      "subtitle": "Mediterranean heart champion rich in monounsaturated fats & polyphenols",
+      "category": "COOKING OILS & FATS",
+      "categoryId": "cooking-oils",
+      "type": "food",
+      "score": 9.8,
+      "benefits": [
+        "heart",
+        "brain",
+        "skin"
+      ],
+      "foodType": "raw",
+      "dietTypes": [
+        "keto",
+        "gf",
+        "vegan",
+        "vegetarian"
+      ],
+      "image": "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&w=500&q=80",
+      "actionText": "View Details"
+    },
+    {
+      "id": "walnuts",
+      "name": "Walnuts",
+      "subtitle": "Supreme plant Omega-3 ALA powerhouse for brain & heart",
+      "category": "NUTS & SEEDS",
+      "categoryId": "nuts-seeds",
+      "type": "food",
+      "score": 9.6,
+      "benefits": [
+        "brain",
+        "heart"
+      ],
+      "foodType": "raw",
+      "dietTypes": [
+        "veg",
+        "vegan",
+        "gf",
+        "keto"
+      ],
+      "image": "https://images.unsplash.com/photo-1543208541-0961a29a8c3d?auto=format&fit=crop&w=500&q=80",
+      "actionText": "View Details"
+    },
+    {
+      "id": "chia-seeds",
+      "name": "Chia Seeds",
+      "subtitle": "Small seeds rich in fibre and plant omega-3 fats.",
+      "category": "SEEDS",
+      "categoryId": "seeds",
+      "type": "food",
+      "score": 8.9,
+      "benefits": [
+        "heart",
+        "longevity",
+        "digestion"
+      ],
+      "foodType": "raw",
+      "dietTypes": [
+        "gf",
+        "vegetarian"
+      ],
+      "image": "https://images.unsplash.com/photo-1514733670139-4d87a1941d55?auto=format&fit=crop&w=500&q=80",
+      "actionText": "View Details"
+    },
+    {
+      "id": "flax-seeds",
+      "name": "Flax Seeds",
+      "subtitle": "Seeds rich in fibre and alpha-linolenic acid.",
+      "category": "SEEDS",
+      "categoryId": "seeds",
+      "type": "food",
+      "score": 8.9,
+      "benefits": [
+        "heart",
+        "longevity",
+        "digestion"
+      ],
+      "foodType": "raw",
+      "dietTypes": [
+        "gf",
+        "vegetarian"
+      ],
+      "image": "https://images.unsplash.com/photo-1589367920969-ab8e050bbb04?auto=format&fit=crop&w=500&q=80",
+      "actionText": "View Details"
+    },
+    {
+      "id": "salmon",
+      "name": "Salmon",
+      "subtitle": "Prime wild-caught salmon dense in Omega-3 EPA/DHA",
+      "category": "FISH & SEAFOOD",
+      "categoryId": "fishes",
+      "type": "food",
+      "score": 9.8,
+      "benefits": [
+        "heart",
+        "brain",
+        "skin"
+      ],
+      "foodType": "raw",
+      "dietTypes": [
+        "keto",
+        "gf",
+        "pescatarian"
+      ],
+      "image": "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?auto=format&fit=crop&w=500&q=80",
+      "actionText": "View Details"
+    },
+    {
+      "id": "tuna",
+      "name": "Tuna",
+      "subtitle": "Lean high-protein marine fish loaded with vitamin B12",
+      "category": "FISH & SEAFOOD",
+      "categoryId": "fishes",
+      "type": "food",
+      "score": 9.5,
+      "benefits": [
+        "muscle",
+        "heart"
+      ],
+      "foodType": "raw",
+      "dietTypes": [
+        "keto",
+        "gf",
+        "pescatarian"
+      ],
+      "image": "https://images.unsplash.com/photo-1544943910-4c1dc44a0eb5?auto=format&fit=crop&w=500&q=80",
+      "actionText": "View Details"
+    },
+    {
+      "id": "sardine",
+      "name": "Sardine",
+      "subtitle": "Small cold-water oily fish packed with calcium and omega-3s",
+      "category": "FISH & SEAFOOD",
+      "categoryId": "fishes",
+      "type": "food",
+      "score": 9.6,
+      "benefits": [
+        "heart",
+        "bone"
+      ],
+      "foodType": "raw",
+      "dietTypes": [
+        "keto",
+        "gf",
+        "pescatarian"
+      ],
+      "image": "https://images.unsplash.com/photo-1534483509719-3feaee7c30da?auto=format&fit=crop&w=500&q=80",
+      "actionText": "View Details"
+    },
+    {
+      "id": "prawn",
+      "name": "Prawn",
+      "subtitle": "Succulent crustacean loaded with selenium, iodine and zinc",
+      "category": "FISH & SEAFOOD",
+      "categoryId": "fishes",
+      "type": "food",
+      "score": 9.4,
+      "benefits": [
+        "muscle",
+        "energy"
+      ],
+      "foodType": "raw",
+      "dietTypes": [
+        "keto",
+        "gf",
+        "pescatarian"
+      ],
+      "image": "https://images.unsplash.com/photo-1565680018434-b513d5e5fd47?auto=format&fit=crop&w=500&q=80",
+      "actionText": "View Details"
+    },
+    {
+      "id": "pomfret",
+      "name": "Pomfret",
+      "subtitle": "Delicate white sea fish rich in bioavailable vitamins A & D",
+      "category": "FISH & SEAFOOD",
+      "categoryId": "fishes",
+      "type": "food",
+      "score": 9.3,
+      "benefits": [
+        "heart",
+        "skin"
+      ],
+      "foodType": "raw",
+      "dietTypes": [
+        "keto",
+        "gf",
+        "pescatarian"
+      ],
+      "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=500&q=80",
+      "actionText": "View Details"
+    },
+    {
+      "id": "rohu",
+      "name": "Rohu",
+      "subtitle": "Revered freshwater carp species high in clean protein and zinc",
+      "category": "FISH & SEAFOOD",
+      "categoryId": "fishes",
+      "type": "food",
+      "score": 9.2,
+      "benefits": [
+        "muscle",
+        "energy"
+      ],
+      "foodType": "raw",
+      "dietTypes": [
+        "keto",
+        "gf",
+        "pescatarian"
+      ],
+      "image": "https://images.unsplash.com/photo-1535591273668-578e31182c4f?auto=format&fit=crop&w=500&q=80",
+      "actionText": "View Details"
+    },
+    {
+      "id": "chicken-breast",
+      "name": "Chicken Breast",
+      "subtitle": "The benchmark lean protein staple for fitness & muscle repair",
+      "category": "MEAT & POULTRY",
+      "categoryId": "meats",
+      "type": "food",
+      "score": 9.7,
+      "benefits": [
+        "muscle",
+        "energy"
+      ],
+      "foodType": "raw",
+      "dietTypes": [
+        "keto",
+        "gf"
+      ],
+      "image": "https://images.unsplash.com/photo-1604503468506-a8da13d82791?auto=format&fit=crop&w=500&q=80",
+      "actionText": "View Details"
+    },
+    {
+      "id": "chicken-liver",
+      "name": "Chicken Liver",
+      "subtitle": "Nature’s supreme multivitamin packed with active B12 & folate",
+      "category": "MEAT & POULTRY",
+      "categoryId": "meats",
+      "type": "food",
+      "score": 9.8,
+      "benefits": [
+        "energy",
+        "immunity"
+      ],
+      "foodType": "raw",
+      "dietTypes": [
+        "keto",
+        "gf"
+      ],
+      "image": "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=500&q=80",
+      "actionText": "View Details"
+    },
+    {
+      "id": "mutton",
+      "name": "Mutton",
+      "subtitle": "Wholesome pasture-fed goat meat rich in bioavailable heme iron",
+      "category": "MEAT & POULTRY",
+      "categoryId": "meats",
+      "type": "food",
+      "score": 9.4,
+      "benefits": [
+        "muscle",
+        "energy"
+      ],
+      "foodType": "raw",
+      "dietTypes": [
+        "keto",
+        "gf"
+      ],
+      "image": "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=500&q=80",
+      "actionText": "View Details"
+    },
+    {
+      "id": "turkey-breast",
+      "name": "Turkey Breast",
+      "subtitle": "Ultra-lean poultry breast packed with tryptophan & B-vitamins",
+      "category": "MEAT & POULTRY",
+      "categoryId": "meats",
+      "type": "food",
+      "score": 9.5,
+      "benefits": [
+        "muscle",
+        "energy"
+      ],
+      "foodType": "raw",
+      "dietTypes": [
+        "keto",
+        "gf"
+      ],
+      "image": "https://images.unsplash.com/photo-1574672280600-4accfa5b6f98?auto=format&fit=crop&w=500&q=80",
+      "actionText": "View Details"
+    },
+    {
+      "id": "beef-tenderloin",
+      "name": "Beef Tenderloin",
+      "subtitle": "Tender steak cut delivering creatine, zinc, and heme iron",
+      "category": "MEAT & POULTRY",
+      "categoryId": "meats",
+      "type": "food",
+      "score": 9.4,
+      "benefits": [
+        "muscle",
+        "strength"
+      ],
+      "foodType": "raw",
+      "dietTypes": [
+        "keto",
+        "gf"
+      ],
+      "image": "https://images.unsplash.com/photo-1558030006-450675393462?auto=format&fit=crop&w=500&q=80",
+      "actionText": "View Details"
+    },
+    {
+      "id": "chicken-egg",
+      "name": "Chicken Egg",
+      "subtitle": "Complete amino acid score with brain-nourishing choline & lutein",
+      "category": "EGGS",
+      "categoryId": "eggs",
+      "type": "food",
+      "score": 9.8,
+      "benefits": [
+        "brain",
+        "eye",
+        "muscle"
+      ],
+      "foodType": "raw",
+      "dietTypes": [
+        "keto",
+        "gf",
+        "vegetarian"
+      ],
+      "image": "https://images.unsplash.com/photo-1582722872445-44dc5f7e3c8f?auto=format&fit=crop&w=500&q=80",
+      "actionText": "View Details"
+    },
+    {
+      "id": "chicken-egg-white",
+      "name": "Chicken Egg White",
+      "subtitle": "Pure fat-free albumin protein for optimal muscle synthesis",
+      "category": "EGGS",
+      "categoryId": "eggs",
+      "type": "food",
+      "score": 9.6,
+      "benefits": [
+        "muscle",
+        "weight"
+      ],
+      "foodType": "raw",
+      "dietTypes": [
+        "keto",
+        "gf",
+        "vegetarian"
+      ],
+      "image": "https://images.unsplash.com/photo-1582722872445-44dc5f7e3c8f?auto=format&fit=crop&w=500&q=80",
+      "actionText": "View Details"
+    },
+    {
+      "id": "desi-chicken-egg",
+      "name": "Desi Chicken Egg",
+      "subtitle": "Free-range heritage egg with rich golden yolk and omega fats",
+      "category": "EGGS",
+      "categoryId": "eggs",
+      "type": "food",
+      "score": 9.7,
+      "benefits": [
+        "brain",
+        "eye"
+      ],
+      "foodType": "raw",
+      "dietTypes": [
+        "keto",
+        "gf",
+        "vegetarian"
+      ],
+      "image": "https://images.unsplash.com/photo-1582722872445-44dc5f7e3c8f?auto=format&fit=crop&w=500&q=80",
+      "actionText": "View Details"
+    },
+    {
+      "id": "quail-egg",
+      "name": "Quail Egg",
+      "subtitle": "Delicate nutrient-dense eggs packed with iron, B12 and riboflavin",
+      "category": "EGGS",
+      "categoryId": "eggs",
+      "type": "food",
+      "score": 9.5,
+      "benefits": [
+        "immunity",
+        "energy"
+      ],
+      "foodType": "raw",
+      "dietTypes": [
+        "keto",
+        "gf",
+        "vegetarian"
+      ],
+      "image": "https://images.unsplash.com/photo-1516467508483-a7212febe31a?auto=format&fit=crop&w=500&q=80",
+      "actionText": "View Details"
+    },
+    {
+      "id": "honey",
+      "name": "Raw Honey",
+      "subtitle": "Natural floral sweetener rich in bioactive compounds",
+      "category": "SWEETENERS & SUGARS",
+      "categoryId": "sweeteners",
+      "type": "food",
+      "score": 9.3,
+      "benefits": [
+        "energy",
+        "immunity"
+      ],
+      "foodType": "raw",
+      "dietTypes": [
+        "gf",
+        "vegetarian"
+      ],
+      "image": "https://images.unsplash.com/photo-1587049352846-4a222e784d38?auto=format&fit=crop&w=500&q=80",
+      "actionText": "View Details"
+    },
+    {
+      "id": "jaggery",
+      "name": "Jaggery (Gur)",
+      "subtitle": "Traditional unrefined cane sweetener retaining natural minerals",
+      "category": "SWEETENERS & SUGARS",
+      "categoryId": "sweeteners",
+      "type": "food",
+      "score": 9.1,
+      "benefits": [
+        "energy",
+        "digestion"
+      ],
+      "foodType": "raw",
+      "dietTypes": [
+        "gf",
+        "vegetarian"
+      ],
+      "image": "https://images.unsplash.com/photo-1601493700631-2b16ec4b4716?auto=format&fit=crop&w=500&q=80",
+      "actionText": "View Details"
+    },
+    {
+      "id": "whole-wheat-bread",
+      "name": "Whole Wheat Bread",
+      "subtitle": "Fiber-rich complex carbohydrate loaf supporting prolonged fullness",
+      "category": "BAKERY & BREADS",
+      "categoryId": "bakery",
+      "type": "food",
+      "score": 9.2,
+      "benefits": [
+        "digestion",
+        "heart"
+      ],
+      "foodType": "cooked",
+      "dietTypes": [
+        "vegetarian"
+      ],
+      "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=500&q=80",
+      "actionText": "View Details"
+    },
+    {
+      "id": "chapati",
+      "name": "Chapati (Roti)",
+      "subtitle": "Whole-wheat atta staple flatbread delivering plant protein and fiber",
+      "category": "BAKERY & BREADS",
+      "categoryId": "bakery",
+      "type": "food",
+      "score": 9.4,
+      "benefits": [
+        "energy",
+        "digestion"
+      ],
+      "foodType": "cooked",
+      "dietTypes": [
+        "vegetarian",
+        "vegan"
+      ],
+      "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=500&q=80",
+      "actionText": "View Details"
+    },
+    {
+      "id": "coconut-water",
+      "name": "Coconut Water",
+      "subtitle": "Electrolyte-rich natural tender coconut water packed with potassium",
+      "category": "BEVERAGES",
+      "categoryId": "beverages",
+      "type": "food",
+      "score": 9.7,
+      "benefits": [
+        "skin",
+        "digestion",
+        "heart"
+      ],
+      "foodType": "raw",
+      "dietTypes": [
+        "gf",
+        "vegan",
+        "vegetarian"
+      ],
+      "image": "https://images.unsplash.com/photo-1544378730-8b5104b18790?auto=format&fit=crop&w=500&q=80",
+      "actionText": "View Details"
+    },
+    {
+      "id": "brewed-tea",
+      "name": "Brewed Tea",
+      "subtitle": "Calorie-free antioxidant rich infusion packed with polyphenols",
+      "category": "BEVERAGES",
+      "categoryId": "beverages",
+      "type": "food",
+      "score": 9.5,
+      "benefits": [
+        "heart",
+        "energy"
+      ],
+      "foodType": "raw",
+      "dietTypes": [
+        "gf",
+        "vegan",
+        "vegetarian"
+      ],
+      "image": "https://images.unsplash.com/photo-1576092768241-dec231879fc3?auto=format&fit=crop&w=500&q=80",
+      "actionText": "View Details"
+    },
+    {
+      "id": "mustard-oil",
+      "name": "Mustard Oil",
+      "subtitle": "Traditional cold-pressed pungent oil containing beneficial fatty acids",
+      "category": "COOKING OILS & FATS",
+      "categoryId": "cooking-oils",
+      "type": "food",
+      "score": 9.2,
+      "benefits": [
+        "heart",
+        "energy"
+      ],
+      "foodType": "raw",
+      "dietTypes": [
+        "keto",
+        "gf",
+        "vegan",
+        "vegetarian"
+      ],
+      "image": "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&w=500&q=80",
+      "actionText": "View Details"
+    },
+    {
+      "id": "brown-rice",
+      "name": "Brown Rice",
+      "subtitle": "Whole grain unpolished rice retaining bran fiber and B-complex vitamins",
+      "category": "GRAINS & CEREALS",
+      "categoryId": "grains-cereals",
+      "type": "food",
+      "score": 9.3,
+      "benefits": [
+        "energy",
+        "digestion"
+      ],
+      "foodType": "raw",
+      "dietTypes": [
+        "gf",
+        "vegan",
+        "vegetarian"
+      ],
+      "image": "https://images.unsplash.com/photo-1536304993881-ff6e9eefa2a6?auto=format&fit=crop&w=500&q=80",
+      "actionText": "View Details"
+    },
+    {
+      "id": "idli",
+      "name": "Idli",
+      "subtitle": "Steamed fermented rice-and-urad batter cakes.",
+      "category": "BREAKFAST FOODS",
+      "categoryId": "breakfast",
+      "type": "food",
+      "score": 9.1,
+      "benefits": [
+        "energy",
+        "digestion"
+      ],
+      "foodType": "raw",
+      "dietTypes": [
+        "gf",
+        "vegetarian"
+      ],
+      "image": "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?auto=format&fit=crop&w=500&q=80",
+      "actionText": "View Details"
+    },
+    {
+      "id": "plain-dosa",
+      "name": "Plain Dosa",
+      "subtitle": "Thin fermented crepe made mainly from rice and urad dal.",
+      "category": "BREAKFAST FOODS",
+      "categoryId": "breakfast",
+      "type": "food",
+      "score": 8.9,
+      "benefits": [
+        "energy",
+        "digestion"
+      ],
+      "foodType": "raw",
+      "dietTypes": [
+        "gf",
+        "vegetarian"
+      ],
+      "image": "https://images.unsplash.com/photo-1668236543090-82eba5ee5976?auto=format&fit=crop&w=500&q=80",
+      "actionText": "View Details"
+    },
+    {
+      "id": "vegetable-upma",
+      "name": "Vegetable Upma",
+      "subtitle": "Savoury semolina-based breakfast dish, often prepared with vegetables.",
+      "category": "BREAKFAST FOODS",
+      "categoryId": "breakfast",
+      "type": "food",
+      "score": 9.1,
+      "benefits": [
+        "energy",
+        "digestion"
+      ],
+      "foodType": "raw",
+      "dietTypes": [
+        "gf",
+        "vegetarian"
+      ],
+      "image": "https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=500&q=80",
+      "actionText": "View Details"
+    },
+    {
+      "id": "vegetable-poha",
+      "name": "Vegetable Poha",
+      "subtitle": "Flattened rice cooked with vegetables and seasonings.",
+      "category": "BREAKFAST FOODS",
+      "categoryId": "breakfast",
+      "type": "food",
+      "score": 9.1,
+      "benefits": [
+        "energy",
+        "digestion"
+      ],
+      "foodType": "raw",
+      "dietTypes": [
+        "gf",
+        "vegetarian"
+      ],
+      "image": "https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=500&q=80",
+      "actionText": "View Details"
+    },
+    {
+      "id": "ven-pongal",
+      "name": "Ven Pongal",
+      "subtitle": "Rice-and-moong-dal dish seasoned with spices and usually ghee.",
+      "category": "BREAKFAST FOODS",
+      "categoryId": "breakfast",
+      "type": "food",
+      "score": 8.9,
+      "benefits": [
+        "energy",
+        "digestion"
+      ],
+      "foodType": "raw",
+      "dietTypes": [
+        "gf",
+        "vegetarian"
+      ],
+      "image": "https://images.unsplash.com/photo-1626777552726-4a6b54c97e46?auto=format&fit=crop&w=500&q=80",
+      "actionText": "View Details"
+    },
+    {
+      "id": "whole-milk",
+      "name": "Whole Milk",
+      "subtitle": "Milk containing its naturally occurring milk fat.",
+      "category": "MILK & DAIRY",
+      "categoryId": "dairy",
+      "type": "food",
+      "score": 8.9,
+      "benefits": [
+        "bone",
+        "muscle",
+        "immunity"
+      ],
+      "foodType": "raw",
+      "dietTypes": [
+        "gf",
+        "vegetarian"
+      ],
+      "image": "https://images.unsplash.com/photo-1550583724-b2692b85b150?auto=format&fit=crop&w=500&q=80",
+      "actionText": "View Details"
+    },
+    {
+      "id": "low-fat-milk",
+      "name": "Low-Fat Milk",
+      "subtitle": "Milk with some milk fat removed.",
+      "category": "MILK & DAIRY",
+      "categoryId": "dairy",
+      "type": "food",
+      "score": 9.5,
+      "benefits": [
+        "bone",
+        "muscle",
+        "immunity"
+      ],
+      "foodType": "raw",
+      "dietTypes": [
+        "gf",
+        "vegetarian"
+      ],
+      "image": "https://images.unsplash.com/photo-1563636619-e9143da7973b?auto=format&fit=crop&w=500&q=80",
+      "actionText": "View Details"
+    },
+    {
+      "id": "plain-curd",
+      "name": "Plain Curd",
+      "subtitle": "Fermented milk product made using cultures.",
+      "category": "MILK & DAIRY",
+      "categoryId": "dairy",
+      "type": "food",
+      "score": 8.9,
+      "benefits": [
+        "bone",
+        "muscle",
+        "immunity"
+      ],
+      "foodType": "raw",
+      "dietTypes": [
+        "gf",
+        "vegetarian"
+      ],
+      "image": "https://images.unsplash.com/photo-1488477181946-6428a0291777?auto=format&fit=crop&w=500&q=80",
+      "actionText": "View Details"
+    },
+    {
+      "id": "buttermilk",
+      "name": "Buttermilk",
+      "subtitle": "A diluted fermented dairy drink commonly consumed in India.",
+      "category": "MILK & DAIRY",
+      "categoryId": "dairy",
+      "type": "food",
+      "score": 8.9,
+      "benefits": [
+        "bone",
+        "muscle",
+        "immunity"
+      ],
+      "foodType": "raw",
+      "dietTypes": [
+        "gf",
+        "vegetarian"
+      ],
+      "image": "https://images.unsplash.com/photo-1628088062854-d1870b4553da?auto=format&fit=crop&w=500&q=80",
+      "actionText": "View Details"
+    },
+    {
+      "id": "paneer",
+      "name": "Paneer",
+      "subtitle": "Fresh acid-set cheese widely used in Indian cooking.",
+      "category": "MILK & DAIRY",
+      "categoryId": "dairy",
+      "type": "food",
+      "score": 9.7,
+      "benefits": [
+        "bone",
+        "muscle",
+        "immunity"
+      ],
+      "foodType": "raw",
+      "dietTypes": [
+        "gf",
+        "vegetarian"
+      ],
+      "image": "https://images.unsplash.com/photo-1631452180519-c014fe946bc7?auto=format&fit=crop&w=500&q=80",
+      "actionText": "View Details"
+    },
+    {
+      "id": "cottage-cheese",
+      "name": "Cottage Cheese",
+      "subtitle": "Fresh cheese made from milk curds.",
+      "category": "MILK & DAIRY",
+      "categoryId": "dairy",
+      "type": "food",
+      "score": 9.1,
+      "benefits": [
+        "bone",
+        "muscle",
+        "immunity"
+      ],
+      "foodType": "raw",
+      "dietTypes": [
+        "gf",
+        "vegetarian"
+      ],
+      "image": "https://images.unsplash.com/photo-1559561853-08451507cbe7?auto=format&fit=crop&w=500&q=80",
+      "actionText": "View Details"
+    },
+    {
+      "id": "cheddar-cheese",
+      "name": "Cheddar Cheese",
+      "subtitle": "Firm aged cheese with concentrated milk nutrients.",
+      "category": "MILK & DAIRY",
+      "categoryId": "dairy",
+      "type": "food",
+      "score": 9.1,
+      "benefits": [
+        "bone",
+        "muscle",
+        "immunity"
+      ],
+      "foodType": "raw",
+      "dietTypes": [
+        "gf",
+        "vegetarian"
+      ],
+      "image": "https://images.unsplash.com/photo-1618060932014-4deda4932554?auto=format&fit=crop&w=500&q=80",
+      "actionText": "View Details"
+    },
+    {
+      "id": "plain-greek-yogurt",
+      "name": "Plain Greek Yogurt",
+      "subtitle": "Thick strained yogurt with concentrated protein.",
+      "category": "MILK & DAIRY",
+      "categoryId": "dairy",
+      "type": "food",
+      "score": 9.3,
+      "benefits": [
+        "bone",
+        "muscle",
+        "immunity"
+      ],
+      "foodType": "raw",
+      "dietTypes": [
+        "gf",
+        "vegetarian"
+      ],
+      "image": "https://images.unsplash.com/photo-1488477181946-6428a0291777?auto=format&fit=crop&w=500&q=80",
+      "actionText": "View Details"
+    },
+    {
+      "id": "sesame-seeds",
+      "name": "Sesame Seeds",
+      "subtitle": "Oil-rich seeds used in Indian cooking and sweets.",
+      "category": "SEEDS",
+      "categoryId": "seeds",
+      "type": "food",
+      "score": 9.5,
+      "benefits": [
+        "heart",
+        "longevity",
+        "digestion"
+      ],
+      "foodType": "raw",
+      "dietTypes": [
+        "gf",
+        "vegetarian"
+      ],
+      "image": "https://images.unsplash.com/photo-1590779033100-9f60a05a013d?auto=format&fit=crop&w=500&q=80",
+      "actionText": "View Details"
+    },
+    {
+      "id": "sunflower-seeds",
+      "name": "Sunflower Seeds",
+      "subtitle": "Edible sunflower kernels used as a snack and ingredient.",
+      "category": "SEEDS",
+      "categoryId": "seeds",
+      "type": "food",
+      "score": 9.4,
+      "benefits": [
+        "heart",
+        "longevity",
+        "digestion"
+      ],
+      "foodType": "raw",
+      "dietTypes": [
+        "gf",
+        "vegetarian"
+      ],
+      "image": "https://images.unsplash.com/photo-1597848212624-a19eb35e2651?auto=format&fit=crop&w=500&q=80",
+      "actionText": "View Details"
+    },
+    {
+      "id": "pumpkin-seeds",
+      "name": "Pumpkin Seeds",
+      "subtitle": "Nutrient-dense seeds commonly eaten roasted or added to meals.",
+      "category": "SEEDS",
+      "categoryId": "seeds",
+      "type": "food",
+      "score": 9.8,
+      "benefits": [
+        "heart",
+        "longevity",
+        "digestion"
+      ],
+      "foodType": "raw",
+      "dietTypes": [
+        "gf",
+        "vegetarian"
+      ],
+      "image": "https://images.unsplash.com/photo-1508747703725-719777637510?auto=format&fit=crop&w=500&q=80",
+      "actionText": "View Details"
+    },
+    {
+      "id": "moong-dal",
+      "name": "Moong Dal",
+      "subtitle": "Split mung beans used in dals, soups and khichdi.",
+      "category": "PULSES, DALS & LEGUMES",
+      "categoryId": "pulses",
+      "type": "food",
+      "score": 9.6,
+      "benefits": [
+        "muscle",
+        "digestion",
+        "satiety"
+      ],
+      "foodType": "raw",
+      "dietTypes": [
+        "gf",
+        "vegetarian"
+      ],
+      "image": "https://images.unsplash.com/photo-1585994192701-f1a505c817ea?auto=format&fit=crop&w=500&q=80",
+      "actionText": "View Details"
+    },
+    {
+      "id": "masoor-dal",
+      "name": "Masoor Dal",
+      "subtitle": "Lentils commonly used in soups and Indian dals.",
+      "category": "PULSES, DALS & LEGUMES",
+      "categoryId": "pulses",
+      "type": "food",
+      "score": 8.9,
+      "benefits": [
+        "muscle",
+        "digestion",
+        "satiety"
+      ],
+      "foodType": "raw",
+      "dietTypes": [
+        "gf",
+        "vegetarian"
+      ],
+      "image": "https://images.unsplash.com/photo-1515543237350-b3eea1ec8082?auto=format&fit=crop&w=500&q=80",
+      "actionText": "View Details"
+    },
+    {
+      "id": "chana-dal",
+      "name": "Chana Dal",
+      "subtitle": "Split Bengal gram commonly used in dal and savoury dishes.",
+      "category": "PULSES, DALS & LEGUMES",
+      "categoryId": "pulses",
+      "type": "food",
+      "score": 9.6,
+      "benefits": [
+        "muscle",
+        "digestion",
+        "satiety"
+      ],
+      "foodType": "raw",
+      "dietTypes": [
+        "gf",
+        "vegetarian"
+      ],
+      "image": "https://images.unsplash.com/photo-1585994192701-f1a505c817ea?auto=format&fit=crop&w=500&q=80",
+      "actionText": "View Details"
+    },
+    {
+      "id": "chickpeas",
+      "name": "Chickpeas",
+      "subtitle": "Whole chickpeas used in curries, salads and hummus.",
+      "category": "PULSES, DALS & LEGUMES",
+      "categoryId": "pulses",
+      "type": "food",
+      "score": 9.6,
+      "benefits": [
+        "muscle",
+        "digestion",
+        "satiety"
+      ],
+      "foodType": "raw",
+      "dietTypes": [
+        "gf",
+        "vegetarian"
+      ],
+      "image": "https://images.unsplash.com/photo-1515543237350-b3eea1ec8082?auto=format&fit=crop&w=500&q=80",
+      "actionText": "View Details"
+    },
+    {
+      "id": "black-chana",
+      "name": "Black Chickpeas",
+      "subtitle": "Small dark-skinned chickpeas commonly eaten boiled or in curries.",
+      "category": "PULSES, DALS & LEGUMES",
+      "categoryId": "pulses",
+      "type": "food",
+      "score": 9.4,
+      "benefits": [
+        "muscle",
+        "digestion",
+        "satiety"
+      ],
+      "foodType": "raw",
+      "dietTypes": [
+        "gf",
+        "vegetarian"
+      ],
+      "image": "https://images.unsplash.com/photo-1585994192701-f1a505c817ea?auto=format&fit=crop&w=500&q=80",
+      "actionText": "View Details"
+    },
+    {
+      "id": "rajma",
+      "name": "Kidney Beans",
+      "subtitle": "Kidney beans commonly used in curries.",
+      "category": "PULSES, DALS & LEGUMES",
+      "categoryId": "pulses",
+      "type": "food",
+      "score": 9.5,
+      "benefits": [
+        "muscle",
+        "digestion",
+        "satiety"
+      ],
+      "foodType": "raw",
+      "dietTypes": [
+        "gf",
+        "vegetarian"
+      ],
+      "image": "https://images.unsplash.com/photo-1551462147-37885acc36f1?auto=format&fit=crop&w=500&q=80",
+      "actionText": "View Details"
+    },
+    {
+      "id": "urad-dal",
+      "name": "Urad Dal",
+      "subtitle": "Black gram used in dals and fermented foods.",
+      "category": "PULSES, DALS & LEGUMES",
+      "categoryId": "pulses",
+      "type": "food",
+      "score": 9.3,
+      "benefits": [
+        "muscle",
+        "digestion",
+        "satiety"
+      ],
+      "foodType": "raw",
+      "dietTypes": [
+        "gf",
+        "vegetarian"
+      ],
+      "image": "https://images.unsplash.com/photo-1585994192701-f1a505c817ea?auto=format&fit=crop&w=500&q=80",
+      "actionText": "View Details"
+    },
+    {
+      "id": "dried-peas",
+      "name": "Dried Peas",
+      "subtitle": "Dried peas used in soups, curries and stews.",
+      "category": "PULSES, DALS & LEGUMES",
+      "categoryId": "pulses",
+      "type": "food",
+      "score": 8.9,
+      "benefits": [
+        "muscle",
+        "digestion",
+        "satiety"
+      ],
+      "foodType": "raw",
+      "dietTypes": [
+        "gf",
+        "vegetarian"
+      ],
+      "image": "https://images.unsplash.com/photo-1585994192701-f1a505c817ea?auto=format&fit=crop&w=500&q=80",
+      "actionText": "View Details"
+    },
+    {
+      "id": "soybeans",
+      "name": "Soybeans",
+      "subtitle": "Protein-rich legume used whole or in soy foods.",
+      "category": "PULSES, DALS & LEGUMES",
+      "categoryId": "pulses",
+      "type": "food",
+      "score": 9.3,
+      "benefits": [
+        "muscle",
+        "digestion",
+        "satiety"
+      ],
+      "foodType": "raw",
+      "dietTypes": [
+        "gf",
+        "vegetarian"
+      ],
+      "image": "https://images.unsplash.com/photo-1585994192701-f1a505c817ea?auto=format&fit=crop&w=500&q=80",
+      "actionText": "View Details"
+    },
+    {
+      "id": "pearl-millet",
+      "name": "Pearl Millet",
+      "subtitle": "A millet widely consumed in India.",
+      "category": "MILLETS",
+      "categoryId": "millets",
+      "type": "food",
+      "score": 9.5,
+      "benefits": [
+        "metabolism",
+        "heart",
+        "digestion"
+      ],
+      "foodType": "raw",
+      "dietTypes": [
+        "gf",
+        "vegetarian"
+      ],
+      "image": "https://images.unsplash.com/photo-1574323347407-f5e1ad6d020b?auto=format&fit=crop&w=500&q=80",
+      "actionText": "View Details"
+    },
+    {
+      "id": "finger-millet",
+      "name": "Finger Millet",
+      "subtitle": "A millet commonly used as flour, porridge and fermented foods.",
+      "category": "MILLETS",
+      "categoryId": "millets",
+      "type": "food",
+      "score": 9.8,
+      "benefits": [
+        "metabolism",
+        "heart",
+        "digestion"
+      ],
+      "foodType": "raw",
+      "dietTypes": [
+        "gf",
+        "vegetarian"
+      ],
+      "image": "https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&w=500&q=80",
+      "actionText": "View Details"
+    },
+    {
+      "id": "sorghum-jowar",
+      "name": "Sorghum",
+      "subtitle": "A gluten-free cereal grain commonly used as flour or cooked grain.",
+      "category": "MILLETS",
+      "categoryId": "millets",
+      "type": "food",
+      "score": 9,
+      "benefits": [
+        "metabolism",
+        "heart",
+        "digestion"
+      ],
+      "foodType": "raw",
+      "dietTypes": [
+        "gf",
+        "vegetarian"
+      ],
+      "image": "https://images.unsplash.com/photo-1574323347407-f5e1ad6d020b?auto=format&fit=crop&w=500&q=80",
+      "actionText": "View Details"
+    },
+    {
+      "id": "foxtail-millet",
+      "name": "Foxtail Millet",
+      "subtitle": "Small millet used as a rice alternative and in traditional dishes.",
+      "category": "MILLETS",
+      "categoryId": "millets",
+      "type": "food",
+      "score": 9.1,
+      "benefits": [
+        "metabolism",
+        "heart",
+        "digestion"
+      ],
+      "foodType": "raw",
+      "dietTypes": [
+        "gf",
+        "vegetarian"
+      ],
+      "image": "https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&w=500&q=80",
+      "actionText": "View Details"
+    },
+    {
+      "id": "little-millet",
+      "name": "Little Millet",
+      "subtitle": "Small millet commonly used as a rice alternative.",
+      "category": "MILLETS",
+      "categoryId": "millets",
+      "type": "food",
+      "score": 9.8,
+      "benefits": [
+        "metabolism",
+        "heart",
+        "digestion"
+      ],
+      "foodType": "raw",
+      "dietTypes": [
+        "gf",
+        "vegetarian"
+      ],
+      "image": "https://images.unsplash.com/photo-1574323347407-f5e1ad6d020b?auto=format&fit=crop&w=500&q=80",
+      "actionText": "View Details"
+    },
+    {
+      "id": "kodo-millet",
+      "name": "Kodo Millet",
+      "subtitle": "Small millet used in traditional grain dishes.",
+      "category": "MILLETS",
+      "categoryId": "millets",
+      "type": "food",
+      "score": 9.2,
+      "benefits": [
+        "metabolism",
+        "heart",
+        "digestion"
+      ],
+      "foodType": "raw",
+      "dietTypes": [
+        "gf",
+        "vegetarian"
+      ],
+      "image": "https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&w=500&q=80",
+      "actionText": "View Details"
+    },
+    {
+      "id": "barnyard-millet",
+      "name": "Barnyard Millet",
+      "subtitle": "Small millet commonly used in porridge and cooked grain dishes.",
+      "category": "MILLETS",
+      "categoryId": "millets",
+      "type": "food",
+      "score": 9.4,
+      "benefits": [
+        "metabolism",
+        "heart",
+        "digestion"
+      ],
+      "foodType": "raw",
+      "dietTypes": [
+        "gf",
+        "vegetarian"
+      ],
+      "image": "https://images.unsplash.com/photo-1574323347407-f5e1ad6d020b?auto=format&fit=crop&w=500&q=80",
+      "actionText": "View Details"
+    },
+    {
+      "id": "proso-millet",
+      "name": "Proso Millet",
+      "subtitle": "A small millet used as cooked grain or flour.",
+      "category": "MILLETS",
+      "categoryId": "millets",
+      "type": "food",
+      "score": 9.5,
+      "benefits": [
+        "metabolism",
+        "heart",
+        "digestion"
+      ],
+      "foodType": "raw",
+      "dietTypes": [
+        "gf",
+        "vegetarian"
+      ],
+      "image": "https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&w=500&q=80",
+      "actionText": "View Details"
+    },
+    {
+      "id": "roasted-chana",
+      "name": "Roasted Bengal Gram",
+      "subtitle": "Dry-roasted chickpea product commonly eaten as a snack.",
+      "category": "SNACKS & PACKAGED FOODS",
+      "categoryId": "snacks",
+      "type": "food",
+      "score": 9.6,
+      "benefits": [
+        "digestion",
+        "immunity"
+      ],
+      "foodType": "raw",
+      "dietTypes": [
+        "gf",
+        "vegetarian"
+      ],
+      "image": "https://images.unsplash.com/photo-1585994192701-f1a505c817ea?auto=format&fit=crop&w=500&q=80",
+      "actionText": "View Details"
+    },
+    {
+      "id": "roasted-makhana",
+      "name": "Roasted Makhana",
+      "subtitle": "Popped seeds of Euryale ferox commonly roasted as a snack.",
+      "category": "SNACKS & PACKAGED FOODS",
+      "categoryId": "snacks",
+      "type": "food",
+      "score": 9.4,
+      "benefits": [
+        "digestion",
+        "immunity"
+      ],
+      "foodType": "raw",
+      "dietTypes": [
+        "gf",
+        "vegetarian"
+      ],
+      "image": "https://images.unsplash.com/photo-1599488615731-7e5c2823ff28?auto=format&fit=crop&w=500&q=80",
+      "actionText": "View Details"
+    },
+    {
+      "id": "air-popped-popcorn",
+      "name": "Air-Popped Popcorn",
+      "subtitle": "Whole-kernel corn popped with hot air and without added oil.",
+      "category": "SNACKS & PACKAGED FOODS",
+      "categoryId": "snacks",
+      "type": "food",
+      "score": 9.3,
+      "benefits": [
+        "digestion",
+        "immunity"
+      ],
+      "foodType": "raw",
+      "dietTypes": [
+        "gf",
+        "vegetarian"
+      ],
+      "image": "https://images.unsplash.com/photo-1578849278619-e73505e9610f?auto=format&fit=crop&w=500&q=80",
+      "actionText": "View Details"
+    },
+    {
+      "id": "potato-chips",
+      "name": "Potato Chips",
+      "subtitle": "Sliced potatoes fried or baked and commonly seasoned.",
+      "category": "SNACKS & PACKAGED FOODS",
+      "categoryId": "snacks",
+      "type": "food",
+      "score": 9.5,
+      "benefits": [
+        "digestion",
+        "immunity"
+      ],
+      "foodType": "raw",
+      "dietTypes": [
+        "gf",
+        "vegetarian"
+      ],
+      "image": "https://images.unsplash.com/photo-1566478989037-eec170784d0b?auto=format&fit=crop&w=500&q=80",
+      "actionText": "View Details"
+    },
+    {
+      "id": "plain-biscuits",
+      "name": "Plain Biscuits",
+      "subtitle": "Packaged baked snack made mainly from flour and fat, with composition varying by product.",
+      "category": "SNACKS & PACKAGED FOODS",
+      "categoryId": "snacks",
+      "type": "food",
+      "score": 9.1,
+      "benefits": [
+        "digestion",
+        "immunity"
+      ],
+      "foodType": "raw",
+      "dietTypes": [
+        "gf",
+        "vegetarian"
+      ],
+      "image": "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?auto=format&fit=crop&w=500&q=80",
+      "actionText": "View Details"
+    },
+    {
+      "id": "namkeen-mixture",
+      "name": "Namkeen / Mixture",
+      "subtitle": "Indian savoury snack mix that may contain fried legumes, flour, nuts and spices.",
+      "category": "SNACKS & PACKAGED FOODS",
+      "categoryId": "snacks",
+      "type": "food",
+      "score": 9,
+      "benefits": [
+        "digestion",
+        "immunity"
+      ],
+      "foodType": "raw",
+      "dietTypes": [
+        "gf",
+        "vegetarian"
+      ],
+      "image": "https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=500&q=80",
+      "actionText": "View Details"
+    },
+    {
+      "id": "cumin",
+      "name": "Cumin",
+      "subtitle": "Aromatic seed used whole or ground.",
+      "category": "SPICES & HERBS",
+      "categoryId": "spices",
+      "type": "food",
+      "score": 9.4,
+      "benefits": [
+        "immunity",
+        "inflammation",
+        "heart"
+      ],
+      "foodType": "raw",
+      "dietTypes": [
+        "gf",
+        "vegetarian"
+      ],
+      "image": "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?auto=format&fit=crop&w=500&q=80",
+      "actionText": "View Details"
+    },
+    {
+      "id": "coriander-seeds",
+      "name": "Coriander Seeds",
+      "subtitle": "Dried seeds of the coriander plant.",
+      "category": "SPICES & HERBS",
+      "categoryId": "spices",
+      "type": "food",
+      "score": 9.4,
+      "benefits": [
+        "immunity",
+        "inflammation",
+        "heart"
+      ],
+      "foodType": "raw",
+      "dietTypes": [
+        "gf",
+        "vegetarian"
+      ],
+      "image": "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?auto=format&fit=crop&w=500&q=80",
+      "actionText": "View Details"
+    },
+    {
+      "id": "black-pepper",
+      "name": "Black Pepper",
+      "subtitle": "Dried peppercorn used whole or ground.",
+      "category": "SPICES & HERBS",
+      "categoryId": "spices",
+      "type": "food",
+      "score": 9.5,
+      "benefits": [
+        "immunity",
+        "inflammation",
+        "heart"
+      ],
+      "foodType": "raw",
+      "dietTypes": [
+        "gf",
+        "vegetarian"
+      ],
+      "image": "https://images.unsplash.com/photo-1509358271058-acd22cc93898?auto=format&fit=crop&w=500&q=80",
+      "actionText": "View Details"
+    },
+    {
+      "id": "cinnamon",
+      "name": "Cinnamon",
+      "subtitle": "Aromatic bark used in sweet and savoury dishes.",
+      "category": "SPICES & HERBS",
+      "categoryId": "spices",
+      "type": "food",
+      "score": 9.3,
+      "benefits": [
+        "immunity",
+        "inflammation",
+        "heart"
+      ],
+      "foodType": "raw",
+      "dietTypes": [
+        "gf",
+        "vegetarian"
+      ],
+      "image": "https://images.unsplash.com/photo-1509358271058-acd22cc93898?auto=format&fit=crop&w=500&q=80",
+      "actionText": "View Details"
+    },
+    {
+      "id": "ginger",
+      "name": "Ginger",
+      "subtitle": "Fresh rhizome used for flavouring and cooking.",
+      "category": "SPICES & HERBS",
+      "categoryId": "spices",
+      "type": "food",
+      "score": 9.7,
+      "benefits": [
+        "immunity",
+        "inflammation",
+        "heart"
+      ],
+      "foodType": "raw",
+      "dietTypes": [
+        "gf",
+        "vegetarian"
+      ],
+      "image": "https://images.unsplash.com/photo-1615485290382-441e4d049cb5?auto=format&fit=crop&w=500&q=80",
+      "actionText": "View Details"
+    },
+    {
+      "id": "garlic",
+      "name": "Garlic",
+      "subtitle": "Bulb used as a seasoning and ingredient.",
+      "category": "SPICES & HERBS",
+      "categoryId": "spices",
+      "type": "food",
+      "score": 9.7,
+      "benefits": [
+        "immunity",
+        "inflammation",
+        "heart"
+      ],
+      "foodType": "raw",
+      "dietTypes": [
+        "gf",
+        "vegetarian"
+      ],
+      "image": "https://images.unsplash.com/photo-1540148426945-6cf22a6b2383?auto=format&fit=crop&w=500&q=80",
+      "actionText": "View Details"
+    }
+  ],
+  "didYouKnow": {
+    "title": "Did You Know?",
+    "fact": "Almonds are one of the best sources of Vitamin E, an antioxidant that helps protect your cells from damage.",
+    "image": "https://images.unsplash.com/photo-1508061253366-f7da158b6d46?auto=format&fit=crop&w=400&q=80"
+  },
+  "popularSearches": [
+    "almond benefits",
+    "almond for weight loss",
+    "almond nutrition",
+    "almond milk",
+    "almond vs cashew"
+  ],
+  "relatedFoods": [
+    {
+      "id": "walnuts",
+      "name": "Walnuts",
+      "score": 8.9,
+      "image": "https://images.unsplash.com/photo-1563245372-f21724e3856d?auto=format&fit=crop&w=150&q=80"
+    },
+    {
+      "id": "cashews",
+      "name": "Cashews",
+      "score": 8.7,
+      "image": "https://images.unsplash.com/photo-1536591375315-1988d6960926?auto=format&fit=crop&w=150&q=80"
+    },
+    {
+      "id": "pistachios",
+      "name": "Pistachios",
+      "score": 8.6,
+      "image": "https://images.unsplash.com/photo-1528751014936-863e6e7a319c?auto=format&fit=crop&w=150&q=80"
+    },
+    {
+      "id": "hazelnuts",
+      "name": "Hazelnuts",
+      "score": 8.4,
+      "image": "https://images.unsplash.com/photo-1508061253366-f7da158b6d46?auto=format&fit=crop&w=150&q=80"
+    },
+    {
+      "id": "peanuts",
+      "name": "Peanuts",
+      "score": 8.2,
+      "image": "https://images.unsplash.com/photo-1567899378494-47b22a2ae96a?auto=format&fit=crop&w=150&q=80"
+    }
+  ]
+}

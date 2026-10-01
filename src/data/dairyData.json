@@ -1,0 +1,322 @@
+{
+  "subCategories": [
+    {
+      "id": "all",
+      "name": "All Milk & Dairy",
+      "image": "https://images.unsplash.com/photo-1550583724-b2692b85b150?auto=format&fit=crop&w=500&q=80"
+    },
+    {
+      "id": "Fresh Milk",
+      "name": "Fresh Milk",
+      "image": "https://images.unsplash.com/photo-1550583724-b2692b85b150?auto=format&fit=crop&w=500&q=80"
+    },
+    {
+      "id": "Cultured & Probiotic",
+      "name": "Cultured & Probiotic",
+      "image": "https://images.unsplash.com/photo-1488477181946-6428a0291777?auto=format&fit=crop&w=500&q=80"
+    },
+    {
+      "id": "Artisan Cheeses & Paneer",
+      "name": "Artisan Cheeses & Paneer",
+      "image": "https://images.unsplash.com/photo-1631452180519-c014fe946bc7?auto=format&fit=crop&w=500&q=80"
+    }
+  ],
+  "dairyList": [
+    {
+      "id": "whole-milk",
+      "name": "Whole Milk",
+      "subtitle": "Milk containing its naturally occurring milk fat.",
+      "category": "Fresh Milk",
+      "score": 8.9,
+      "image": "https://images.unsplash.com/photo-1550583724-b2692b85b150?auto=format&fit=crop&w=500&q=80",
+      "badge": "Calcium & Protein",
+      "badgeType": "popular",
+      "benefits": [
+        "bone",
+        "muscle",
+        "immunity"
+      ],
+      "nutrients": [
+        {
+          "label": "Calories",
+          "value": "61 kcal"
+        },
+        {
+          "label": "Protein",
+          "value": "3.2g"
+        },
+        {
+          "label": "Calcium",
+          "value": "Bioavailable"
+        },
+        {
+          "label": "Fat",
+          "value": "3.3g"
+        }
+      ],
+      "tags": [
+        "Milk & Dairy",
+        "Fresh Milk"
+      ]
+    },
+    {
+      "id": "low-fat-milk",
+      "name": "Low-Fat Milk",
+      "subtitle": "Milk with some milk fat removed.",
+      "category": "Fresh Milk",
+      "score": 9.5,
+      "image": "https://images.unsplash.com/photo-1563636619-e9143da7973b?auto=format&fit=crop&w=500&q=80",
+      "badge": "Calcium & Protein",
+      "badgeType": "popular",
+      "benefits": [
+        "bone",
+        "muscle",
+        "immunity"
+      ],
+      "nutrients": [
+        {
+          "label": "Calories",
+          "value": "50 kcal"
+        },
+        {
+          "label": "Protein",
+          "value": "3.4g"
+        },
+        {
+          "label": "Calcium",
+          "value": "Bioavailable"
+        },
+        {
+          "label": "Fat",
+          "value": "1.5g"
+        }
+      ],
+      "tags": [
+        "Milk & Dairy",
+        "Fresh Milk"
+      ]
+    },
+    {
+      "id": "plain-curd",
+      "name": "Plain Curd",
+      "subtitle": "Fermented milk product made using cultures.",
+      "category": "Cultured & Probiotic",
+      "score": 8.9,
+      "image": "https://images.unsplash.com/photo-1488477181946-6428a0291777?auto=format&fit=crop&w=500&q=80",
+      "badge": "Calcium & Protein",
+      "badgeType": "popular",
+      "benefits": [
+        "bone",
+        "muscle",
+        "immunity"
+      ],
+      "nutrients": [
+        {
+          "label": "Calories",
+          "value": "61 kcal"
+        },
+        {
+          "label": "Protein",
+          "value": "3.5g"
+        },
+        {
+          "label": "Calcium",
+          "value": "Bioavailable"
+        },
+        {
+          "label": "Fat",
+          "value": "3.3g"
+        }
+      ],
+      "tags": [
+        "Milk & Dairy",
+        "Cultured & Probiotic"
+      ]
+    },
+    {
+      "id": "buttermilk",
+      "name": "Buttermilk",
+      "subtitle": "A diluted fermented dairy drink commonly consumed in India.",
+      "category": "Cultured & Probiotic",
+      "score": 8.9,
+      "image": "https://images.unsplash.com/photo-1628088062854-d1870b4553da?auto=format&fit=crop&w=500&q=80",
+      "badge": "Calcium & Protein",
+      "badgeType": "popular",
+      "benefits": [
+        "bone",
+        "muscle",
+        "immunity"
+      ],
+      "nutrients": [
+        {
+          "label": "Calories",
+          "value": "40 kcal"
+        },
+        {
+          "label": "Protein",
+          "value": "3.3g"
+        },
+        {
+          "label": "Calcium",
+          "value": "Bioavailable"
+        },
+        {
+          "label": "Fat",
+          "value": "0.9g"
+        }
+      ],
+      "tags": [
+        "Milk & Dairy",
+        "Cultured & Probiotic"
+      ]
+    },
+    {
+      "id": "paneer",
+      "name": "Paneer",
+      "subtitle": "Fresh acid-set cheese widely used in Indian cooking.",
+      "category": "Artisan Cheeses & Paneer",
+      "score": 9.7,
+      "image": "https://images.unsplash.com/photo-1631452180519-c014fe946bc7?auto=format&fit=crop&w=500&q=80",
+      "badge": "Calcium & Protein",
+      "badgeType": "popular",
+      "benefits": [
+        "bone",
+        "muscle",
+        "immunity"
+      ],
+      "nutrients": [
+        {
+          "label": "Calories",
+          "value": "265 kcal"
+        },
+        {
+          "label": "Protein",
+          "value": "18.3g"
+        },
+        {
+          "label": "Calcium",
+          "value": "Bioavailable"
+        },
+        {
+          "label": "Fat",
+          "value": "20.8g"
+        }
+      ],
+      "tags": [
+        "Milk & Dairy",
+        "Artisan Cheeses & Paneer"
+      ]
+    },
+    {
+      "id": "cottage-cheese",
+      "name": "Cottage Cheese",
+      "subtitle": "Fresh cheese made from milk curds.",
+      "category": "Artisan Cheeses & Paneer",
+      "score": 9.1,
+      "image": "https://images.unsplash.com/photo-1559561853-08451507cbe7?auto=format&fit=crop&w=500&q=80",
+      "badge": "Calcium & Protein",
+      "badgeType": "popular",
+      "benefits": [
+        "bone",
+        "muscle",
+        "immunity"
+      ],
+      "nutrients": [
+        {
+          "label": "Calories",
+          "value": "98 kcal"
+        },
+        {
+          "label": "Protein",
+          "value": "11.1g"
+        },
+        {
+          "label": "Calcium",
+          "value": "Bioavailable"
+        },
+        {
+          "label": "Fat",
+          "value": "4.3g"
+        }
+      ],
+      "tags": [
+        "Milk & Dairy",
+        "Artisan Cheeses & Paneer"
+      ]
+    },
+    {
+      "id": "cheddar-cheese",
+      "name": "Cheddar Cheese",
+      "subtitle": "Firm aged cheese with concentrated milk nutrients.",
+      "category": "Artisan Cheeses & Paneer",
+      "score": 9.1,
+      "image": "https://images.unsplash.com/photo-1618060932014-4deda4932554?auto=format&fit=crop&w=500&q=80",
+      "badge": "Calcium & Protein",
+      "badgeType": "popular",
+      "benefits": [
+        "bone",
+        "muscle",
+        "immunity"
+      ],
+      "nutrients": [
+        {
+          "label": "Calories",
+          "value": "403 kcal"
+        },
+        {
+          "label": "Protein",
+          "value": "24.9g"
+        },
+        {
+          "label": "Calcium",
+          "value": "Bioavailable"
+        },
+        {
+          "label": "Fat",
+          "value": "33.1g"
+        }
+      ],
+      "tags": [
+        "Milk & Dairy",
+        "Artisan Cheeses & Paneer"
+      ]
+    },
+    {
+      "id": "plain-greek-yogurt",
+      "name": "Plain Greek Yogurt",
+      "subtitle": "Thick strained yogurt with concentrated protein.",
+      "category": "Cultured & Probiotic",
+      "score": 9.3,
+      "image": "https://images.unsplash.com/photo-1488477181946-6428a0291777?auto=format&fit=crop&w=500&q=80",
+      "badge": "Calcium & Protein",
+      "badgeType": "popular",
+      "benefits": [
+        "bone",
+        "muscle",
+        "immunity"
+      ],
+      "nutrients": [
+        {
+          "label": "Calories",
+          "value": "59 kcal"
+        },
+        {
+          "label": "Protein",
+          "value": "10.2g"
+        },
+        {
+          "label": "Calcium",
+          "value": "Bioavailable"
+        },
+        {
+          "label": "Fat",
+          "value": "0.4g"
+        }
+      ],
+      "tags": [
+        "Milk & Dairy",
+        "Cultured & Probiotic"
+      ]
+    }
+  ]
+}
