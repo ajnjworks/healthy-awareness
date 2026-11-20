@@ -1,5 +1,7 @@
 'use client';
 
+import { useTheme } from '@/utils/useTheme';
+
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
@@ -32,7 +34,7 @@ import articlesRaw from '../../data/articlesData.json';
 
 export default function ArticleListPage() {
   const router = useRouter();
-  const [darkMode, setDarkMode] = useState(false);
+  const { darkMode, toggleDarkMode: handleToggleDarkMode } = useTheme();
   const [activeNav, setActiveNav] = useState('Articles');
   const [selectedCategory, setSelectedCategory] = useState('all');
   const [sortBy, setSortBy] = useState('newest');
@@ -40,18 +42,8 @@ export default function ArticleListPage() {
   const [email, setEmail] = useState('');
   const [subscribed, setSubscribed] = useState(false);
 
-  useEffect(() => {
-    if (darkMode) {
-      document.documentElement.classList.add('dark');
-    } else {
-      document.documentElement.classList.remove('dark');
-    }
-  }, [darkMode]);
-
-  const handleToggleDarkMode = () => {
-    setDarkMode((prev) => !prev);
-  };
-
+  
+  
   const handleNavClick = (navItem: string) => {
     setActiveNav(navItem);
     if (navItem === 'Home') {
@@ -121,7 +113,7 @@ export default function ArticleListPage() {
       />
 
       {/* Main Container */}
-      <main className="flex-1 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 space-y-8">
+      <main className="flex-1 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 space-y-8 w-full min-w-0 overflow-hidden">
         {/* Breadcrumb */}
         <Breadcrumb items={[{ label: 'Health Articles' }]} />
 
@@ -131,7 +123,7 @@ export default function ArticleListPage() {
           subtitle="Expert-backed articles to help you make better food and lifestyle choices."
           extraContent={<div className="w-12 h-1 bg-emerald-600 rounded-full mt-1" />}
           rightContent={
-            <div className="relative w-56 h-56 sm:w-64 sm:h-64 lg:w-72 lg:h-72 flex items-center justify-center shrink-0">
+            <div className="relative w-44 h-44 sm:w-64 sm:h-64 lg:w-72 lg:h-72 flex items-center justify-center shrink-0 max-w-full">
               <img
                 src="/images/hero-banner.png"
                 alt="Health Articles Banner"
@@ -197,7 +189,7 @@ export default function ArticleListPage() {
                 <div
                   key={art.id}
                   onClick={() => router.push(`/articles/${art.id}`)}
-                  className="group bg-white dark:bg-slate-900 rounded-3xl p-4 border border-slate-100 dark:border-slate-800 shadow-xs hover:shadow-xl hover:-translate-y-1 transition-all duration-300 flex flex-col justify-between space-y-3 cursor-pointer"
+                  className="group bg-white dark:bg-slate-900 rounded-3xl p-4 border border-slate-100 dark:border-slate-800 shadow-xs hover:shadow-xl hover:-translate-y-1 transition-all duration-300 flex flex-col justify-between space-y-3 cursor-pointer w-full max-w-full overflow-hidden"
                 >
                   {/* Top Image Container with Optional Featured Badge */}
                   <div className="relative aspect-16/10 w-full rounded-2xl overflow-hidden bg-slate-100 dark:bg-slate-800 shrink-0">

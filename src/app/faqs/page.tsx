@@ -1,5 +1,7 @@
 'use client';
 
+import { useTheme } from '@/utils/useTheme';
+
 import React, { useState, useEffect } from 'react';
 import { useRouter } from 'next/navigation';
 import { Navbar } from '../../components/layout/Navbar';
@@ -32,7 +34,7 @@ import faqsData from '../../data/faqsData.json';
 
 export default function FaqsPage() {
   const router = useRouter();
-  const [darkMode, setDarkMode] = useState(false);
+  const { darkMode, toggleDarkMode: handleToggleDarkMode } = useTheme();
   const [activeNav, setActiveNav] = useState('FAQs');
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedTopic, setSelectedTopic] = useState('all');
@@ -40,18 +42,8 @@ export default function FaqsPage() {
   const [email, setEmail] = useState('');
   const [subscribed, setSubscribed] = useState(false);
 
-  useEffect(() => {
-    if (darkMode) {
-      document.documentElement.classList.add('dark');
-    } else {
-      document.documentElement.classList.remove('dark');
-    }
-  }, [darkMode]);
-
-  const handleToggleDarkMode = () => {
-    setDarkMode((prev) => !prev);
-  };
-
+  
+  
   const handleNavClick = (navItem: string) => {
     setActiveNav(navItem);
     if (navItem === 'Home') {
@@ -230,19 +222,25 @@ export default function FaqsPage() {
                       </div>
 
                       <div className="p-1 rounded-full text-slate-400 shrink-0 mt-2">
-                        {isExpanded ? (
-                          <ChevronUp className="w-5 h-5 text-emerald-700" />
-                        ) : (
-                          <ChevronDown className="w-5 h-5 text-slate-400" />
-                        )}
+                        <ChevronDown
+                          className={`w-5 h-5 transition-transform duration-300 ease-in-out ${
+                            isExpanded ? 'rotate-180 text-emerald-700 dark:text-emerald-400' : 'text-slate-400'
+                          }`}
+                        />
                       </div>
                     </button>
 
-                    {isExpanded && (
-                      <div className="pt-3 pl-13 pr-4 border-t border-slate-100 dark:border-slate-800/80 mt-3 text-xs sm:text-sm text-slate-600 dark:text-slate-300 font-medium leading-relaxed">
-                        {faq.answer}
+                    <div className={`accordion-collapse ${isExpanded ? 'expanded' : ''}`}>
+                      <div>
+                        <div
+                          className={`pt-3 pl-13 pr-4 border-t border-slate-100 dark:border-slate-800/80 mt-3 text-xs sm:text-sm text-slate-600 dark:text-slate-300 font-medium leading-relaxed transition-opacity duration-300 ease-in-out ${
+                            isExpanded ? 'opacity-100' : 'opacity-0'
+                          }`}
+                        >
+                          {faq.answer}
+                        </div>
                       </div>
-                    )}
+                    </div>
                   </div>
                 );
               })
@@ -397,7 +395,7 @@ export default function FaqsPage() {
 
               <div className="flex flex-wrap items-center gap-3 pt-2">
                 <button
-                  onClick={() => alert('Opening Help Center')}
+                  onClick={() => router.push('/contact-us')}
                   className="px-5 py-2.5 rounded-xl bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-slate-800 dark:text-white font-extrabold text-xs shadow-2xs hover:bg-slate-50 transition-colors cursor-pointer"
                 >
                   Visit Help Center

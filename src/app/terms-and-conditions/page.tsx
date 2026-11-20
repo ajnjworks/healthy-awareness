@@ -1,5 +1,7 @@
 'use client';
 
+import { useTheme } from '@/utils/useTheme';
+
 import React, { useState, useEffect } from 'react';
 import { useRouter } from 'next/navigation';
 import { Navbar } from '../../components/layout/Navbar';
@@ -30,24 +32,14 @@ import legalData from '../../data/legalData.json';
 
 export default function TermsAndConditionsPage() {
   const router = useRouter();
-  const [darkMode, setDarkMode] = useState(false);
+  const { darkMode, toggleDarkMode: handleToggleDarkMode } = useTheme();
   const [activeNav, setActiveNav] = useState('');
   const [activeSection, setActiveSection] = useState('acceptance');
   const [email, setEmail] = useState('');
   const [subscribed, setSubscribed] = useState(false);
 
-  useEffect(() => {
-    if (darkMode) {
-      document.documentElement.classList.add('dark');
-    } else {
-      document.documentElement.classList.remove('dark');
-    }
-  }, [darkMode]);
-
-  const handleToggleDarkMode = () => {
-    setDarkMode((prev) => !prev);
-  };
-
+  
+  
   const handleNavClick = (navItem: string) => {
     setActiveNav(navItem);
     if (navItem === 'Home') {

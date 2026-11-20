@@ -1,6 +1,7 @@
 'use client';
 
 import React from 'react';
+import Link from 'next/link';
 import { Flame, Star, CheckCircle2, ArrowRight, Sparkles, ChevronRight } from 'lucide-react';
 import { TRENDING_FOODS } from '../../data/foodsData';
 import { TrendingCard } from './TrendingCard';
@@ -26,12 +27,12 @@ export const TrendingAndPickSection: React.FC<TrendingAndPickSectionProps> = ({ 
                   {i18n.trending.title}
                 </h2>
               </div>
-              <button
-                onClick={() => alert('Viewing all trending foods')}
+              <Link
+                href="/healthy-foods"
                 className="text-xs sm:text-sm font-semibold text-emerald-600 dark:text-emerald-400 hover:text-emerald-700 flex items-center gap-0.5 cursor-pointer"
               >
                 {i18n.trending.viewAll} <ChevronRight className="w-4 h-4" />
-              </button>
+              </Link>
             </div>
 
             {/* 5 Columns Grid for Trending Cards */}

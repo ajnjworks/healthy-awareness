@@ -1,5 +1,7 @@
 'use client';
 
+import { useTheme } from '@/utils/useTheme';
+
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
@@ -7,6 +9,7 @@ import { Navbar } from '../../components/layout/Navbar';
 import { Footer } from '../../components/layout/Footer';
 import { Breadcrumb } from '../../components/common/Breadcrumb';
 import { HeroBanner } from '../../components/common/HeroBanner';
+import { getFoodUrl } from '../../utils/foodUrl';
 import {
   Sun,
   CloudRain,
@@ -31,24 +34,14 @@ import seasonalRaw from '../../data/seasonalData.json';
 
 export default function SeasonalFoodsDesignPage() {
   const router = useRouter();
-  const [darkMode, setDarkMode] = useState(false);
+  const { darkMode, toggleDarkMode: handleToggleDarkMode } = useTheme();
   const [activeNav, setActiveNav] = useState('Seasonal Foods');
   const [activeTab, setActiveTab] = useState('summer');
   const [email, setEmail] = useState('');
   const [subscribed, setSubscribed] = useState(false);
 
-  useEffect(() => {
-    if (darkMode) {
-      document.documentElement.classList.add('dark');
-    } else {
-      document.documentElement.classList.remove('dark');
-    }
-  }, [darkMode]);
-
-  const handleToggleDarkMode = () => {
-    setDarkMode((prev) => !prev);
-  };
-
+  
+  
   const handleNavClick = (navItem: string) => {
     setActiveNav(navItem);
     if (navItem === 'Home') {
@@ -127,7 +120,7 @@ export default function SeasonalFoodsDesignPage() {
       />
 
       {/* Main Container */}
-      <main className="flex-1 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 space-y-8">
+      <main className="flex-1 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 space-y-8 w-full min-w-0 overflow-hidden">
         {/* Breadcrumb */}
         <Breadcrumb items={[{ label: 'Seasonal Foods' }]} />
 
@@ -167,7 +160,7 @@ export default function SeasonalFoodsDesignPage() {
             </div>
           }
           rightContent={
-            <div className="relative w-64 h-64 sm:w-80 sm:h-80 flex items-center justify-center shrink-0">
+            <div className="relative w-44 h-44 sm:w-80 sm:h-80 flex items-center justify-center shrink-0 max-w-full">
               <img
                 src="https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=800&q=80"
                 alt="Seasonal Basket"
@@ -222,7 +215,7 @@ export default function SeasonalFoodsDesignPage() {
                 {activeSeason.foods.map((food) => (
                   <div
                     key={food.id}
-                    onClick={() => router.push(`/healthy-foods/${food.id}`)}
+                    onClick={() => router.push(getFoodUrl(food.id))}
                     className="group bg-white dark:bg-slate-900 rounded-3xl p-3.5 border border-slate-100 dark:border-slate-800 shadow-xs hover:shadow-xl hover:-translate-y-1 transition-all duration-300 flex flex-col justify-between space-y-3 cursor-pointer"
                   >
                     {/* Top Food Image Container */}

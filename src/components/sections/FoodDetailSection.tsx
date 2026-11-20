@@ -68,6 +68,10 @@ export const FoodDetailSection: React.FC<FoodDetailSectionProps> = ({
               <NutritionDashboard
                 nutritionRings={foodData.nutritionRings}
                 quickNutrients={foodData.quickNutrients}
+                foodName={foodData.name}
+                category={foodData.category}
+                servingSize={foodData.type}
+                calories={foodData.calories}
               />
             </div>
             <div className="lg:col-span-3 flex">

@@ -66,25 +66,15 @@ interface CategoryItem {
   icon: React.ReactNode;
 }
 
+import { useTheme } from '../../utils/useTheme';
+
 export default function CategoryDesignPage() {
   const router = useRouter();
-  const [darkMode, setDarkMode] = useState(false);
+  const { darkMode, toggleDarkMode: handleToggleDarkMode } = useTheme();
   const [activeNav, setActiveNav] = useState('Foods');
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedCategoryId, setSelectedCategoryId] = useState('all');
   const [sortBy, setSortBy] = useState('popular');
-
-  useEffect(() => {
-    if (darkMode) {
-      document.documentElement.classList.add('dark');
-    } else {
-      document.documentElement.classList.remove('dark');
-    }
-  }, [darkMode]);
-
-  const handleToggleDarkMode = () => {
-    setDarkMode((prev) => !prev);
-  };
 
   const handleNavClick = (navItem: string) => {
     setActiveNav(navItem);
@@ -332,7 +322,7 @@ export default function CategoryDesignPage() {
     if (sortBy === 'name') {
       return a.name.localeCompare(b.name);
     }
-    if (sortBy === 'articles') {
+    if (sortBy === 'items' || sortBy === 'articles') {
       return b.count - a.count;
     }
     return 0; // 'popular' maintains default order
@@ -349,7 +339,7 @@ export default function CategoryDesignPage() {
       />
 
       {/* Main Container */}
-      <main className="flex-1 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 space-y-6">
+      <main className="flex-1 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 space-y-6 w-full min-w-0 overflow-hidden">
         {/* Breadcrumb Navigation */}
         <Breadcrumb items={[{ label: 'Healthy Foods' }]} />
 
@@ -359,7 +349,7 @@ export default function CategoryDesignPage() {
           subtitle="Explore a wide range of healthy food categories. Choose a category to discover benefits, nutrition facts, meal ideas, tips and much more."
           extraContent={<div className="w-12 h-1 bg-emerald-600 rounded-full mt-1" />}
           rightContent={
-            <div className="relative w-52 h-52 sm:w-60 sm:h-60 lg:w-64 lg:h-64 flex items-center justify-center shrink-0">
+            <div className="relative w-44 h-44 sm:w-60 sm:h-60 lg:w-64 lg:h-64 flex items-center justify-center shrink-0 max-w-full">
               <img
                 src="/images/hero-banner.png"
                 alt="Healthy Food Bowl"
@@ -387,8 +377,8 @@ export default function CategoryDesignPage() {
             />
           </div>
 
-          {/* Sort Dropdown */}
-          <div className="flex items-center justify-end gap-2 text-xs font-semibold text-slate-600 dark:text-slate-300">
+          {/* Sort Dropdown (Desktop / Tablet) */}
+          <div className="hidden sm:flex items-center justify-end gap-2 text-xs font-semibold text-slate-600 dark:text-slate-300">
             <span>Sort by:</span>
             <div className="relative inline-block">
               <select
@@ -397,7 +387,7 @@ export default function CategoryDesignPage() {
                 className="appearance-none bg-white dark:bg-slate-900 pl-3 pr-8 py-2 rounded-xl border border-slate-200 dark:border-slate-800 text-xs font-bold text-slate-900 dark:text-white cursor-pointer focus:outline-none focus:ring-2 focus:ring-emerald-500 shadow-xs"
               >
                 <option value="popular">Popular</option>
-                <option value="articles">Most Articles</option>
+                <option value="items">Most Items</option>
                 <option value="name">Name A-Z</option>
               </select>
               <ChevronDown className="w-3.5 h-3.5 text-slate-400 absolute right-2.5 top-1/2 -translate-y-1/2 pointer-events-none" />
@@ -409,12 +399,18 @@ export default function CategoryDesignPage() {
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
           {/* Left Sidebar (Browse Categories) */}
           <div className="lg:col-span-3 space-y-6">
-            <div className="bg-white dark:bg-slate-900 rounded-3xl p-5 border border-slate-100 dark:border-slate-800 shadow-xs space-y-4">
-              <h3 className="text-sm font-extrabold text-slate-900 dark:text-white">
-                Browse Categories
-              </h3>
+            <div className="bg-white dark:bg-slate-900 rounded-3xl p-4 sm:p-5 border border-slate-100 dark:border-slate-800 shadow-xs space-y-3 sm:space-y-4">
+              <div className="flex items-center justify-between">
+                <h3 className="text-sm font-extrabold text-slate-900 dark:text-white">
+                  Browse Categories
+                </h3>
+                <span className="text-[10px] sm:text-xs font-bold text-slate-400 dark:text-slate-500">
+                  {sidebarCategories.length} categories
+                </span>
+              </div>
 
-              <div className="space-y-1">
+              {/* Compact scrollable category list */}
+              <div className="space-y-1 max-h-52 sm:max-h-64 lg:max-h-[460px] overflow-y-auto pr-1.5 [scrollbar-width:thin]">
                 {sidebarCategories.map((item) => {
                   const isSelected = selectedCategoryId === item.id;
                   return (
@@ -423,6 +419,12 @@ export default function CategoryDesignPage() {
                       onClick={() => {
                         setSelectedCategoryId(item.id);
                         setSearchQuery('');
+                        if (typeof window !== 'undefined' && window.innerWidth < 1024) {
+                          const el = document.getElementById('categories-grid-header');
+                          if (el) {
+                            el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                          }
+                        }
                       }}
                       className={`w-full flex items-center justify-between px-3 py-2 rounded-xl text-xs font-semibold transition-all cursor-pointer ${
                         isSelected
@@ -449,8 +451,8 @@ export default function CategoryDesignPage() {
               </div>
             </div>
 
-            {/* Eat Healthy Live Better Promo Box */}
-            <div className="relative rounded-3xl bg-gradient-to-br from-emerald-50 to-green-100 dark:from-emerald-950/60 dark:to-green-950/40 p-5 border border-emerald-200/60 dark:border-emerald-800/60 space-y-4 overflow-hidden">
+            {/* Eat Healthy Live Better Promo Box (Desktop only to prevent pushing cards below the fold on mobile) */}
+            <div className="hidden lg:block relative rounded-3xl bg-gradient-to-br from-emerald-50 to-green-100 dark:from-emerald-950/60 dark:to-green-950/40 p-5 border border-emerald-200/60 dark:border-emerald-800/60 space-y-4 overflow-hidden">
               <div className="space-y-1 relative z-10 max-w-[70%]">
                 <h4 className="text-sm font-extrabold text-emerald-950 dark:text-emerald-200 leading-snug">
                   Eat Healthy, Live Better
@@ -472,29 +474,50 @@ export default function CategoryDesignPage() {
               <img
                 src="https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=400&q=80"
                 alt="Fresh Greens"
-                className="absolute -bottom-4 -right-4 w-32 h-32 object-cover rounded-full pointer-events-none opacity-90 transition-transform duration-500"
+                className="absolute -bottom-4 -right-4 w-24 h-24 sm:w-32 sm:h-32 object-cover rounded-full pointer-events-none opacity-90 transition-transform duration-500"
               />
             </div>
           </div>
 
           {/* Right Main Grid Area (All Categories) */}
-          <div className="lg:col-span-9 space-y-5">
-            <div className="flex items-center justify-between">
-              <h2 className="text-base sm:text-lg font-extrabold text-slate-900 dark:text-white">
-                All Categories
-              </h2>
-              <span className="text-xs font-semibold text-slate-500 dark:text-slate-400">
-                Showing 1-{sortedCategories.length} of 24 categories
-              </span>
+          <div className="lg:col-span-9 space-y-5 w-full min-w-0">
+            <div id="categories-grid-header" className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 scroll-mt-24">
+              <div>
+                <h2 className="text-base sm:text-lg font-extrabold text-slate-900 dark:text-white">
+                  All Categories
+                </h2>
+                <span className="text-xs font-semibold text-slate-500 dark:text-slate-400">
+                  Showing 1-{sortedCategories.length} of {mainCategories.length} categories
+                </span>
+              </div>
+
+              {/* Mobile Sort Dropdown (placed below Browse Categories, directly above the cards) */}
+              <div className="flex sm:hidden items-center justify-between bg-white dark:bg-slate-900 px-3.5 py-2 rounded-2xl border border-slate-200 dark:border-slate-800 shadow-2xs">
+                <span className="text-xs font-semibold text-slate-600 dark:text-slate-300">
+                  Sort by:
+                </span>
+                <div className="relative inline-block">
+                  <select
+                    value={sortBy}
+                    onChange={(e) => setSortBy(e.target.value)}
+                    className="appearance-none bg-slate-50 dark:bg-slate-800 pl-3 pr-8 py-1.5 rounded-xl border border-slate-200 dark:border-slate-700 text-xs font-bold text-slate-900 dark:text-white cursor-pointer focus:outline-none focus:ring-2 focus:ring-emerald-500 shadow-xs"
+                  >
+                    <option value="popular">Popular</option>
+                    <option value="items">Most Items</option>
+                    <option value="name">Name A-Z</option>
+                  </select>
+                  <ChevronDown className="w-3.5 h-3.5 text-slate-400 absolute right-2.5 top-1/2 -translate-y-1/2 pointer-events-none" />
+                </div>
+              </div>
             </div>
 
             {/* 4-Column Cards Grid */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 w-full">
               {sortedCategories.map((cat) => (
                 <div
                   key={cat.id}
                   onClick={() => router.push(cat.link)}
-                  className="group bg-white dark:bg-slate-900 rounded-3xl p-4 border border-slate-100 dark:border-slate-800 shadow-xs hover:shadow-xl hover:-translate-y-1 transition-all duration-300 flex flex-col justify-between space-y-3 cursor-pointer"
+                  className="group bg-white dark:bg-slate-900 rounded-3xl p-4 border border-slate-100 dark:border-slate-800 shadow-xs hover:shadow-xl hover:-translate-y-1 transition-all duration-300 flex flex-col justify-between space-y-3 cursor-pointer w-full max-w-full overflow-hidden"
                 >
                   {/* Food Image (Wide horizontal layout matching design) */}
                   <div className="w-full aspect-16/10 bg-white dark:bg-slate-900 rounded-2xl flex items-center justify-center overflow-hidden shrink-0">
@@ -522,7 +545,7 @@ export default function CategoryDesignPage() {
                   {/* Link Footer */}
                   <div className="pt-2">
                     <span className="inline-flex items-center gap-1 text-xs font-bold text-emerald-600 dark:text-emerald-400 group-hover:underline">
-                      <span>{cat.count} articles</span>
+                      <span>{cat.count} items</span>
                       <ArrowRight className="w-3.5 h-3.5 group-hover:translate-x-0.5 transition-transform" />
                     </span>
                   </div>

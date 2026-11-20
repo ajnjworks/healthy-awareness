@@ -16,21 +16,40 @@ interface HowToEatSectionProps {
 }
 
 export const HowToEatSection: React.FC<HowToEatSectionProps> = ({
-  howToEat = {
-    bullets: [
-      'Eat 1 fresh apple in the morning on an empty stomach.',
-      'Enjoy raw with the peel intact for maximum fiber and nutrients.',
-      'Slice and add to oat bowls, yogurt, or green smoothies.',
-      'Chew well and enjoy!'
-    ],
-    recommendedDose: '1–2 medium apples (182g) per day is ideal for most adults.',
-    image: 'https://images.unsplash.com/photo-1560806887-1e4cd0b6cbd6?auto=format&fit=crop&w=400&q=80',
-  },
-  didYouKnow = {
-    fact: 'Apples float in water because 25% of their volume is made up of air! They also contain pectin, a natural prebiotic that feeds healthy gut bacteria.',
-    image: 'https://images.unsplash.com/photo-1570913149827-d2ac84ab3f9a?auto=format&fit=crop&w=400&q=80',
-  },
+  howToEat,
+  didYouKnow,
 }) => {
+  const defaultBullets = [
+    'Eat fresh in the morning on an empty stomach or as part of a balanced meal.',
+    'Enjoy raw or lightly prepared to preserve maximum fiber and vital micronutrients.',
+    'Slice and add to bowls, salads, yogurt, or healthy whole-food recipes.',
+    'Chew thoroughly and stay well-hydrated throughout the day.'
+  ];
+
+  const bullets =
+    howToEat?.bullets && howToEat.bullets.length > 0
+      ? howToEat.bullets
+      : (howToEat as any)?.tips && (howToEat as any).tips.length > 0
+      ? (howToEat as any).tips
+      : defaultBullets;
+
+  const howToEatImage =
+    howToEat?.image ||
+    'https://images.unsplash.com/photo-1560806887-1e4cd0b6cbd6?auto=format&fit=crop&w=400&q=80';
+
+  const recommendedDose =
+    howToEat?.recommendedDose ||
+    (howToEat as any)?.title ||
+    '1–2 servings per day is ideal for most adults.';
+
+  const didYouKnowFact =
+    didYouKnow?.fact ||
+    'Whole healthy foods provide synergistic vitamins, bioactive minerals, and prebiotic dietary fiber that naturally support microbiome balance and metabolic health.';
+
+  const didYouKnowImage =
+    didYouKnow?.image ||
+    'https://images.unsplash.com/photo-1570913149827-d2ac84ab3f9a?auto=format&fit=crop&w=400&q=80';
+
   return (
     <div id="how-to-eat" className="scroll-mt-24 grid grid-cols-1 lg:grid-cols-12 gap-6 items-stretch">
       {/* Left Column: How to Eat Card (7 cols) */}
@@ -42,7 +61,7 @@ export const HowToEatSection: React.FC<HowToEatSectionProps> = ({
 
           <div className="flex flex-col sm:flex-row items-center gap-5">
             <ul className="space-y-2.5 text-xs sm:text-sm font-semibold text-slate-700 dark:text-slate-300 flex-1">
-              {howToEat.bullets.map((bullet, idx) => (
+              {bullets.map((bullet: string, idx: number) => (
                 <li key={idx} className="flex items-start gap-2.5">
                   <CheckCircle2 className="w-4 h-4 text-emerald-600 dark:text-emerald-400 shrink-0 mt-0.5" />
                   <span>{bullet}</span>
@@ -53,7 +72,7 @@ export const HowToEatSection: React.FC<HowToEatSectionProps> = ({
             {/* Graphic Image */}
             <div className="w-32 h-32 rounded-2xl overflow-hidden shadow-xs border-2 border-white dark:border-slate-800 shrink-0 bg-white dark:bg-slate-800">
               <img
-                src={howToEat.image}
+                src={howToEatImage}
                 alt="How to eat illustration"
                 onError={(e) => {
                   (e.target as HTMLImageElement).src = 'https://images.unsplash.com/photo-1560806887-1e4cd0b6cbd6?auto=format&fit=crop&w=400&q=80';
@@ -74,7 +93,7 @@ export const HowToEatSection: React.FC<HowToEatSectionProps> = ({
               Recommended Daily Intake
             </h4>
             <p className="text-slate-700 dark:text-slate-300 font-medium">
-              {howToEat.recommendedDose}
+              {recommendedDose}
             </p>
           </div>
         </div>
@@ -93,14 +112,14 @@ export const HowToEatSection: React.FC<HowToEatSectionProps> = ({
           </div>
 
           <p className="text-xs sm:text-sm text-slate-600 dark:text-slate-300 font-medium leading-relaxed">
-            {didYouKnow.fact}
+            {didYouKnowFact}
           </p>
         </div>
 
         {/* Full Image Banner */}
         <div className="h-32 w-full rounded-2xl overflow-hidden border-2 border-white dark:border-slate-800 shadow-xs bg-white dark:bg-slate-800">
           <img
-            src={didYouKnow.image}
+            src={didYouKnowImage}
             alt="Did You Know graphic"
             onError={(e) => {
               (e.target as HTMLImageElement).src = 'https://images.unsplash.com/photo-1570913149827-d2ac84ab3f9a?auto=format&fit=crop&w=400&q=80';

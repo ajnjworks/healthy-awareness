@@ -1,11 +1,15 @@
 'use client';
 
+import { useTheme } from '@/utils/useTheme';
+
 import React, { useState, useEffect } from 'react';
 import { useRouter } from 'next/navigation';
 import { Navbar } from '../../components/layout/Navbar';
 import { Footer } from '../../components/layout/Footer';
 import { Breadcrumb } from '../../components/common/Breadcrumb';
 import { HeroBanner } from '../../components/common/HeroBanner';
+import { InfiniteScrollSentinel } from '../../components/foods/InfiniteScrollSentinel';
+import { useInfiniteScroll } from '../../utils/useInfiniteScroll';
 import {
   Leaf,
   Activity,
@@ -33,11 +37,10 @@ import healthyTipsData from '../../data/healthyTipsData.json';
 
 export default function HealthyTipsPage() {
   const router = useRouter();
-  const [darkMode, setDarkMode] = useState(false);
+  const { darkMode, toggleDarkMode: handleToggleDarkMode } = useTheme();
   const [activeNav, setActiveNav] = useState('Healthy Tips');
   const [activeCategory, setActiveCategory] = useState('All Tips');
   const [savedTips, setSavedTips] = useState<string[]>([]);
-  const [visibleCount, setVisibleCount] = useState(5);
   const [tipOfDayIndex, setTipOfDayIndex] = useState(0);
 
   // Newsletter State
@@ -45,14 +48,7 @@ export default function HealthyTipsPage() {
   const [subscribed, setSubscribed] = useState(false);
   const [copiedShareId, setCopiedShareId] = useState<string | null>(null);
 
-  useEffect(() => {
-    if (darkMode) {
-      document.documentElement.classList.add('dark');
-    } else {
-      document.documentElement.classList.remove('dark');
-    }
-  }, [darkMode]);
-
+  
   const toggleSaveTip = (id: string) => {
     setSavedTips((prev) =>
       prev.includes(id) ? prev.filter((item) => item !== id) : [...prev, id]
@@ -102,16 +98,33 @@ export default function HealthyTipsPage() {
     return tip.category.toLowerCase() === activeCategory.toLowerCase();
   });
 
+  // Infinite Scroll / Lazy Load on Scroll
+  const {
+    visibleCount,
+    resetCount,
+    sentinelRef,
+    isLoadingMore,
+    hasMore,
+  } = useInfiniteScroll(filteredTips.length, {
+    initialCount: 5,
+    batchSize: 5,
+    rootMargin: '300px',
+  });
+
+  useEffect(() => {
+    resetCount();
+  }, [activeCategory, resetCount]);
+
   return (
     <div className="min-h-screen bg-slate-50/50 dark:bg-slate-950 text-slate-900 dark:text-slate-100 flex flex-col font-sans transition-colors duration-300">
       <Navbar
         darkMode={darkMode}
-        onToggleDarkMode={() => setDarkMode(!darkMode)}
+        onToggleDarkMode={handleToggleDarkMode}
         activeNav={activeNav}
         onNavClick={(item) => setActiveNav(item)}
       />
 
-      <main className="flex-1 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 space-y-8">
+      <main className="flex-1 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 space-y-8 w-full min-w-0 overflow-hidden">
         {/* 1. TOP BREADCRUMB */}
         <Breadcrumb items={[{ label: 'Healthy Tips' }]} />
 
@@ -278,18 +291,14 @@ export default function HealthyTipsPage() {
               })}
             </div>
 
-            {/* Load More Button */}
-            {visibleCount < filteredTips.length && (
-              <div className="pt-2 text-center">
-                <button
-                  onClick={() => setVisibleCount((prev) => prev + 3)}
-                  className="px-6 py-2.5 rounded-full bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 text-slate-800 dark:text-slate-200 text-xs font-extrabold flex items-center justify-center gap-1.5 mx-auto hover:bg-slate-50 dark:hover:bg-slate-800 shadow-xs transition-colors cursor-pointer"
-                >
-                  <span>Load More Tips</span>
-                  <ChevronDown className="w-4 h-4" />
-                </button>
-              </div>
-            )}
+            {/* Infinite Scroll / Lazy Load Sentinel */}
+            <InfiniteScrollSentinel
+              sentinelRef={sentinelRef}
+              hasMore={hasMore}
+              totalItems={filteredTips.length}
+              variant="tip"
+              itemTypeLabel="tips"
+            />
           </div>
 
           {/* RIGHT 4 COLS: Sidebars */}

@@ -37,8 +37,8 @@
       "season": null,
       "commonNames": null,
       "images": {
-        "thumbnail": "/images/fruits/apple.webp",
-        "hero": "/images/fruits/apple-hero.webp"
+        "thumbnail": "/fruits/images/apple.webp",
+        "hero": "/fruits/images/apple.webp"
       },
       "seo": {
         "title": null,
@@ -82,8 +82,8 @@
       "season": null,
       "commonNames": null,
       "images": {
-        "thumbnail": "/images/fruits/banana.webp",
-        "hero": "/images/fruits/banana-hero.webp"
+        "thumbnail": "/fruits/images/banana.webp",
+        "hero": "/fruits/images/banana.webp"
       },
       "seo": {
         "title": null,
@@ -127,8 +127,8 @@
       "season": null,
       "commonNames": null,
       "images": {
-        "thumbnail": "/images/fruits/mango.webp",
-        "hero": "/images/fruits/mango-hero.webp"
+        "thumbnail": "/fruits/images/mango.webp",
+        "hero": "/fruits/images/mango.webp"
       },
       "seo": {
         "title": null,
@@ -172,8 +172,8 @@
       "season": null,
       "commonNames": null,
       "images": {
-        "thumbnail": "/images/fruits/orange.webp",
-        "hero": "/images/fruits/orange-hero.webp"
+        "thumbnail": "/fruits/images/orange.webp",
+        "hero": "/fruits/images/orange.webp"
       },
       "seo": {
         "title": null,
@@ -217,8 +217,8 @@
       "season": null,
       "commonNames": null,
       "images": {
-        "thumbnail": "/images/fruits/grape.webp",
-        "hero": "/images/fruits/grape-hero.webp"
+        "thumbnail": "/fruits/images/grape.webp",
+        "hero": "/fruits/images/grape.webp"
       },
       "seo": {
         "title": null,
@@ -262,8 +262,8 @@
       "season": null,
       "commonNames": null,
       "images": {
-        "thumbnail": "/images/fruits/watermelon.webp",
-        "hero": "/images/fruits/watermelon-hero.webp"
+        "thumbnail": "/fruits/images/watermelon.webp",
+        "hero": "/fruits/images/watermelon.webp"
       },
       "seo": {
         "title": null,
@@ -307,8 +307,8 @@
       "season": null,
       "commonNames": null,
       "images": {
-        "thumbnail": "/images/fruits/papaya.webp",
-        "hero": "/images/fruits/papaya-hero.webp"
+        "thumbnail": "/fruits/images/papaya.webp",
+        "hero": "/fruits/images/papaya.webp"
       },
       "seo": {
         "title": null,
@@ -352,8 +352,8 @@
       "season": null,
       "commonNames": null,
       "images": {
-        "thumbnail": "/images/fruits/pineapple.webp",
-        "hero": "/images/fruits/pineapple-hero.webp"
+        "thumbnail": "/fruits/images/pineapple.webp",
+        "hero": "/fruits/images/pineapple.webp"
       },
       "seo": {
         "title": null,
@@ -397,8 +397,8 @@
       "season": null,
       "commonNames": null,
       "images": {
-        "thumbnail": "/images/fruits/guava.webp",
-        "hero": "/images/fruits/guava-hero.webp"
+        "thumbnail": "/fruits/images/guava.webp",
+        "hero": "/fruits/images/guava.webp"
       },
       "seo": {
         "title": null,
@@ -442,8 +442,8 @@
       "season": null,
       "commonNames": null,
       "images": {
-        "thumbnail": "/images/fruits/pomegranate.webp",
-        "hero": "/images/fruits/pomegranate-hero.webp"
+        "thumbnail": "/fruits/images/pomegranate.webp",
+        "hero": "/fruits/images/pomegranate.webp"
       },
       "seo": {
         "title": null,
@@ -487,8 +487,8 @@
       "season": null,
       "commonNames": null,
       "images": {
-        "thumbnail": "/images/fruits/kiwi.webp",
-        "hero": "/images/fruits/kiwi-hero.webp"
+        "thumbnail": "/fruits/images/kiwi.webp",
+        "hero": "/fruits/images/kiwi.webp"
       },
       "seo": {
         "title": null,
@@ -532,8 +532,8 @@
       "season": null,
       "commonNames": null,
       "images": {
-        "thumbnail": "/images/fruits/strawberry.webp",
-        "hero": "/images/fruits/strawberry-hero.webp"
+        "thumbnail": "/fruits/images/strawberry.webp",
+        "hero": "/fruits/images/strawberry.webp"
       },
       "seo": {
         "title": null,
@@ -577,8 +577,8 @@
       "season": null,
       "commonNames": null,
       "images": {
-        "thumbnail": "/images/fruits/blueberry.webp",
-        "hero": "/images/fruits/blueberry-hero.webp"
+        "thumbnail": "/fruits/images/blueberry.webp",
+        "hero": "/fruits/images/blueberry.webp"
       },
       "seo": {
         "title": null,
@@ -622,8 +622,8 @@
       "season": null,
       "commonNames": null,
       "images": {
-        "thumbnail": "/images/fruits/raspberry.webp",
-        "hero": "/images/fruits/raspberry-hero.webp"
+        "thumbnail": "/fruits/images/raspberry.webp",
+        "hero": "/fruits/images/raspberry.webp"
       },
       "seo": {
         "title": null,
@@ -667,8 +667,8 @@
       "season": null,
       "commonNames": null,
       "images": {
-        "thumbnail": "/images/fruits/blackberry.webp",
-        "hero": "/images/fruits/blackberry-hero.webp"
+        "thumbnail": "/fruits/images/blackberry.webp",
+        "hero": "/fruits/images/blackberry.webp"
       },
       "seo": {
         "title": null,
@@ -712,8 +712,8 @@
       "season": null,
       "commonNames": null,
       "images": {
-        "thumbnail": "/images/fruits/cherry.webp",
-        "hero": "/images/fruits/cherry-hero.webp"
+        "thumbnail": "/fruits/images/cherry.webp",
+        "hero": "/fruits/images/cherry.webp"
       },
       "seo": {
         "title": null,
@@ -757,8 +757,8 @@
       "season": null,
       "commonNames": null,
       "images": {
-        "thumbnail": "/images/fruits/peach.webp",
-        "hero": "/images/fruits/peach-hero.webp"
+        "thumbnail": "/fruits/images/peach.webp",
+        "hero": "/fruits/images/peach.webp"
       },
       "seo": {
         "title": null,
@@ -802,8 +802,8 @@
       "season": null,
       "commonNames": null,
       "images": {
-        "thumbnail": "/images/fruits/plum.webp",
-        "hero": "/images/fruits/plum-hero.webp"
+        "thumbnail": "/fruits/images/plum.webp",
+        "hero": "/fruits/images/plum.webp"
       },
       "seo": {
         "title": null,
@@ -847,8 +847,8 @@
       "season": null,
       "commonNames": null,
       "images": {
-        "thumbnail": "/images/fruits/apricot.webp",
-        "hero": "/images/fruits/apricot-hero.webp"
+        "thumbnail": "/fruits/images/apricot.webp",
+        "hero": "/fruits/images/apricot.webp"
       },
       "seo": {
         "title": null,
@@ -885,8 +885,8 @@
       "season": null,
       "commonNames": null,
       "images": {
-        "thumbnail": "/images/fruits/nectarine.webp",
-        "hero": "/images/fruits/nectarine-hero.webp"
+        "thumbnail": "/fruits/images/nectarine.webp",
+        "hero": "/fruits/images/nectarine.webp"
       },
       "seo": {
         "title": null,
@@ -923,8 +923,8 @@
       "season": null,
       "commonNames": null,
       "images": {
-        "thumbnail": "/images/fruits/pear.webp",
-        "hero": "/images/fruits/pear-hero.webp"
+        "thumbnail": "/fruits/images/pear.webp",
+        "hero": "/fruits/images/pear.webp"
       },
       "seo": {
         "title": null,
@@ -968,8 +968,8 @@
       "season": null,
       "commonNames": null,
       "images": {
-        "thumbnail": "/images/fruits/dragon-fruit.webp",
-        "hero": "/images/fruits/dragon-fruit-hero.webp"
+        "thumbnail": "/fruits/images/dragon-fruit.webp",
+        "hero": "/fruits/images/dragon-fruit.webp"
       },
       "seo": {
         "title": null,
@@ -1006,8 +1006,8 @@
       "season": null,
       "commonNames": null,
       "images": {
-        "thumbnail": "/images/fruits/passion-fruit.webp",
-        "hero": "/images/fruits/passion-fruit-hero.webp"
+        "thumbnail": "/fruits/images/passion-fruit.webp",
+        "hero": "/fruits/images/passion-fruit.webp"
       },
       "seo": {
         "title": null,
@@ -1044,8 +1044,8 @@
       "season": null,
       "commonNames": null,
       "images": {
-        "thumbnail": "/images/fruits/lychee.webp",
-        "hero": "/images/fruits/lychee-hero.webp"
+        "thumbnail": "/fruits/images/lychee.webp",
+        "hero": "/fruits/images/lychee.webp"
       },
       "seo": {
         "title": null,
@@ -1082,8 +1082,8 @@
       "season": null,
       "commonNames": null,
       "images": {
-        "thumbnail": "/images/fruits/rambutan.webp",
-        "hero": "/images/fruits/rambutan-hero.webp"
+        "thumbnail": "/fruits/images/rambutan.webp",
+        "hero": "/fruits/images/rambutan.webp"
       },
       "seo": {
         "title": null,
@@ -1120,8 +1120,8 @@
       "season": null,
       "commonNames": null,
       "images": {
-        "thumbnail": "/images/fruits/longan.webp",
-        "hero": "/images/fruits/longan-hero.webp"
+        "thumbnail": "/fruits/images/longan.webp",
+        "hero": "/fruits/images/longan.webp"
       },
       "seo": {
         "title": null,
@@ -1158,8 +1158,8 @@
       "season": null,
       "commonNames": null,
       "images": {
-        "thumbnail": "/images/fruits/mangosteen.webp",
-        "hero": "/images/fruits/mangosteen-hero.webp"
+        "thumbnail": "/fruits/images/mangosteen.webp",
+        "hero": "/fruits/images/mangosteen.webp"
       },
       "seo": {
         "title": null,
@@ -1196,8 +1196,8 @@
       "season": null,
       "commonNames": null,
       "images": {
-        "thumbnail": "/images/fruits/jackfruit.webp",
-        "hero": "/images/fruits/jackfruit-hero.webp"
+        "thumbnail": "/fruits/images/jackfruit.webp",
+        "hero": "/fruits/images/jackfruit.webp"
       },
       "seo": {
         "title": null,
@@ -1234,8 +1234,8 @@
       "season": null,
       "commonNames": null,
       "images": {
-        "thumbnail": "/images/fruits/custard-apple.webp",
-        "hero": "/images/fruits/custard-apple-hero.webp"
+        "thumbnail": "/fruits/images/custard-apple.webp",
+        "hero": "/fruits/images/custard-apple.webp"
       },
       "seo": {
         "title": null,
@@ -1272,8 +1272,8 @@
       "season": null,
       "commonNames": null,
       "images": {
-        "thumbnail": "/images/fruits/soursop.webp",
-        "hero": "/images/fruits/soursop-hero.webp"
+        "thumbnail": "/fruits/images/soursop.webp",
+        "hero": "/fruits/images/soursop.webp"
       },
       "seo": {
         "title": null,
@@ -1310,8 +1310,8 @@
       "season": null,
       "commonNames": null,
       "images": {
-        "thumbnail": "/images/fruits/sapodilla.webp",
-        "hero": "/images/fruits/sapodilla-hero.webp"
+        "thumbnail": "/fruits/images/sapodilla.webp",
+        "hero": "/fruits/images/sapodilla.webp"
       },
       "seo": {
         "title": null,
@@ -1348,8 +1348,8 @@
       "season": null,
       "commonNames": null,
       "images": {
-        "thumbnail": "/images/fruits/star-fruit.webp",
-        "hero": "/images/fruits/star-fruit-hero.webp"
+        "thumbnail": "/fruits/images/star-fruit.webp",
+        "hero": "/fruits/images/star-fruit.webp"
       },
       "seo": {
         "title": null,
@@ -1386,8 +1386,8 @@
       "season": null,
       "commonNames": null,
       "images": {
-        "thumbnail": "/images/fruits/fig.webp",
-        "hero": "/images/fruits/fig-hero.webp"
+        "thumbnail": "/fruits/images/fig.webp",
+        "hero": "/fruits/images/fig.webp"
       },
       "seo": {
         "title": null,
@@ -1431,8 +1431,8 @@
       "season": null,
       "commonNames": null,
       "images": {
-        "thumbnail": "/images/fruits/date.webp",
-        "hero": "/images/fruits/date-hero.webp"
+        "thumbnail": "/fruits/images/date.webp",
+        "hero": "/fruits/images/date.webp"
       },
       "seo": {
         "title": null,
@@ -1476,8 +1476,8 @@
       "season": null,
       "commonNames": null,
       "images": {
-        "thumbnail": "/images/fruits/coconut.webp",
-        "hero": "/images/fruits/coconut-hero.webp"
+        "thumbnail": "/fruits/images/coconut.webp",
+        "hero": "/fruits/images/coconut.webp"
       },
       "seo": {
         "title": null,
@@ -1521,8 +1521,8 @@
       "season": null,
       "commonNames": null,
       "images": {
-        "thumbnail": "/images/fruits/avocado.webp",
-        "hero": "/images/fruits/avocado-hero.webp"
+        "thumbnail": "/fruits/images/avocado.webp",
+        "hero": "/fruits/images/avocado.webp"
       },
       "seo": {
         "title": null,
@@ -1566,8 +1566,8 @@
       "season": null,
       "commonNames": null,
       "images": {
-        "thumbnail": "/images/fruits/olive.webp",
-        "hero": "/images/fruits/olive-hero.webp"
+        "thumbnail": "/fruits/images/olive.webp",
+        "hero": "/fruits/images/olive.webp"
       },
       "seo": {
         "title": null,
@@ -1604,8 +1604,8 @@
       "season": null,
       "commonNames": null,
       "images": {
-        "thumbnail": "/images/fruits/lemon.webp",
-        "hero": "/images/fruits/lemon-hero.webp"
+        "thumbnail": "/fruits/images/lemon.webp",
+        "hero": "/fruits/images/lemon.webp"
       },
       "seo": {
         "title": null,
@@ -1649,8 +1649,8 @@
       "season": null,
       "commonNames": null,
       "images": {
-        "thumbnail": "/images/fruits/lime.webp",
-        "hero": "/images/fruits/lime-hero.webp"
+        "thumbnail": "/fruits/images/lime.webp",
+        "hero": "/fruits/images/lime.webp"
       },
       "seo": {
         "title": null,
@@ -1694,8 +1694,8 @@
       "season": null,
       "commonNames": null,
       "images": {
-        "thumbnail": "/images/fruits/grapefruit.webp",
-        "hero": "/images/fruits/grapefruit-hero.webp"
+        "thumbnail": "/fruits/images/grapefruit.webp",
+        "hero": "/fruits/images/grapefruit.webp"
       },
       "seo": {
         "title": null,
@@ -1739,8 +1739,8 @@
       "season": null,
       "commonNames": null,
       "images": {
-        "thumbnail": "/images/fruits/mandarin.webp",
-        "hero": "/images/fruits/mandarin-hero.webp"
+        "thumbnail": "/fruits/images/mandarin.webp",
+        "hero": "/fruits/images/mandarin.webp"
       },
       "seo": {
         "title": null,
@@ -1784,8 +1784,8 @@
       "season": null,
       "commonNames": null,
       "images": {
-        "thumbnail": "/images/fruits/tangerine.webp",
-        "hero": "/images/fruits/tangerine-hero.webp"
+        "thumbnail": "/fruits/images/tangerine.webp",
+        "hero": "/fruits/images/tangerine.webp"
       },
       "seo": {
         "title": null,
@@ -1822,8 +1822,8 @@
       "season": null,
       "commonNames": null,
       "images": {
-        "thumbnail": "/images/fruits/sweet-lime.webp",
-        "hero": "/images/fruits/sweet-lime-hero.webp"
+        "thumbnail": "/fruits/images/sweet-lime.webp",
+        "hero": "/fruits/images/sweet-lime.webp"
       },
       "seo": {
         "title": null,
@@ -1860,8 +1860,8 @@
       "season": null,
       "commonNames": null,
       "images": {
-        "thumbnail": "/images/fruits/pomelo.webp",
-        "hero": "/images/fruits/pomelo-hero.webp"
+        "thumbnail": "/fruits/images/pomelo.webp",
+        "hero": "/fruits/images/pomelo.webp"
       },
       "seo": {
         "title": null,
@@ -1898,8 +1898,8 @@
       "season": null,
       "commonNames": null,
       "images": {
-        "thumbnail": "/images/fruits/persimmon.webp",
-        "hero": "/images/fruits/persimmon-hero.webp"
+        "thumbnail": "/fruits/images/persimmon.webp",
+        "hero": "/fruits/images/persimmon.webp"
       },
       "seo": {
         "title": null,
@@ -1943,8 +1943,8 @@
       "season": null,
       "commonNames": null,
       "images": {
-        "thumbnail": "/images/fruits/mulberry.webp",
-        "hero": "/images/fruits/mulberry-hero.webp"
+        "thumbnail": "/fruits/images/mulberry.webp",
+        "hero": "/fruits/images/mulberry.webp"
       },
       "seo": {
         "title": null,
@@ -1981,8 +1981,8 @@
       "season": null,
       "commonNames": null,
       "images": {
-        "thumbnail": "/images/fruits/gooseberry.webp",
-        "hero": "/images/fruits/gooseberry-hero.webp"
+        "thumbnail": "/fruits/images/gooseberry.webp",
+        "hero": "/fruits/images/gooseberry.webp"
       },
       "seo": {
         "title": null,
@@ -2019,8 +2019,8 @@
       "season": null,
       "commonNames": null,
       "images": {
-        "thumbnail": "/images/fruits/blackcurrant.webp",
-        "hero": "/images/fruits/blackcurrant-hero.webp"
+        "thumbnail": "/fruits/images/blackcurrant.webp",
+        "hero": "/fruits/images/blackcurrant.webp"
       },
       "seo": {
         "title": null,
@@ -2057,8 +2057,8 @@
       "season": null,
       "commonNames": null,
       "images": {
-        "thumbnail": "/images/fruits/redcurrant.webp",
-        "hero": "/images/fruits/redcurrant-hero.webp"
+        "thumbnail": "/fruits/images/redcurrant.webp",
+        "hero": "/fruits/images/redcurrant.webp"
       },
       "seo": {
         "title": null,
@@ -2095,8 +2095,8 @@
       "season": null,
       "commonNames": null,
       "images": {
-        "thumbnail": "/images/fruits/cranberry.webp",
-        "hero": "/images/fruits/cranberry-hero.webp"
+        "thumbnail": "/fruits/images/cranberry.webp",
+        "hero": "/fruits/images/cranberry.webp"
       },
       "seo": {
         "title": null,
@@ -2133,8 +2133,8 @@
       "season": null,
       "commonNames": null,
       "images": {
-        "thumbnail": "/images/fruits/elderberry.webp",
-        "hero": "/images/fruits/elderberry-hero.webp"
+        "thumbnail": "/fruits/images/elderberry.webp",
+        "hero": "/fruits/images/elderberry.webp"
       },
       "seo": {
         "title": null,
@@ -2171,8 +2171,8 @@
       "season": null,
       "commonNames": null,
       "images": {
-        "thumbnail": "/images/fruits/quince.webp",
-        "hero": "/images/fruits/quince-hero.webp"
+        "thumbnail": "/fruits/images/quince.webp",
+        "hero": "/fruits/images/quince.webp"
       },
       "seo": {
         "title": null,
@@ -2209,8 +2209,8 @@
       "season": null,
       "commonNames": null,
       "images": {
-        "thumbnail": "/images/fruits/tamarind.webp",
-        "hero": "/images/fruits/tamarind-hero.webp"
+        "thumbnail": "/fruits/images/tamarind.webp",
+        "hero": "/fruits/images/tamarind.webp"
       },
       "seo": {
         "title": null,
@@ -2247,8 +2247,8 @@
       "season": null,
       "commonNames": null,
       "images": {
-        "thumbnail": "/images/fruits/wood-apple.webp",
-        "hero": "/images/fruits/wood-apple-hero.webp"
+        "thumbnail": "/fruits/images/wood-apple.webp",
+        "hero": "/fruits/images/wood-apple.webp"
       },
       "seo": {
         "title": null,
@@ -2285,8 +2285,8 @@
       "season": null,
       "commonNames": null,
       "images": {
-        "thumbnail": "/images/fruits/bael.webp",
-        "hero": "/images/fruits/bael-hero.webp"
+        "thumbnail": "/fruits/images/bael.webp",
+        "hero": "/fruits/images/bael.webp"
       },
       "seo": {
         "title": null,
@@ -2323,8 +2323,8 @@
       "season": null,
       "commonNames": null,
       "images": {
-        "thumbnail": "/images/fruits/amla.webp",
-        "hero": "/images/fruits/amla-hero.webp"
+        "thumbnail": "/fruits/images/amla.webp",
+        "hero": "/fruits/images/amla.webp"
       },
       "seo": {
         "title": null,
@@ -2361,8 +2361,8 @@
       "season": null,
       "commonNames": null,
       "images": {
-        "thumbnail": "/images/fruits/jamun.webp",
-        "hero": "/images/fruits/jamun-hero.webp"
+        "thumbnail": "/fruits/images/jamun.webp",
+        "hero": "/fruits/images/jamun.webp"
       },
       "seo": {
         "title": null,
@@ -2399,8 +2399,8 @@
       "season": null,
       "commonNames": null,
       "images": {
-        "thumbnail": "/images/fruits/ber.webp",
-        "hero": "/images/fruits/ber-hero.webp"
+        "thumbnail": "/fruits/images/ber.webp",
+        "hero": "/fruits/images/ber.webp"
       },
       "seo": {
         "title": null,
@@ -2437,8 +2437,8 @@
       "season": null,
       "commonNames": null,
       "images": {
-        "thumbnail": "/images/fruits/karonda.webp",
-        "hero": "/images/fruits/karonda-hero.webp"
+        "thumbnail": "/fruits/images/karonda.webp",
+        "hero": "/fruits/images/karonda.webp"
       },
       "seo": {
         "title": null,
@@ -2475,8 +2475,8 @@
       "season": null,
       "commonNames": null,
       "images": {
-        "thumbnail": "/images/fruits/chikoo.webp",
-        "hero": "/images/fruits/chikoo-hero.webp"
+        "thumbnail": "/fruits/images/chikoo.webp",
+        "hero": "/fruits/images/chikoo.webp"
       },
       "seo": {
         "title": null,
@@ -2513,8 +2513,8 @@
       "season": null,
       "commonNames": null,
       "images": {
-        "thumbnail": "/images/fruits/musk-melon.webp",
-        "hero": "/images/fruits/musk-melon-hero.webp"
+        "thumbnail": "/fruits/images/musk-melon.webp",
+        "hero": "/fruits/images/musk-melon.webp"
       },
       "seo": {
         "title": null,
@@ -2551,8 +2551,8 @@
       "season": null,
       "commonNames": null,
       "images": {
-        "thumbnail": "/images/fruits/cantaloupe.webp",
-        "hero": "/images/fruits/cantaloupe-hero.webp"
+        "thumbnail": "/fruits/images/cantaloupe.webp",
+        "hero": "/fruits/images/cantaloupe.webp"
       },
       "seo": {
         "title": null,
@@ -2589,8 +2589,8 @@
       "season": null,
       "commonNames": null,
       "images": {
-        "thumbnail": "/images/fruits/honeydew.webp",
-        "hero": "/images/fruits/honeydew-hero.webp"
+        "thumbnail": "https://images.unsplash.com/photo-1598170845058-32b9d6a5da37?auto=format&fit=crop&w=500&q=80",
+        "hero": "https://images.unsplash.com/photo-1598170845058-32b9d6a5da37?auto=format&fit=crop&w=500&q=80"
       },
       "seo": {
         "title": null,
@@ -2627,8 +2627,8 @@
       "season": null,
       "commonNames": null,
       "images": {
-        "thumbnail": "/images/fruits/plantain.webp",
-        "hero": "/images/fruits/plantain-hero.webp"
+        "thumbnail": "https://images.unsplash.com/photo-1571771894821-ce9b6c11b08e?auto=format&fit=crop&w=500&q=80",
+        "hero": "https://images.unsplash.com/photo-1571771894821-ce9b6c11b08e?auto=format&fit=crop&w=500&q=80"
       },
       "seo": {
         "title": null,

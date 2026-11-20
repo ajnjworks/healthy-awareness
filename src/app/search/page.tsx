@@ -1,24 +1,23 @@
 'use client';
 
-import React, { useState, useEffect, Suspense } from 'react';
+import { useTheme } from '@/utils/useTheme';
+
+import React, { useState, useEffect, useMemo, Suspense } from 'react';
 import { useRouter, useSearchParams } from 'next/navigation';
 import { Navbar } from '../../components/layout/Navbar';
 import { Footer } from '../../components/layout/Footer';
 import { Breadcrumb } from '../../components/common/Breadcrumb';
 import { HeroBanner } from '../../components/common/HeroBanner';
+import { getFoodUrl } from '../../utils/foodUrl';
 import {
   Search,
   X,
   LayoutGrid,
   List as ListIcon,
   Filter,
-  ChevronDown,
-  ChevronUp,
   Heart,
   Brain,
-  Scale,
   ShieldCheck,
-  Sparkles,
   Flame,
   Clock,
   ArrowRight,
@@ -31,12 +30,62 @@ import {
 
 import searchData from '../../data/searchResultsData.json';
 
+const ITEMS_PER_PAGE = 12;
+
+const CATEGORY_META: Record<string, { heroImg: string; fact: string; factImg: string }> = {
+  fruits: {
+    heroImg: 'https://images.unsplash.com/photo-1619566636858-adf3ef46400b?auto=format&fit=crop&w=800&q=80',
+    fact: 'Eating fresh whole fruits daily supplies vital antioxidants like Vitamin C, flavonoids, and dietary fiber that naturally strengthen your immune system and protect against cellular oxidation.',
+    factImg: 'https://images.unsplash.com/photo-1619566636858-adf3ef46400b?auto=format&fit=crop&w=400&q=80'
+  },
+  vegetables: {
+    heroImg: 'https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=800&q=80',
+    fact: 'Cruciferous vegetables and dark leafy greens contain glucosinolates and folate, powerful natural compounds that support cellular regeneration and liver detoxification.',
+    factImg: 'https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=400&q=80'
+  },
+  groceries: {
+    heroImg: 'https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=800&q=80',
+    fact: 'Whole pantry staples such as unpolished grains and cold-pressed oils preserve essential micronutrients, healthy lipids, and minerals lost during heavy industrial refining.',
+    factImg: 'https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=400&q=80'
+  },
+  'nuts-seeds': {
+    heroImg: 'https://images.unsplash.com/photo-1508061253366-f7da158b6d46?auto=format&fit=crop&w=800&q=80',
+    fact: 'Almonds and nutrient-dense seeds provide alpha-tocopherol (natural Vitamin E), magnesium, and plant sterols that actively protect cardiovascular cell membranes.',
+    factImg: 'https://images.unsplash.com/photo-1508061253366-f7da158b6d46?auto=format&fit=crop&w=400&q=80'
+  },
+  fishes: {
+    heroImg: 'https://images.unsplash.com/photo-1534043464124-3be32fe000c9?auto=format&fit=crop&w=800&q=80',
+    fact: 'Cold-water seafood is the premier dietary source of EPA and DHA long-chain omega-3 fatty acids, proven to enhance cognitive clarity and lower triglycerides.',
+    factImg: 'https://images.unsplash.com/photo-1534043464124-3be32fe000c9?auto=format&fit=crop&w=400&q=80'
+  },
+  meats: {
+    heroImg: 'https://images.unsplash.com/photo-1607623814075-e51df1bdc82f?auto=format&fit=crop&w=800&q=80',
+    fact: 'Lean poultry and grass-fed meats supply bioavailable heme iron, zinc, and complete protein complexes needed for tissue repair and sustained athletic stamina.',
+    factImg: 'https://images.unsplash.com/photo-1607623814075-e51df1bdc82f?auto=format&fit=crop&w=400&q=80'
+  },
+  dairy: {
+    heroImg: 'https://images.unsplash.com/photo-1550583724-b2692b85b150?auto=format&fit=crop&w=800&q=80',
+    fact: 'Fermented dairy products such as curd and kefir supply active probiotics and bioavailable calcium that nourish your gut microbiome and bone density.',
+    factImg: 'https://images.unsplash.com/photo-1550583724-b2692b85b150?auto=format&fit=crop&w=400&q=80'
+  },
+  millets: {
+    heroImg: 'https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&w=800&q=80',
+    fact: 'Ancient millets are rich in slow-release complex carbohydrates and resistant starches that prevent blood sugar spikes and sustain balanced daily energy.',
+    factImg: 'https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&w=400&q=80'
+  },
+  spices: {
+    heroImg: 'https://images.unsplash.com/photo-1596040033229-a9821ebd058d?auto=format&fit=crop&w=800&q=80',
+    fact: 'Culinary spices like turmeric, ginger, and cinnamon carry potent polyphenols with natural anti-inflammatory and cellular longevity benefits.',
+    factImg: 'https://images.unsplash.com/photo-1596040033229-a9821ebd058d?auto=format&fit=crop&w=400&q=80'
+  }
+};
+
 function SearchResultsContent() {
   const router = useRouter();
   const searchParams = useSearchParams();
-  const initialQuery = searchParams.get('q') || searchData.searchQuery;
+  const initialQuery = searchParams.get('q') || '';
 
-  const [darkMode, setDarkMode] = useState(false);
+  const { darkMode, toggleDarkMode: handleToggleDarkMode } = useTheme();
   const [activeNav, setActiveNav] = useState('Foods');
   const [query, setQuery] = useState(initialQuery);
   const [selectedCategory, setSelectedCategory] = useState('all');
@@ -52,22 +101,15 @@ function SearchResultsContent() {
 
   useEffect(() => {
     const qParam = searchParams.get('q');
-    if (qParam) {
+    if (qParam !== null) {
       setQuery(qParam);
     }
   }, [searchParams]);
 
+  // Reset pagination when search query or filters change
   useEffect(() => {
-    if (darkMode) {
-      document.documentElement.classList.add('dark');
-    } else {
-      document.documentElement.classList.remove('dark');
-    }
-  }, [darkMode]);
-
-  const handleToggleDarkMode = () => {
-    setDarkMode((prev) => !prev);
-  };
+    setCurrentPage(1);
+  }, [query, selectedCategory, selectedBenefits, selectedFoodTypes, selectedDietTypes, sortBy]);
 
   const handleNavClick = (navItem: string) => {
     setActiveNav(navItem);
@@ -82,13 +124,12 @@ function SearchResultsContent() {
 
   const handleSearchSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    if (query.trim()) {
-      router.push(`/search?q=${encodeURIComponent(query.trim())}`);
-    }
+    router.push(`/search?q=${encodeURIComponent(query.trim())}`);
   };
 
   const handleClearQuery = () => {
     setQuery('');
+    router.push('/search');
   };
 
   const toggleBenefitFilter = (id: string) => {
@@ -126,75 +167,142 @@ function SearchResultsContent() {
     }, 3000);
   };
 
-  // 1. Items matching search query
-  const queryMatchedResults = searchData.results.filter((item) => {
-    if (!query.trim()) return true;
-    const q = query.toLowerCase();
-    return (
-      item.name.toLowerCase().includes(q) ||
-      item.subtitle.toLowerCase().includes(q) ||
-      item.category.toLowerCase().includes(q)
-    );
-  });
+  // 1. Items matching search query with robust plural/singular & multi-field match
+  const queryMatchedResults = useMemo(() => {
+    const rawQ = query.trim().toLowerCase();
+    if (!rawQ) return searchData.results;
 
-  // 2. Dynamic Filter Counts
-  const dynamicCategories = searchData.categories.map((cat) => {
-    const count =
-      cat.id === 'all'
-        ? queryMatchedResults.length
-        : queryMatchedResults.filter((i) => i.categoryId === cat.id).length;
-    return { ...cat, count };
-  });
+    const singular = rawQ.endsWith('ies')
+      ? rawQ.slice(0, -3) + 'y'
+      : rawQ.endsWith('es')
+      ? rawQ.slice(0, -2)
+      : rawQ.endsWith('s')
+      ? rawQ.slice(0, -1)
+      : rawQ;
 
-  const dynamicBenefits = searchData.benefits.map((b) => {
-    const count = queryMatchedResults.filter((i) => i.benefits.includes(b.id)).length;
-    return { ...b, count };
-  });
+    const plural = rawQ.endsWith('y')
+      ? rawQ.slice(0, -1) + 'ies'
+      : rawQ.endsWith('s')
+      ? rawQ
+      : rawQ + 's';
 
-  const dynamicFoodTypes = searchData.foodTypes.map((ft) => {
-    const count = queryMatchedResults.filter((i) => i.foodType === ft.id).length;
-    return { ...ft, count };
-  });
+    return searchData.results.filter((item) => {
+      const name = item.name.toLowerCase();
+      const sub = item.subtitle.toLowerCase();
+      const cat = item.category.toLowerCase();
+      const catId = item.categoryId.toLowerCase();
+      const bot = (item.botanicalName || '').toLowerCase();
+      const nut = (item.nutrients || []).join(' ').toLowerCase();
 
-  const dynamicDietTypes = searchData.dietTypes.map((dt) => {
-    const count = queryMatchedResults.filter((i) => i.dietTypes.includes(dt.id)).length;
-    return { ...dt, count };
-  });
+      return (
+        name.includes(rawQ) ||
+        sub.includes(rawQ) ||
+        cat.includes(rawQ) ||
+        catId === rawQ ||
+        catId.includes(rawQ) ||
+        catId === singular ||
+        catId === plural ||
+        name.includes(singular) ||
+        name.includes(plural) ||
+        bot.includes(rawQ) ||
+        nut.includes(rawQ)
+      );
+    });
+  }, [query]);
 
-  // 3. Final Filtered Results (Applying Sidebar Checkboxes)
-  let filteredResults = queryMatchedResults.filter((item) => {
-    // Category Filter Match
-    const matchesCategory =
-      selectedCategory === 'all' || item.categoryId === selectedCategory;
+  // 2. Dynamic Filter Counts based on current queryMatchedResults
+  const dynamicCategories = useMemo(() => {
+    return searchData.categories.map((cat) => {
+      const count =
+        cat.id === 'all'
+          ? queryMatchedResults.length
+          : queryMatchedResults.filter((i) => i.categoryId === cat.id).length;
+      return { ...cat, count };
+    });
+  }, [queryMatchedResults]);
 
-    // Benefit Filter Match
-    const matchesBenefit =
-      selectedBenefits.length === 0 ||
-      selectedBenefits.some((b) => item.benefits.includes(b));
+  const dynamicBenefits = useMemo(() => {
+    return searchData.benefits.map((b) => {
+      const count = queryMatchedResults.filter((i) => i.benefits.includes(b.id)).length;
+      return { ...b, count };
+    });
+  }, [queryMatchedResults]);
 
-    // Food Type Match
-    const matchesFoodType =
-      selectedFoodTypes.length === 0 || selectedFoodTypes.includes(item.foodType);
+  const dynamicFoodTypes = useMemo(() => {
+    return searchData.foodTypes.map((ft) => {
+      const count = queryMatchedResults.filter((i) => i.foodType === ft.id).length;
+      return { ...ft, count };
+    });
+  }, [queryMatchedResults]);
 
-    // Diet Type Match
-    const matchesDietType =
-      selectedDietTypes.length === 0 ||
-      selectedDietTypes.some((d) => item.dietTypes.includes(d));
+  const dynamicDietTypes = useMemo(() => {
+    return searchData.dietTypes.map((dt) => {
+      const count = queryMatchedResults.filter((i) => i.dietTypes.includes(dt.id)).length;
+      return { ...dt, count };
+    });
+  }, [queryMatchedResults]);
 
-    return (
-      matchesCategory &&
-      matchesBenefit &&
-      matchesFoodType &&
-      matchesDietType
-    );
-  });
+  // 3. Final Filtered Results (Applying Sidebar Category & Checkboxes)
+  const filteredResults = useMemo(() => {
+    const list = queryMatchedResults.filter((item) => {
+      const matchesCategory =
+        selectedCategory === 'all' || item.categoryId === selectedCategory;
 
-  // Sorting Logic
-  if (sortBy === 'score') {
-    filteredResults.sort((a, b) => b.score - a.score);
-  } else if (sortBy === 'name') {
-    filteredResults.sort((a, b) => a.name.localeCompare(b.name));
-  }
+      const matchesBenefit =
+        selectedBenefits.length === 0 ||
+        selectedBenefits.some((b) => item.benefits.includes(b));
+
+      const matchesFoodType =
+        selectedFoodTypes.length === 0 || selectedFoodTypes.includes(item.foodType);
+
+      const matchesDietType =
+        selectedDietTypes.length === 0 ||
+        selectedDietTypes.some((d) => item.dietTypes.includes(d));
+
+      return (
+        matchesCategory &&
+        matchesBenefit &&
+        matchesFoodType &&
+        matchesDietType
+      );
+    });
+
+    if (sortBy === 'score') {
+      list.sort((a, b) => b.score - a.score);
+    } else if (sortBy === 'name') {
+      list.sort((a, b) => a.name.localeCompare(b.name));
+    }
+
+    return list;
+  }, [queryMatchedResults, selectedCategory, selectedBenefits, selectedFoodTypes, selectedDietTypes, sortBy]);
+
+  // Pagination calculation
+  const totalPages = Math.max(1, Math.ceil(filteredResults.length / ITEMS_PER_PAGE));
+  const paginatedResults = filteredResults.slice(
+    (currentPage - 1) * ITEMS_PER_PAGE,
+    currentPage * ITEMS_PER_PAGE
+  );
+
+  // Dynamic Hero Image & Trivia based on query/active category
+  const activeCategoryKey = selectedCategory !== 'all' ? selectedCategory : (
+    ['fruits', 'vegetables', 'groceries', 'nuts-seeds', 'fishes', 'meats', 'dairy', 'millets', 'spices'].find(
+      (c) => query.toLowerCase().includes(c) || query.toLowerCase().includes(c.slice(0, -1))
+    ) || (filteredResults[0]?.categoryId || 'fruits')
+  );
+
+  const heroGraphic =
+    CATEGORY_META[activeCategoryKey]?.heroImg ||
+    filteredResults[0]?.image ||
+    'https://images.unsplash.com/photo-1619566636858-adf3ef46400b?auto=format&fit=crop&w=800&q=80';
+
+  const didYouKnowFact =
+    CATEGORY_META[activeCategoryKey]?.fact ||
+    'Eating a diverse variety of colorful whole foods provides essential phytochemicals, vitamins, and minerals that protect your cells and optimize metabolism.';
+
+  const didYouKnowImage =
+    CATEGORY_META[activeCategoryKey]?.factImg ||
+    filteredResults[0]?.image ||
+    'https://images.unsplash.com/photo-1619566636858-adf3ef46400b?auto=format&fit=crop&w=400&q=80';
 
   return (
     <div className="min-h-screen bg-[#f8f9f6] dark:bg-slate-950 text-slate-900 dark:text-slate-100 flex flex-col font-sans transition-colors duration-300">
@@ -220,19 +328,25 @@ function SearchResultsContent() {
       />
 
       {/* Main Content Layout Container */}
-      <main className="flex-1 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 space-y-6">
+      <main className="flex-1 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 space-y-6 w-full min-w-0 overflow-hidden">
         {/* Breadcrumb */}
         <Breadcrumb items={[{ label: 'Search Results' }]} />
 
-        {/* 1. HERO HEADER BANNER (Pixel Match with Mockup) */}
+        {/* 1. HERO HEADER BANNER */}
         <HeroBanner
           title="Search Results"
           subtitle={
             <p className="text-xs sm:text-sm text-slate-600 dark:text-slate-300 font-medium">
-              Showing results for{' '}
-              <strong className="text-emerald-700 dark:text-emerald-400 font-extrabold">
-                "{query}"
-              </strong>
+              {query ? (
+                <>
+                  Showing results for{' '}
+                  <strong className="text-emerald-700 dark:text-emerald-400 font-extrabold">
+                    "{query}"
+                  </strong>
+                </>
+              ) : (
+                'Explore all 495 nutrient-rich foods across 19 categories'
+              )}
             </p>
           }
           extraContent={
@@ -243,7 +357,7 @@ function SearchResultsContent() {
                   type="text"
                   value={query}
                   onChange={(e) => setQuery(e.target.value)}
-                  placeholder="Search any food..."
+                  placeholder="Search any food (e.g. fruits, apple, spinach, salmon)..."
                   className="w-full bg-transparent text-xs sm:text-sm text-slate-900 dark:text-white font-semibold focus:outline-none placeholder-slate-400"
                 />
                 {query && (
@@ -251,6 +365,7 @@ function SearchResultsContent() {
                     type="button"
                     onClick={handleClearQuery}
                     className="p-1 rounded-full text-slate-400 hover:text-slate-600 dark:hover:text-slate-200 cursor-pointer shrink-0"
+                    aria-label="Clear search query"
                   >
                     <X className="w-4 h-4" />
                   </button>
@@ -261,10 +376,10 @@ function SearchResultsContent() {
           rightContent={
             <div className="w-full max-w-[360px] aspect-4/3 rounded-[24px] overflow-hidden shadow-md border-2 border-white dark:border-slate-800 bg-white dark:bg-slate-800">
               <img
-                src={searchData.hero.graphic}
-                alt="Overflowing bowl of fresh raw almonds"
+                src={heroGraphic}
+                alt={query ? `Search results for ${query}` : "Healthy food assortment"}
                 onError={(e) => {
-                  (e.target as HTMLImageElement).src = 'https://images.unsplash.com/photo-1508061253366-f7da158b6d46?auto=format&fit=crop&w=800&q=80';
+                  (e.target as HTMLImageElement).src = 'https://images.unsplash.com/photo-1619566636858-adf3ef46400b?auto=format&fit=crop&w=800&q=80';
                 }}
                 className="w-full h-full object-cover"
               />
@@ -275,7 +390,7 @@ function SearchResultsContent() {
         {/* 2. RESULTS HEADER BAR (Found Count | Sort By | View Toggle) */}
         <section className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 bg-white dark:bg-slate-900 p-4 rounded-2xl border border-slate-200/70 dark:border-slate-800 shadow-2xs">
           <div className="text-xs sm:text-sm font-bold text-slate-900 dark:text-white">
-            Found <span className="text-emerald-700 dark:text-emerald-400 font-extrabold">{filteredResults.length}</span> results for "{query}"
+            Found <span className="text-emerald-700 dark:text-emerald-400 font-extrabold">{filteredResults.length}</span> results {query ? `for "${query}"` : 'in catalog'}
           </div>
 
           <div className="flex items-center gap-4">
@@ -340,18 +455,18 @@ function SearchResultsContent() {
               </button>
             </div>
 
-            {/* Categories */}
+            {/* Categories with custom scrollable box */}
             <div className="space-y-2">
               <h3 className="text-xs font-bold text-slate-800 dark:text-slate-200">
                 Categories
               </h3>
-              <div className="space-y-1 text-xs font-semibold">
+              <div className="space-y-1 text-xs font-semibold max-h-60 overflow-y-auto pr-1">
                 {dynamicCategories.map((cat) => (
                   <button
                     key={cat.id}
                     disabled={cat.count === 0 && cat.id !== 'all'}
                     onClick={() => setSelectedCategory(cat.id)}
-                    className={`w-full flex items-center justify-between p-2 rounded-xl transition-colors cursor-pointer ${
+                    className={`w-full flex items-center justify-between p-2 rounded-xl transition-colors cursor-pointer text-left ${
                       selectedCategory === cat.id
                         ? 'bg-emerald-50 dark:bg-emerald-950/60 text-emerald-800 dark:text-emerald-300 font-extrabold'
                         : cat.count === 0
@@ -359,8 +474,8 @@ function SearchResultsContent() {
                         : 'text-slate-600 dark:text-slate-400 hover:bg-slate-50 dark:hover:bg-slate-800'
                     }`}
                   >
-                    <span>{cat.label}</span>
-                    <span className="text-[10px] text-slate-400 font-bold">{cat.count}</span>
+                    <span className="truncate pr-1">{cat.label}</span>
+                    <span className="text-[10px] text-slate-400 font-bold shrink-0">{cat.count}</span>
                   </button>
                 ))}
               </div>
@@ -453,17 +568,7 @@ function SearchResultsContent() {
               </div>
             </div>
 
-            {/* Apply Filters Button */}
-            <div className="pt-2">
-              <button
-                onClick={() => {}}
-                className="w-full py-2.5 rounded-xl border border-emerald-700 text-emerald-800 dark:text-emerald-300 font-extrabold text-xs hover:bg-emerald-50 dark:hover:bg-slate-800 transition-colors cursor-pointer"
-              >
-                Apply Filters
-              </button>
-            </div>
-
-            {/* Can't find what you're looking for? Request Food Card */}
+            {/* Request a Food Card */}
             <div className="bg-[#f0f3eb] dark:bg-slate-800 p-4 rounded-2xl border border-emerald-100 dark:border-slate-700 space-y-2 text-center">
               <h4 className="text-xs font-black text-slate-900 dark:text-white">
                 Can't find what you're looking for?
@@ -480,7 +585,7 @@ function SearchResultsContent() {
             </div>
           </aside>
 
-          {/* MIDDLE COLUMN: RESULTS CARDS (6 cols - 3 cols grid inside) */}
+          {/* MIDDLE COLUMN: RESULTS CARDS (6 cols) */}
           <div className="lg:col-span-6 space-y-6">
             {filteredResults.length === 0 ? (
               <div className="bg-white dark:bg-slate-900 rounded-[28px] p-8 border border-slate-200/70 dark:border-slate-800 text-center space-y-3">
@@ -489,11 +594,11 @@ function SearchResultsContent() {
                   No food results found
                 </h3>
                 <p className="text-xs text-slate-500 font-medium">
-                  We couldn't find any foods matching your current filter criteria.
+                  We couldn't find any foods matching your current search or filter criteria.
                 </p>
                 <button
                   onClick={handleClearAllFilters}
-                  className="px-4 py-2 rounded-xl bg-emerald-100 text-emerald-800 text-xs font-bold"
+                  className="px-4 py-2 rounded-xl bg-emerald-100 text-emerald-800 text-xs font-bold hover:bg-emerald-200 transition-colors cursor-pointer"
                 >
                   Clear All Filters
                 </button>
@@ -506,19 +611,23 @@ function SearchResultsContent() {
                     : 'space-y-4'
                 }
               >
-                {filteredResults.map((item) => (
+                {paginatedResults.map((item) => (
                   <div
                     key={item.id}
-                    className="bg-white dark:bg-slate-900 rounded-3xl p-3.5 border border-slate-200/80 dark:border-slate-800 shadow-2xs hover:shadow-md transition-all duration-200 flex flex-col justify-between"
+                    className={`bg-white dark:bg-slate-900 rounded-3xl p-3.5 border border-slate-200/80 dark:border-slate-800 shadow-2xs hover:shadow-md transition-all duration-200 ${
+                      viewMode === 'list'
+                        ? 'flex flex-col sm:flex-row sm:items-center justify-between gap-4'
+                        : 'flex flex-col justify-between'
+                    } w-full max-w-full overflow-hidden`}
                   >
-                    <div className="space-y-3">
+                    <div className={`space-y-3 w-full ${viewMode === 'list' ? 'flex flex-col sm:flex-row sm:items-center gap-4 space-y-0 flex-1' : ''}`}>
                       {/* Image Box with Score Badge */}
-                      <div className="relative aspect-4/3 rounded-2xl overflow-hidden bg-slate-100 dark:bg-slate-800">
+                      <div className={`relative ${viewMode === 'list' ? 'w-full sm:w-36 aspect-16/10 sm:aspect-square shrink-0' : 'aspect-4/3 w-full'} rounded-2xl overflow-hidden bg-slate-100 dark:bg-slate-800`}>
                         <img
                           src={item.image}
                           alt={item.name}
                           onError={(e) => {
-                            (e.target as HTMLImageElement).src = 'https://images.unsplash.com/photo-1508061253366-f7da158b6d46?auto=format&fit=crop&w=600&q=80';
+                            (e.target as HTMLImageElement).src = 'https://images.unsplash.com/photo-1619566636858-adf3ef46400b?auto=format&fit=crop&w=600&q=80';
                           }}
                           className="w-full h-full object-cover"
                         />
@@ -534,28 +643,28 @@ function SearchResultsContent() {
                       </div>
 
                       {/* Content */}
-                      <div className="space-y-1">
+                      <div className="space-y-1 flex-1 min-w-0">
                         <h3 className="text-sm font-black text-slate-900 dark:text-white tracking-tight line-clamp-1">
                           {item.name}
                         </h3>
-                        <p className="text-[11px] text-slate-500 dark:text-slate-400 font-medium line-clamp-1">
+                        <p className="text-[11px] text-slate-500 dark:text-slate-400 font-medium line-clamp-2">
                           {item.subtitle}
                         </p>
-                      </div>
 
-                      {/* Benefit Icons Bar */}
-                      <div className="flex items-center gap-2 text-emerald-600 dark:text-emerald-400 pt-1">
-                        <Heart className="w-3.5 h-3.5" />
-                        <Brain className="w-3.5 h-3.5" />
-                        <ShieldCheck className="w-3.5 h-3.5" />
-                        <Users className="w-3.5 h-3.5" />
+                        {/* Benefit Icons Bar */}
+                        <div className="flex items-center gap-2 text-emerald-600 dark:text-emerald-400 pt-1">
+                          <Heart className="w-3.5 h-3.5" />
+                          <Brain className="w-3.5 h-3.5" />
+                          <ShieldCheck className="w-3.5 h-3.5" />
+                          <Users className="w-3.5 h-3.5" />
+                        </div>
                       </div>
                     </div>
 
                     {/* Action Button */}
-                    <div className="pt-3 border-t border-slate-100 dark:border-slate-800 mt-3">
+                    <div className={`${viewMode === 'list' ? 'sm:border-l sm:border-t-0 sm:pl-4 sm:pt-0 sm:mt-0' : 'pt-3 border-t mt-3'} border-slate-100 dark:border-slate-800 shrink-0`}>
                       <button
-                        onClick={() => router.push('/healthy-foods/apple')}
+                        onClick={() => router.push(getFoodUrl(item.id, item.category))}
                         className="text-[11px] font-extrabold text-emerald-700 dark:text-emerald-400 hover:underline flex items-center gap-1 cursor-pointer"
                       >
                         <span>{item.actionText}</span>
@@ -567,55 +676,45 @@ function SearchResultsContent() {
               </div>
             )}
 
-            {/* Pagination Controls (Only show when results exist) */}
-            {filteredResults.length > 0 && (
+            {/* Dynamic Pagination Controls */}
+            {totalPages > 1 && (
               <div className="flex items-center justify-center gap-1.5 pt-4">
                 <button
+                  disabled={currentPage === 1}
                   onClick={() => setCurrentPage((p) => Math.max(1, p - 1))}
-                  className="w-8 h-8 rounded-xl bg-white dark:bg-slate-800 border border-slate-200/80 dark:border-slate-700 text-slate-600 dark:text-slate-300 flex items-center justify-center text-xs font-bold hover:bg-slate-50 cursor-pointer"
+                  className="w-8 h-8 rounded-xl bg-white dark:bg-slate-800 border border-slate-200/80 dark:border-slate-700 text-slate-600 dark:text-slate-300 flex items-center justify-center text-xs font-bold hover:bg-slate-50 disabled:opacity-40 disabled:cursor-not-allowed cursor-pointer"
+                  aria-label="Previous Page"
                 >
                   <ChevronLeft className="w-4 h-4" />
                 </button>
+
+                {Array.from({ length: totalPages }, (_, i) => i + 1)
+                  .filter((p) => p === 1 || p === totalPages || Math.abs(p - currentPage) <= 1)
+                  .map((p, idx, arr) => {
+                    const prev = arr[idx - 1];
+                    const hasGap = prev && p - prev > 1;
+                    return (
+                      <React.Fragment key={p}>
+                        {hasGap && <span className="text-slate-400 text-xs px-1">...</span>}
+                        <button
+                          onClick={() => setCurrentPage(p)}
+                          className={`w-8 h-8 rounded-xl flex items-center justify-center text-xs font-bold cursor-pointer transition-colors ${
+                            currentPage === p
+                              ? 'bg-[#1c6628] text-white shadow-xs'
+                              : 'bg-white dark:bg-slate-800 border border-slate-200/80 dark:border-slate-700 text-slate-600 dark:text-slate-300 hover:bg-slate-50 dark:hover:bg-slate-700'
+                          }`}
+                        >
+                          {p}
+                        </button>
+                      </React.Fragment>
+                    );
+                  })}
+
                 <button
-                  onClick={() => setCurrentPage(1)}
-                  className={`w-8 h-8 rounded-xl flex items-center justify-center text-xs font-bold cursor-pointer ${
-                    currentPage === 1
-                      ? 'bg-[#1c6628] text-white'
-                      : 'bg-white dark:bg-slate-800 border border-slate-200/80 dark:border-slate-700 text-slate-600 dark:text-slate-300'
-                  }`}
-                >
-                  1
-                </button>
-                <button
-                  onClick={() => setCurrentPage(2)}
-                  className={`w-8 h-8 rounded-xl flex items-center justify-center text-xs font-bold cursor-pointer ${
-                    currentPage === 2
-                      ? 'bg-[#1c6628] text-white'
-                      : 'bg-white dark:bg-slate-800 border border-slate-200/80 dark:border-slate-700 text-slate-600 dark:text-slate-300'
-                  }`}
-                >
-                  2
-                </button>
-                <button
-                  onClick={() => setCurrentPage(3)}
-                  className={`w-8 h-8 rounded-xl flex items-center justify-center text-xs font-bold cursor-pointer ${
-                    currentPage === 3
-                      ? 'bg-[#1c6628] text-white'
-                      : 'bg-white dark:bg-slate-800 border border-slate-200/80 dark:border-slate-700 text-slate-600 dark:text-slate-300'
-                  }`}
-                >
-                  3
-                </button>
-                <span className="text-slate-400 text-xs px-1">...</span>
-                <button
-                  onClick={() => setCurrentPage(6)}
-                  className="w-8 h-8 rounded-xl bg-white dark:bg-slate-800 border border-slate-200/80 dark:border-slate-700 text-slate-600 dark:text-slate-300 flex items-center justify-center text-xs font-bold cursor-pointer"
-                >
-                  6
-                </button>
-                <button
-                  onClick={() => setCurrentPage((p) => Math.min(6, p + 1))}
-                  className="w-8 h-8 rounded-xl bg-white dark:bg-slate-800 border border-slate-200/80 dark:border-slate-700 text-slate-600 dark:text-slate-300 flex items-center justify-center text-xs font-bold hover:bg-slate-50 cursor-pointer"
+                  disabled={currentPage === totalPages}
+                  onClick={() => setCurrentPage((p) => Math.min(totalPages, p + 1))}
+                  className="w-8 h-8 rounded-xl bg-white dark:bg-slate-800 border border-slate-200/80 dark:border-slate-700 text-slate-600 dark:text-slate-300 flex items-center justify-center text-xs font-bold hover:bg-slate-50 disabled:opacity-40 disabled:cursor-not-allowed cursor-pointer"
+                  aria-label="Next Page"
                 >
                   <ChevronRight className="w-4 h-4" />
                 </button>
@@ -635,15 +734,15 @@ function SearchResultsContent() {
               </div>
 
               <p className="text-xs text-slate-600 dark:text-slate-300 font-medium leading-relaxed">
-                {searchData.didYouKnow.fact}
+                {didYouKnowFact}
               </p>
 
               <div className="relative aspect-4/3 rounded-2xl overflow-hidden shadow-xs border border-white dark:border-slate-800">
                 <img
-                  src={searchData.didYouKnow.image}
-                  alt="Almond superfood trivia"
+                  src={didYouKnowImage}
+                  alt="Healthy food nutrition trivia"
                   onError={(e) => {
-                    (e.target as HTMLImageElement).src = 'https://images.unsplash.com/photo-1508061253366-f7da158b6d46?auto=format&fit=crop&w=400&q=80';
+                    (e.target as HTMLImageElement).src = 'https://images.unsplash.com/photo-1619566636858-adf3ef46400b?auto=format&fit=crop&w=400&q=80';
                   }}
                   className="w-full h-full object-cover"
                 />
@@ -670,7 +769,10 @@ function SearchResultsContent() {
                 {searchData.popularSearches.map((ps, idx) => (
                   <li key={idx}>
                     <button
-                      onClick={() => { setQuery(ps); router.push(`/search?q=${encodeURIComponent(ps)}`); }}
+                      onClick={() => {
+                        setQuery(ps);
+                        router.push(`/search?q=${encodeURIComponent(ps)}`);
+                      }}
                       className="text-left text-slate-700 dark:text-slate-300 hover:text-emerald-700 transition-colors flex items-center gap-2 cursor-pointer w-full"
                     >
                       <Clock className="w-3.5 h-3.5 text-slate-400 shrink-0" />
@@ -689,13 +791,17 @@ function SearchResultsContent() {
 
               <div className="space-y-2.5">
                 {searchData.relatedFoods.map((rf) => (
-                  <div key={rf.id} className="flex items-center justify-between p-2 rounded-2xl bg-slate-50/70 dark:bg-slate-800/60 border border-slate-100 dark:border-slate-700">
+                  <button
+                    key={rf.id}
+                    onClick={() => router.push(getFoodUrl(rf.id, rf.category))}
+                    className="w-full flex items-center justify-between p-2 rounded-2xl bg-slate-50/70 dark:bg-slate-800/60 border border-slate-100 dark:border-slate-700 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-pointer text-left"
+                  >
                     <div className="flex items-center gap-3">
                       <img
                         src={rf.image}
                         alt={rf.name}
                         onError={(e) => {
-                          (e.target as HTMLImageElement).src = 'https://images.unsplash.com/photo-1508061253366-f7da158b6d46?auto=format&fit=crop&w=150&q=80';
+                          (e.target as HTMLImageElement).src = 'https://images.unsplash.com/photo-1619566636858-adf3ef46400b?auto=format&fit=crop&w=150&q=80';
                         }}
                         className="w-9 h-9 rounded-xl object-cover shrink-0"
                       />
@@ -707,7 +813,7 @@ function SearchResultsContent() {
                     <span className="px-2 py-0.5 rounded-md bg-emerald-100 dark:bg-emerald-950 text-emerald-800 dark:text-emerald-300 text-[10px] font-black">
                       {rf.score}
                     </span>
-                  </div>
+                  </button>
                 ))}
               </div>
 
@@ -716,7 +822,7 @@ function SearchResultsContent() {
                   onClick={() => router.push('/healthy-foods')}
                   className="text-xs font-extrabold text-emerald-700 dark:text-emerald-400 hover:underline inline-flex items-center gap-1 cursor-pointer"
                 >
-                  <span>View all</span>
+                  <span>View all categories</span>
                   <ArrowRight className="w-3.5 h-3.5" />
                 </button>
               </div>

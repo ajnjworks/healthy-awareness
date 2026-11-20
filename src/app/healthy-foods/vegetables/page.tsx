@@ -1,5 +1,7 @@
 'use client';
 
+import { useTheme } from '@/utils/useTheme';
+
 import React, { useState, useEffect } from 'react';
 import { useRouter } from 'next/navigation';
 import { Navbar } from '../../../components/layout/Navbar';
@@ -8,10 +10,14 @@ import { Breadcrumb } from '../../../components/common/Breadcrumb';
 import { FoodListingBanner } from '../../../components/foods/FoodListingBanner';
 import { FoodSubCategoryBar } from '../../../components/foods/FoodSubCategoryBar';
 import { FoodCard } from '../../../components/foods/FoodCard';
+import { FoodCardSkeleton } from '../../../components/foods/FoodCardSkeleton';
 import { FoodFilterSidebar, SeasonalPickItem } from '../../../components/foods/FoodFilterSidebar';
+import { FoodListingControls } from '../../../components/foods/FoodListingControls';
+import { FoodEmptyState } from '../../../components/foods/FoodEmptyState';
+import { InfiniteScrollSentinel } from '../../../components/foods/InfiniteScrollSentinel';
+import { useInfiniteScroll } from '../../../utils/useInfiniteScroll';
 import { VEGETABLES_LIST, VEGETABLE_SUB_CATEGORIES } from '../../../data/vegetablesData';
-import { SlidersHorizontal, LayoutGrid, List, ChevronDown, Sparkles } from 'lucide-react';
-import i18n from '../../../data/i18n/en.json';
+import { Sparkles } from 'lucide-react';
 
 const VEG_SEASONAL_PICKS: SeasonalPickItem[] = [
   {
@@ -50,26 +56,34 @@ const VEG_SEASONAL_PICKS: SeasonalPickItem[] = [
 
 export default function VegetablesListingPage() {
   const router = useRouter();
-  const [darkMode, setDarkMode] = useState(false);
+  const { darkMode, toggleDarkMode: handleToggleDarkMode } = useTheme();
   const [activeNav, setActiveNav] = useState('Foods');
   const [selectedSubCat, setSelectedSubCat] = useState('all');
   const [selectedBenefits, setSelectedBenefits] = useState<string[]>([]);
+  const [searchQuery, setSearchQuery] = useState('');
   const [sortBy, setSortBy] = useState('popular');
   const [viewMode, setViewMode] = useState<'grid' | 'list'>('grid');
-  const [visibleCount, setVisibleCount] = useState(8);
+  const [isLoading, setIsLoading] = useState(true);
 
-  useEffect(() => {
-    if (darkMode) {
-      document.documentElement.classList.add('dark');
-    } else {
-      document.documentElement.classList.remove('dark');
-    }
-  }, [darkMode]);
+  // Initial Flipkart / Amazon style skeleton ghost loading
+  React.useEffect(() => {
+    const timer = setTimeout(() => {
+      setIsLoading(false);
+    }, 280);
+    return () => clearTimeout(timer);
+  }, []);
 
-  const handleToggleDarkMode = () => {
-    setDarkMode((prev) => !prev);
+  const handleSelectSubCat = (catId: string) => {
+    if (catId === selectedSubCat) return;
+    setIsLoading(true);
+    setSelectedSubCat(catId);
+    setTimeout(() => {
+      setIsLoading(false);
+    }, 200);
   };
 
+  
+  
   const handleNavClick = (navItem: string) => {
     setActiveNav(navItem);
     if (navItem === 'Home') {
@@ -92,12 +106,35 @@ export default function VegetablesListingPage() {
   const handleClearAll = () => {
     setSelectedBenefits([]);
     setSelectedSubCat('all');
+    setSearchQuery('');
   };
 
-  // Filter items by sub-category filter & selected health benefits
+  const handleSearchChange = (query: string) => {
+    setSearchQuery(query);
+  };
+
+  // Filter items by sub-category filter, search query & selected health benefits
   const filteredItems = VEGETABLES_LIST.filter((item: any) => {
     if (selectedSubCat !== 'all' && item.category !== selectedSubCat) {
       return false;
+    }
+
+    if (searchQuery.trim() !== '') {
+      const q = searchQuery.toLowerCase().trim();
+      const nameMatch = (item.name || '').toLowerCase().includes(q);
+      const subMatch = (item.subtitle || '').toLowerCase().includes(q);
+      const catMatch = (item.category || '').toLowerCase().includes(q);
+      const botMatch = (item.botanicalName || '').toLowerCase().includes(q);
+      const nutrientMatch = (item.nutrients || []).some((n: any) =>
+        (n.label || '').toLowerCase().includes(q)
+      );
+      const benefitMatch = (item.benefits || []).some((b: any) =>
+        (b.name || b.id || '').toLowerCase().includes(q)
+      );
+
+      if (!nameMatch && !subMatch && !catMatch && !botMatch && !nutrientMatch && !benefitMatch) {
+        return false;
+      }
     }
 
     if (selectedBenefits.length > 0) {
@@ -137,6 +174,23 @@ export default function VegetablesListingPage() {
     return 0; // 'popular'
   });
 
+  // Infinite Scroll / Lazy Load on Scroll
+  const {
+    visibleCount,
+    resetCount,
+    sentinelRef,
+    isLoadingMore,
+    hasMore,
+  } = useInfiniteScroll(sortedAndFilteredItems.length, {
+    initialCount: 8,
+    batchSize: 8,
+    rootMargin: '300px',
+  });
+
+  useEffect(() => {
+    resetCount();
+  }, [selectedSubCat, selectedBenefits, searchQuery, sortBy, resetCount]);
+
   return (
     <div className="min-h-screen bg-slate-50/50 dark:bg-slate-950 text-slate-900 dark:text-slate-100 flex flex-col font-sans transition-colors duration-300">
       {/* Schema.org JSON-LD Structured Data */}
@@ -146,7 +200,7 @@ export default function VegetablesListingPage() {
           __html: JSON.stringify({
             '@context': 'https://schema.org',
             '@type': 'ItemList',
-            name: 'Healthy Foods - Vegetables Collection',
+            name: 'Healthy Foods - Vegetables & Greens',
             description: 'Fresh, nutrient-dense vegetables, greens, roots and pods supporting daily vitality.',
             numberOfItems: sortedAndFilteredItems.length,
             itemListElement: sortedAndFilteredItems.map((item, idx) => ({
@@ -169,115 +223,89 @@ export default function VegetablesListingPage() {
       />
 
       {/* Main Container */}
-      <main className="flex-1 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 space-y-6">
+      <main className="flex-1 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 space-y-6 w-full min-w-0 overflow-hidden">
         {/* Breadcrumb Navigation */}
         <Breadcrumb items={[{ label: 'Healthy Foods', path: '/healthy-foods' }, { label: 'Vegetables' }]} />
 
         {/* 1. Hero Banner */}
         <FoodListingBanner
-          categoryTitle="Vegetables Collection"
+          categoryTitle="Vegetables & Greens"
           categoryDescription="Fresh, crisp and bursting with vital nutrients! Packed with iron, calcium, antioxidants and gut-friendly fiber for sustained vitality."
-          itemCountText={`${VEGETABLES_LIST.length}+ Vegetables Available`}
+          itemCountText={`${VEGETABLES_LIST.length} Vegetables Available`}
         />
 
         {/* 2. Sub-Category Filter Bar */}
         <FoodSubCategoryBar
           selectedSubCat={selectedSubCat}
-          onSelectSubCat={setSelectedSubCat}
+          onSelectSubCat={handleSelectSubCat}
           guideTitle="Vegetable Cooking Guide"
           subCategories={VEGETABLE_SUB_CATEGORIES}
         />
 
         {/* 3. Main Grid + Sidebar Section */}
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start pt-2">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start pt-2 w-full min-w-0">
           {/* Product Grid Area (9 Columns) */}
-          <div className="lg:col-span-9 space-y-6">
-            {/* Grid Controls Header */}
-            <div className="flex flex-wrap items-center justify-between gap-4 bg-white dark:bg-slate-900 p-3.5 rounded-2xl border border-slate-100 dark:border-slate-800 shadow-xs">
-              <span className="text-xs sm:text-sm font-bold text-slate-600 dark:text-slate-300">
-                {i18n.listing.showingPrefix} 1-{Math.min(visibleCount, sortedAndFilteredItems.length)} {i18n.listing.of} {sortedAndFilteredItems.length} {i18n.listing.items}
-              </span>
+          <div className="lg:col-span-9 space-y-6 w-full min-w-0">
+            {/* Grid Controls Header with Live Search */}
+            <FoodListingControls
+              searchQuery={searchQuery}
+              onSearchChange={handleSearchChange}
+              placeholder="Search vegetables (e.g. spinach, broccoli, fiber)..."
+              totalItems={sortedAndFilteredItems.length}
+              visibleCount={visibleCount}
+              sortBy={sortBy}
+              onSortChange={setSortBy}
+              viewMode={viewMode}
+              onViewModeChange={setViewMode}
+            />
 
-              <div className="flex items-center gap-3">
-                {/* Sort Dropdown */}
-                <div className="flex items-center gap-2 text-xs font-bold text-slate-700 dark:text-slate-300 bg-slate-50 dark:bg-slate-800 px-3 py-1.5 rounded-xl border border-slate-200/80 dark:border-slate-700">
-                  <SlidersHorizontal className="w-3.5 h-3.5 text-slate-500" />
-                  <span>{i18n.listing.sortBy}</span>
-                  <select
-                    value={sortBy}
-                    onChange={(e) => setSortBy(e.target.value)}
-                    aria-label="Sort products"
-                    className="bg-transparent font-extrabold text-slate-900 dark:text-white cursor-pointer focus:outline-none"
-                  >
-                    <option value="popular">Popular</option>
-                    <option value="rating">Highest Rated</option>
-                    <option value="name">Name A-Z</option>
-                  </select>
-                  <ChevronDown className="w-3 h-3 text-slate-400" />
-                </div>
-
-                {/* View Switchers */}
-                <div className="flex items-center gap-1 bg-slate-50 dark:bg-slate-800 p-1 rounded-xl border border-slate-200/80 dark:border-slate-700">
-                  <button
-                    onClick={() => setViewMode('grid')}
-                    aria-label="Switch to Grid View"
-                    aria-pressed={viewMode === 'grid'}
-                    className={`p-1.5 rounded-lg transition-colors cursor-pointer ${
-                      viewMode === 'grid'
-                        ? 'bg-emerald-600 text-white shadow-xs'
-                        : 'text-slate-500 hover:text-slate-900 dark:hover:text-white'
-                    }`}
-                  >
-                    <LayoutGrid className="w-4 h-4" />
-                  </button>
-                  <button
-                    onClick={() => setViewMode('list')}
-                    aria-label="Switch to List View"
-                    aria-pressed={viewMode === 'list'}
-                    className={`p-1.5 rounded-lg transition-colors cursor-pointer ${
-                      viewMode === 'list'
-                        ? 'bg-emerald-600 text-white shadow-xs'
-                        : 'text-slate-500 hover:text-slate-900 dark:hover:text-white'
-                    }`}
-                  >
-                    <List className="w-4 h-4" />
-                  </button>
-                </div>
+            {/* Product Display Container, Skeleton Ghost Loading, or Empty State */}
+            {isLoading ? (
+              <div
+                className={
+                  viewMode === 'grid'
+                    ? 'grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 sm:gap-5'
+                    : 'flex flex-col gap-3.5'
+                }
+              >
+                {Array.from({ length: 8 }).map((_, idx) => (
+                  <FoodCardSkeleton key={idx} viewMode={viewMode} />
+                ))}
               </div>
-            </div>
-
-            {/* Product Display Container */}
-            <div
-              className={
-                viewMode === 'grid'
-                  ? 'grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 sm:gap-5'
-                  : 'flex flex-col gap-3.5'
-              }
-            >
-              {sortedAndFilteredItems.slice(0, visibleCount).map((item) => (
-                <FoodCard
-                  key={item.id}
-                  item={item}
-                  viewMode={viewMode}
-                  onSelectItem={(id) => {
-                    router.push(`/healthy-foods/${id}`);
-                  }}
-                />
-              ))}
-            </div>
-
-            {/* Load More Button */}
-            {visibleCount < sortedAndFilteredItems.length && (
-              <div className="flex justify-center pt-4">
-                <button
-                  onClick={() => setVisibleCount((prev) => prev + 4)}
-                  className="flex items-center gap-2 px-6 py-3 rounded-full text-xs sm:text-sm font-extrabold text-slate-800 dark:text-slate-200 bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 hover:border-emerald-500 transition-all shadow-xs cursor-pointer"
-                >
-                  <span>{i18n.listing.loadMore}</span>
-                  <ChevronDown className="w-4 h-4 text-emerald-600" />
-                </button>
+            ) : sortedAndFilteredItems.length === 0 ? (
+              <FoodEmptyState
+                searchQuery={searchQuery}
+                onReset={handleClearAll}
+              />
+            ) : (
+              <div
+                className={
+                  viewMode === 'grid'
+                    ? 'grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 sm:gap-5'
+                    : 'flex flex-col gap-3.5'
+                }
+              >
+                {sortedAndFilteredItems.slice(0, visibleCount).map((item) => (
+                  <FoodCard
+                    key={item.id}
+                    item={item}
+                    viewMode={viewMode}
+                    onSelectItem={(id) => {
+                      router.push(`/healthy-foods/vegetables/${id}`);
+                    }}
+                  />
+                ))}
               </div>
             )}
+
+            {/* Infinite Scroll / Lazy Load on Scroll Sentinel */}
+            <InfiniteScrollSentinel
+              sentinelRef={sentinelRef}
+              hasMore={hasMore}
+              totalItems={sortedAndFilteredItems.length}
+              viewMode={viewMode}
+              itemTypeLabel="vegetables"
+            />
 
             {/* Bottom Tip Banner */}
             <div className="bg-emerald-50/70 dark:bg-emerald-950/40 rounded-2xl p-4 border border-emerald-200/60 dark:border-emerald-800/60 flex items-center justify-center gap-2.5 text-center text-xs sm:text-sm font-semibold text-slate-700 dark:text-slate-300">
@@ -290,6 +318,7 @@ export default function VegetablesListingPage() {
           <div className="lg:col-span-3">
             <FoodFilterSidebar
               filterTitle="Filter Vegetables"
+              category="vegetables"
               selectedBenefits={selectedBenefits}
               onToggleBenefit={handleToggleBenefit}
               onClearAll={handleClearAll}

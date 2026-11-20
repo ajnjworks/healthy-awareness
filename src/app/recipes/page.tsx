@@ -1,5 +1,7 @@
 'use client';
 
+import { useTheme } from '@/utils/useTheme';
+
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
@@ -7,6 +9,8 @@ import { Navbar } from '../../components/layout/Navbar';
 import { Footer } from '../../components/layout/Footer';
 import { Breadcrumb } from '../../components/common/Breadcrumb';
 import { HeroBanner } from '../../components/common/HeroBanner';
+import { InfiniteScrollSentinel } from '../../components/foods/InfiniteScrollSentinel';
+import { useInfiniteScroll } from '../../utils/useInfiniteScroll';
 import {
   Search,
   Clock,
@@ -45,12 +49,11 @@ interface Recipe {
 
 export default function RecipesPage() {
   const router = useRouter();
-  const [darkMode, setDarkMode] = useState(false);
+  const { darkMode, toggleDarkMode: handleToggleDarkMode } = useTheme();
   const [activeNav, setActiveNav] = useState('Healthy Recipes');
   const [activeCategory, setActiveCategory] = useState('All Recipes');
   const [sortOrder, setSortOrder] = useState('Newest First');
   const [favorites, setFavorites] = useState<string[]>([]);
-  const [visibleCount, setVisibleCount] = useState(9);
 
   // Sidebar Filters State
   const [filterMeal, setFilterMeal] = useState('All');
@@ -63,14 +66,7 @@ export default function RecipesPage() {
   const [newsletterEmail, setNewsletterEmail] = useState('');
   const [newsletterSuccess, setNewsletterSuccess] = useState(false);
 
-  useEffect(() => {
-    if (darkMode) {
-      document.documentElement.classList.add('dark');
-    } else {
-      document.documentElement.classList.remove('dark');
-    }
-  }, [darkMode]);
-
+  
   const toggleFavorite = (id: string, e: React.MouseEvent) => {
     e.stopPropagation();
     setFavorites((prev) =>
@@ -117,6 +113,23 @@ export default function RecipesPage() {
     return true;
   });
 
+  // Infinite Scroll / Lazy Load on Scroll
+  const {
+    visibleCount,
+    resetCount,
+    sentinelRef,
+    isLoadingMore,
+    hasMore,
+  } = useInfiniteScroll(filteredRecipes.length, {
+    initialCount: 9,
+    batchSize: 6,
+    rootMargin: '300px',
+  });
+
+  useEffect(() => {
+    resetCount();
+  }, [activeCategory, filterMeal, sortOrder, resetCount]);
+
   // Top 5 Popular List
   const popularTop5 = recipesRaw.slice(0, 5);
 
@@ -124,12 +137,12 @@ export default function RecipesPage() {
     <div className="min-h-screen bg-slate-50/50 dark:bg-slate-950 text-slate-900 dark:text-slate-100 transition-colors">
       <Navbar
         darkMode={darkMode}
-        onToggleDarkMode={() => setDarkMode(!darkMode)}
+        onToggleDarkMode={handleToggleDarkMode}
         activeNav={activeNav}
         onNavClick={(item) => setActiveNav(item)}
       />
 
-      <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 space-y-6">
+      <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 space-y-6 w-full min-w-0 overflow-hidden">
         {/* Breadcrumb */}
         <Breadcrumb items={[{ label: 'Healthy Recipes' }]} />
 
@@ -302,18 +315,14 @@ export default function RecipesPage() {
               })}
             </div>
 
-            {/* Load More Button */}
-            {visibleCount < filteredRecipes.length && (
-              <div className="pt-4 text-center">
-                <button
-                  onClick={() => setVisibleCount((prev) => prev + 3)}
-                  className="px-6 py-2.5 rounded-full bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 text-slate-800 dark:text-slate-200 text-xs font-extrabold flex items-center justify-center gap-1.5 mx-auto hover:bg-slate-50 dark:hover:bg-slate-800 shadow-xs transition-colors cursor-pointer"
-                >
-                  <span>Load More Recipes</span>
-                  <ChevronDown className="w-4 h-4" />
-                </button>
-              </div>
-            )}
+            {/* Infinite Scroll / Lazy Load Sentinel */}
+            <InfiniteScrollSentinel
+              sentinelRef={sentinelRef}
+              hasMore={hasMore}
+              totalItems={filteredRecipes.length}
+              variant="recipe"
+              itemTypeLabel="recipes"
+            />
           </div>
 
           {/* RIGHT 4 COLS: Sidebars */}

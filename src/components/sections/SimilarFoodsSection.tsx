@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 import { Star, ChevronRight, ChevronLeft } from 'lucide-react';
 
 interface SimilarFood {
@@ -25,12 +26,12 @@ export const SimilarFoodsSection: React.FC<SimilarFoodsSectionProps> = ({
           Similar Foods You May Like
         </h3>
         <div className="flex items-center gap-2">
-          <button
-            onClick={() => alert('Viewing all similar foods')}
+          <Link
+            href="/healthy-foods"
             className="text-xs font-semibold text-emerald-600 dark:text-emerald-400 hover:underline flex items-center gap-0.5 cursor-pointer mr-1"
           >
             View all
-          </button>
+          </Link>
         </div>
       </div>
 

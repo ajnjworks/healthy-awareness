@@ -1,7 +1,26 @@
 'use client';
 
 import React, { useState } from 'react';
-import { Filter, ChevronDown, ChevronUp, RotateCcw, Lightbulb, Heart, Shield, Sparkles, Scale, Activity } from 'lucide-react';
+import {
+  Filter,
+  ChevronDown,
+  RotateCcw,
+  Heart,
+  Shield,
+  Sparkles,
+  Scale,
+  Activity,
+  Sun,
+  Droplets,
+  Zap,
+  Wheat,
+  Flame,
+  Calendar,
+  CloudRain,
+  Snowflake,
+  Lightbulb,
+} from 'lucide-react';
+import { DidYouKnowCard } from './DidYouKnowCard';
 
 export interface SeasonalPickItem {
   id: string;
@@ -17,7 +36,14 @@ interface FoodFilterSidebarProps {
   onToggleBenefit: (benefitId: string) => void;
   onClearAll: () => void;
   filterTitle?: string;
+  category?: string;
   seasonalPicks?: SeasonalPickItem[];
+  selectedNutrients?: string[];
+  onToggleNutrient?: (nutrientId: string) => void;
+  selectedCalories?: string[];
+  onToggleCalorie?: (calorieId: string) => void;
+  selectedSeasons?: string[];
+  onToggleSeason?: (seasonId: string) => void;
 }
 
 const DEFAULT_SEASONAL_PICKS: SeasonalPickItem[] = [
@@ -60,15 +86,60 @@ export const FoodFilterSidebar: React.FC<FoodFilterSidebarProps> = ({
   onToggleBenefit,
   onClearAll,
   filterTitle = 'Filter Foods',
+  category,
   seasonalPicks = DEFAULT_SEASONAL_PICKS,
+  selectedNutrients,
+  onToggleNutrient,
+  selectedCalories,
+  onToggleCalorie,
+  selectedSeasons,
+  onToggleSeason,
 }) => {
   const [expandedSections, setExpandedSections] = useState<{ [key: string]: boolean }>({
     benefits: true,
-    nutrients: false,
+    nutrients: true,
     calories: false,
     season: false,
-    availability: false,
   });
+
+  const [localNutrients, setLocalNutrients] = useState<string[]>([]);
+  const [localCalories, setLocalCalories] = useState<string[]>([]);
+  const [localSeasons, setLocalSeasons] = useState<string[]>([]);
+
+  const activeNutrients = selectedNutrients ?? localNutrients;
+  const activeCalories = selectedCalories ?? localCalories;
+  const activeSeasons = selectedSeasons ?? localSeasons;
+
+  const handleToggleNutrient = (id: string) => {
+    if (onToggleNutrient) {
+      onToggleNutrient(id);
+    } else {
+      setLocalNutrients((prev) => (prev.includes(id) ? prev.filter((x) => x !== id) : [...prev, id]));
+    }
+  };
+
+  const handleToggleCalorie = (id: string) => {
+    if (onToggleCalorie) {
+      onToggleCalorie(id);
+    } else {
+      setLocalCalories((prev) => (prev.includes(id) ? prev.filter((x) => x !== id) : [...prev, id]));
+    }
+  };
+
+  const handleToggleSeason = (id: string) => {
+    if (onToggleSeason) {
+      onToggleSeason(id);
+    } else {
+      setLocalSeasons((prev) => (prev.includes(id) ? prev.filter((x) => x !== id) : [...prev, id]));
+    }
+  };
+
+  const handleClearAll = () => {
+    setLocalNutrients([]);
+    setLocalCalories([]);
+    setLocalSeasons([]);
+    onClearAll();
+  };
 
   const toggleSection = (section: string) => {
     setExpandedSections((prev) => ({ ...prev, [section]: !prev[section] }));
@@ -82,15 +153,36 @@ export const FoodFilterSidebar: React.FC<FoodFilterSidebarProps> = ({
     { id: 'weight', label: 'Weight Management', icon: <Scale className="w-3.5 h-3.5 text-sky-500" /> },
   ];
 
+  const nutrientsList = [
+    { id: 'vit-c', label: 'Vitamin C Rich', icon: <Sun className="w-3.5 h-3.5 text-amber-500 fill-amber-400" /> },
+    { id: 'fiber', label: 'High Dietary Fiber', icon: <Wheat className="w-3.5 h-3.5 text-emerald-500" /> },
+    { id: 'potassium', label: 'Potassium Rich', icon: <Zap className="w-3.5 h-3.5 text-sky-500" /> },
+    { id: 'antioxidants', label: 'Antioxidants & Polyphenols', icon: <Sparkles className="w-3.5 h-3.5 text-purple-500 fill-purple-400" /> },
+    { id: 'hydration', label: 'High Water & Hydration', icon: <Droplets className="w-3.5 h-3.5 text-cyan-500 fill-cyan-400" /> },
+  ];
+
+  const caloriesList = [
+    { id: 'low', label: 'Low Calorie (< 50 kcal)', icon: <Flame className="w-3.5 h-3.5 text-emerald-500" /> },
+    { id: 'medium', label: 'Moderate (50 – 80 kcal)', icon: <Flame className="w-3.5 h-3.5 text-amber-500" /> },
+    { id: 'high', label: 'Energy Dense (> 80 kcal)', icon: <Flame className="w-3.5 h-3.5 text-rose-500" /> },
+  ];
+
+  const seasonsList = [
+    { id: 'summer', label: 'Summer Season', icon: <Sun className="w-3.5 h-3.5 text-amber-500" /> },
+    { id: 'winter', label: 'Winter Season', icon: <Snowflake className="w-3.5 h-3.5 text-sky-400" /> },
+    { id: 'monsoon', label: 'Monsoon / Rainy', icon: <CloudRain className="w-3.5 h-3.5 text-indigo-400" /> },
+    { id: 'all-year', label: 'Available All Year', icon: <Calendar className="w-3.5 h-3.5 text-emerald-500" /> },
+  ];
+
   // 2. Seasonal Picks Carousel Slider State & Data
   const [activeSlide, setActiveSlide] = useState(0);
 
   const currentPick = seasonalPicks[activeSlide];
 
   return (
-    <aside className="space-y-6">
+    <aside className="space-y-6 w-full max-w-full min-w-0">
       {/* 1. Main Filter Card */}
-      <div className="bg-white dark:bg-slate-900 rounded-3xl p-5 border border-slate-100 dark:border-slate-800 shadow-xs space-y-4">
+      <div className="bg-white dark:bg-slate-900 rounded-3xl p-5 border border-slate-100 dark:border-slate-800 shadow-xs space-y-4 w-full max-w-full overflow-hidden">
         {/* Filter Title */}
         <div className="flex items-center gap-2 pb-3 border-b border-slate-100 dark:border-slate-800">
           <Filter className="w-4 h-4 text-emerald-600 dark:text-emerald-400" />
@@ -103,67 +195,194 @@ export const FoodFilterSidebar: React.FC<FoodFilterSidebarProps> = ({
         <div className="border-b border-slate-100 dark:border-slate-800 pb-3">
           <button
             onClick={() => toggleSection('benefits')}
-            className="w-full flex items-center justify-between py-1 text-xs font-extrabold text-slate-900 dark:text-white cursor-pointer"
+            className="w-full flex items-center justify-between py-1 text-xs font-extrabold text-slate-900 dark:text-white cursor-pointer select-none"
           >
             <span>Health Benefit</span>
-            {expandedSections.benefits ? (
-              <ChevronUp className="w-4 h-4 text-slate-400" />
-            ) : (
-              <ChevronDown className="w-4 h-4 text-slate-400" />
-            )}
+            <ChevronDown
+              className={`w-4 h-4 text-slate-400 transition-transform duration-300 ease-in-out ${
+                expandedSections.benefits ? 'rotate-180 text-emerald-600' : ''
+              }`}
+            />
           </button>
 
-          {expandedSections.benefits && (
-            <div className="mt-3 space-y-2.5">
-              {healthBenefitsList.map((item) => {
-                const isChecked = selectedBenefits.includes(item.id);
-                return (
-                  <label
-                    key={item.id}
-                    className="flex items-center gap-2.5 text-xs font-semibold text-slate-700 dark:text-slate-300 hover:text-slate-900 dark:hover:text-white cursor-pointer select-none"
-                  >
-                    <input
-                      type="checkbox"
-                      checked={isChecked}
-                      onChange={() => onToggleBenefit(item.id)}
-                      className="w-4 h-4 rounded border-slate-300 text-emerald-600 focus:ring-emerald-500 cursor-pointer"
-                    />
-                    <div className="flex items-center gap-1.5">
-                      {item.icon}
-                      <span>{item.label}</span>
-                    </div>
-                  </label>
-                );
-              })}
+          <div className={`accordion-collapse ${expandedSections.benefits ? 'expanded' : ''}`}>
+            <div>
+              <div className="mt-3 space-y-2.5 pt-1">
+                {healthBenefitsList.map((item) => {
+                  const isChecked = selectedBenefits.includes(item.id);
+                  return (
+                    <label
+                      key={item.id}
+                      className="flex items-center gap-2.5 text-xs font-semibold text-slate-700 dark:text-slate-300 hover:text-slate-900 dark:hover:text-white cursor-pointer select-none"
+                    >
+                      <input
+                        type="checkbox"
+                        checked={isChecked}
+                        onChange={() => onToggleBenefit(item.id)}
+                        className="w-4 h-4 rounded border-slate-300 text-emerald-600 focus:ring-emerald-500 cursor-pointer"
+                      />
+                      <div className="flex items-center gap-1.5">
+                        {item.icon}
+                        <span>{item.label}</span>
+                      </div>
+                    </label>
+                  );
+                })}
+              </div>
             </div>
-          )}
+          </div>
         </div>
 
-        {/* Collapsed Accordions */}
-        {['nutrients', 'calories', 'season', 'availability'].map((sectionKey) => (
-          <div key={sectionKey} className="border-b border-slate-100 dark:border-slate-800 pb-3">
-            <button
-              onClick={() => toggleSection(sectionKey)}
-              className="w-full flex items-center justify-between py-1 text-xs font-extrabold text-slate-900 dark:text-white capitalize cursor-pointer"
-            >
-              <span>{sectionKey}</span>
-              {expandedSections[sectionKey] ? (
-                <ChevronUp className="w-4 h-4 text-slate-400" />
-              ) : (
-                <ChevronDown className="w-4 h-4 text-slate-400" />
+        {/* Accordion 2: Nutrients */}
+        <div className="border-b border-slate-100 dark:border-slate-800 pb-3">
+          <button
+            onClick={() => toggleSection('nutrients')}
+            className="w-full flex items-center justify-between py-1 text-xs font-extrabold text-slate-900 dark:text-white cursor-pointer select-none"
+          >
+            <div className="flex items-center gap-1.5">
+              <span>Nutrients</span>
+              {activeNutrients.length > 0 && (
+                <span className="w-4 h-4 rounded-full bg-emerald-600 text-white text-[10px] flex items-center justify-center font-bold">
+                  {activeNutrients.length}
+                </span>
               )}
-            </button>
-            {expandedSections[sectionKey] && (
-              <div className="mt-2 text-xs text-slate-400 italic">
-                Filter by {sectionKey} options available.
+            </div>
+            <ChevronDown
+              className={`w-4 h-4 text-slate-400 transition-transform duration-300 ease-in-out ${
+                expandedSections.nutrients ? 'rotate-180 text-emerald-600' : ''
+              }`}
+            />
+          </button>
+
+          <div className={`accordion-collapse ${expandedSections.nutrients ? 'expanded' : ''}`}>
+            <div>
+              <div className="mt-3 space-y-2.5 pt-1">
+                {nutrientsList.map((item) => {
+                  const isChecked = activeNutrients.includes(item.id);
+                  return (
+                    <label
+                      key={item.id}
+                      className="flex items-center gap-2.5 text-xs font-semibold text-slate-700 dark:text-slate-300 hover:text-slate-900 dark:hover:text-white cursor-pointer select-none"
+                    >
+                      <input
+                        type="checkbox"
+                        checked={isChecked}
+                        onChange={() => handleToggleNutrient(item.id)}
+                        className="w-4 h-4 rounded border-slate-300 text-emerald-600 focus:ring-emerald-500 cursor-pointer"
+                      />
+                      <div className="flex items-center gap-1.5">
+                        {item.icon}
+                        <span>{item.label}</span>
+                      </div>
+                    </label>
+                  );
+                })}
               </div>
-            )}
+            </div>
           </div>
-        ))}
+        </div>
+
+        {/* Accordion 3: Calories */}
+        <div className="border-b border-slate-100 dark:border-slate-800 pb-3">
+          <button
+            onClick={() => toggleSection('calories')}
+            className="w-full flex items-center justify-between py-1 text-xs font-extrabold text-slate-900 dark:text-white cursor-pointer select-none"
+          >
+            <div className="flex items-center gap-1.5">
+              <span>Calories</span>
+              {activeCalories.length > 0 && (
+                <span className="w-4 h-4 rounded-full bg-emerald-600 text-white text-[10px] flex items-center justify-center font-bold">
+                  {activeCalories.length}
+                </span>
+              )}
+            </div>
+            <ChevronDown
+              className={`w-4 h-4 text-slate-400 transition-transform duration-300 ease-in-out ${
+                expandedSections.calories ? 'rotate-180 text-emerald-600' : ''
+              }`}
+            />
+          </button>
+
+          <div className={`accordion-collapse ${expandedSections.calories ? 'expanded' : ''}`}>
+            <div>
+              <div className="mt-3 space-y-2.5 pt-1">
+                {caloriesList.map((item) => {
+                  const isChecked = activeCalories.includes(item.id);
+                  return (
+                    <label
+                      key={item.id}
+                      className="flex items-center gap-2.5 text-xs font-semibold text-slate-700 dark:text-slate-300 hover:text-slate-900 dark:hover:text-white cursor-pointer select-none"
+                    >
+                      <input
+                        type="checkbox"
+                        checked={isChecked}
+                        onChange={() => handleToggleCalorie(item.id)}
+                        className="w-4 h-4 rounded border-slate-300 text-emerald-600 focus:ring-emerald-500 cursor-pointer"
+                      />
+                      <div className="flex items-center gap-1.5">
+                        {item.icon}
+                        <span>{item.label}</span>
+                      </div>
+                    </label>
+                  );
+                })}
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* Accordion 4: Season */}
+        <div className="border-b border-slate-100 dark:border-slate-800 pb-3">
+          <button
+            onClick={() => toggleSection('season')}
+            className="w-full flex items-center justify-between py-1 text-xs font-extrabold text-slate-900 dark:text-white cursor-pointer select-none"
+          >
+            <div className="flex items-center gap-1.5">
+              <span>Season</span>
+              {activeSeasons.length > 0 && (
+                <span className="w-4 h-4 rounded-full bg-emerald-600 text-white text-[10px] flex items-center justify-center font-bold">
+                  {activeSeasons.length}
+                </span>
+              )}
+            </div>
+            <ChevronDown
+              className={`w-4 h-4 text-slate-400 transition-transform duration-300 ease-in-out ${
+                expandedSections.season ? 'rotate-180 text-emerald-600' : ''
+              }`}
+            />
+          </button>
+
+          <div className={`accordion-collapse ${expandedSections.season ? 'expanded' : ''}`}>
+            <div>
+              <div className="mt-3 space-y-2.5 pt-1">
+                {seasonsList.map((item) => {
+                  const isChecked = activeSeasons.includes(item.id);
+                  return (
+                    <label
+                      key={item.id}
+                      className="flex items-center gap-2.5 text-xs font-semibold text-slate-700 dark:text-slate-300 hover:text-slate-900 dark:hover:text-white cursor-pointer select-none"
+                    >
+                      <input
+                        type="checkbox"
+                        checked={isChecked}
+                        onChange={() => handleToggleSeason(item.id)}
+                        className="w-4 h-4 rounded border-slate-300 text-emerald-600 focus:ring-emerald-500 cursor-pointer"
+                      />
+                      <div className="flex items-center gap-1.5">
+                        {item.icon}
+                        <span>{item.label}</span>
+                      </div>
+                    </label>
+                  );
+                })}
+              </div>
+            </div>
+          </div>
+        </div>
 
         {/* Clear All Link */}
         <button
-          onClick={onClearAll}
+          onClick={handleClearAll}
           className="flex items-center gap-1.5 text-xs font-semibold text-slate-500 hover:text-emerald-600 transition-colors cursor-pointer pt-1"
         >
           <RotateCcw className="w-3.5 h-3.5" />
@@ -186,8 +405,8 @@ export const FoodFilterSidebar: React.FC<FoodFilterSidebarProps> = ({
         </div>
 
         {/* Active Slide Display */}
-        <div className="flex items-center gap-3 transition-all duration-500">
-          <div className="w-20 h-20 rounded-2xl overflow-hidden shrink-0 border-2 border-amber-200 dark:border-amber-800 shadow-xs bg-white dark:bg-slate-800">
+        <div className="flex items-center gap-3 transition-all duration-500 w-full min-w-0">
+          <div className="w-16 h-16 sm:w-20 sm:h-20 rounded-2xl overflow-hidden shrink-0 border-2 border-amber-200 dark:border-amber-800 shadow-xs bg-white dark:bg-slate-800">
             <img
               src={currentPick.image}
               alt={currentPick.name}
@@ -227,29 +446,8 @@ export const FoodFilterSidebar: React.FC<FoodFilterSidebarProps> = ({
         </div>
       </div>
 
-      {/* 3. Did You Know? Callout Card */}
-      <div className="bg-emerald-50/80 dark:bg-emerald-950/40 rounded-3xl p-5 border border-emerald-200/80 dark:border-emerald-800/60 space-y-3 shadow-xs">
-        <div className="flex items-center gap-2">
-          <div className="p-1.5 rounded-xl bg-amber-100 text-amber-600">
-            <Lightbulb className="w-4 h-4 fill-amber-400" />
-          </div>
-          <h4 className="text-xs font-extrabold text-slate-900 dark:text-white">
-            Did You Know?
-          </h4>
-        </div>
-
-        <p className="text-xs text-slate-600 dark:text-slate-300 font-medium leading-relaxed">
-          Berries are among the most nutrient-dense fruits on the planet. They are loaded with antioxidants that protect your cells.
-        </p>
-
-        <div className="h-28 w-full rounded-2xl overflow-hidden border border-emerald-200/60 dark:border-emerald-800/60 shadow-xs">
-          <img
-            src="https://images.unsplash.com/photo-1498557850523-fd3d118b962e?auto=format&fit=crop&w=400&q=80"
-            alt="Berries"
-            className="w-full h-full object-cover"
-          />
-        </div>
-      </div>
+      {/* 3. Category-Specific Dynamic "Did You Know?" Card */}
+      <DidYouKnowCard category={category || filterTitle} />
     </aside>
   );
 };

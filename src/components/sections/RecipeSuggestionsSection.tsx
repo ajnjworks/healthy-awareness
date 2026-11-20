@@ -1,6 +1,7 @@
 'use client';
 
 import React from 'react';
+import Link from 'next/link';
 import { Clock, Flame, ChefHat, ArrowUpRight } from 'lucide-react';
 
 import recipesRaw from '../../data/recipesData.json';
@@ -46,12 +47,12 @@ export const RecipeSuggestionsSection: React.FC<RecipeSuggestionsSectionProps> =
             </p>
           </div>
         </div>
-        <button
-          onClick={() => alert('Viewing full healthy recipe catalog')}
+        <Link
+          href="/recipes"
           className="text-xs font-semibold text-emerald-600 dark:text-emerald-400 hover:underline flex items-center gap-0.5 cursor-pointer"
         >
           Explore All Recipes <ArrowUpRight className="w-3.5 h-3.5" />
-        </button>
+        </Link>
       </div>
 
       {/* 3 Recipe Cards Grid */}

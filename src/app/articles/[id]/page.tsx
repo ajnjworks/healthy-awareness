@@ -1,15 +1,15 @@
 import ArticleDetailClient from './ArticleDetailClient';
 import articlesRaw from '../../../data/articlesData.json';
+import { GUIDE_ARTICLES } from '../../../data/articleGuidesData';
 
 export function generateStaticParams() {
-  // Generate a static page for each article in the article list
   const articleList = (articlesRaw.articleList || []) as Array<{ id?: string; slug?: string }>;
-  const ids = articleList
-    .map((a) => a.id || a.slug)
+  const idsFromList = articleList
+    .map((a) => a.slug || a.id)
     .filter(Boolean) as string[];
 
-  // Always include the default detail article id
-  const allIds = Array.from(new Set(['superfoods-for-immune-system', ...ids]));
+  const guideIds = Object.keys(GUIDE_ARTICLES);
+  const allIds = Array.from(new Set(['superfoods-for-immune-system', 'how-to-eat-fruits', ...idsFromList, ...guideIds]));
   return allIds.map((id) => ({ id }));
 }
 

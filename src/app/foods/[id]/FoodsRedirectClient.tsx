@@ -2,6 +2,7 @@
 
 import { useEffect } from 'react';
 import { useParams, useRouter } from 'next/navigation';
+import { getFoodUrl } from '@/utils/foodUrl';
 
 export default function FoodsRedirectClient() {
   const params = useParams();
@@ -10,7 +11,7 @@ export default function FoodsRedirectClient() {
   useEffect(() => {
     const id = params?.id as string;
     if (id) {
-      router.replace(`/healthy-foods/${id}`);
+      router.replace(getFoodUrl(id));
     }
   }, [params?.id, router]);
 

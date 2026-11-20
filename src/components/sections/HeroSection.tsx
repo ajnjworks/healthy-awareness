@@ -67,8 +67,8 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onSearch, activeQuery 
           </div>
 
           {/* Right Visual Image & Controls */}
-          <div className="lg:col-span-6 relative">
-            <div className="relative aspect-4/3 sm:aspect-16/10 rounded-3xl overflow-hidden shadow-2xl border-4 border-white dark:border-slate-800 transform lg:rotate-1 hover:rotate-0 transition-transform duration-500">
+          <div className="lg:col-span-6 relative w-full max-w-full">
+            <div className="relative aspect-4/3 sm:aspect-16/10 w-full rounded-3xl overflow-hidden shadow-2xl border-4 border-white dark:border-slate-800 transform lg:rotate-1 hover:rotate-0 transition-transform duration-500">
               <img
                 src={slide.image}
                 alt={slide.alt}
@@ -81,7 +81,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onSearch, activeQuery 
             <button
               onClick={handlePrev}
               aria-label="Previous slide"
-              className="absolute -left-3 sm:-left-5 top-1/2 -translate-y-1/2 w-10 h-10 sm:w-12 sm:h-12 rounded-full bg-white dark:bg-slate-800 text-slate-800 dark:text-slate-100 shadow-xl border border-slate-100 dark:border-slate-700 flex items-center justify-center hover:bg-emerald-50 dark:hover:bg-slate-700 transition-all cursor-pointer z-20"
+              className="absolute left-2 sm:-left-5 top-1/2 -translate-y-1/2 w-9 h-9 sm:w-12 sm:h-12 rounded-full bg-white dark:bg-slate-800 text-slate-800 dark:text-slate-100 shadow-xl border border-slate-100 dark:border-slate-700 flex items-center justify-center hover:bg-emerald-50 dark:hover:bg-slate-700 transition-all cursor-pointer z-20"
             >
               <ChevronLeft className="w-5 h-5 sm:w-6 sm:h-6" />
             </button>
@@ -89,7 +89,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onSearch, activeQuery 
             <button
               onClick={handleNext}
               aria-label="Next slide"
-              className="absolute -right-3 sm:-right-5 top-1/2 -translate-y-1/2 w-10 h-10 sm:w-12 sm:h-12 rounded-full bg-white dark:bg-slate-800 text-slate-800 dark:text-slate-100 shadow-xl border border-slate-100 dark:border-slate-700 flex items-center justify-center hover:bg-emerald-50 dark:hover:bg-slate-700 transition-all cursor-pointer z-20"
+              className="absolute right-2 sm:-right-5 top-1/2 -translate-y-1/2 w-9 h-9 sm:w-12 sm:h-12 rounded-full bg-white dark:bg-slate-800 text-slate-800 dark:text-slate-100 shadow-xl border border-slate-100 dark:border-slate-700 flex items-center justify-center hover:bg-emerald-50 dark:hover:bg-slate-700 transition-all cursor-pointer z-20"
             >
               <ChevronRight className="w-5 h-5 sm:w-6 sm:h-6" />
             </button>

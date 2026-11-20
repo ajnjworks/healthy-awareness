@@ -3,6 +3,7 @@
 import React, { useRef } from 'react';
 import { ChevronLeft, ChevronRight, Star } from 'lucide-react';
 import { useRouter } from 'next/navigation';
+import { getFoodUrl } from '../../utils/foodUrl';
 
 interface SimilarFoodItem {
   id: string;
@@ -102,7 +103,7 @@ export const SimilarFoodsCarousel: React.FC<SimilarFoodsCarouselProps> = ({
         {similarFoods.map((item) => (
           <div
             key={item.id}
-            onClick={() => router.push(`/healthy-foods/${item.id}`)}
+            onClick={() => router.push(getFoodUrl(item.id))}
             className="group bg-white dark:bg-slate-900 rounded-3xl p-3 sm:p-3.5 border border-slate-100 dark:border-slate-800 shadow-xs hover:shadow-lg hover:-translate-y-1 transition-all duration-300 w-full cursor-pointer text-center space-y-2"
           >
             <div className="relative w-full aspect-square rounded-2xl overflow-hidden bg-slate-50 dark:bg-slate-800">

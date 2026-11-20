@@ -1,5 +1,7 @@
 'use client';
 
+import { useTheme } from '@/utils/useTheme';
+
 import React, { useState, useEffect } from 'react';
 import { useRouter } from 'next/navigation';
 import { Navbar } from '../../components/layout/Navbar';
@@ -27,23 +29,13 @@ import {
 
 export default function SitemapPage() {
   const router = useRouter();
-  const [darkMode, setDarkMode] = useState(false);
+  const { darkMode, toggleDarkMode: handleToggleDarkMode } = useTheme();
   const [activeNav, setActiveNav] = useState('Sitemap');
   const [email, setEmail] = useState('');
   const [subscribed, setSubscribed] = useState(false);
 
-  useEffect(() => {
-    if (darkMode) {
-      document.documentElement.classList.add('dark');
-    } else {
-      document.documentElement.classList.remove('dark');
-    }
-  }, [darkMode]);
-
-  const handleToggleDarkMode = () => {
-    setDarkMode((prev) => !prev);
-  };
-
+  
+  
   const handleNavClick = (navItem: string) => {
     setActiveNav(navItem);
     if (navItem === 'Home') {
@@ -70,8 +62,8 @@ export default function SitemapPage() {
       icon: <Sprout className="w-4 h-4 text-emerald-600 dark:text-emerald-400" />,
       items: [
         { label: 'All Categories', path: '/healthy-foods' },
-        { label: 'Fruits Collection', path: '/healthy-foods/fruits' },
-        { label: 'Vegetables Collection', path: '/healthy-foods/vegetables' },
+        { label: 'Fruits', path: '/healthy-foods/fruits' },
+        { label: 'Vegetables', path: '/healthy-foods/vegetables' },
         { label: 'Ancient Millets', path: '/healthy-foods/millets' },
         { label: 'Pulses, Dals & Legumes', path: '/healthy-foods/pulses' },
         { label: 'Breakfast Foods', path: '/healthy-foods/breakfast' },
@@ -88,12 +80,12 @@ export default function SitemapPage() {
         { label: 'Dry Fruits, Nuts & Seeds', path: '/healthy-foods/nuts-seeds' },
         { label: 'Fishes & Seafood', path: '/healthy-foods/fishes' },
         { label: 'Meats & Poultry', path: '/healthy-foods/meats' },
-        { label: 'Eggs Collection', path: '/healthy-foods/eggs' },
-        { label: 'Spinach Details', path: '/healthy-foods/spinach' },
-        { label: 'Salmon Details', path: '/healthy-foods/salmon' },
-        { label: 'Chicken Breast Details', path: '/healthy-foods/chicken-breast' },
-        { label: 'Apple Details', path: '/healthy-foods/apple' },
-        { label: 'Almonds Details', path: '/healthy-foods/almonds' },
+        { label: 'Eggs', path: '/healthy-foods/eggs' },
+        { label: 'Spinach Details', path: '/healthy-foods/vegetables/spinach' },
+        { label: 'Salmon Details', path: '/healthy-foods/fishes/salmon' },
+        { label: 'Chicken Breast Details', path: '/healthy-foods/meats/chicken-breast' },
+        { label: 'Apple Details', path: '/healthy-foods/fruits/apple' },
+        { label: 'Almonds Details', path: '/healthy-foods/nuts-seeds/almonds' },
         { label: 'Compare Foods', path: '/compare-foods' },
         { label: 'Seasonal Foods', path: '/seasonal-foods' },
       ],

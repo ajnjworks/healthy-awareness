@@ -33,7 +33,7 @@
     {
       "id": "pome",
       "name": "Pome",
-      "image": "https://images.unsplash.com/photo-1560806887-1e4cd0b6cbd6?auto=format&fit=crop&w=300&q=80"
+      "image": "/fruits/images/apple.webp"
     }
   ],
   "fruitsList": [
@@ -55,7 +55,7 @@
           "icon": "Droplets"
         }
       ],
-      "image": "https://images.unsplash.com/photo-1560806887-1e4cd0b6cbd6?auto=format&fit=crop&w=500&q=80",
+      "image": "/fruits/images/apple.webp",
       "benefits": [
         {
           "id": "digestion",
@@ -96,7 +96,7 @@
           "icon": "Droplets"
         }
       ],
-      "image": "https://images.unsplash.com/photo-1571771894821-ce9b6c11b08e?auto=format&fit=crop&w=500&q=80",
+      "image": "/fruits/images/banana.webp",
       "benefits": [
         {
           "id": "digestion",
@@ -141,7 +141,7 @@
           "icon": "Droplets"
         }
       ],
-      "image": "https://images.unsplash.com/photo-1553279768-865429fa0078?auto=format&fit=crop&w=500&q=80",
+      "image": "/fruits/images/mango.webp",
       "benefits": [
         {
           "id": "immunity",
@@ -194,7 +194,7 @@
           "icon": "Droplets"
         }
       ],
-      "image": "https://images.unsplash.com/photo-1611080626919-7cf5a9dbab5b?auto=format&fit=crop&w=500&q=80",
+      "image": "/fruits/images/orange.webp",
       "benefits": [
         {
           "id": "immunity",
@@ -251,7 +251,7 @@
           "icon": "Droplets"
         }
       ],
-      "image": "https://images.unsplash.com/photo-1537640538966-79f369143f8f?auto=format&fit=crop&w=500&q=80",
+      "image": "/fruits/images/grape.webp",
       "benefits": [
         {
           "id": "heart",
@@ -292,7 +292,7 @@
           "icon": "Droplets"
         }
       ],
-      "image": "https://images.unsplash.com/photo-1587049352847-4a222e784d38?auto=format&fit=crop&w=500&q=80",
+      "image": "/fruits/images/watermelon.webp",
       "benefits": [
         {
           "id": "immunity",
@@ -329,7 +329,7 @@
           "icon": "Droplets"
         }
       ],
-      "image": "https://images.unsplash.com/photo-1517260739337-6799d239ce83?auto=format&fit=crop&w=500&q=80",
+      "image": "/fruits/images/papaya.webp",
       "benefits": [
         {
           "id": "immunity",
@@ -382,7 +382,7 @@
           "icon": "Droplets"
         }
       ],
-      "image": "https://images.unsplash.com/photo-1550258987-190a2d41a8ba?auto=format&fit=crop&w=500&q=80",
+      "image": "/fruits/images/pineapple.webp",
       "benefits": [
         {
           "id": "immunity",
@@ -423,7 +423,7 @@
           "icon": "Droplets"
         }
       ],
-      "image": "https://images.unsplash.com/photo-1536511135899-7080b094eaeb?auto=format&fit=crop&w=500&q=80",
+      "image": "/fruits/images/guava.webp",
       "benefits": [
         {
           "id": "immunity",
@@ -476,7 +476,7 @@
           "icon": "Droplets"
         }
       ],
-      "image": "https://images.unsplash.com/photo-1615485290382-441e4d049cb5?auto=format&fit=crop&w=500&q=80",
+      "image": "/fruits/images/pomegranate.webp",
       "benefits": [
         {
           "id": "digestion",
@@ -521,7 +521,7 @@
           "icon": "Droplets"
         }
       ],
-      "image": "https://images.unsplash.com/photo-1585059819681-75f85608d207?auto=format&fit=crop&w=500&q=80",
+      "image": "/fruits/images/kiwi.webp",
       "benefits": [
         {
           "id": "immunity",
@@ -578,7 +578,7 @@
           "icon": "Droplets"
         }
       ],
-      "image": "https://images.unsplash.com/photo-1464965911861-746a04b4bca6?auto=format&fit=crop&w=500&q=80",
+      "image": "/fruits/images/strawberry.webp",
       "benefits": [
         {
           "id": "immunity",
@@ -635,7 +635,7 @@
           "icon": "Droplets"
         }
       ],
-      "image": "https://images.unsplash.com/photo-1498557850523-fd3d118b962e?auto=format&fit=crop&w=500&q=80",
+      "image": "/fruits/images/blueberry.webp",
       "benefits": [
         {
           "id": "digestion",
@@ -680,7 +680,7 @@
           "icon": "Droplets"
         }
       ],
-      "image": "https://images.unsplash.com/photo-1577069808021-5a507f3ea7a7?auto=format&fit=crop&w=500&q=80",
+      "image": "/fruits/images/raspberry.webp",
       "benefits": [
         {
           "id": "immunity",
@@ -737,7 +737,7 @@
           "icon": "Droplets"
         }
       ],
-      "image": "https://images.unsplash.com/photo-1615485925600-97237c4fc1ec?auto=format&fit=crop&w=500&q=80",
+      "image": "/fruits/images/blackberry.webp",
       "benefits": [
         {
           "id": "immunity",
@@ -794,7 +794,7 @@
           "icon": "Droplets"
         }
       ],
-      "image": "https://images.unsplash.com/photo-1528825871115-3581a5387919?auto=format&fit=crop&w=500&q=80",
+      "image": "/fruits/images/cherry.webp",
       "benefits": [
         {
           "id": "digestion",
@@ -839,7 +839,7 @@
           "icon": "Droplets"
         }
       ],
-      "image": "https://images.unsplash.com/photo-1629828874514-c1e5103f2150?auto=format&fit=crop&w=500&q=80",
+      "image": "/fruits/images/peach.webp",
       "benefits": [
         {
           "id": "heart",
@@ -876,7 +876,7 @@
           "icon": "Droplets"
         }
       ],
-      "image": "https://images.unsplash.com/photo-1568702846914-96b305d2aaeb?auto=format&fit=crop&w=500&q=80",
+      "image": "/fruits/images/plum.webp",
       "benefits": [
         {
           "id": "heart",
@@ -905,11 +905,15 @@
       "originClimate": "Temperate",
       "nutrients": [
         {
-          "label": "Antioxidants",
-          "icon": "Sparkles"
+          "label": "Vit C: 10.0mg",
+          "icon": "Sun"
+        },
+        {
+          "label": "Fiber: 2.0g",
+          "icon": "Droplets"
         }
       ],
-      "image": "https://images.unsplash.com/photo-1502741224143-90386d7f8c82?auto=format&fit=crop&w=500&q=80",
+      "image": "/fruits/images/apricot.webp",
       "benefits": [
         {
           "id": "immunity",
@@ -918,14 +922,14 @@
       ],
       "nutritionDetails": {
         "basis": "per 100 g edible portion, raw",
-        "calories_kcal": null,
-        "carbohydrates_g": null,
-        "fiber_g": null,
-        "protein_g": null,
-        "fat_g": null,
-        "sugars_g": null,
-        "vitaminC_mg": null,
-        "potassium_mg": null
+        "calories_kcal": 48,
+        "carbohydrates_g": 11.1,
+        "fiber_g": 2.0,
+        "protein_g": 1.4,
+        "fat_g": 0.4,
+        "sugars_g": 9.2,
+        "vitaminC_mg": 10.0,
+        "potassium_mg": 259
       }
     },
     {
@@ -938,11 +942,15 @@
       "originClimate": "Temperate",
       "nutrients": [
         {
-          "label": "Antioxidants",
-          "icon": "Sparkles"
+          "label": "Vit C: 5.4mg",
+          "icon": "Sun"
+        },
+        {
+          "label": "Fiber: 1.7g",
+          "icon": "Droplets"
         }
       ],
-      "image": "https://images.unsplash.com/photo-1601004890684-d8cbf643f5f2?auto=format&fit=crop&w=500&q=80",
+      "image": "/fruits/images/nectarine.webp",
       "benefits": [
         {
           "id": "immunity",
@@ -951,14 +959,14 @@
       ],
       "nutritionDetails": {
         "basis": "per 100 g edible portion, raw",
-        "calories_kcal": null,
-        "carbohydrates_g": null,
-        "fiber_g": null,
-        "protein_g": null,
-        "fat_g": null,
-        "sugars_g": null,
-        "vitaminC_mg": null,
-        "potassium_mg": null
+        "calories_kcal": 44,
+        "carbohydrates_g": 10.6,
+        "fiber_g": 1.7,
+        "protein_g": 1.1,
+        "fat_g": 0.3,
+        "sugars_g": 7.9,
+        "vitaminC_mg": 5.4,
+        "potassium_mg": 201
       }
     },
     {
@@ -979,7 +987,7 @@
           "icon": "Droplets"
         }
       ],
-      "image": "https://images.unsplash.com/photo-1615484477778-ca3b783256fd?auto=format&fit=crop&w=500&q=80",
+      "image": "/fruits/images/pear.webp",
       "benefits": [
         {
           "id": "digestion",
@@ -1012,11 +1020,15 @@
       "originClimate": "Tropical",
       "nutrients": [
         {
-          "label": "Antioxidants",
-          "icon": "Sparkles"
+          "label": "Vit C: 20.5mg",
+          "icon": "Sun"
+        },
+        {
+          "label": "Fiber: 2.9g",
+          "icon": "Droplets"
         }
       ],
-      "image": "https://images.unsplash.com/photo-1527325678964-54921661f888?auto=format&fit=crop&w=500&q=80",
+      "image": "/fruits/images/dragon-fruit.webp",
       "benefits": [
         {
           "id": "immunity",
@@ -1025,14 +1037,14 @@
       ],
       "nutritionDetails": {
         "basis": "per 100 g edible portion, raw",
-        "calories_kcal": null,
-        "carbohydrates_g": null,
-        "fiber_g": null,
-        "protein_g": null,
-        "fat_g": null,
-        "sugars_g": null,
-        "vitaminC_mg": null,
-        "potassium_mg": null
+        "calories_kcal": 60,
+        "carbohydrates_g": 13.0,
+        "fiber_g": 2.9,
+        "protein_g": 1.2,
+        "fat_g": 0.6,
+        "sugars_g": 9.6,
+        "vitaminC_mg": 20.5,
+        "potassium_mg": 220
       }
     },
     {
@@ -1045,11 +1057,15 @@
       "originClimate": "Tropical",
       "nutrients": [
         {
-          "label": "Antioxidants",
-          "icon": "Sparkles"
+          "label": "Vit C: 30.0mg",
+          "icon": "Sun"
+        },
+        {
+          "label": "Fiber: 10.4g",
+          "icon": "Droplets"
         }
       ],
-      "image": "https://images.unsplash.com/photo-1576181256399-8356910ea098?auto=format&fit=crop&w=500&q=80",
+      "image": "/fruits/images/passion-fruit.webp",
       "benefits": [
         {
           "id": "immunity",
@@ -1058,14 +1074,14 @@
       ],
       "nutritionDetails": {
         "basis": "per 100 g edible portion, raw",
-        "calories_kcal": null,
-        "carbohydrates_g": null,
-        "fiber_g": null,
-        "protein_g": null,
-        "fat_g": null,
-        "sugars_g": null,
-        "vitaminC_mg": null,
-        "potassium_mg": null
+        "calories_kcal": 97,
+        "carbohydrates_g": 23.4,
+        "fiber_g": 10.4,
+        "protein_g": 2.2,
+        "fat_g": 0.7,
+        "sugars_g": 11.2,
+        "vitaminC_mg": 30.0,
+        "potassium_mg": 348
       }
     },
     {
@@ -1078,11 +1094,15 @@
       "originClimate": "Subtropical",
       "nutrients": [
         {
-          "label": "Antioxidants",
-          "icon": "Sparkles"
+          "label": "Vit C: 71.5mg",
+          "icon": "Sun"
+        },
+        {
+          "label": "Fiber: 1.3g",
+          "icon": "Droplets"
         }
       ],
-      "image": "https://images.unsplash.com/photo-1596704017254-9b121068fb31?auto=format&fit=crop&w=500&q=80",
+      "image": "/fruits/images/lychee.webp",
       "benefits": [
         {
           "id": "immunity",
@@ -1091,14 +1111,14 @@
       ],
       "nutritionDetails": {
         "basis": "per 100 g edible portion, raw",
-        "calories_kcal": null,
-        "carbohydrates_g": null,
-        "fiber_g": null,
-        "protein_g": null,
-        "fat_g": null,
-        "sugars_g": null,
-        "vitaminC_mg": null,
-        "potassium_mg": null
+        "calories_kcal": 66,
+        "carbohydrates_g": 16.5,
+        "fiber_g": 1.3,
+        "protein_g": 0.8,
+        "fat_g": 0.4,
+        "sugars_g": 15.2,
+        "vitaminC_mg": 71.5,
+        "potassium_mg": 171
       }
     },
     {
@@ -1111,11 +1131,15 @@
       "originClimate": "Tropical",
       "nutrients": [
         {
-          "label": "Antioxidants",
-          "icon": "Sparkles"
+          "label": "Vit C: 4.9mg",
+          "icon": "Sun"
+        },
+        {
+          "label": "Fiber: 0.9g",
+          "icon": "Droplets"
         }
       ],
-      "image": "https://images.unsplash.com/photo-1582281298055-e25b84a30b0b?auto=format&fit=crop&w=500&q=80",
+      "image": "/fruits/images/rambutan.webp",
       "benefits": [
         {
           "id": "immunity",
@@ -1124,14 +1148,14 @@
       ],
       "nutritionDetails": {
         "basis": "per 100 g edible portion, raw",
-        "calories_kcal": null,
-        "carbohydrates_g": null,
-        "fiber_g": null,
-        "protein_g": null,
-        "fat_g": null,
-        "sugars_g": null,
-        "vitaminC_mg": null,
-        "potassium_mg": null
+        "calories_kcal": 68,
+        "carbohydrates_g": 16.0,
+        "fiber_g": 0.9,
+        "protein_g": 0.7,
+        "fat_g": 0.2,
+        "sugars_g": 14.5,
+        "vitaminC_mg": 4.9,
+        "potassium_mg": 42
       }
     },
     {
@@ -1144,11 +1168,15 @@
       "originClimate": "Tropical",
       "nutrients": [
         {
-          "label": "Antioxidants",
-          "icon": "Sparkles"
+          "label": "Vit C: 84.0mg",
+          "icon": "Sun"
+        },
+        {
+          "label": "Fiber: 1.1g",
+          "icon": "Droplets"
         }
       ],
-      "image": "https://images.unsplash.com/photo-1605371924599-2d0365da1ae0?auto=format&fit=crop&w=500&q=80",
+      "image": "/fruits/images/longan.webp",
       "benefits": [
         {
           "id": "immunity",
@@ -1157,14 +1185,14 @@
       ],
       "nutritionDetails": {
         "basis": "per 100 g edible portion, raw",
-        "calories_kcal": null,
-        "carbohydrates_g": null,
-        "fiber_g": null,
-        "protein_g": null,
-        "fat_g": null,
-        "sugars_g": null,
-        "vitaminC_mg": null,
-        "potassium_mg": null
+        "calories_kcal": 60,
+        "carbohydrates_g": 15.1,
+        "fiber_g": 1.1,
+        "protein_g": 1.3,
+        "fat_g": 0.1,
+        "sugars_g": 13.8,
+        "vitaminC_mg": 84.0,
+        "potassium_mg": 266
       }
     },
     {
@@ -1177,11 +1205,15 @@
       "originClimate": "Tropical",
       "nutrients": [
         {
-          "label": "Antioxidants",
-          "icon": "Sparkles"
+          "label": "Vit C: 2.9mg",
+          "icon": "Sun"
+        },
+        {
+          "label": "Fiber: 1.8g",
+          "icon": "Droplets"
         }
       ],
-      "image": "https://images.unsplash.com/photo-1592187270271-9a4b84faa228?auto=format&fit=crop&w=500&q=80",
+      "image": "/fruits/images/mangosteen.webp",
       "benefits": [
         {
           "id": "immunity",
@@ -1190,14 +1222,14 @@
       ],
       "nutritionDetails": {
         "basis": "per 100 g edible portion, raw",
-        "calories_kcal": null,
-        "carbohydrates_g": null,
-        "fiber_g": null,
-        "protein_g": null,
-        "fat_g": null,
-        "sugars_g": null,
-        "vitaminC_mg": null,
-        "potassium_mg": null
+        "calories_kcal": 73,
+        "carbohydrates_g": 17.9,
+        "fiber_g": 1.8,
+        "protein_g": 0.4,
+        "fat_g": 0.6,
+        "sugars_g": 16.1,
+        "vitaminC_mg": 2.9,
+        "potassium_mg": 48
       }
     },
     {
@@ -1210,11 +1242,15 @@
       "originClimate": "Tropical",
       "nutrients": [
         {
-          "label": "Antioxidants",
-          "icon": "Sparkles"
+          "label": "Vit C: 13.7mg",
+          "icon": "Sun"
+        },
+        {
+          "label": "Fiber: 1.5g",
+          "icon": "Droplets"
         }
       ],
-      "image": "https://images.unsplash.com/photo-1546548970-71785318a17b?auto=format&fit=crop&w=500&q=80",
+      "image": "/fruits/images/jackfruit.webp",
       "benefits": [
         {
           "id": "immunity",
@@ -1223,14 +1259,14 @@
       ],
       "nutritionDetails": {
         "basis": "per 100 g edible portion, raw",
-        "calories_kcal": null,
-        "carbohydrates_g": null,
-        "fiber_g": null,
-        "protein_g": null,
-        "fat_g": null,
-        "sugars_g": null,
-        "vitaminC_mg": null,
-        "potassium_mg": null
+        "calories_kcal": 95,
+        "carbohydrates_g": 23.2,
+        "fiber_g": 1.5,
+        "protein_g": 1.7,
+        "fat_g": 0.6,
+        "sugars_g": 19.1,
+        "vitaminC_mg": 13.7,
+        "potassium_mg": 448
       }
     },
     {
@@ -1243,11 +1279,15 @@
       "originClimate": "Tropical",
       "nutrients": [
         {
-          "label": "Antioxidants",
-          "icon": "Sparkles"
+          "label": "Vit C: 36.3mg",
+          "icon": "Sun"
+        },
+        {
+          "label": "Fiber: 4.4g",
+          "icon": "Droplets"
         }
       ],
-      "image": "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?auto=format&fit=crop&w=500&q=80",
+      "image": "/fruits/images/custard-apple.webp",
       "benefits": [
         {
           "id": "immunity",
@@ -1256,14 +1296,14 @@
       ],
       "nutritionDetails": {
         "basis": "per 100 g edible portion, raw",
-        "calories_kcal": null,
-        "carbohydrates_g": null,
-        "fiber_g": null,
-        "protein_g": null,
-        "fat_g": null,
-        "sugars_g": null,
-        "vitaminC_mg": null,
-        "potassium_mg": null
+        "calories_kcal": 101,
+        "carbohydrates_g": 25.2,
+        "fiber_g": 4.4,
+        "protein_g": 1.7,
+        "fat_g": 0.6,
+        "sugars_g": 18.0,
+        "vitaminC_mg": 36.3,
+        "potassium_mg": 382
       }
     },
     {
@@ -1276,11 +1316,15 @@
       "originClimate": "Tropical",
       "nutrients": [
         {
-          "label": "Antioxidants",
-          "icon": "Sparkles"
+          "label": "Vit C: 20.6mg",
+          "icon": "Sun"
+        },
+        {
+          "label": "Fiber: 3.3g",
+          "icon": "Droplets"
         }
       ],
-      "image": "https://images.unsplash.com/photo-1591871937573-74dbba515c4c?auto=format&fit=crop&w=500&q=80",
+      "image": "/fruits/images/soursop.webp",
       "benefits": [
         {
           "id": "immunity",
@@ -1289,14 +1333,14 @@
       ],
       "nutritionDetails": {
         "basis": "per 100 g edible portion, raw",
-        "calories_kcal": null,
-        "carbohydrates_g": null,
-        "fiber_g": null,
-        "protein_g": null,
-        "fat_g": null,
-        "sugars_g": null,
-        "vitaminC_mg": null,
-        "potassium_mg": null
+        "calories_kcal": 66,
+        "carbohydrates_g": 16.8,
+        "fiber_g": 3.3,
+        "protein_g": 1.0,
+        "fat_g": 0.3,
+        "sugars_g": 13.5,
+        "vitaminC_mg": 20.6,
+        "potassium_mg": 278
       }
     },
     {
@@ -1309,11 +1353,15 @@
       "originClimate": "Tropical",
       "nutrients": [
         {
-          "label": "Antioxidants",
-          "icon": "Sparkles"
+          "label": "Vit C: 14.7mg",
+          "icon": "Sun"
+        },
+        {
+          "label": "Fiber: 5.3g",
+          "icon": "Droplets"
         }
       ],
-      "image": "https://images.unsplash.com/photo-1589984662646-e7b2e4962f18?auto=format&fit=crop&w=500&q=80",
+      "image": "/fruits/images/sapodilla.webp",
       "benefits": [
         {
           "id": "immunity",
@@ -1322,14 +1370,14 @@
       ],
       "nutritionDetails": {
         "basis": "per 100 g edible portion, raw",
-        "calories_kcal": null,
-        "carbohydrates_g": null,
-        "fiber_g": null,
-        "protein_g": null,
-        "fat_g": null,
-        "sugars_g": null,
-        "vitaminC_mg": null,
-        "potassium_mg": null
+        "calories_kcal": 83,
+        "carbohydrates_g": 20.0,
+        "fiber_g": 5.3,
+        "protein_g": 0.4,
+        "fat_g": 1.1,
+        "sugars_g": 14.0,
+        "vitaminC_mg": 14.7,
+        "potassium_mg": 193
       }
     },
     {
@@ -1342,11 +1390,15 @@
       "originClimate": "Tropical",
       "nutrients": [
         {
-          "label": "Antioxidants",
-          "icon": "Sparkles"
+          "label": "Vit C: 34.4mg",
+          "icon": "Sun"
+        },
+        {
+          "label": "Fiber: 2.8g",
+          "icon": "Droplets"
         }
       ],
-      "image": "https://images.unsplash.com/photo-1616781296062-8418ec25fbb3?auto=format&fit=crop&w=500&q=80",
+      "image": "/fruits/images/star-fruit.webp",
       "benefits": [
         {
           "id": "immunity",
@@ -1355,14 +1407,14 @@
       ],
       "nutritionDetails": {
         "basis": "per 100 g edible portion, raw",
-        "calories_kcal": null,
-        "carbohydrates_g": null,
-        "fiber_g": null,
-        "protein_g": null,
-        "fat_g": null,
-        "sugars_g": null,
-        "vitaminC_mg": null,
-        "potassium_mg": null
+        "calories_kcal": 31,
+        "carbohydrates_g": 6.7,
+        "fiber_g": 2.8,
+        "protein_g": 1.0,
+        "fat_g": 0.3,
+        "sugars_g": 4.0,
+        "vitaminC_mg": 34.4,
+        "potassium_mg": 133
       }
     },
     {
@@ -1383,7 +1435,7 @@
           "icon": "Droplets"
         }
       ],
-      "image": "https://images.unsplash.com/photo-1601493700631-2b16ec4b4716?auto=format&fit=crop&w=500&q=80",
+      "image": "/fruits/images/fig.webp",
       "benefits": [
         {
           "id": "digestion",
@@ -1428,7 +1480,7 @@
           "icon": "Droplets"
         }
       ],
-      "image": "https://images.unsplash.com/photo-1543208541-0961a29a8c3d?auto=format&fit=crop&w=500&q=80",
+      "image": "/fruits/images/date.webp",
       "benefits": [
         {
           "id": "digestion",
@@ -1473,7 +1525,7 @@
           "icon": "Droplets"
         }
       ],
-      "image": "https://images.unsplash.com/photo-1544378730-8b5104b18790?auto=format&fit=crop&w=500&q=80",
+      "image": "/fruits/images/coconut.webp",
       "benefits": [
         {
           "id": "digestion",
@@ -1518,7 +1570,7 @@
           "icon": "Droplets"
         }
       ],
-      "image": "https://images.unsplash.com/photo-1523049673857-eb18f1d7b578?auto=format&fit=crop&w=500&q=80",
+      "image": "/fruits/images/avocado.webp",
       "benefits": [
         {
           "id": "digestion",
@@ -1559,11 +1611,15 @@
       "originClimate": "Mediterranean",
       "nutrients": [
         {
-          "label": "Antioxidants",
-          "icon": "Sparkles"
+          "label": "Vit C: 0.9mg",
+          "icon": "Sun"
+        },
+        {
+          "label": "Fiber: 3.2g",
+          "icon": "Droplets"
         }
       ],
-      "image": "https://images.unsplash.com/photo-1590486803833-1c5dc8ddd4c8?auto=format&fit=crop&w=500&q=80",
+      "image": "/fruits/images/olive.webp",
       "benefits": [
         {
           "id": "immunity",
@@ -1572,14 +1628,14 @@
       ],
       "nutritionDetails": {
         "basis": "per 100 g edible portion, raw",
-        "calories_kcal": null,
-        "carbohydrates_g": null,
-        "fiber_g": null,
-        "protein_g": null,
-        "fat_g": null,
-        "sugars_g": null,
-        "vitaminC_mg": null,
-        "potassium_mg": null
+        "calories_kcal": 115,
+        "carbohydrates_g": 6.3,
+        "fiber_g": 3.2,
+        "protein_g": 0.8,
+        "fat_g": 10.7,
+        "sugars_g": 0.5,
+        "vitaminC_mg": 0.9,
+        "potassium_mg": 8
       }
     },
     {
@@ -1600,7 +1656,7 @@
           "icon": "Droplets"
         }
       ],
-      "image": "https://images.unsplash.com/photo-1534483509719-3feaee7c30da?auto=format&fit=crop&w=500&q=80",
+      "image": "/fruits/images/lemon.webp",
       "benefits": [
         {
           "id": "immunity",
@@ -1653,7 +1709,7 @@
           "icon": "Droplets"
         }
       ],
-      "image": "https://images.unsplash.com/photo-1518492104633-130d0cc84637?auto=format&fit=crop&w=500&q=80",
+      "image": "/fruits/images/lime.webp",
       "benefits": [
         {
           "id": "immunity",
@@ -1706,7 +1762,7 @@
           "icon": "Droplets"
         }
       ],
-      "image": "https://images.unsplash.com/photo-1577234286642-fc512a5f8f11?auto=format&fit=crop&w=500&q=80",
+      "image": "/fruits/images/grapefruit.webp",
       "benefits": [
         {
           "id": "immunity",
@@ -1759,7 +1815,7 @@
           "icon": "Droplets"
         }
       ],
-      "image": "https://images.unsplash.com/photo-1557800636-894a64c1696f?auto=format&fit=crop&w=500&q=80",
+      "image": "/fruits/images/mandarin.webp",
       "benefits": [
         {
           "id": "immunity",
@@ -1808,11 +1864,15 @@
       "originClimate": "Subtropical",
       "nutrients": [
         {
-          "label": "Antioxidants",
-          "icon": "Sparkles"
+          "label": "Vit C: 26.7mg",
+          "icon": "Sun"
+        },
+        {
+          "label": "Fiber: 1.8g",
+          "icon": "Droplets"
         }
       ],
-      "image": "https://images.unsplash.com/photo-1582979512210-99b6a53386f9?auto=format&fit=crop&w=500&q=80",
+      "image": "/fruits/images/tangerine.webp",
       "benefits": [
         {
           "id": "brain",
@@ -1821,14 +1881,14 @@
       ],
       "nutritionDetails": {
         "basis": "per 100 g edible portion, raw",
-        "calories_kcal": null,
-        "carbohydrates_g": null,
-        "fiber_g": null,
-        "protein_g": null,
-        "fat_g": null,
-        "sugars_g": null,
-        "vitaminC_mg": null,
-        "potassium_mg": null
+        "calories_kcal": 53,
+        "carbohydrates_g": 13.3,
+        "fiber_g": 1.8,
+        "protein_g": 0.8,
+        "fat_g": 0.3,
+        "sugars_g": 10.6,
+        "vitaminC_mg": 26.7,
+        "potassium_mg": 166
       }
     },
     {
@@ -1841,11 +1901,15 @@
       "originClimate": "Subtropical",
       "nutrients": [
         {
-          "label": "Antioxidants",
-          "icon": "Sparkles"
+          "label": "Vit C: 53.0mg",
+          "icon": "Sun"
+        },
+        {
+          "label": "Fiber: 2.8g",
+          "icon": "Droplets"
         }
       ],
-      "image": "https://images.unsplash.com/photo-1590502593747-42a996133562?auto=format&fit=crop&w=500&q=80",
+      "image": "/fruits/images/sweet-lime.webp",
       "benefits": [
         {
           "id": "brain",
@@ -1854,14 +1918,14 @@
       ],
       "nutritionDetails": {
         "basis": "per 100 g edible portion, raw",
-        "calories_kcal": null,
-        "carbohydrates_g": null,
-        "fiber_g": null,
-        "protein_g": null,
-        "fat_g": null,
-        "sugars_g": null,
-        "vitaminC_mg": null,
-        "potassium_mg": null
+        "calories_kcal": 43,
+        "carbohydrates_g": 9.3,
+        "fiber_g": 2.8,
+        "protein_g": 0.8,
+        "fat_g": 0.3,
+        "sugars_g": 7.0,
+        "vitaminC_mg": 53.0,
+        "potassium_mg": 490
       }
     },
     {
@@ -1874,11 +1938,15 @@
       "originClimate": "Tropical",
       "nutrients": [
         {
-          "label": "Antioxidants",
-          "icon": "Sparkles"
+          "label": "Vit C: 61.0mg",
+          "icon": "Sun"
+        },
+        {
+          "label": "Fiber: 1.0g",
+          "icon": "Droplets"
         }
       ],
-      "image": "https://images.unsplash.com/photo-1587132137056-bfbf0166836e?auto=format&fit=crop&w=500&q=80",
+      "image": "/fruits/images/pomelo.webp",
       "benefits": [
         {
           "id": "brain",
@@ -1887,14 +1955,14 @@
       ],
       "nutritionDetails": {
         "basis": "per 100 g edible portion, raw",
-        "calories_kcal": null,
-        "carbohydrates_g": null,
-        "fiber_g": null,
-        "protein_g": null,
-        "fat_g": null,
-        "sugars_g": null,
-        "vitaminC_mg": null,
-        "potassium_mg": null
+        "calories_kcal": 38,
+        "carbohydrates_g": 9.6,
+        "fiber_g": 1.0,
+        "protein_g": 0.8,
+        "fat_g": 0.0,
+        "sugars_g": 8.6,
+        "vitaminC_mg": 61.0,
+        "potassium_mg": 216
       }
     },
     {
@@ -1915,7 +1983,7 @@
           "icon": "Droplets"
         }
       ],
-      "image": "https://images.unsplash.com/photo-1574316071802-0d684efa7cd5?auto=format&fit=crop&w=500&q=80",
+      "image": "/fruits/images/persimmon.webp",
       "benefits": [
         {
           "id": "digestion",
@@ -1952,11 +2020,15 @@
       "originClimate": "Temperate",
       "nutrients": [
         {
-          "label": "Antioxidants",
-          "icon": "Sparkles"
+          "label": "Vit C: 36.4mg",
+          "icon": "Sun"
+        },
+        {
+          "label": "Fiber: 1.7g",
+          "icon": "Droplets"
         }
       ],
-      "image": "https://images.unsplash.com/photo-1596797038530-2c107229654b?auto=format&fit=crop&w=500&q=80",
+      "image": "/fruits/images/mulberry.webp",
       "benefits": [
         {
           "id": "brain",
@@ -1965,14 +2037,14 @@
       ],
       "nutritionDetails": {
         "basis": "per 100 g edible portion, raw",
-        "calories_kcal": null,
-        "carbohydrates_g": null,
-        "fiber_g": null,
-        "protein_g": null,
-        "fat_g": null,
-        "sugars_g": null,
-        "vitaminC_mg": null,
-        "potassium_mg": null
+        "calories_kcal": 43,
+        "carbohydrates_g": 9.8,
+        "fiber_g": 1.7,
+        "protein_g": 1.4,
+        "fat_g": 0.4,
+        "sugars_g": 8.1,
+        "vitaminC_mg": 36.4,
+        "potassium_mg": 194
       }
     },
     {
@@ -1985,11 +2057,15 @@
       "originClimate": "Temperate",
       "nutrients": [
         {
-          "label": "Antioxidants",
-          "icon": "Sparkles"
+          "label": "Vit C: 27.7mg",
+          "icon": "Sun"
+        },
+        {
+          "label": "Fiber: 4.3g",
+          "icon": "Droplets"
         }
       ],
-      "image": "https://images.unsplash.com/photo-1563227812-0ea4c22e6cc8?auto=format&fit=crop&w=500&q=80",
+      "image": "/fruits/images/gooseberry.webp",
       "benefits": [
         {
           "id": "brain",
@@ -1998,14 +2074,14 @@
       ],
       "nutritionDetails": {
         "basis": "per 100 g edible portion, raw",
-        "calories_kcal": null,
-        "carbohydrates_g": null,
-        "fiber_g": null,
-        "protein_g": null,
-        "fat_g": null,
-        "sugars_g": null,
-        "vitaminC_mg": null,
-        "potassium_mg": null
+        "calories_kcal": 44,
+        "carbohydrates_g": 10.2,
+        "fiber_g": 4.3,
+        "protein_g": 0.9,
+        "fat_g": 0.6,
+        "sugars_g": 4.4,
+        "vitaminC_mg": 27.7,
+        "potassium_mg": 198
       }
     },
     {
@@ -2018,11 +2094,15 @@
       "originClimate": "Temperate",
       "nutrients": [
         {
-          "label": "Antioxidants",
-          "icon": "Sparkles"
+          "label": "Vit C: 181.0mg",
+          "icon": "Sun"
+        },
+        {
+          "label": "Fiber: 6.8g",
+          "icon": "Droplets"
         }
       ],
-      "image": "https://images.unsplash.com/photo-1594282486552-05b4d80fbb9f?auto=format&fit=crop&w=500&q=80",
+      "image": "/fruits/images/blackcurrant.webp",
       "benefits": [
         {
           "id": "brain",
@@ -2031,14 +2111,14 @@
       ],
       "nutritionDetails": {
         "basis": "per 100 g edible portion, raw",
-        "calories_kcal": null,
-        "carbohydrates_g": null,
-        "fiber_g": null,
-        "protein_g": null,
-        "fat_g": null,
-        "sugars_g": null,
-        "vitaminC_mg": null,
-        "potassium_mg": null
+        "calories_kcal": 63,
+        "carbohydrates_g": 15.4,
+        "fiber_g": 6.8,
+        "protein_g": 1.4,
+        "fat_g": 0.4,
+        "sugars_g": 7.4,
+        "vitaminC_mg": 181.0,
+        "potassium_mg": 322
       }
     },
     {
@@ -2051,11 +2131,15 @@
       "originClimate": "Temperate",
       "nutrients": [
         {
-          "label": "Antioxidants",
-          "icon": "Sparkles"
+          "label": "Vit C: 41.0mg",
+          "icon": "Sun"
+        },
+        {
+          "label": "Fiber: 4.3g",
+          "icon": "Droplets"
         }
       ],
-      "image": "https://images.unsplash.com/photo-1592394533824-9440e5d68530?auto=format&fit=crop&w=500&q=80",
+      "image": "/fruits/images/redcurrant.webp",
       "benefits": [
         {
           "id": "brain",
@@ -2064,14 +2148,14 @@
       ],
       "nutritionDetails": {
         "basis": "per 100 g edible portion, raw",
-        "calories_kcal": null,
-        "carbohydrates_g": null,
-        "fiber_g": null,
-        "protein_g": null,
-        "fat_g": null,
-        "sugars_g": null,
-        "vitaminC_mg": null,
-        "potassium_mg": null
+        "calories_kcal": 56,
+        "carbohydrates_g": 13.8,
+        "fiber_g": 4.3,
+        "protein_g": 1.4,
+        "fat_g": 0.2,
+        "sugars_g": 7.4,
+        "vitaminC_mg": 41.0,
+        "potassium_mg": 275
       }
     },
     {
@@ -2084,11 +2168,15 @@
       "originClimate": "Temperate",
       "nutrients": [
         {
-          "label": "Antioxidants",
-          "icon": "Sparkles"
+          "label": "Vit C: 13.3mg",
+          "icon": "Sun"
+        },
+        {
+          "label": "Fiber: 4.6g",
+          "icon": "Droplets"
         }
       ],
-      "image": "https://images.unsplash.com/photo-1605697669460-2646b9487c6d?auto=format&fit=crop&w=500&q=80",
+      "image": "/fruits/images/cranberry.webp",
       "benefits": [
         {
           "id": "brain",
@@ -2097,14 +2185,14 @@
       ],
       "nutritionDetails": {
         "basis": "per 100 g edible portion, raw",
-        "calories_kcal": null,
-        "carbohydrates_g": null,
-        "fiber_g": null,
-        "protein_g": null,
-        "fat_g": null,
-        "sugars_g": null,
-        "vitaminC_mg": null,
-        "potassium_mg": null
+        "calories_kcal": 46,
+        "carbohydrates_g": 12.2,
+        "fiber_g": 4.6,
+        "protein_g": 0.4,
+        "fat_g": 0.1,
+        "sugars_g": 4.0,
+        "vitaminC_mg": 13.3,
+        "potassium_mg": 85
       }
     },
     {
@@ -2117,11 +2205,15 @@
       "originClimate": "Temperate",
       "nutrients": [
         {
-          "label": "Antioxidants",
-          "icon": "Sparkles"
+          "label": "Vit C: 36.0mg",
+          "icon": "Sun"
+        },
+        {
+          "label": "Fiber: 7.0g",
+          "icon": "Droplets"
         }
       ],
-      "image": "https://images.unsplash.com/photo-1596797038530-2c107229654b?auto=format&fit=crop&w=500&q=80",
+      "image": "/fruits/images/elderberry.webp",
       "benefits": [
         {
           "id": "brain",
@@ -2130,14 +2222,14 @@
       ],
       "nutritionDetails": {
         "basis": "per 100 g edible portion, raw",
-        "calories_kcal": null,
-        "carbohydrates_g": null,
-        "fiber_g": null,
-        "protein_g": null,
-        "fat_g": null,
-        "sugars_g": null,
-        "vitaminC_mg": null,
-        "potassium_mg": null
+        "calories_kcal": 73,
+        "carbohydrates_g": 18.4,
+        "fiber_g": 7.0,
+        "protein_g": 0.7,
+        "fat_g": 0.5,
+        "sugars_g": 11.4,
+        "vitaminC_mg": 36.0,
+        "potassium_mg": 280
       }
     },
     {
@@ -2150,11 +2242,15 @@
       "originClimate": "Temperate",
       "nutrients": [
         {
-          "label": "Antioxidants",
-          "icon": "Sparkles"
+          "label": "Vit C: 15.0mg",
+          "icon": "Sun"
+        },
+        {
+          "label": "Fiber: 1.9g",
+          "icon": "Droplets"
         }
       ],
-      "image": "https://images.unsplash.com/photo-1601004890684-d8cbf643f5f2?auto=format&fit=crop&w=500&q=80",
+      "image": "/fruits/images/quince.webp",
       "benefits": [
         {
           "id": "immunity",
@@ -2163,14 +2259,14 @@
       ],
       "nutritionDetails": {
         "basis": "per 100 g edible portion, raw",
-        "calories_kcal": null,
-        "carbohydrates_g": null,
-        "fiber_g": null,
-        "protein_g": null,
-        "fat_g": null,
-        "sugars_g": null,
-        "vitaminC_mg": null,
-        "potassium_mg": null
+        "calories_kcal": 57,
+        "carbohydrates_g": 15.3,
+        "fiber_g": 1.9,
+        "protein_g": 0.4,
+        "fat_g": 0.1,
+        "sugars_g": 12.5,
+        "vitaminC_mg": 15.0,
+        "potassium_mg": 197
       }
     },
     {
@@ -2183,11 +2279,15 @@
       "originClimate": "Tropical",
       "nutrients": [
         {
-          "label": "Antioxidants",
-          "icon": "Sparkles"
+          "label": "Vit C: 3.5mg",
+          "icon": "Sun"
+        },
+        {
+          "label": "Fiber: 5.1g",
+          "icon": "Droplets"
         }
       ],
-      "image": "https://images.unsplash.com/photo-1616781296062-8418ec25fbb3?auto=format&fit=crop&w=500&q=80",
+      "image": "/fruits/images/tamarind.webp",
       "benefits": [
         {
           "id": "immunity",
@@ -2196,14 +2296,14 @@
       ],
       "nutritionDetails": {
         "basis": "per 100 g edible portion, raw",
-        "calories_kcal": null,
-        "carbohydrates_g": null,
-        "fiber_g": null,
-        "protein_g": null,
-        "fat_g": null,
-        "sugars_g": null,
-        "vitaminC_mg": null,
-        "potassium_mg": null
+        "calories_kcal": 239,
+        "carbohydrates_g": 62.5,
+        "fiber_g": 5.1,
+        "protein_g": 2.8,
+        "fat_g": 0.6,
+        "sugars_g": 57.4,
+        "vitaminC_mg": 3.5,
+        "potassium_mg": 628
       }
     },
     {
@@ -2216,11 +2316,15 @@
       "originClimate": "Tropical",
       "nutrients": [
         {
-          "label": "Antioxidants",
-          "icon": "Sparkles"
+          "label": "Vit C: 8.0mg",
+          "icon": "Sun"
+        },
+        {
+          "label": "Fiber: 5.0g",
+          "icon": "Droplets"
         }
       ],
-      "image": "https://images.unsplash.com/photo-1589984662646-e7b2e4962f18?auto=format&fit=crop&w=500&q=80",
+      "image": "/fruits/images/wood-apple.webp",
       "benefits": [
         {
           "id": "immunity",
@@ -2229,14 +2333,14 @@
       ],
       "nutritionDetails": {
         "basis": "per 100 g edible portion, raw",
-        "calories_kcal": null,
-        "carbohydrates_g": null,
-        "fiber_g": null,
-        "protein_g": null,
-        "fat_g": null,
-        "sugars_g": null,
-        "vitaminC_mg": null,
-        "potassium_mg": null
+        "calories_kcal": 134,
+        "carbohydrates_g": 31.8,
+        "fiber_g": 5.0,
+        "protein_g": 7.1,
+        "fat_g": 0.6,
+        "sugars_g": 20.0,
+        "vitaminC_mg": 8.0,
+        "potassium_mg": 600
       }
     },
     {
@@ -2249,11 +2353,15 @@
       "originClimate": "Tropical",
       "nutrients": [
         {
-          "label": "Antioxidants",
-          "icon": "Sparkles"
+          "label": "Vit C: 60.0mg",
+          "icon": "Sun"
+        },
+        {
+          "label": "Fiber: 2.9g",
+          "icon": "Droplets"
         }
       ],
-      "image": "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?auto=format&fit=crop&w=500&q=80",
+      "image": "/fruits/images/bael.webp",
       "benefits": [
         {
           "id": "immunity",
@@ -2262,14 +2370,14 @@
       ],
       "nutritionDetails": {
         "basis": "per 100 g edible portion, raw",
-        "calories_kcal": null,
-        "carbohydrates_g": null,
-        "fiber_g": null,
-        "protein_g": null,
-        "fat_g": null,
-        "sugars_g": null,
-        "vitaminC_mg": null,
-        "potassium_mg": null
+        "calories_kcal": 137,
+        "carbohydrates_g": 31.8,
+        "fiber_g": 2.9,
+        "protein_g": 1.8,
+        "fat_g": 0.4,
+        "sugars_g": 28.0,
+        "vitaminC_mg": 60.0,
+        "potassium_mg": 600
       }
     },
     {
@@ -2282,11 +2390,15 @@
       "originClimate": "Tropical",
       "nutrients": [
         {
-          "label": "Antioxidants",
-          "icon": "Sparkles"
+          "label": "Vit C: 600.0mg",
+          "icon": "Sun"
+        },
+        {
+          "label": "Fiber: 4.3g",
+          "icon": "Droplets"
         }
       ],
-      "image": "https://images.unsplash.com/photo-1563227812-0ea4c22e6cc8?auto=format&fit=crop&w=500&q=80",
+      "image": "/fruits/images/amla.webp",
       "benefits": [
         {
           "id": "brain",
@@ -2295,14 +2407,14 @@
       ],
       "nutritionDetails": {
         "basis": "per 100 g edible portion, raw",
-        "calories_kcal": null,
-        "carbohydrates_g": null,
-        "fiber_g": null,
-        "protein_g": null,
-        "fat_g": null,
-        "sugars_g": null,
-        "vitaminC_mg": null,
-        "potassium_mg": null
+        "calories_kcal": 44,
+        "carbohydrates_g": 10.2,
+        "fiber_g": 4.3,
+        "protein_g": 0.9,
+        "fat_g": 0.6,
+        "sugars_g": 4.4,
+        "vitaminC_mg": 600.0,
+        "potassium_mg": 198
       }
     },
     {
@@ -2315,11 +2427,15 @@
       "originClimate": "Tropical",
       "nutrients": [
         {
-          "label": "Antioxidants",
-          "icon": "Sparkles"
+          "label": "Vit C: 18.0mg",
+          "icon": "Sun"
+        },
+        {
+          "label": "Fiber: 1.5g",
+          "icon": "Droplets"
         }
       ],
-      "image": "https://images.unsplash.com/photo-1594282486552-05b4d80fbb9f?auto=format&fit=crop&w=500&q=80",
+      "image": "/fruits/images/jamun.webp",
       "benefits": [
         {
           "id": "immunity",
@@ -2328,14 +2444,14 @@
       ],
       "nutritionDetails": {
         "basis": "per 100 g edible portion, raw",
-        "calories_kcal": null,
-        "carbohydrates_g": null,
-        "fiber_g": null,
-        "protein_g": null,
-        "fat_g": null,
-        "sugars_g": null,
-        "vitaminC_mg": null,
-        "potassium_mg": null
+        "calories_kcal": 60,
+        "carbohydrates_g": 14.0,
+        "fiber_g": 1.5,
+        "protein_g": 0.7,
+        "fat_g": 0.2,
+        "sugars_g": 12.0,
+        "vitaminC_mg": 18.0,
+        "potassium_mg": 55
       }
     },
     {
@@ -2348,11 +2464,15 @@
       "originClimate": "Tropical",
       "nutrients": [
         {
-          "label": "Antioxidants",
-          "icon": "Sparkles"
+          "label": "Vit C: 69.0mg",
+          "icon": "Sun"
+        },
+        {
+          "label": "Fiber: 2.0g",
+          "icon": "Droplets"
         }
       ],
-      "image": "https://images.unsplash.com/photo-1568702846914-96b305d2aaeb?auto=format&fit=crop&w=500&q=80",
+      "image": "/fruits/images/ber.webp",
       "benefits": [
         {
           "id": "immunity",
@@ -2361,14 +2481,14 @@
       ],
       "nutritionDetails": {
         "basis": "per 100 g edible portion, raw",
-        "calories_kcal": null,
-        "carbohydrates_g": null,
-        "fiber_g": null,
-        "protein_g": null,
-        "fat_g": null,
-        "sugars_g": null,
-        "vitaminC_mg": null,
-        "potassium_mg": null
+        "calories_kcal": 79,
+        "carbohydrates_g": 20.2,
+        "fiber_g": 2.0,
+        "protein_g": 1.2,
+        "fat_g": 0.2,
+        "sugars_g": 17.0,
+        "vitaminC_mg": 69.0,
+        "potassium_mg": 250
       }
     },
     {
@@ -2381,11 +2501,15 @@
       "originClimate": "Tropical",
       "nutrients": [
         {
-          "label": "Antioxidants",
-          "icon": "Sparkles"
+          "label": "Vit C: 9.0mg",
+          "icon": "Sun"
+        },
+        {
+          "label": "Fiber: 1.6g",
+          "icon": "Droplets"
         }
       ],
-      "image": "https://images.unsplash.com/photo-1577069808021-5a507f3ea7a7?auto=format&fit=crop&w=500&q=80",
+      "image": "/fruits/images/karonda.webp",
       "benefits": [
         {
           "id": "brain",
@@ -2394,14 +2518,14 @@
       ],
       "nutritionDetails": {
         "basis": "per 100 g edible portion, raw",
-        "calories_kcal": null,
-        "carbohydrates_g": null,
-        "fiber_g": null,
-        "protein_g": null,
-        "fat_g": null,
-        "sugars_g": null,
-        "vitaminC_mg": null,
-        "potassium_mg": null
+        "calories_kcal": 42,
+        "carbohydrates_g": 10.0,
+        "fiber_g": 1.6,
+        "protein_g": 0.6,
+        "fat_g": 0.2,
+        "sugars_g": 8.0,
+        "vitaminC_mg": 9.0,
+        "potassium_mg": 260
       }
     },
     {
@@ -2414,11 +2538,15 @@
       "originClimate": "Tropical",
       "nutrients": [
         {
-          "label": "Antioxidants",
-          "icon": "Sparkles"
+          "label": "Vit C: 14.7mg",
+          "icon": "Sun"
+        },
+        {
+          "label": "Fiber: 5.3g",
+          "icon": "Droplets"
         }
       ],
-      "image": "https://images.unsplash.com/photo-1589984662646-e7b2e4962f18?auto=format&fit=crop&w=500&q=80",
+      "image": "/fruits/images/chikoo.webp",
       "benefits": [
         {
           "id": "immunity",
@@ -2427,14 +2555,14 @@
       ],
       "nutritionDetails": {
         "basis": "per 100 g edible portion, raw",
-        "calories_kcal": null,
-        "carbohydrates_g": null,
-        "fiber_g": null,
-        "protein_g": null,
-        "fat_g": null,
-        "sugars_g": null,
-        "vitaminC_mg": null,
-        "potassium_mg": null
+        "calories_kcal": 83,
+        "carbohydrates_g": 20.0,
+        "fiber_g": 5.3,
+        "protein_g": 0.4,
+        "fat_g": 1.1,
+        "sugars_g": 14.0,
+        "vitaminC_mg": 14.7,
+        "potassium_mg": 193
       }
     },
     {
@@ -2447,11 +2575,15 @@
       "originClimate": "Warm season",
       "nutrients": [
         {
-          "label": "Antioxidants",
-          "icon": "Sparkles"
+          "label": "Vit C: 36.7mg",
+          "icon": "Sun"
+        },
+        {
+          "label": "Fiber: 0.9g",
+          "icon": "Droplets"
         }
       ],
-      "image": "https://images.unsplash.com/photo-1589984662646-e7b2e4962f18?auto=format&fit=crop&w=500&q=80",
+      "image": "/fruits/images/musk-melon.webp",
       "benefits": [
         {
           "id": "immunity",
@@ -2460,14 +2592,14 @@
       ],
       "nutritionDetails": {
         "basis": "per 100 g edible portion, raw",
-        "calories_kcal": null,
-        "carbohydrates_g": null,
-        "fiber_g": null,
-        "protein_g": null,
-        "fat_g": null,
-        "sugars_g": null,
-        "vitaminC_mg": null,
-        "potassium_mg": null
+        "calories_kcal": 34,
+        "carbohydrates_g": 8.2,
+        "fiber_g": 0.9,
+        "protein_g": 0.8,
+        "fat_g": 0.2,
+        "sugars_g": 7.9,
+        "vitaminC_mg": 36.7,
+        "potassium_mg": 267
       }
     },
     {
@@ -2480,11 +2612,15 @@
       "originClimate": "Warm season",
       "nutrients": [
         {
-          "label": "Antioxidants",
-          "icon": "Sparkles"
+          "label": "Vit C: 36.7mg",
+          "icon": "Sun"
+        },
+        {
+          "label": "Fiber: 0.9g",
+          "icon": "Droplets"
         }
       ],
-      "image": "https://images.unsplash.com/photo-1571575179705-ae84236ab264?auto=format&fit=crop&w=500&q=80",
+      "image": "/fruits/images/cantaloupe.webp",
       "benefits": [
         {
           "id": "immunity",
@@ -2493,14 +2629,14 @@
       ],
       "nutritionDetails": {
         "basis": "per 100 g edible portion, raw",
-        "calories_kcal": null,
-        "carbohydrates_g": null,
-        "fiber_g": null,
-        "protein_g": null,
-        "fat_g": null,
-        "sugars_g": null,
-        "vitaminC_mg": null,
-        "potassium_mg": null
+        "calories_kcal": 34,
+        "carbohydrates_g": 8.2,
+        "fiber_g": 0.9,
+        "protein_g": 0.8,
+        "fat_g": 0.2,
+        "sugars_g": 7.9,
+        "vitaminC_mg": 36.7,
+        "potassium_mg": 267
       }
     },
     {
@@ -2513,8 +2649,12 @@
       "originClimate": "Warm season",
       "nutrients": [
         {
-          "label": "Antioxidants",
-          "icon": "Sparkles"
+          "label": "Vit C: 18.0mg",
+          "icon": "Sun"
+        },
+        {
+          "label": "Fiber: 0.8g",
+          "icon": "Droplets"
         }
       ],
       "image": "https://images.unsplash.com/photo-1598170845058-32b9d6a5da37?auto=format&fit=crop&w=500&q=80",
@@ -2526,14 +2666,14 @@
       ],
       "nutritionDetails": {
         "basis": "per 100 g edible portion, raw",
-        "calories_kcal": null,
-        "carbohydrates_g": null,
-        "fiber_g": null,
-        "protein_g": null,
-        "fat_g": null,
-        "sugars_g": null,
-        "vitaminC_mg": null,
-        "potassium_mg": null
+        "calories_kcal": 36,
+        "carbohydrates_g": 9.1,
+        "fiber_g": 0.8,
+        "protein_g": 0.5,
+        "fat_g": 0.1,
+        "sugars_g": 8.1,
+        "vitaminC_mg": 18.0,
+        "potassium_mg": 228
       }
     },
     {
@@ -2546,8 +2686,12 @@
       "originClimate": "Tropical",
       "nutrients": [
         {
-          "label": "Antioxidants",
-          "icon": "Sparkles"
+          "label": "Vit C: 18.4mg",
+          "icon": "Sun"
+        },
+        {
+          "label": "Fiber: 2.3g",
+          "icon": "Droplets"
         }
       ],
       "image": "https://images.unsplash.com/photo-1571771894821-ce9b6c11b08e?auto=format&fit=crop&w=500&q=80",
@@ -2559,14 +2703,14 @@
       ],
       "nutritionDetails": {
         "basis": "per 100 g edible portion, raw",
-        "calories_kcal": null,
-        "carbohydrates_g": null,
-        "fiber_g": null,
-        "protein_g": null,
-        "fat_g": null,
-        "sugars_g": null,
-        "vitaminC_mg": null,
-        "potassium_mg": null
+        "calories_kcal": 122,
+        "carbohydrates_g": 31.9,
+        "fiber_g": 2.3,
+        "protein_g": 1.3,
+        "fat_g": 0.4,
+        "sugars_g": 15.0,
+        "vitaminC_mg": 18.4,
+        "potassium_mg": 499
       }
     },
     {
@@ -2579,8 +2723,12 @@
       "originClimate": "Tropical",
       "nutrients": [
         {
-          "label": "Antioxidants",
-          "icon": "Sparkles"
+          "label": "Vit C: 29.0mg",
+          "icon": "Sun"
+        },
+        {
+          "label": "Fiber: 4.9g",
+          "icon": "Droplets"
         }
       ],
       "image": "https://images.unsplash.com/photo-1546548970-71785318a17b?auto=format&fit=crop&w=500&q=80",
@@ -2592,14 +2740,14 @@
       ],
       "nutritionDetails": {
         "basis": "per 100 g edible portion, raw",
-        "calories_kcal": null,
-        "carbohydrates_g": null,
-        "fiber_g": null,
-        "protein_g": null,
-        "fat_g": null,
-        "sugars_g": null,
-        "vitaminC_mg": null,
-        "potassium_mg": null
+        "calories_kcal": 103,
+        "carbohydrates_g": 27.1,
+        "fiber_g": 4.9,
+        "protein_g": 1.1,
+        "fat_g": 0.2,
+        "sugars_g": 11.0,
+        "vitaminC_mg": 29.0,
+        "potassium_mg": 490
       }
     },
     {
@@ -2612,8 +2760,12 @@
       "originClimate": "Subtropical",
       "nutrients": [
         {
-          "label": "Antioxidants",
-          "icon": "Sparkles"
+          "label": "Vit C: 32.9mg",
+          "icon": "Sun"
+        },
+        {
+          "label": "Fiber: 6.4g",
+          "icon": "Droplets"
         }
       ],
       "image": "https://images.unsplash.com/photo-1585059819681-75f85608d207?auto=format&fit=crop&w=500&q=80",
@@ -2625,14 +2777,14 @@
       ],
       "nutritionDetails": {
         "basis": "per 100 g edible portion, raw",
-        "calories_kcal": null,
-        "carbohydrates_g": null,
-        "fiber_g": null,
-        "protein_g": null,
-        "fat_g": null,
-        "sugars_g": null,
-        "vitaminC_mg": null,
-        "potassium_mg": null
+        "calories_kcal": 55,
+        "carbohydrates_g": 13.0,
+        "fiber_g": 6.4,
+        "protein_g": 0.7,
+        "fat_g": 0.6,
+        "sugars_g": 8.2,
+        "vitaminC_mg": 32.9,
+        "potassium_mg": 172
       }
     },
     {
@@ -2645,8 +2797,12 @@
       "originClimate": "Subtropical",
       "nutrients": [
         {
-          "label": "Antioxidants",
-          "icon": "Sparkles"
+          "label": "Vit C: 28.0mg",
+          "icon": "Sun"
+        },
+        {
+          "label": "Fiber: 4.9g",
+          "icon": "Droplets"
         }
       ],
       "image": "https://images.unsplash.com/photo-1563227812-0ea4c22e6cc8?auto=format&fit=crop&w=500&q=80",
@@ -2658,14 +2814,14 @@
       ],
       "nutritionDetails": {
         "basis": "per 100 g edible portion, raw",
-        "calories_kcal": null,
-        "carbohydrates_g": null,
-        "fiber_g": null,
-        "protein_g": null,
-        "fat_g": null,
-        "sugars_g": null,
-        "vitaminC_mg": null,
-        "potassium_mg": null
+        "calories_kcal": 53,
+        "carbohydrates_g": 11.2,
+        "fiber_g": 4.9,
+        "protein_g": 1.9,
+        "fat_g": 0.7,
+        "sugars_g": 5.0,
+        "vitaminC_mg": 28.0,
+        "potassium_mg": 292
       }
     },
     {
@@ -2678,8 +2834,12 @@
       "originClimate": "Tropical",
       "nutrients": [
         {
-          "label": "Antioxidants",
-          "icon": "Sparkles"
+          "label": "Vit C: 20.5mg",
+          "icon": "Sun"
+        },
+        {
+          "label": "Fiber: 2.9g",
+          "icon": "Droplets"
         }
       ],
       "image": "https://images.unsplash.com/photo-1527325678964-54921661f888?auto=format&fit=crop&w=500&q=80",
@@ -2691,14 +2851,14 @@
       ],
       "nutritionDetails": {
         "basis": "per 100 g edible portion, raw",
-        "calories_kcal": null,
-        "carbohydrates_g": null,
-        "fiber_g": null,
-        "protein_g": null,
-        "fat_g": null,
-        "sugars_g": null,
-        "vitaminC_mg": null,
-        "potassium_mg": null
+        "calories_kcal": 60,
+        "carbohydrates_g": 13.0,
+        "fiber_g": 2.9,
+        "protein_g": 1.2,
+        "fat_g": 0.6,
+        "sugars_g": 9.6,
+        "vitaminC_mg": 20.5,
+        "potassium_mg": 220
       }
     },
     {
@@ -2711,8 +2871,12 @@
       "originClimate": "Tropical",
       "nutrients": [
         {
-          "label": "Antioxidants",
-          "icon": "Sparkles"
+          "label": "Vit C: 19.7mg",
+          "icon": "Sun"
+        },
+        {
+          "label": "Fiber: 3.8g",
+          "icon": "Droplets"
         }
       ],
       "image": "https://images.unsplash.com/photo-1546548970-71785318a17b?auto=format&fit=crop&w=500&q=80",
@@ -2724,14 +2888,14 @@
       ],
       "nutritionDetails": {
         "basis": "per 100 g edible portion, raw",
-        "calories_kcal": null,
-        "carbohydrates_g": null,
-        "fiber_g": null,
-        "protein_g": null,
-        "fat_g": null,
-        "sugars_g": null,
-        "vitaminC_mg": null,
-        "potassium_mg": null
+        "calories_kcal": 147,
+        "carbohydrates_g": 27.1,
+        "fiber_g": 3.8,
+        "protein_g": 1.5,
+        "fat_g": 5.3,
+        "sugars_g": 14.0,
+        "vitaminC_mg": 19.7,
+        "potassium_mg": 436
       }
     },
     {
@@ -2744,8 +2908,12 @@
       "originClimate": "Tropical",
       "nutrients": [
         {
-          "label": "Antioxidants",
-          "icon": "Sparkles"
+          "label": "Vit C: 8.4mg",
+          "icon": "Sun"
+        },
+        {
+          "label": "Fiber: 2.5g",
+          "icon": "Droplets"
         }
       ],
       "image": "https://images.unsplash.com/photo-1543208541-0961a29a8c3d?auto=format&fit=crop&w=500&q=80",
@@ -2757,14 +2925,14 @@
       ],
       "nutritionDetails": {
         "basis": "per 100 g edible portion, raw",
-        "calories_kcal": null,
-        "carbohydrates_g": null,
-        "fiber_g": null,
-        "protein_g": null,
-        "fat_g": null,
-        "sugars_g": null,
-        "vitaminC_mg": null,
-        "potassium_mg": null
+        "calories_kcal": 82,
+        "carbohydrates_g": 21.0,
+        "fiber_g": 2.5,
+        "protein_g": 0.8,
+        "fat_g": 0.4,
+        "sugars_g": 16.0,
+        "vitaminC_mg": 8.4,
+        "potassium_mg": 428
       }
     },
     {
@@ -2777,8 +2945,12 @@
       "originClimate": "Temperate",
       "nutrients": [
         {
-          "label": "Antioxidants",
-          "icon": "Sparkles"
+          "label": "Vit C: 44.0mg",
+          "icon": "Sun"
+        },
+        {
+          "label": "Fiber: 3.0g",
+          "icon": "Droplets"
         }
       ],
       "image": "https://images.unsplash.com/photo-1498557850523-fd3d118b962e?auto=format&fit=crop&w=500&q=80",
@@ -2790,14 +2962,14 @@
       ],
       "nutritionDetails": {
         "basis": "per 100 g edible portion, raw",
-        "calories_kcal": null,
-        "carbohydrates_g": null,
-        "fiber_g": null,
-        "protein_g": null,
-        "fat_g": null,
-        "sugars_g": null,
-        "vitaminC_mg": null,
-        "potassium_mg": null
+        "calories_kcal": 44,
+        "carbohydrates_g": 11.5,
+        "fiber_g": 3.0,
+        "protein_g": 0.7,
+        "fat_g": 0.5,
+        "sugars_g": 7.0,
+        "vitaminC_mg": 44.0,
+        "potassium_mg": 103
       }
     },
     {
@@ -2810,8 +2982,12 @@
       "originClimate": "Temperate",
       "nutrients": [
         {
-          "label": "Antioxidants",
-          "icon": "Sparkles"
+          "label": "Vit C: 21.0mg",
+          "icon": "Sun"
+        },
+        {
+          "label": "Fiber: 5.3g",
+          "icon": "Droplets"
         }
       ],
       "image": "https://images.unsplash.com/photo-1615485925600-97237c4fc1ec?auto=format&fit=crop&w=500&q=80",
@@ -2823,14 +2999,14 @@
       ],
       "nutritionDetails": {
         "basis": "per 100 g edible portion, raw",
-        "calories_kcal": null,
-        "carbohydrates_g": null,
-        "fiber_g": null,
-        "protein_g": null,
-        "fat_g": null,
-        "sugars_g": null,
-        "vitaminC_mg": null,
-        "potassium_mg": null
+        "calories_kcal": 50,
+        "carbohydrates_g": 12.2,
+        "fiber_g": 5.3,
+        "protein_g": 1.1,
+        "fat_g": 0.3,
+        "sugars_g": 7.0,
+        "vitaminC_mg": 21.0,
+        "potassium_mg": 196
       }
     },
     {
@@ -2843,8 +3019,12 @@
       "originClimate": "Temperate",
       "nutrients": [
         {
-          "label": "Antioxidants",
-          "icon": "Sparkles"
+          "label": "Vit C: 24.0mg",
+          "icon": "Sun"
+        },
+        {
+          "label": "Fiber: 5.3g",
+          "icon": "Droplets"
         }
       ],
       "image": "https://images.unsplash.com/photo-1577069808021-5a507f3ea7a7?auto=format&fit=crop&w=500&q=80",
@@ -2856,14 +3036,14 @@
       ],
       "nutritionDetails": {
         "basis": "per 100 g edible portion, raw",
-        "calories_kcal": null,
-        "carbohydrates_g": null,
-        "fiber_g": null,
-        "protein_g": null,
-        "fat_g": null,
-        "sugars_g": null,
-        "vitaminC_mg": null,
-        "potassium_mg": null
+        "calories_kcal": 55,
+        "carbohydrates_g": 13.0,
+        "fiber_g": 5.3,
+        "protein_g": 1.5,
+        "fat_g": 0.4,
+        "sugars_g": 7.9,
+        "vitaminC_mg": 24.0,
+        "potassium_mg": 220
       }
     },
     {
@@ -2876,8 +3056,12 @@
       "originClimate": "Cold climate",
       "nutrients": [
         {
-          "label": "Antioxidants",
-          "icon": "Sparkles"
+          "label": "Vit C: 158.0mg",
+          "icon": "Sun"
+        },
+        {
+          "label": "Fiber: 6.0g",
+          "icon": "Droplets"
         }
       ],
       "image": "https://images.unsplash.com/photo-1592394533824-9440e5d68530?auto=format&fit=crop&w=500&q=80",
@@ -2889,14 +3073,14 @@
       ],
       "nutritionDetails": {
         "basis": "per 100 g edible portion, raw",
-        "calories_kcal": null,
-        "carbohydrates_g": null,
-        "fiber_g": null,
-        "protein_g": null,
-        "fat_g": null,
-        "sugars_g": null,
-        "vitaminC_mg": null,
-        "potassium_mg": null
+        "calories_kcal": 51,
+        "carbohydrates_g": 9.0,
+        "fiber_g": 6.0,
+        "protein_g": 1.3,
+        "fat_g": 0.8,
+        "sugars_g": 6.0,
+        "vitaminC_mg": 158.0,
+        "potassium_mg": 210
       }
     },
     {
@@ -2909,8 +3093,12 @@
       "originClimate": "Temperate",
       "nutrients": [
         {
-          "label": "Antioxidants",
-          "icon": "Sparkles"
+          "label": "Vit C: 48.4mg",
+          "icon": "Sun"
+        },
+        {
+          "label": "Fiber: 13.0g",
+          "icon": "Droplets"
         }
       ],
       "image": "https://images.unsplash.com/photo-1605697669460-2646b9487c6d?auto=format&fit=crop&w=500&q=80",
@@ -2922,14 +3110,14 @@
       ],
       "nutritionDetails": {
         "basis": "per 100 g edible portion, raw",
-        "calories_kcal": null,
-        "carbohydrates_g": null,
-        "fiber_g": null,
-        "protein_g": null,
-        "fat_g": null,
-        "sugars_g": null,
-        "vitaminC_mg": null,
-        "potassium_mg": null
+        "calories_kcal": 349,
+        "carbohydrates_g": 77.0,
+        "fiber_g": 13.0,
+        "protein_g": 14.3,
+        "fat_g": 0.4,
+        "sugars_g": 45.6,
+        "vitaminC_mg": 48.4,
+        "potassium_mg": 1132
       }
     },
     {
@@ -2942,8 +3130,12 @@
       "originClimate": "Temperate",
       "nutrients": [
         {
-          "label": "Antioxidants",
-          "icon": "Sparkles"
+          "label": "Vit C: 21.0mg",
+          "icon": "Sun"
+        },
+        {
+          "label": "Fiber: 5.3g",
+          "icon": "Droplets"
         }
       ],
       "image": "https://images.unsplash.com/photo-1594282486552-05b4d80fbb9f?auto=format&fit=crop&w=500&q=80",
@@ -2955,14 +3147,14 @@
       ],
       "nutritionDetails": {
         "basis": "per 100 g edible portion, raw",
-        "calories_kcal": null,
-        "carbohydrates_g": null,
-        "fiber_g": null,
-        "protein_g": null,
-        "fat_g": null,
-        "sugars_g": null,
-        "vitaminC_mg": null,
-        "potassium_mg": null
+        "calories_kcal": 47,
+        "carbohydrates_g": 9.6,
+        "fiber_g": 5.3,
+        "protein_g": 1.4,
+        "fat_g": 0.5,
+        "sugars_g": 4.3,
+        "vitaminC_mg": 21.0,
+        "potassium_mg": 162
       }
     },
     {
@@ -2975,8 +3167,12 @@
       "originClimate": "Tropical",
       "nutrients": [
         {
-          "label": "Antioxidants",
-          "icon": "Sparkles"
+          "label": "Vit C: 5.3mg",
+          "icon": "Sun"
+        },
+        {
+          "label": "Fiber: 1.4g",
+          "icon": "Droplets"
         }
       ],
       "image": "https://images.unsplash.com/photo-1527325678964-54921661f888?auto=format&fit=crop&w=500&q=80",
@@ -2988,14 +3184,14 @@
       ],
       "nutritionDetails": {
         "basis": "per 100 g edible portion, raw",
-        "calories_kcal": null,
-        "carbohydrates_g": null,
-        "fiber_g": null,
-        "protein_g": null,
-        "fat_g": null,
-        "sugars_g": null,
-        "vitaminC_mg": null,
-        "potassium_mg": null
+        "calories_kcal": 44,
+        "carbohydrates_g": 7.6,
+        "fiber_g": 1.4,
+        "protein_g": 1.8,
+        "fat_g": 1.3,
+        "sugars_g": 3.5,
+        "vitaminC_mg": 5.3,
+        "potassium_mg": 123
       }
     }
   ]

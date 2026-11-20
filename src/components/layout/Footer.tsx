@@ -1,8 +1,23 @@
-import React from 'react';
-import { Heart, Leaf, Send, Globe, Mail, MessageCircle, Share2 } from 'lucide-react';
+'use client';
+
+import React, { useState } from 'react';
+import { Heart, Leaf, Send, Globe, Mail, MessageCircle, Share2, Check } from 'lucide-react';
 import i18n from '../../data/i18n/en.json';
 
 export const Footer: React.FC = () => {
+  const [email, setEmail] = useState('');
+  const [subscribed, setSubscribed] = useState(false);
+
+  const handleSubscribe = (e: React.FormEvent) => {
+    e.preventDefault();
+    if (email.trim()) {
+      setSubscribed(true);
+      setTimeout(() => {
+        setEmail('');
+      }, 3000);
+    }
+  };
+
   return (
     <footer className="bg-slate-900 text-white border-t border-slate-800 pt-12 pb-8">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-10">
@@ -23,51 +38,33 @@ export const Footer: React.FC = () => {
                 </span>
               </div>
             </div>
-            <p className="text-xs sm:text-sm text-slate-400 leading-relaxed max-w-sm">
+            <p className="text-xs text-slate-400 leading-relaxed max-w-sm">
               {i18n.footer.brandDescription}
             </p>
           </div>
 
-          {/* Navigation Links */}
+          {/* Quick Links */}
           <div className="md:col-span-2 space-y-3">
             <h4 className="text-sm font-bold text-white tracking-wider uppercase">{i18n.footer.explore}</h4>
-            <ul className="space-y-2 text-xs font-semibold text-slate-400">
+            <ul className="space-y-2 text-xs text-slate-400">
               <li><a href="/" className="hover:text-emerald-400 transition-colors">{i18n.nav.home}</a></li>
               <li><a href="/healthy-foods" className="hover:text-emerald-400 transition-colors">{i18n.nav.foods}</a></li>
-              <li><a href="/faqs" className="hover:text-emerald-400 transition-colors">{i18n.nav.faqs}</a></li>
-              <li><a href="/about-us" className="hover:text-emerald-400 transition-colors">{i18n.nav.aboutUs}</a></li>
-              <li><a href="/contact-us" className="hover:text-emerald-400 transition-colors">{i18n.nav.contactUs}</a></li>
-              <li><a href="/seasonal-foods" className="hover:text-emerald-400 transition-colors">{i18n.nav.seasonalFoods}</a></li>
-              <li><a href="/compare-foods" className="hover:text-emerald-400 transition-colors">{i18n.nav.compareFoods}</a></li>
-              <li><a href="/articles" className="hover:text-emerald-400 transition-colors">{i18n.nav.articles}</a></li>
-              <li><a href="/recipes" className="hover:text-emerald-400 transition-colors">{i18n.nav.recipes}</a></li>
               <li><a href="/healthy-tips" className="hover:text-emerald-400 transition-colors">{i18n.nav.healthyTips}</a></li>
+              <li><a href="/recipes" className="hover:text-emerald-400 transition-colors">{i18n.nav.recipes}</a></li>
+              <li><a href="/faqs" className="hover:text-emerald-400 transition-colors">{i18n.nav.faqs}</a></li>
+              <li><a href="/contact-us" className="hover:text-emerald-400 transition-colors">{i18n.nav.contactUs}</a></li>
             </ul>
           </div>
 
-          {/* Categories */}
+          {/* Popular Categories */}
           <div className="md:col-span-2 space-y-3">
             <h4 className="text-sm font-bold text-white tracking-wider uppercase">{i18n.footer.categories}</h4>
-            <ul className="space-y-1.5 text-xs font-semibold text-slate-400">
-              <li><a href="/healthy-foods/fruits" className="hover:text-emerald-400 transition-colors">{i18n.categoriesList.fruits}</a></li>
-              <li><a href="/healthy-foods/vegetables" className="hover:text-emerald-400 transition-colors">{i18n.categoriesList.vegetables}</a></li>
-              <li><a href="/healthy-foods/millets" className="hover:text-emerald-400 transition-colors">Ancient Millets</a></li>
-              <li><a href="/healthy-foods/pulses" className="hover:text-emerald-400 transition-colors">Pulses & Legumes</a></li>
-              <li><a href="/healthy-foods/breakfast" className="hover:text-emerald-400 transition-colors">Breakfast Foods</a></li>
-              <li><a href="/healthy-foods/dairy" className="hover:text-emerald-400 transition-colors">Milk & Dairy</a></li>
-              <li><a href="/healthy-foods/seeds" className="hover:text-emerald-400 transition-colors">Nutrient Seeds</a></li>
-              <li><a href="/healthy-foods/spices" className="hover:text-emerald-400 transition-colors">Spices & Herbs</a></li>
-              <li><a href="/healthy-foods/snacks" className="hover:text-emerald-400 transition-colors">Snacks & Packaged Foods</a></li>
-              <li><a href="/healthy-foods/grains-cereals" className="hover:text-emerald-400 transition-colors">Grains & Cereals</a></li>
-              <li><a href="/healthy-foods/cooking-oils" className="hover:text-emerald-400 transition-colors">Cooking Oils & Fats</a></li>
-              <li><a href="/healthy-foods/beverages" className="hover:text-emerald-400 transition-colors">Beverages & Drinks</a></li>
-              <li><a href="/healthy-foods/bakery" className="hover:text-emerald-400 transition-colors">Bakery & Breads</a></li>
-              <li><a href="/healthy-foods/sweeteners" className="hover:text-emerald-400 transition-colors">Sweeteners & Sugars</a></li>
-              <li><a href="/healthy-foods/groceries" className="hover:text-emerald-400 transition-colors">Groceries & Pantry</a></li>
-              <li><a href="/healthy-foods/nuts-seeds" className="hover:text-emerald-400 transition-colors">{i18n.categoriesList.nutsSeeds}</a></li>
+            <ul className="space-y-2 text-xs text-slate-400">
+              <li><a href="/healthy-foods/fruits" className="hover:text-emerald-400 transition-colors">Fruits</a></li>
+              <li><a href="/healthy-foods/vegetables" className="hover:text-emerald-400 transition-colors">Vegetables</a></li>
+              <li><a href="/healthy-foods/nuts-seeds" className="hover:text-emerald-400 transition-colors">Nuts & Seeds</a></li>
               <li><a href="/healthy-foods/fishes" className="hover:text-emerald-400 transition-colors">Fishes & Seafood</a></li>
-              <li><a href="/healthy-foods/meats" className="hover:text-emerald-400 transition-colors">Meats & Poultry</a></li>
-              <li><a href="/healthy-foods/eggs" className="hover:text-emerald-400 transition-colors">Eggs Collection</a></li>
+              <li><a href="/healthy-foods/eggs" className="hover:text-emerald-400 transition-colors">Eggs</a></li>
             </ul>
           </div>
 
@@ -77,21 +74,30 @@ export const Footer: React.FC = () => {
             <p className="text-xs text-slate-400">
               {i18n.footer.newsletterSubtitle}
             </p>
-            <form onSubmit={(e) => { e.preventDefault(); alert('Subscribed!'); }} className="flex items-center gap-2">
-              <input
-                type="email"
-                placeholder={i18n.footer.emailPlaceholder}
-                required
-                className="w-full px-4 py-2.5 rounded-full bg-slate-800 border border-slate-700 text-xs text-white placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-emerald-500"
-              />
-              <button
-                type="submit"
-                aria-label={i18n.footer.subscribe}
-                className="p-2.5 rounded-full bg-emerald-600 hover:bg-emerald-700 text-white shrink-0 cursor-pointer"
-              >
-                <Send className="w-4 h-4" />
-              </button>
-            </form>
+            {subscribed ? (
+              <div className="p-3 rounded-2xl bg-emerald-950/80 border border-emerald-800 text-emerald-300 flex items-center gap-2 text-xs font-bold animate-fade-in">
+                <Check className="w-4 h-4 text-emerald-400" />
+                <span>Thank you for subscribing! Healthy tips on the way.</span>
+              </div>
+            ) : (
+              <form onSubmit={handleSubscribe} className="flex items-center gap-2">
+                <input
+                  type="email"
+                  value={email}
+                  onChange={(e) => setEmail(e.target.value)}
+                  placeholder={i18n.footer.emailPlaceholder}
+                  required
+                  className="w-full min-w-0 px-4 py-2.5 rounded-full bg-slate-800 border border-slate-700 text-xs text-white placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-emerald-500"
+                />
+                <button
+                  type="submit"
+                  aria-label={i18n.footer.subscribe}
+                  className="p-2.5 rounded-full bg-emerald-600 hover:bg-emerald-700 text-white shrink-0 cursor-pointer transition-colors"
+                >
+                  <Send className="w-4 h-4" />
+                </button>
+              </form>
+            )}
           </div>
         </div>
 

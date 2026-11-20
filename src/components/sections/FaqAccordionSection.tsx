@@ -1,7 +1,7 @@
 'use client';
 
 import React, { useState } from 'react';
-import { HelpCircle, ChevronDown, ChevronUp } from 'lucide-react';
+import { HelpCircle, ChevronDown } from 'lucide-react';
 
 interface FaqItem {
   question: string;
@@ -12,22 +12,25 @@ interface FaqAccordionSectionProps {
   faqs?: FaqItem[];
 }
 
+const defaultFaqs: FaqItem[] = [
+  {
+    question: 'How should this food be stored for maximum freshness?',
+    answer: 'Store in an airtight container or breathable crisper drawer in a cool, dry place to maintain peak flavor, texture, and nutritional value.',
+  },
+  {
+    question: 'What is the best time of day to consume this food?',
+    answer: 'Consuming whole healthy foods in the morning or as part of mindful meals provides sustained metabolic energy and supports optimal nutrient absorption.',
+  },
+  {
+    question: 'Does this food support daily wellness and digestion?',
+    answer: 'Yes! It delivers essential micronutrients, vitamins, and dietary fiber that nourish beneficial gut bacteria and support long-term vitality.',
+  },
+];
+
 export const FaqAccordionSection: React.FC<FaqAccordionSectionProps> = ({
-  faqs = [
-    {
-      question: 'Is it better to eat apples with or without the peel?',
-      answer: 'It is best to eat apples with the peel! The skin contains 50% of the total fiber and the highest concentration of antioxidants like quercetin and anthocyanins.',
-    },
-    {
-      question: 'What is the best time of day to eat an apple?',
-      answer: 'Morning is the ideal time to eat an apple. The natural pectin fiber stimulates bowel movements and promotes gut motility for the day.',
-    },
-    {
-      question: 'Do apples help with weight management?',
-      answer: 'Yes! Apples are high in water and dietary fiber, which promotes satiety, keeping you full for longer with minimal calories (only 95 kcal per medium fruit).',
-    },
-  ],
+  faqs: customFaqs,
 }) => {
+  const faqs = (customFaqs && customFaqs.length > 0) ? customFaqs : defaultFaqs;
   const [openIdx, setOpenIdx] = useState<number | null>(0);
 
   const toggleFaq = (idx: number) => {
@@ -51,30 +54,38 @@ export const FaqAccordionSection: React.FC<FaqAccordionSectionProps> = ({
           return (
             <div
               key={idx}
-              className="border border-slate-100 dark:border-slate-800 rounded-2xl overflow-hidden bg-slate-50/50 dark:bg-slate-800/40"
+              className={`border rounded-2xl overflow-hidden transition-colors duration-200 ${
+                isOpen
+                  ? 'border-emerald-200 dark:border-emerald-900/50 bg-white dark:bg-slate-800/80 shadow-2xs'
+                  : 'border-slate-100 dark:border-slate-800 bg-slate-50/50 dark:bg-slate-800/40 hover:bg-slate-50 dark:hover:bg-slate-800/60'
+              }`}
             >
               <button
                 onClick={() => toggleFaq(idx)}
                 aria-expanded={isOpen}
                 aria-controls={`faq-answer-${idx}`}
-                className="w-full flex items-center justify-between p-4 text-left text-xs sm:text-sm font-extrabold text-slate-900 dark:text-white cursor-pointer select-none"
+                className="w-full flex items-center justify-between p-4 text-left text-xs sm:text-sm font-extrabold text-slate-900 dark:text-white cursor-pointer select-none transition-colors"
               >
                 <span>{faq.question}</span>
-                {isOpen ? (
-                  <ChevronUp className="w-4 h-4 text-emerald-600 shrink-0" />
-                ) : (
-                  <ChevronDown className="w-4 h-4 text-slate-400 shrink-0" />
-                )}
+                <ChevronDown
+                  className={`w-4 h-4 shrink-0 transition-transform duration-300 ease-in-out ${
+                    isOpen ? 'rotate-180 text-emerald-600 dark:text-emerald-400' : 'text-slate-400'
+                  }`}
+                />
               </button>
 
-              {isOpen && (
-                <div
-                  id={`faq-answer-${idx}`}
-                  className="px-4 pb-4 text-xs sm:text-sm text-slate-600 dark:text-slate-300 font-medium leading-relaxed border-t border-slate-100 dark:border-slate-700/60 pt-3"
-                >
-                  {faq.answer}
+              <div className={`accordion-collapse ${isOpen ? 'expanded' : ''}`}>
+                <div>
+                  <div
+                    id={`faq-answer-${idx}`}
+                    className={`px-4 pb-4 text-xs sm:text-sm text-slate-600 dark:text-slate-300 font-medium leading-relaxed border-t border-slate-100 dark:border-slate-700/60 pt-3 transition-opacity duration-300 ease-in-out ${
+                      isOpen ? 'opacity-100' : 'opacity-0'
+                    }`}
+                  >
+                    {faq.answer}
+                  </div>
                 </div>
-              )}
+              </div>
             </div>
           );
         })}

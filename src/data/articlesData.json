@@ -12,6 +12,19 @@
   ],
   "articleList": [
     {
+      "id": "how-to-eat-fruits",
+      "slug": "how-to-eat-fruits",
+      "featured": true,
+      "category": "Nutrition",
+      "categorySlug": "nutrition",
+      "categoryColor": "text-amber-700 dark:text-amber-400",
+      "title": "How to Eat Fruits for Maximum Nutrition: Timing, Pairings & Best Practices",
+      "description": "An evidence-based guide to optimal fruit timing, whole fruit fiber dynamics, nutrient pairing rules, and preserving delicate antioxidants without blood sugar spikes.",
+      "readTime": "6 min read",
+      "date": "Nov 20, 2026",
+      "image": "https://images.unsplash.com/photo-1619566636858-adf3ef46400b?auto=format&fit=crop&w=600&q=80"
+    },
+    {
       "id": "10-superfoods",
       "slug": "10-superfoods-immunity",
       "featured": true,

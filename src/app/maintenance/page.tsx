@@ -1,5 +1,7 @@
 'use client';
 
+import { useTheme } from '@/utils/useTheme';
+
 import React, { useState, useEffect } from 'react';
 import { useRouter } from 'next/navigation';
 import {
@@ -21,25 +23,15 @@ import {
 
 export default function MaintenancePage() {
   const router = useRouter();
-  const [darkMode, setDarkMode] = useState(false);
+  const { darkMode, toggleDarkMode: handleToggleDarkMode } = useTheme();
   const [notifyOpen, setNotifyOpen] = useState(false);
   const [email, setEmail] = useState('');
   const [notified, setNotified] = useState(false);
   const [footerEmail, setFooterEmail] = useState('');
   const [footerSubscribed, setFooterSubscribed] = useState(false);
 
-  useEffect(() => {
-    if (darkMode) {
-      document.documentElement.classList.add('dark');
-    } else {
-      document.documentElement.classList.remove('dark');
-    }
-  }, [darkMode]);
-
-  const handleToggleDarkMode = () => {
-    setDarkMode((prev) => !prev);
-  };
-
+  
+  
   const handleNotifySubmit = (e: React.FormEvent) => {
     e.preventDefault();
     setNotified(true);

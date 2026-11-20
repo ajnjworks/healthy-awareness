@@ -1,5 +1,7 @@
 'use client';
 
+import { useTheme } from '@/utils/useTheme';
+
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
@@ -22,7 +24,7 @@ import {
 
 export default function LoginPage() {
   const router = useRouter();
-  const [darkMode, setDarkMode] = useState(false);
+  const { darkMode, toggleDarkMode: handleToggleDarkMode } = useTheme();
 
   // Form State
   const [email, setEmail] = useState('');
@@ -32,14 +34,7 @@ export default function LoginPage() {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [successMessage, setSuccessMessage] = useState('');
 
-  useEffect(() => {
-    if (darkMode) {
-      document.documentElement.classList.add('dark');
-    } else {
-      document.documentElement.classList.remove('dark');
-    }
-  }, [darkMode]);
-
+  
   const handleLogin = (e: React.FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
@@ -85,7 +80,7 @@ export default function LoginPage() {
         </Link>
 
         <button
-          onClick={() => setDarkMode(!darkMode)}
+          onClick={handleToggleDarkMode}
           aria-label="Toggle theme"
           className="p-2.5 rounded-full bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800 shadow-xs transition-colors cursor-pointer"
         >
@@ -230,7 +225,7 @@ export default function LoginPage() {
                     href="#forgot"
                     onClick={(e) => {
                       e.preventDefault();
-                      alert('Password reset link sent to your email.');
+                      setSuccessMessage('Password reset link sent to your email inbox.');
                     }}
                     className="text-xs font-extrabold text-emerald-700 dark:text-emerald-400 hover:underline transition-colors"
                   >

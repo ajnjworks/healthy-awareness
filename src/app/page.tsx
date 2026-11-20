@@ -1,5 +1,7 @@
 'use client';
 
+import { useTheme } from '@/utils/useTheme';
+
 import React, { useState, useEffect } from 'react';
 import { Navbar } from '../components/layout/Navbar';
 import { HeroSection } from '../components/sections/HeroSection';
@@ -12,25 +14,14 @@ import { useRouter } from 'next/navigation';
 
 export default function Home() {
   const router = useRouter();
-  const [darkMode, setDarkMode] = useState(false);
+  const { darkMode, toggleDarkMode: handleToggleDarkMode } = useTheme();
   const [activeNav, setActiveNav] = useState('Home');
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedCategory, setSelectedCategory] = useState('nuts-seeds');
   const [selectedFoodId, setSelectedFoodId] = useState('almonds');
 
-  // Sync dark mode class on document element
-  useEffect(() => {
-    if (darkMode) {
-      document.documentElement.classList.add('dark');
-    } else {
-      document.documentElement.classList.remove('dark');
-    }
-  }, [darkMode]);
-
-  const handleToggleDarkMode = () => {
-    setDarkMode((prev) => !prev);
-  };
-
+  
+  
   const handleSearch = (query: string) => {
     setSearchQuery(query);
     if (query.trim()) {
@@ -133,7 +124,7 @@ export default function Home() {
       />
 
       {/* Main Content Area */}
-      <main className="flex-1 space-y-4">
+      <main className="flex-1 space-y-4 w-full min-w-0 max-w-full overflow-hidden">
         {/* Hero Section with Search & Banner */}
         <HeroSection onSearch={handleSearch} activeQuery={searchQuery} />
 
