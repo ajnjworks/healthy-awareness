@@ -70,8 +70,35 @@ export interface FruitSubCategory {
   image: string;
 }
 
-export const FRUITS_CATALOG: FruitCatalogRecord[] = fruitsCatalogRaw.records as FruitCatalogRecord[];
+const withBasePath = (image: string) => {
+  if (!image || !image.startsWith('/') || image.startsWith('/healthy-awareness/')) {
+    return image;
+  }
+  return `/healthy-awareness${image}`;
+};
+
+export const FRUITS_CATALOG: FruitCatalogRecord[] = (
+  fruitsCatalogRaw.records as FruitCatalogRecord[]
+).map((record) => ({
+  ...record,
+  images: {
+    ...record.images,
+    thumbnail: withBasePath(record.images.thumbnail),
+    hero: withBasePath(record.images.hero),
+  },
+}));
 export const FRUITS_DATASET_META = fruitsCatalogRaw.dataset;
 
-export const FRUIT_SUB_CATEGORIES: FruitSubCategory[] = fruitsRaw.subCategories as FruitSubCategory[];
-export const FRUITS_LIST: FruitProduct[] = fruitsRaw.fruitsList as FruitProduct[];
+export const FRUIT_SUB_CATEGORIES: FruitSubCategory[] = (
+  fruitsRaw.subCategories as FruitSubCategory[]
+).map((category) => ({
+  ...category,
+  image: withBasePath(category.image),
+}));
+
+export const FRUITS_LIST: FruitProduct[] = (
+  fruitsRaw.fruitsList as FruitProduct[]
+).map((fruit) => ({
+  ...fruit,
+  image: withBasePath(fruit.image),
+}));
