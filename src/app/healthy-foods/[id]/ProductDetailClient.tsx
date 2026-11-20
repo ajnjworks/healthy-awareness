@@ -22,6 +22,30 @@ import productDetailsRaw from '../../../data/productDetailsData.json';
 import { ALMONDS_DATA } from '../../../data/foodsData';
 import { FoodItem } from '../../../types/food';
 
+const normalizeLocalImagePaths = (value: unknown): unknown => {
+  if (Array.isArray(value)) {
+    return value.map(normalizeLocalImagePaths);
+  }
+
+  if (value && typeof value === 'object') {
+    return Object.fromEntries(
+      Object.entries(value as Record<string, unknown>).map(([key, nestedValue]) => {
+        if (
+          key === 'image' &&
+          typeof nestedValue === 'string' &&
+          nestedValue.startsWith('/') &&
+          !nestedValue.startsWith('/healthy-awareness/')
+        ) {
+          return [key, `/healthy-awareness${nestedValue}`];
+        }
+        return [key, normalizeLocalImagePaths(nestedValue)];
+      })
+    );
+  }
+
+  return value;
+};
+
 export default function ProductDetailClient() {
   const params = useParams();
   const router = useRouter();
@@ -43,9 +67,11 @@ export default function ProductDetailClient() {
     ) ||
     (productDetailsRaw as Record<string, any>)['apple'];
 
+  const normalizedDetailRecord = normalizeLocalImagePaths(currentDetailRecord) as Record<string, any>;
+
   const foodData: FoodItem = {
     ...ALMONDS_DATA,
-    ...currentDetailRecord,
+    ...normalizedDetailRecord,
   };
 
   // Defensive guards: data entries vary in completeness. Ensure every prop that a child
@@ -53,9 +79,9 @@ export default function ProductDetailClient() {
   const safeBenefits = Array.isArray(foodData.benefits) ? foodData.benefits : (Array.isArray(ALMONDS_DATA.benefits) ? ALMONDS_DATA.benefits : []);
   const safeNutritionRings = Array.isArray(foodData.nutritionRings) ? foodData.nutritionRings : (Array.isArray(ALMONDS_DATA.nutritionRings) ? ALMONDS_DATA.nutritionRings : []);
   const safeQuickNutrients = Array.isArray(foodData.quickNutrients) ? foodData.quickNutrients : (Array.isArray(ALMONDS_DATA.quickNutrients) ? ALMONDS_DATA.quickNutrients : []);
-  const safeFaqs = Array.isArray(currentDetailRecord?.faqs) ? currentDetailRecord.faqs : [];
-  const safeRecipes = Array.isArray(currentDetailRecord?.recipes) ? currentDetailRecord.recipes : [];
-  const safeSimilarFoods = Array.isArray(currentDetailRecord?.similarFoods) ? currentDetailRecord.similarFoods : [];
+  const safeFaqs = Array.isArray(normalizedDetailRecord?.faqs) ? normalizedDetailRecord.faqs : [];
+  const safeRecipes = Array.isArray(normalizedDetailRecord?.recipes) ? normalizedDetailRecord.recipes : [];
+  const safeSimilarFoods = Array.isArray(normalizedDetailRecord?.similarFoods) ? normalizedDetailRecord.similarFoods : [];
 
   // Pass undefined so the component's own default parameter kicks in when data is missing/invalid
   const safeHowToEat =
